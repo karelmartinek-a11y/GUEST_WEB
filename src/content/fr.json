@@ -266,6 +266,69 @@
       "hours": "La galerie est quotidienne de 9h à 20h.",
       "admission": "Gratuit extérieur; galerie CZK 230; réduit CZK 185; famille CZK 600.",
       "coordinateNote": "Construire des coordonnées ; confirmer l’entrée de la galerie."
+    },
+    "staromestske-namesti": {
+      "name": "Vieille place de la ville",
+      "short": "Le cœur de la vieille ville, avec l'église de Týn et le meridian de Prague.",
+      "description": "Le marché historique est entouré par l'ancien Hall de la ville, l'église de Týn, le Palais de Kinský et la Maison de la Belle de pierre. Le pavillon marque la meridiane de Prague et rappelle 27 nobles tchèques exécutés.",
+      "tip": "Combine la place avec l'heure astronomique, Josefov et une promenade vers le pont Charles.",
+      "hours": "Espace public ; des restrictions temporelles peuvent s’appliquer pendant les événements.",
+      "admission": "La marche autour de la place est gratuite ; les monuments proches ont une admission séparée.",
+      "coordinateNote": "Proche du centre de la place, pas une entrée piétonne vérifiée."
+    },
+    "prasna-brana": {
+      "name": "La tour de poudre",
+      "short": "La porte gothique vers la Route royale, en regardant les toits de Prague.",
+      "description": "La porte de la ville gothique se trouve à côté de la Maison municipale. sa galerie offre des vues sur les toits de la vieille ville.",
+      "tip": "La montée utilise une escalier étroite. Combine votre visite avec la Maison municipale et la rue Celetná.",
+      "hours": "Les heures d'ouverture varient de saison en saison ; vérifiez le site officiel pour votre date.",
+      "admission": "L'extérieur est gratuit; la galerie d'observation nécessite un billet aux prix actuels.",
+      "coordinateNote": "L'emplacement approximatif de la tour; son entrée et ses escaliers nécessitent une vérification."
+    },
+    "lennonova-zed": {
+      "name": "Le mur de Lennon",
+      "short": "Un rappel coloré de la liberté et de la paix dans la ville inférieure.",
+      "description": "Le mur peint sur la place Velkopřevorské est associé à John Lennon et aux messages de liberté civile.",
+      "tip": "Respectez le site et ses règles. Continuez à Kampa ou Charles Bridge.",
+      "hours": "Espace public extérieur ; respect des restrictions locales.",
+      "admission": "La vue de l’espace public est gratuite.",
+      "coordinateNote": "L'emplacement de la paroi approximatif; la voie d'accès doit être vérifiée."
+    },
+    "vaclavske-namesti": {
+      "name": "Place de Wenceslas",
+      "short": "Un boulevard de la ville avec le monument de Saint-Wenceslas et le musée national.",
+      "description": "La longue place de la Nouvelle-Cité a vu des événements majeurs dans l'histoire tchèque. Découvrir les bâtiments historiques, les arcades et la vue sur le Musée national. Il est dans le centre historique inscrit de Prague.",
+      "tip": "Passez le boulevard du Musée à Můstek; vérifiez les restrictions de construction et de trafic en cours.",
+      "hours": "Espace public; construction ou événements peuvent affecter l'accès.",
+      "admission": "La promenade est gratuite ; le musée et les autres lieux sont facturés séparément.",
+      "coordinateNote": "Point approximatif au milieu du square, pas une entrée vérifiée."
+    },
+    "sv-mikulas-mala-strana": {
+      "name": "L'église de Saint-Nicole dans la ville inférieure",
+      "short": "Un baroc et un intérieur riche en décoration sur la place de la ville Lesser.",
+      "description": "L'église est un point de vue de la Lesser Town.Admirez son architecture baroque et sa décoration pendant votre visite.Il est dans le centre historique inscrit de Prague.",
+      "tip": "Ne pas le confondre avec l'église de Saint-Nicolas sur la place de la vieille ville. visites, concerts et adoration ont des arrangements différents.",
+      "hours": "Les visites et les concerts suivent le programme actuel sur le site officiel.",
+      "admission": "Les billets de visite et de concert suivent les prix actuels.",
+      "coordinateNote": "L'emplacement de l'église ; son entrée spécifique des visiteurs n'a pas été vérifiée."
+    },
+    "strahovsky-klaster": {
+      "name": "Monastère et bibliothèque de Strahov",
+      "short": "Un monastère avec de célèbres salles de bibliothèque au-dessus de la ville inférieure.",
+      "description": "Le monastère historique de Strahov propose des visites à sa bibliothèque et à d’autres espaces culturels selon le programme actuel.Le complexe se trouve à Hradčany, dans le centre historique de Prague.",
+      "tip": "Vérifiez les règles des visiteurs de la bibliothèque à l'avance; un billet standard peut ne pas permettre l'entrée dans chaque hall.",
+      "hours": "Différentes parties ont des heures d'ouverture distinctes; consultez le site officiel.",
+      "admission": "Bibliothèque et autres tours suivent les prix actuels de l'opérateur.",
+      "coordinateNote": "Point approximatif dans le complexe; la bibliothèque et d'autres entrées nécessitent la vérification."
+    },
+    "narodni-divadlo": {
+      "name": "Théâtre national",
+      "short": "Le théâtre historique avec un toit doré à côté de la Vltava.",
+      "description": "Admirez l'ancien bâtiment du National Theatre depuis le banc ou assister à une performance ou à une tournée réservée.Il se trouve dans la Nouvelle-Cité, au sein du Centre historique de Prague.",
+      "tip": "Réservez des performances ou des billets de tour en avance. Choisissez le bon bâtiment du National Theatre.",
+      "hours": "En fonction de la performance ou du temps de tour guidé réservé.",
+      "admission": "L'extérieur est gratuit ; les performances et les tournées suivent l'offre actuelle.",
+      "coordinateNote": "Lieu historique, pas une entrée spécifique vérifiée."
     }
   },
   "routes": {

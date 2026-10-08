@@ -6,8 +6,12 @@ export const languages=['cs','en','de','it','pl','nl','fr','ko','bn','hi','es','
 export function validateContent(){
  const catalog=JSON.parse(fs.readFileSync('src/content/places.cs.json')).places;
  const routes=JSON.parse(fs.readFileSync('src/content/routes.cs.json')).routes;
- assert.equal(catalog.length,29);assert.equal(routes.length,5);assert.equal(new Set(catalog.map(p=>p.id)).size,29);
- assert.equal(catalog.filter(p=>p.area==='okoli').length,10);assert.equal(catalog.filter(p=>p.area==='praha').length,19);
+ const original=JSON.parse(fs.readFileSync('podklady_v1.3/places.cs.json')).places;
+ const additions=JSON.parse(fs.readFileSync('docs/tourist-flyer-additions.json')).places;
+ assert.equal(catalog.length,original.length+additions.length);assert.equal(routes.length,5);assert.equal(new Set(catalog.map(p=>p.id)).size,catalog.length);
+ for(const p of original)assert(catalog.some(actual=>actual.id===p.id),`Preserve original catalog ID ${p.id}`);
+ for(const p of additions)assert(catalog.some(actual=>actual.id===p.id),`Missing tourist flyer attraction ${p.id}`);
+ assert.equal(catalog.filter(p=>p.area==='okoli').length,10);assert.equal(catalog.filter(p=>p.area==='praha').length,19+additions.length);
  for(const route of routes)for(const id of route.stopIds)assert(catalog.some(p=>p.id===id),`Unknown stop ${id}`);
  for(const p of catalog){assert(Number.isFinite(p.lat)&&Number.isFinite(p.lon));assert.equal(new URL(p.officialUrl).protocol,'https:');assert(p.verifiedOn&&p.coordinateSource);}
  const ui=JSON.parse(fs.readFileSync('src/content/ui-translations.json'));
@@ -52,6 +56,11 @@ export function validateContent(){
  for(const p of faith.places){assert(p.address&&p.verifiedOn);assert.equal(new URL(p.programme).protocol,'https:');for(const s of p.schedule){assert(s.days.every(d=>d>=1&&d<=7));assert(s.time);}}
  const extra=JSON.parse(fs.readFileSync('src/content/extra-ui.json'));
  for(const [key,values]of Object.entries(extra)){assert.equal(values.length,12,key);assert(values.every(v=>typeof v==='string'&&v.trim()),key);}
- return {places:29,routes:5,languages:languages.length,photos:manifest.photos.length,healthCards:15,restaurants:restaurants.length,faiths:faith.places.length,navigation:capabilities.navigationEnabled};
+ const heritage=JSON.parse(fs.readFileSync('src/content/heritage.json'));
+ const inscribed=[...heritage.historicCentre,...heritage.pruhonicePark];assert.equal(new Set(inscribed).size,22);
+ for(const id of inscribed)assert(catalog.some(p=>p.id===id),`Unknown UNESCO location ${id}`);
+ for(const id of ['zoo-praha','zizkovska-vez','botanicka-troja','narodni-technicke-muzeum','letenske-sady'])assert(!inscribed.includes(id),`Do not confuse a buffer-zone attraction with an inscribed location ${id}`);
+ for(const asset of ['unesco','hotel']){const provenance=JSON.parse(fs.readFileSync(`public/media/${asset}-provenance.json`));const filename=asset==='unesco'?'unesco-official.svg':'hotel-chodov-asc.jpg';assert.equal(crypto.createHash('sha256').update(fs.readFileSync(`public/media/${filename}`)).digest('hex'),provenance.sha256||provenance.publishedSha256);}
+ return {places:catalog.length,routes:5,languages:languages.length,photos:manifest.photos.length,healthCards:15,restaurants:restaurants.length,faiths:faith.places.length,unesco:inscribed.length,navigation:capabilities.navigationEnabled};
 }
 if(process.argv[1]?.endsWith('validate-content.mjs'))console.log(JSON.stringify(validateContent()));

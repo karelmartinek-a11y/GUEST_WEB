@@ -265,6 +265,69 @@
       "hours": "Gallery daily 9:00–20:00.",
       "admission": "Exterior free; gallery CZK 230; reduced CZK 185; family CZK 600.",
       "coordinateNote": "Building coordinates; confirm gallery entrance."
+    },
+    "staromestske-namesti": {
+      "name": "Old Town Square",
+      "short": "The heart of the Old Town, with Týn Church and the Prague meridian.",
+      "description": "The historic marketplace is surrounded by the Old Town Hall, Týn Church, Kinský Palace and the House at the Stone Bell. The pavement marks the Prague meridian and remembers 27 executed Czech nobles. The square is within the inscribed Historic Centre of Prague.",
+      "tip": "Combine the square with the Astronomical Clock, Josefov and a walk to Charles Bridge.",
+      "hours": "Public space; temporary restrictions may apply during events.",
+      "admission": "Walking around the square is free; nearby monuments have separate admission.",
+      "coordinateNote": "Approximate centre of the square, not a verified pedestrian entrance."
+    },
+    "prasna-brana": {
+      "name": "Powder Tower",
+      "short": "The Gothic gateway to the Royal Route, overlooking Prague's rooftops.",
+      "description": "The late Gothic city gate stands beside the Municipal House. Its gallery offers views over the roofs of the Old Town. It is within the inscribed Historic Centre of Prague.",
+      "tip": "The climb uses a narrow staircase. Combine your visit with the Municipal House and Celetná Street.",
+      "hours": "Opening hours vary seasonally; check the official website for your date.",
+      "admission": "The exterior is free; the observation gallery requires a ticket at current prices.",
+      "coordinateNote": "Approximate tower location; its entrance and stairs require verification."
+    },
+    "lennonova-zed": {
+      "name": "Lennon Wall",
+      "short": "A colourful reminder of freedom and peace in the Lesser Town.",
+      "description": "The painted wall on Velkopřevorské Square is associated with John Lennon and messages of civic freedom. It is in the Lesser Town, within the inscribed Historic Centre of Prague.",
+      "tip": "Respect the site and its rules. Continue to Kampa or Charles Bridge.",
+      "hours": "Outdoor public space; respect local restrictions.",
+      "admission": "Viewing from the public space is free.",
+      "coordinateNote": "Approximate wall location; the access path must be verified."
+    },
+    "vaclavske-namesti": {
+      "name": "Wenceslas Square",
+      "short": "A city boulevard with the St Wenceslas monument and National Museum.",
+      "description": "The long square in the New Town witnessed major events in Czech history. Discover historic buildings, arcades and the view towards the National Museum. It is within the inscribed Historic Centre of Prague.",
+      "tip": "Walk the boulevard from Muzeum to Můstek; check current construction and traffic restrictions.",
+      "hours": "Public space; construction or events may affect access.",
+      "admission": "The walk is free; the museum and other venues charge separately.",
+      "coordinateNote": "Approximate point in the middle of the square, not a verified entrance."
+    },
+    "sv-mikulas-mala-strana": {
+      "name": "St Nicholas Church in the Lesser Town",
+      "short": "A Baroque dome and richly decorated interior on Lesser Town Square.",
+      "description": "The church is a landmark of the Lesser Town. Admire its Baroque architecture and decoration during your visit. It is within the inscribed Historic Centre of Prague.",
+      "tip": "Do not confuse it with St Nicholas Church on Old Town Square. Sightseeing, concerts and worship have different arrangements.",
+      "hours": "Sightseeing and concerts follow the current programme on the official website.",
+      "admission": "Sightseeing and concert tickets follow current prices.",
+      "coordinateNote": "Church location; its specific visitor entrance has not been verified."
+    },
+    "strahovsky-klaster": {
+      "name": "Strahov Monastery and Library",
+      "short": "A monastery with renowned library halls above the Lesser Town.",
+      "description": "The historic monastery at Strahov offers visits to its library and other cultural spaces according to the current programme. The complex is in Hradčany, within the inscribed Historic Centre of Prague.",
+      "tip": "Check the library's visitor rules in advance; a standard ticket may not allow entry into every hall.",
+      "hours": "Different parts have separate opening hours; check the official website.",
+      "admission": "Library and other tours follow the operator's current prices.",
+      "coordinateNote": "Approximate point in the complex; library and other entrances require verification."
+    },
+    "narodni-divadlo": {
+      "name": "National Theatre",
+      "short": "The historic theatre building with a golden roof beside the Vltava.",
+      "description": "Admire the historic National Theatre building from the embankment or attend a performance or booked tour. It stands in the New Town, within the inscribed Historic Centre of Prague.",
+      "tip": "Book performance or tour tickets in advance. Choose the correct National Theatre building.",
+      "hours": "According to the performance or booked guided-tour time.",
+      "admission": "The exterior is free; performances and tours follow the current offer.",
+      "coordinateNote": "Historic building location, not a verified specific entrance."
     }
   },
   "routes": {

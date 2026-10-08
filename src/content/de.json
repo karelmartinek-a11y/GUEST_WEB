@@ -265,6 +265,69 @@
       "hours": "Galerie täglich 9:00–20:00.",
       "admission": "Außenansicht kostenlos; Galerie regulär 230 CZK; ermäßigt 185 CZK; Familie 600 CZK.",
       "coordinateNote": "Gebäudekoordinaten; Galerieeingang prüfen."
+    },
+    "staromestske-namesti": {
+      "name": "Altstädter Ring",
+      "short": "Das Herz der Altstadt mit Teynkirche und Prager Meridian.",
+      "description": "Den historischen Marktplatz umgeben das Altstädter Rathaus, die Teynkirche, das Palais Kinský und das Haus zur Steinernen Glocke. Im Pflaster erinnern Markierungen an den Prager Meridian und 27 hingerichtete böhmische Adlige. Der Platz liegt im eingetragenen historischen Zentrum von Prag.",
+      "tip": "Verbinden Sie den Platz mit der astronomischen Uhr, Josefov und einem Spaziergang zur Karlsbrücke.",
+      "hours": "Öffentlicher Platz; bei Veranstaltungen sind zeitweise Einschränkungen möglich.",
+      "admission": "Der Spaziergang ist kostenlos; umliegende Sehenswürdigkeiten haben eigene Eintrittspreise.",
+      "coordinateNote": "Ungefähre Platzmitte, kein geprüfter Fußgängereingang."
+    },
+    "prasna-brana": {
+      "name": "Pulverturm",
+      "short": "Das gotische Tor zum Königsweg mit Blick über Prags Dächer.",
+      "description": "Das spätgotische Stadttor steht neben dem Gemeindehaus. Vom Umgang eröffnet sich ein Blick auf die Dächer der Altstadt. Der Turm liegt im eingetragenen historischen Zentrum von Prag.",
+      "tip": "Der Aufstieg führt über eine schmale Treppe. Verbinden Sie den Besuch mit dem Gemeindehaus und der Celetná-Straße.",
+      "hours": "Die Öffnungszeiten sind saisonabhängig; prüfen Sie Ihren Termin auf der offiziellen Website.",
+      "admission": "Außenansicht kostenlos; für den Aussichtsumgang gilt die aktuelle Preisliste.",
+      "coordinateNote": "Ungefähre Turmposition; Eingang und Treppen müssen geprüft werden."
+    },
+    "lennonova-zed": {
+      "name": "Lennon-Mauer",
+      "short": "Eine farbenfrohe Erinnerung an Freiheit und Frieden auf der Kleinseite.",
+      "description": "Die bemalte Mauer am Velkopřevorské-Platz erinnert an John Lennon und Botschaften bürgerlicher Freiheit. Sie liegt auf der Kleinseite innerhalb des eingetragenen historischen Zentrums von Prag.",
+      "tip": "Respektieren Sie den Ort und seine Regeln. Gehen Sie anschließend zur Kampa oder Karlsbrücke.",
+      "hours": "Öffentlicher Außenraum; örtliche Einschränkungen beachten.",
+      "admission": "Die Besichtigung vom öffentlichen Raum aus ist kostenlos.",
+      "coordinateNote": "Ungefähre Mauerposition; der Zugangsweg muss geprüft werden."
+    },
+    "vaclavske-namesti": {
+      "name": "Wenzelsplatz",
+      "short": "Ein Stadtboulevard mit Wenzelsdenkmal und Nationalmuseum.",
+      "description": "Der lange Platz in der Neustadt war Schauplatz wichtiger Ereignisse der tschechischen Geschichte. Entdecken Sie historische Häuser, Passagen und den Blick zum Nationalmuseum. Er liegt im eingetragenen historischen Zentrum von Prag.",
+      "tip": "Gehen Sie von Muzeum bis Můstek; beachten Sie aktuelle Bauarbeiten und Verkehrsbeschränkungen.",
+      "hours": "Öffentlicher Raum; Bauarbeiten oder Veranstaltungen können den Zugang beeinflussen.",
+      "admission": "Der Spaziergang ist kostenlos; Museum und andere Einrichtungen haben eigene Eintrittspreise.",
+      "coordinateNote": "Ungefährer Punkt in der Platzmitte, kein geprüfter Eingang."
+    },
+    "sv-mikulas-mala-strana": {
+      "name": "St.-Nikolaus-Kirche auf der Kleinseite",
+      "short": "Eine barocke Kuppel und ein reich geschmückter Innenraum am Kleinseitner Ring.",
+      "description": "Die Kirche ist eine Dominante der Kleinseite. Bewundern Sie ihre barocke Architektur und Ausstattung. Sie liegt im eingetragenen historischen Zentrum von Prag.",
+      "tip": "Nicht mit der Nikolauskirche am Altstädter Ring verwechseln. Besichtigung, Konzert und Gottesdienst haben unterschiedliche Bedingungen.",
+      "hours": "Besichtigungen und Konzerte nach dem aktuellen Programm der offiziellen Website.",
+      "admission": "Für Besichtigungen und Konzerte gelten die aktuellen Eintrittspreise.",
+      "coordinateNote": "Kirchenposition; der genaue Besuchereingang wurde nicht geprüft."
+    },
+    "strahovsky-klaster": {
+      "name": "Kloster Strahov und Bibliothek",
+      "short": "Ein Kloster mit berühmten Bibliothekssälen oberhalb der Kleinseite.",
+      "description": "Das historische Kloster Strahov bietet Besuche der Bibliothek und weiterer Kulturräume nach dem aktuellen Angebot. Die Anlage liegt in Hradčany innerhalb des eingetragenen historischen Zentrums von Prag.",
+      "tip": "Prüfen Sie vorab die Bibliotheksregeln; eine normale Eintrittskarte erlaubt möglicherweise nicht den Zugang zu allen Sälen.",
+      "hours": "Die einzelnen Bereiche haben eigene Öffnungszeiten; prüfen Sie die offizielle Website.",
+      "admission": "Bibliothek und weitere Führungen nach der aktuellen Preisliste des Betreibers.",
+      "coordinateNote": "Ungefährer Punkt im Klosterareal; Bibliotheks- und andere Eingänge müssen geprüft werden."
+    },
+    "narodni-divadlo": {
+      "name": "Nationaltheater",
+      "short": "Das historische Theatergebäude mit goldenem Dach an der Moldau.",
+      "description": "Bewundern Sie das historische Nationaltheater vom Ufer aus oder besuchen Sie eine Vorstellung oder gebuchte Führung. Es steht in der Neustadt innerhalb des eingetragenen historischen Zentrums von Prag.",
+      "tip": "Buchen Sie Karten für Vorstellungen oder Führungen im Voraus. Wählen Sie das richtige Gebäude des Nationaltheaters.",
+      "hours": "Nach dem Termin der Vorstellung oder gebuchten Führung.",
+      "admission": "Außenansicht kostenlos; Vorstellungen und Führungen nach dem aktuellen Angebot.",
+      "coordinateNote": "Position des historischen Gebäudes, kein geprüfter konkreter Eingang."
     }
   },
   "routes": {

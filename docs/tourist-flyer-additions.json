@@ -1,0 +1,254 @@
+{
+  "flyers": [
+    "Hotel_Chodov_ASC_Praha_15_zazitku_CZ_brand_polished.pdf",
+    "Doporucene_TOP_turisticke_cile_Hotel_Chodov_ASC_master.pdf"
+  ],
+  "note": "Seven supplementary attractions requested by the user on 2026-10-09. The original 29 catalog IDs are preserved. Attraction coordinates are approximate object locations, never accepted pedestrian entrances. Current ticket prices and visit times must be checked through official links.",
+  "places": [
+    {
+      "id": "staromestske-namesti",
+      "category": "pamatky",
+      "lat": 50.0875,
+      "lon": 14.42083,
+      "officialUrl": "https://prague.eu/cs/objevujte/staromestske-namesti/",
+      "visitDuration": "30–60 min",
+      "cs": {
+        "name": "Staroměstské náměstí",
+        "short": "Srdce Starého Města s Týnským chrámem a pražským poledníkem.",
+        "description": "Historické tržiště obklopují Staroměstská radnice, Týnský chrám, palác Kinských a Dům U Kamenného zvonu. V dlažbě najdete pražský poledník a připomínku popravy 27 českých pánů. Náměstí leží v zapsaném Historickém centru Prahy.",
+        "tip": "Spojte náměstí s orlojem, Josefovem a procházkou ke Karlovu mostu.",
+        "hours": "Veřejné prostranství; při akcích mohou platit dočasná omezení.",
+        "admission": "Procházka náměstím zdarma; vstupy do okolních památek zvlášť.",
+        "coordinateNote": "Orientační střed náměstí; nejde o ověřený pěší vstup."
+      },
+      "en": {
+        "name": "Old Town Square",
+        "short": "The heart of the Old Town, with Týn Church and the Prague meridian.",
+        "description": "The historic marketplace is surrounded by the Old Town Hall, Týn Church, Kinský Palace and the House at the Stone Bell. The pavement marks the Prague meridian and remembers 27 executed Czech nobles. The square is within the inscribed Historic Centre of Prague.",
+        "tip": "Combine the square with the Astronomical Clock, Josefov and a walk to Charles Bridge.",
+        "hours": "Public space; temporary restrictions may apply during events.",
+        "admission": "Walking around the square is free; nearby monuments have separate admission.",
+        "coordinateNote": "Approximate centre of the square, not a verified pedestrian entrance."
+      },
+      "de": {
+        "name": "Altstädter Ring",
+        "short": "Das Herz der Altstadt mit Teynkirche und Prager Meridian.",
+        "description": "Den historischen Marktplatz umgeben das Altstädter Rathaus, die Teynkirche, das Palais Kinský und das Haus zur Steinernen Glocke. Im Pflaster erinnern Markierungen an den Prager Meridian und 27 hingerichtete böhmische Adlige. Der Platz liegt im eingetragenen historischen Zentrum von Prag.",
+        "tip": "Verbinden Sie den Platz mit der astronomischen Uhr, Josefov und einem Spaziergang zur Karlsbrücke.",
+        "hours": "Öffentlicher Platz; bei Veranstaltungen sind zeitweise Einschränkungen möglich.",
+        "admission": "Der Spaziergang ist kostenlos; umliegende Sehenswürdigkeiten haben eigene Eintrittspreise.",
+        "coordinateNote": "Ungefähre Platzmitte, kein geprüfter Fußgängereingang."
+      }
+    },
+    {
+      "id": "prasna-brana",
+      "category": "pamatky",
+      "lat": 50.08721,
+      "lon": 14.42782,
+      "officialUrl": "https://prague.eu/cs/objevujte/prasna-brana/",
+      "visitDuration": "30–60 min",
+      "cs": {
+        "name": "Prašná brána",
+        "short": "Gotický začátek Královské cesty s výhledem na střechy Prahy.",
+        "description": "Pozdně gotická městská brána stojí vedle Obecního domu. Z ochozu lze obdivovat střechy Starého Města. Patří k památkám uvnitř zapsaného Historického centra Prahy.",
+        "tip": "Výstup vede po úzkém schodišti. Spojte návštěvu s Obecním domem a Celetnou ulicí.",
+        "hours": "Otevírací doba se mění podle sezóny; ověřte aktuální termín na oficiálním webu.",
+        "admission": "Exteriér zdarma; vyhlídkový ochoz placený podle aktuálního ceníku.",
+        "coordinateNote": "Orientační poloha věže; vstup a schodiště vyžadují ověření."
+      },
+      "en": {
+        "name": "Powder Tower",
+        "short": "The Gothic gateway to the Royal Route, overlooking Prague's rooftops.",
+        "description": "The late Gothic city gate stands beside the Municipal House. Its gallery offers views over the roofs of the Old Town. It is within the inscribed Historic Centre of Prague.",
+        "tip": "The climb uses a narrow staircase. Combine your visit with the Municipal House and Celetná Street.",
+        "hours": "Opening hours vary seasonally; check the official website for your date.",
+        "admission": "The exterior is free; the observation gallery requires a ticket at current prices.",
+        "coordinateNote": "Approximate tower location; its entrance and stairs require verification."
+      },
+      "de": {
+        "name": "Pulverturm",
+        "short": "Das gotische Tor zum Königsweg mit Blick über Prags Dächer.",
+        "description": "Das spätgotische Stadttor steht neben dem Gemeindehaus. Vom Umgang eröffnet sich ein Blick auf die Dächer der Altstadt. Der Turm liegt im eingetragenen historischen Zentrum von Prag.",
+        "tip": "Der Aufstieg führt über eine schmale Treppe. Verbinden Sie den Besuch mit dem Gemeindehaus und der Celetná-Straße.",
+        "hours": "Die Öffnungszeiten sind saisonabhängig; prüfen Sie Ihren Termin auf der offiziellen Website.",
+        "admission": "Außenansicht kostenlos; für den Aussichtsumgang gilt die aktuelle Preisliste.",
+        "coordinateNote": "Ungefähre Turmposition; Eingang und Treppen müssen geprüft werden."
+      }
+    },
+    {
+      "id": "lennonova-zed",
+      "category": "kultura",
+      "lat": 50.08626,
+      "lon": 14.4074,
+      "officialUrl": "https://prague.eu/cs/objevujte/zed-johna-lennona/",
+      "visitDuration": "15–30 min",
+      "cs": {
+        "name": "Lennonova zeď",
+        "short": "Barevná připomínka svobody a míru na Malé Straně.",
+        "description": "Malovaná zeď na Velkopřevorském náměstí je spojená s památkou Johna Lennona a občanskými vzkazy. Najdete ji na Malé Straně uvnitř zapsaného Historického centra Prahy.",
+        "tip": "Respektujte místo a jeho pravidla. Pokračujte na Kampu nebo ke Karlovu mostu.",
+        "hours": "Veřejný venkovní prostor; respektujte místní omezení.",
+        "admission": "Prohlídka z veřejného prostranství zdarma.",
+        "coordinateNote": "Orientační poloha zdi; přístupovou cestu ověřit."
+      },
+      "en": {
+        "name": "Lennon Wall",
+        "short": "A colourful reminder of freedom and peace in the Lesser Town.",
+        "description": "The painted wall on Velkopřevorské Square is associated with John Lennon and messages of civic freedom. It is in the Lesser Town, within the inscribed Historic Centre of Prague.",
+        "tip": "Respect the site and its rules. Continue to Kampa or Charles Bridge.",
+        "hours": "Outdoor public space; respect local restrictions.",
+        "admission": "Viewing from the public space is free.",
+        "coordinateNote": "Approximate wall location; the access path must be verified."
+      },
+      "de": {
+        "name": "Lennon-Mauer",
+        "short": "Eine farbenfrohe Erinnerung an Freiheit und Frieden auf der Kleinseite.",
+        "description": "Die bemalte Mauer am Velkopřevorské-Platz erinnert an John Lennon und Botschaften bürgerlicher Freiheit. Sie liegt auf der Kleinseite innerhalb des eingetragenen historischen Zentrums von Prag.",
+        "tip": "Respektieren Sie den Ort und seine Regeln. Gehen Sie anschließend zur Kampa oder Karlsbrücke.",
+        "hours": "Öffentlicher Außenraum; örtliche Einschränkungen beachten.",
+        "admission": "Die Besichtigung vom öffentlichen Raum aus ist kostenlos.",
+        "coordinateNote": "Ungefähre Mauerposition; der Zugangsweg muss geprüft werden."
+      }
+    },
+    {
+      "id": "vaclavske-namesti",
+      "category": "pamatky",
+      "lat": 50.0812,
+      "lon": 14.4265,
+      "officialUrl": "https://prague.eu/cs/objevujte/vaclavske-namesti/",
+      "visitDuration": "30–60 min",
+      "cs": {
+        "name": "Václavské náměstí",
+        "short": "Městský bulvár s pomníkem sv. Václava a Národním muzeem.",
+        "description": "Dlouhé náměstí na Novém Městě bylo dějištěm zásadních událostí českých dějin. Nabízí historické domy, pasáže a výhled k Národnímu muzeu. Je součástí zapsaného Historického centra Prahy.",
+        "tip": "Projděte celý bulvár od Muzea k Můstku; pozor na aktuální stavební a dopravní omezení.",
+        "hours": "Veřejný prostor; průchod může ovlivnit stavba nebo akce.",
+        "admission": "Procházka zdarma; muzeum a další provozy mají vlastní vstupné.",
+        "coordinateNote": "Orientační bod uprostřed náměstí, nikoli ověřený vstup."
+      },
+      "en": {
+        "name": "Wenceslas Square",
+        "short": "A city boulevard with the St Wenceslas monument and National Museum.",
+        "description": "The long square in the New Town witnessed major events in Czech history. Discover historic buildings, arcades and the view towards the National Museum. It is within the inscribed Historic Centre of Prague.",
+        "tip": "Walk the boulevard from Muzeum to Můstek; check current construction and traffic restrictions.",
+        "hours": "Public space; construction or events may affect access.",
+        "admission": "The walk is free; the museum and other venues charge separately.",
+        "coordinateNote": "Approximate point in the middle of the square, not a verified entrance."
+      },
+      "de": {
+        "name": "Wenzelsplatz",
+        "short": "Ein Stadtboulevard mit Wenzelsdenkmal und Nationalmuseum.",
+        "description": "Der lange Platz in der Neustadt war Schauplatz wichtiger Ereignisse der tschechischen Geschichte. Entdecken Sie historische Häuser, Passagen und den Blick zum Nationalmuseum. Er liegt im eingetragenen historischen Zentrum von Prag.",
+        "tip": "Gehen Sie von Muzeum bis Můstek; beachten Sie aktuelle Bauarbeiten und Verkehrsbeschränkungen.",
+        "hours": "Öffentlicher Raum; Bauarbeiten oder Veranstaltungen können den Zugang beeinflussen.",
+        "admission": "Der Spaziergang ist kostenlos; Museum und andere Einrichtungen haben eigene Eintrittspreise.",
+        "coordinateNote": "Ungefährer Punkt in der Platzmitte, kein geprüfter Eingang."
+      }
+    },
+    {
+      "id": "sv-mikulas-mala-strana",
+      "category": "pamatky",
+      "lat": 50.0881,
+      "lon": 14.4036,
+      "officialUrl": "https://www.stnicholas.cz/",
+      "visitDuration": "30–60 min",
+      "cs": {
+        "name": "Kostel sv. Mikuláše na Malé Straně",
+        "short": "Barokní kupole a bohatě zdobený interiér Malostranského náměstí.",
+        "description": "Kostel je jednou z dominant Malé Strany. Při návštěvě můžete obdivovat barokní architekturu a výzdobu. Nachází se uvnitř zapsaného Historického centra Prahy.",
+        "tip": "Nezaměňte jej s kostelem sv. Mikuláše na Staroměstském náměstí. Prohlídka, koncert a bohoslužba mají rozdílné podmínky.",
+        "hours": "Prohlídky a koncerty podle aktuálního programu oficiálního webu.",
+        "admission": "Turistická prohlídka a koncerty podle aktuálního ceníku.",
+        "coordinateNote": "Poloha kostela; konkrétní návštěvnický vstup není ověřen."
+      },
+      "en": {
+        "name": "St Nicholas Church in the Lesser Town",
+        "short": "A Baroque dome and richly decorated interior on Lesser Town Square.",
+        "description": "The church is a landmark of the Lesser Town. Admire its Baroque architecture and decoration during your visit. It is within the inscribed Historic Centre of Prague.",
+        "tip": "Do not confuse it with St Nicholas Church on Old Town Square. Sightseeing, concerts and worship have different arrangements.",
+        "hours": "Sightseeing and concerts follow the current programme on the official website.",
+        "admission": "Sightseeing and concert tickets follow current prices.",
+        "coordinateNote": "Church location; its specific visitor entrance has not been verified."
+      },
+      "de": {
+        "name": "St.-Nikolaus-Kirche auf der Kleinseite",
+        "short": "Eine barocke Kuppel und ein reich geschmückter Innenraum am Kleinseitner Ring.",
+        "description": "Die Kirche ist eine Dominante der Kleinseite. Bewundern Sie ihre barocke Architektur und Ausstattung. Sie liegt im eingetragenen historischen Zentrum von Prag.",
+        "tip": "Nicht mit der Nikolauskirche am Altstädter Ring verwechseln. Besichtigung, Konzert und Gottesdienst haben unterschiedliche Bedingungen.",
+        "hours": "Besichtigungen und Konzerte nach dem aktuellen Programm der offiziellen Website.",
+        "admission": "Für Besichtigungen und Konzerte gelten die aktuellen Eintrittspreise.",
+        "coordinateNote": "Kirchenposition; der genaue Besuchereingang wurde nicht geprüft."
+      }
+    },
+    {
+      "id": "strahovsky-klaster",
+      "category": "kultura",
+      "lat": 50.0863,
+      "lon": 14.3898,
+      "officialUrl": "https://www.strahovskyklaster.cz/",
+      "visitDuration": "60–90 min",
+      "cs": {
+        "name": "Strahovský klášter a knihovna",
+        "short": "Klášterní areál s proslulými knihovními sály nad Malou Stranou.",
+        "description": "Historický klášter na Strahově nabízí návštěvu knihovny a dalších kulturních prostor podle aktuální nabídky. Areál leží v Hradčanech uvnitř zapsaného Historického centra Prahy.",
+        "tip": "Předem ověřte podmínky knihovny; běžná vstupenka nemusí dovolovat vstup do všech sálů.",
+        "hours": "Jednotlivé prostory mají samostatnou otevírací dobu; zkontrolujte oficiální web.",
+        "admission": "Knihovna a další prohlídky podle aktuálního ceníku provozovatele.",
+        "coordinateNote": "Orientační bod areálu; vstupy do knihovny a dalších částí ověřit."
+      },
+      "en": {
+        "name": "Strahov Monastery and Library",
+        "short": "A monastery with renowned library halls above the Lesser Town.",
+        "description": "The historic monastery at Strahov offers visits to its library and other cultural spaces according to the current programme. The complex is in Hradčany, within the inscribed Historic Centre of Prague.",
+        "tip": "Check the library's visitor rules in advance; a standard ticket may not allow entry into every hall.",
+        "hours": "Different parts have separate opening hours; check the official website.",
+        "admission": "Library and other tours follow the operator's current prices.",
+        "coordinateNote": "Approximate point in the complex; library and other entrances require verification."
+      },
+      "de": {
+        "name": "Kloster Strahov und Bibliothek",
+        "short": "Ein Kloster mit berühmten Bibliothekssälen oberhalb der Kleinseite.",
+        "description": "Das historische Kloster Strahov bietet Besuche der Bibliothek und weiterer Kulturräume nach dem aktuellen Angebot. Die Anlage liegt in Hradčany innerhalb des eingetragenen historischen Zentrums von Prag.",
+        "tip": "Prüfen Sie vorab die Bibliotheksregeln; eine normale Eintrittskarte erlaubt möglicherweise nicht den Zugang zu allen Sälen.",
+        "hours": "Die einzelnen Bereiche haben eigene Öffnungszeiten; prüfen Sie die offizielle Website.",
+        "admission": "Bibliothek und weitere Führungen nach der aktuellen Preisliste des Betreibers.",
+        "coordinateNote": "Ungefährer Punkt im Klosterareal; Bibliotheks- und andere Eingänge müssen geprüft werden."
+      }
+    },
+    {
+      "id": "narodni-divadlo",
+      "category": "kultura",
+      "lat": 50.0811,
+      "lon": 14.4132,
+      "officialUrl": "https://www.narodni-divadlo.cz/cs/prohlidky-budov",
+      "visitDuration": "45–90 min",
+      "cs": {
+        "name": "Národní divadlo",
+        "short": "Historická divadelní budova se zlatou střechou u Vltavy.",
+        "description": "Historickou budovu Národního divadla můžete obdivovat z nábřeží nebo navštívit představení či objednanou prohlídku. Stojí na Novém Městě uvnitř zapsaného Historického centra Prahy.",
+        "tip": "Pro prohlídku nebo představení si rezervujte vstupenky předem. Vyberte správnou budovu Národního divadla.",
+        "hours": "Podle termínu představení nebo rezervované prohlídky.",
+        "admission": "Exteriér zdarma; představení a prohlídky podle aktuální nabídky.",
+        "coordinateNote": "Poloha historické budovy, nikoli ověřený konkrétní vstup."
+      },
+      "en": {
+        "name": "National Theatre",
+        "short": "The historic theatre building with a golden roof beside the Vltava.",
+        "description": "Admire the historic National Theatre building from the embankment or attend a performance or booked tour. It stands in the New Town, within the inscribed Historic Centre of Prague.",
+        "tip": "Book performance or tour tickets in advance. Choose the correct National Theatre building.",
+        "hours": "According to the performance or booked guided-tour time.",
+        "admission": "The exterior is free; performances and tours follow the current offer.",
+        "coordinateNote": "Historic building location, not a verified specific entrance."
+      },
+      "de": {
+        "name": "Nationaltheater",
+        "short": "Das historische Theatergebäude mit goldenem Dach an der Moldau.",
+        "description": "Bewundern Sie das historische Nationaltheater vom Ufer aus oder besuchen Sie eine Vorstellung oder gebuchte Führung. Es steht in der Neustadt innerhalb des eingetragenen historischen Zentrums von Prag.",
+        "tip": "Buchen Sie Karten für Vorstellungen oder Führungen im Voraus. Wählen Sie das richtige Gebäude des Nationaltheaters.",
+        "hours": "Nach dem Termin der Vorstellung oder gebuchten Führung.",
+        "admission": "Außenansicht kostenlos; Vorstellungen und Führungen nach dem aktuellen Angebot.",
+        "coordinateNote": "Position des historischen Gebäudes, kein geprüfter konkreter Eingang."
+      }
+    }
+  ]
+}

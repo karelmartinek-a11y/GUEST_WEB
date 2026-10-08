@@ -266,6 +266,69 @@
       "hours": "Galleria giornaliera dalle 9:00 alle 20:00.",
       "admission": "Libero esterno; galleria CZK 230; ridotto CZK 185; famiglia CZK 600.",
       "coordinateNote": "Coordinate di costruzione; conferma l'ingresso della galleria."
+    },
+    "staromestske-namesti": {
+      "name": "Piazza Vecchia Città",
+      "short": "Il cuore della Città Vecchia, con la Chiesa di Týn e il meridiano di Praga.",
+      "description": "Il piazzale storico è circondato dall'Antico Palazzo della Città, dalla Chiesa di Týn, dal Palazzo Kinský e dalla Casa della Pietra.Il pavimento segna il meridiano di Praga e ricorda 27 nobili cecchi eseguiti.",
+      "tip": "Combina la piazza con l'orologio astronomico, Josefov e una passeggiata verso il ponte di Charles.",
+      "hours": "Spazio pubblico: possono essere applicate restrizioni temporanee durante gli eventi.",
+      "admission": "La passeggiata intorno alla piazza è gratuita; i monumenti vicini hanno accesso separato.",
+      "coordinateNote": "Il centro della piazza è vicino, non un'ingresso pedonale verificato."
+    },
+    "prasna-brana": {
+      "name": "Torre di polvere",
+      "short": "Il gateway gotico alla Royal Route, con una vista sul tetto di Praga.",
+      "description": "La porta della città gotica si trova accanto alla Casa del Comune. la sua galleria offre una vista sui tetti della Città Vecchia. si trova all'interno del centro storico di Praga.",
+      "tip": "Il salto utilizza una scala stretta. Combina la tua visita con la Casa del Comune e Celetná Street.",
+      "hours": "Le ore di apertura variano di stagione; verifica il sito ufficiale per la tua data.",
+      "admission": "L'esterno è gratuito; la galleria di osservazione richiede un biglietto ai prezzi attuali.",
+      "coordinateNote": "Localizzazione della torre; l'ingresso e le scale richiedono la verifica."
+    },
+    "lennonova-zed": {
+      "name": "Il muro di Lennon",
+      "short": "Un ricordo colorato della libertà e della pace nella Città Minore.",
+      "description": "La parete dipinta sulla Piazza Velkopřevorské è associata a John Lennon e messaggi di libertà civile. si trova nella Città inferiore, all'interno del centro storico di Praga.",
+      "tip": "Rispetta il sito e le sue regole. Continua a Kampa o Charles Bridge.",
+      "hours": "Spazio pubblico all'aperto; rispettare le restrizioni locali.",
+      "admission": "La vista dal pubblico è gratuita.",
+      "coordinateNote": "Posizione di parete vicina; il percorso di accesso deve essere verificato."
+    },
+    "vaclavske-namesti": {
+      "name": "Piazza Wenceslas",
+      "short": "Un boulevard con il monumento di San Wenceslas e il Museo Nazionale.",
+      "description": "La lunga piazza della Nuova Città è stata la testimonianza di importanti eventi nella storia ceca. scoprire edifici storici, arcade e vista verso il Museo Nazionale. si trova all'interno del centro storico di Praga.",
+      "tip": "Passeggiate per il bulevar dal Museo a Můstek; controllate le attuali restrizioni di costruzione e di traffico.",
+      "hours": "Spazio pubblico; costruzione o eventi possono influenzare l'accesso.",
+      "admission": "La passeggiata è gratuita; il museo e gli altri luoghi si caricano separatamente.",
+      "coordinateNote": "Il punto di approccio nel mezzo del quadrato, non un'ingresso verificato."
+    },
+    "sv-mikulas-mala-strana": {
+      "name": "Chiesa di San Nicola nella Città Minore",
+      "short": "Una coda barocca e un ricco interno decorato sulla piazza della città più piccola.",
+      "description": "La chiesa è un punto di riferimento della Città Minore. ammirare la sua architettura barocca e decorazione durante la vostra visita. si trova all'interno del centro storico di Praga.",
+      "tip": "Non confondere con la Chiesa di San Nicola sulla Piazza della Città Vecchia. Visite, concerti e adorazione hanno organizzazioni diverse.",
+      "hours": "Visite e concerti seguono il programma attuale sul sito ufficiale.",
+      "admission": "I biglietti per concerti e tour seguono i prezzi attuali.",
+      "coordinateNote": "L'indirizzo della chiesa; l'ingresso del visitatore specifico non è stato confermato."
+    },
+    "strahovsky-klaster": {
+      "name": "Monastero e Biblioteca di Strahov",
+      "short": "Un monastero con prestigiose sale della biblioteca sopra la città più piccola.",
+      "description": "Il monastero storico di Strahov offre visite alla sua biblioteca e ad altri spazi culturali secondo il programma attuale.Il complesso si trova a Hradčany, all'interno del centro storico di Praga.",
+      "tip": "Controlla in anticipo le regole dei visitatori della biblioteca; un biglietto standard potrebbe non consentire l'ingresso in ogni sala.",
+      "hours": "Diverse parti hanno ore di apertura separate; controllare il sito ufficiale.",
+      "admission": "La biblioteca e le altre tour seguono i prezzi attuali dell'operatore.",
+      "coordinateNote": "Punto di approccio nel complesso; la biblioteca e le altre entrate richiedono la verifica."
+    },
+    "narodni-divadlo": {
+      "name": "Teatro Nazionale",
+      "short": "L'edificio storico del teatro con un tetto d'oro accanto al Vltava.",
+      "description": "Ammirare l'edificio storico del Teatro Nazionale dal banchetto o partecipare a un'esposizione o tour prenotato. si trova nella Nuova Città, all'interno del centro storico di Praga.",
+      "tip": "Book performance o biglietti di tour in anticipo. Scegli il giusto edificio del Teatro Nazionale.",
+      "hours": "A seconda della performance o del tempo di tour guidato prenotato.",
+      "admission": "L'esterno è gratuito; le performance e le tour seguono l'offerta corrente.",
+      "coordinateNote": "Località storica del palazzo, non un'ingresso specifico verificato."
     }
   },
   "routes": {

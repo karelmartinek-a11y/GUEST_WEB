@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.1 — 9. 10. 2026
+
+- Úplnost osmi restaurací chrání kontrolní seznam podle posledního dodaného letáku a test každé restaurace ve všech 12 jazycích.
+- Sedm turistických doplnění z letáků rozšiřuje katalog na 36 míst se 116 skutečnými fotografiemi a individuální licenční evidencí.
+- Oficiální nezměněný emblém UNESCO, vysvětlení územního zápisu 616bis a filtr Historického centra Prahy / Průhonického parku.
+- Ikony a názvy druhu dopravy u všech zobrazených kódů linek; letištní 59 je trolejbus.
+- Fotografie hotelové budovy z místní knihy pro hosty přímo na mapovém bodu, fotografický popup a proklik do informací hotelu.
+- Valhalla graf sestaven mimo produkci a ověřen vlastním enginem v CS/EN/DE; syntetické výsledky nenahrazují fyzickou chůzi. Živá navigace zůstává vypnutá.
+
 ## 1.0.0 — 8. 10. 2026
 
 - Nový mobilní veřejný průvodce Dagmar pro Hotel CHODOV ASC; původní podklady a prototypy zachovány.

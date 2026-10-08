@@ -10,11 +10,17 @@ Originální logo dodal Hotel CHODOV ASC v tomto zadání. Původ a hotelový Dr
 
 ## Skutečné fotografie
 
-95 místních JPEG pro všech 29 míst, 2–5 na místo. Autoři a komerčně použitelné licence byly ověřeny čerstvým MediaWiki `imageinfo.extmetadata` z Wikimedia Commons. Původní seznam kandidátů sám nebyl považován za schválení. Některé licence z CSV byly zpřesněny podle API.
+116 místních JPEG pro všech 36 míst, 2–5 na místo. Autoři a komerčně použitelné licence byly ověřeny čerstvým MediaWiki `imageinfo.extmetadata` z Wikimedia Commons. Původní seznam kandidátů sám nebyl považován za schválení. Některé licence z CSV byly zpřesněny podle API. Evidence dalších sedmi cílů je v `docs/media-provenance/unesco-additions/`.
 
 Přesná evidence každého souboru: `public/media/manifest.json`; zdrojové API záznamy: `docs/media-provenance/`. Manifest obsahuje autora, název licence, odkaz na její plné znění, zdrojovou File stránku, datum získání, změny (thumbnail resize), rozměry, bajty, SHA-256 a případné upozornění na historický snímek. Web uvádí kredit u velkých fotografií a v přehledu všech autorů.
 
 Použité licence zahrnují CC BY, CC BY-SA, CC0 a public domain. U CC BY-SA se požadavek vztahuje na konkrétní fotografii a její upravené kopie. Změnou byl pouze rozměr snímku podle thumbnailu Commons; fotografie zůstávají samostatnými soubory se svými licencemi.
+
+## Hotelová fotografie a oficiální emblém UNESCO
+
+`public/media/hotel-chodov-asc.jpg` pochází z uživatelem dodané knihy `Hotel_Chodov_ASC_Kniha_pro_hosty_STRANA_10_MAPA_V6_2026.docx`, vloženého souboru `word/media/image3.jpg`. Uživatel výslovně požádal o fotografii budovy na mapovém bodu hotelu. Optimalizováno je pouze JPEG kódování, kompozice zůstala zachovaná. Nevymýšlíme jméno fotografa ani veřejnou licenci; záznam původu, rozměry a kontrolní součty jsou v `public/media/hotel-provenance.json`.
+
+`public/media/unesco-official.svg` je přesný nezměněný soubor z [oficiálního webu World Heritage Centre](https://whc.unesco.org/en/emblem/), s původními barvami a poměrem stran. Na výslovný pokyn uživatele je použit pouze u míst náležejících k zápisu [Historic Centre of Prague / Průhonice Park, 616bis](https://whc.unesco.org/en/list/616/). Záznam `public/media/unesco-provenance.json` uvádí přímý zdroj, hash a pokyn k použití; neuděluje obecnou licenci emblému. Web neuvádí patronát či partnerství hotelu s UNESCO.
 
 ## Mapy
 

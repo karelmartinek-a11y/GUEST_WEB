@@ -266,6 +266,69 @@
       "hours": "Galeria codziennie od 9:00 do 20:00.",
       "admission": "Bezpłatne na zewnątrz; galeria CZK 230; zmniejszona CZK 185; rodzina CZK 600.",
       "coordinateNote": "Koordynacje budowlane; potwierdzenie wejścia do galerii."
+    },
+    "staromestske-namesti": {
+      "name": "Starego Miasta Placu",
+      "short": "Serce Starego Miasta, z Kościołem Týn i Pragiem Meridian.",
+      "description": "Historyczny rynek jest otoczony Starym Miastem, Kościołem Týn, Pałacem Kinskim i Domem na Kamieniu. Podłoga symbolizuje Pragi Meridian i przypomina 27 wykonanych czeskich szlacheckich.",
+      "tip": "Połączyć plażę z Zegarem Astronomicznym, Josefow i spacer do mostu Charlesa.",
+      "hours": "Przestrzeń publiczna; w trakcie wydarzeń mogą obowiązywać tymczasowe ograniczenia.",
+      "admission": "Spacer wokół placu jest bezpłatny; pobliskie pomniki mają oddzielny dostęp.",
+      "coordinateNote": "Blisko centrum placu, a nie sprawdzony wejście pieszo."
+    },
+    "prasna-brana": {
+      "name": "Wieża Powder",
+      "short": "Gothic Gateway do Royal Route, z widokiem na dach Pragi.",
+      "description": "Ostatnia Gotyńska brama miasta znajduje się obok Domu Miejskiego. jego galeria oferuje widok na dach Starego Miasta. znajduje się w zarejestrowanej Centrum Historycznym Pragi.",
+      "tip": "Wschód korzysta z wąskiej schodów. Połącz swoją wizytę z Domem Miejskim i ulicą Celetná.",
+      "hours": "Godziny otwarcia różnią się sezonowo; sprawdź oficjalną stronę internetową dla daty.",
+      "admission": "Zewnętrzna jest bezpłatna; galeria obserwacji wymaga biletu w bieżących cenach.",
+      "coordinateNote": "Zbliżona lokalizacja wieży; jej wejście i schody wymagają weryfikacji."
+    },
+    "lennonova-zed": {
+      "name": "Ściany Lennona",
+      "short": "Kolorowe przypomnienie o wolności i pokoju w Mniejszym Mieście.",
+      "description": "Malowana ściana na Placu Velkopřevorské jest powiązana z Johnem Lennonem i przesłaniem wolności cywilnej.",
+      "tip": "Szanuj stronę i jej zasady. kontynuuj do Kampa lub Charles Bridge.",
+      "hours": "Przestrzeń publiczna na zewnątrz; przestrzeganie lokalnych ograniczeń.",
+      "admission": "Widok z przestrzeni publicznej jest bezpłatny.",
+      "coordinateNote": "Znajduje się w pobliżu ściany; należy sprawdzić drogę dostępu."
+    },
+    "vaclavske-namesti": {
+      "name": "Plac Wenceslas",
+      "short": "Budynek miejski z Monumentem św. Wencesla i Muzeum Narodowe.",
+      "description": "Długa plaża w Nowym Mieście była świadkiem ważnych wydarzeń w historii Czech. Odkryj historyczne budynki, arcady i widok na Muzeum Narodowe.",
+      "tip": "Spaceruj po bulwerze od Muzeum do Můstek; sprawdź aktualne ograniczenia budowlane i ruchu.",
+      "hours": "Przestrzeń publiczna; budowa lub wydarzenia mogą wpływać na dostęp.",
+      "admission": "Spacer jest bezpłatny; Muzeum i inne miejsca pobierają się oddzielnie.",
+      "coordinateNote": "Przybliżony punkt w środku kwadratu, a nie sprawdzony wejście."
+    },
+    "sv-mikulas-mala-strana": {
+      "name": "Kościół św. Nicholasa w Mniejszym Mieście",
+      "short": "Barokowy domek i bogato ozdobiony wnętrze na Lesser Town Square.",
+      "description": "Kościół jest punktem widokowym Mniejszego Miasta. podziwiaj swoją barokową architekturę i dekorację podczas swojej wizyty. znajduje się w zarejestrowanej Centrum Historycznym Pragi.",
+      "tip": "Nie mylcie go z Kościołem św. Nicholas na Old Town Square. widoki, koncerty i nabożeństwa mają różne aranżacje.",
+      "hours": "Wizyty i koncerty śledzą aktualny program na oficjalnej stronie internetowej.",
+      "admission": "Bilety na tury i koncerty podążają za aktualnymi cenami.",
+      "coordinateNote": "Lokalizacja kościoła; jego konkretny wstęp odwiedzający nie został potwierdzony."
+    },
+    "strahovsky-klaster": {
+      "name": "Klasztor Strahow i Biblioteka",
+      "short": "Klasztor z renomowanymi saliami bibliotecznymi nad Mniejszą Miastą.",
+      "description": "Historyczny klasztor w Strahowie oferuje wizyty w swojej bibliotece i innych miejscach kulturalnych zgodnie z aktualnym programem.",
+      "tip": "Sprawdź z wyprzedzeniem zasady odwiedzających biblioteki; standardowy bilet może nie zezwolić na wejście do każdej sali.",
+      "hours": "Różne części mają oddzielne godziny otwarcia; sprawdź oficjalną stronę internetową.",
+      "admission": "Biblioteka i inne wycieczki śledzą aktualne ceny operatora.",
+      "coordinateNote": "Przybliżony punkt w kompleksie; biblioteka i inne wejścia wymagają weryfikacji."
+    },
+    "narodni-divadlo": {
+      "name": "Teatr Narodowy",
+      "short": "Historyczny budynek teatralny z złotym dachem obok Vltava.",
+      "description": "Uwielbiaj historyczny budynek Narodowego Teatru z banku lub uczestniczy w spektaklu lub rezerwowanej wycieczce. znajduje się w Nowym Mieście, w zarejestrowanej Centrum Historycznym Pragi.",
+      "tip": "Rezerwacja występów lub biletów na wycieczkę z wyprzedzeniem. Wybierz właściwą budynek Teatru Narodowego.",
+      "hours": "W zależności od wydajności lub zarezerwowanego czasu przewodzenia.",
+      "admission": "Wyjście jest darmowe; występy i wycieczki śledzą aktualną ofertę.",
+      "coordinateNote": "Miejsce historyczne budynku, a nie sprawdzony konkretny wejście."
     }
   },
   "routes": {

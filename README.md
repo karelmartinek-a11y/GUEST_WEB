@@ -1,6 +1,6 @@
 # GUEST_WEB · Dagmar, průvodkyně Prahou
 
-Mobilní veřejný průvodce pro hosty Hotelu CHODOV ASC na **https://guest.hcasc.cz**. Vlastní animovaná Dagmar se psem, filmové galerie, 29 míst, pět výletů, interaktivní mapa, osm restaurací, okolní služby, doprava a taxi, devět náboženských tradic s programy, směr Mekky, SOS a zdravotní karta.
+Mobilní průvodce pro hosty Hotelu CHODOV ASC připravený pro **https://guest.hcasc.cz**. Vlastní animovaná Dagmar se psem, filmové galerie, 36 míst, pět výletů, interaktivní mapa, osm restaurací, okolní služby, doprava a taxi, devět náboženských tradic s programy, směr Mekky, SOS a zdravotní karta. Veřejné nasazení zatím čeká na rozhodnutí o statickém vydání s vypnutou živou navigací.
 
 Obsah je v Git repozitáři. Web nemá účty, CMS, databázi hostů, analytiku ani sledovací cookies.
 
@@ -27,7 +27,10 @@ Statický výstup je `dist/`. Build vytváří CS/EN/DE/IT/PL/NL/FR/KO/BN/HI/ES/
 
 - Původní zadání a prototypy jsou zachované. Autorita: `SPECIFIKACE_MASTER_v1.4.md`, doplněná přímými pokyny uživatele o Dagmar, 12 jazycích a bohatých galeriích.
 - Katalog, hotel, zdraví a itineráře: `src/content/`. České vstupní JSON mají neměnná ID. Překlady jsou lokální soubory; nic se nepřekládá za běhu.
-- 95 fotografií pro 29 míst, 2–5 snímků na místo: `public/media/photos/`. Autor, zdroj, licence, rozměry a SHA-256: `public/media/manifest.json`. API evidence: `docs/media-provenance/`.
+- 116 fotografií pro 36 míst, 2–5 snímků na místo: `public/media/photos/`. Autor, zdroj, licence, rozměry a SHA-256: `public/media/manifest.json`. API evidence: `docs/media-provenance/`.
+- Všech 29 původních ID zůstává zachovaných; sedm dalších památek přidávají dodané turistické letáky. Katalog má 10 míst kolem hotelu a 26 míst v Praze. Přesné zdroje jsou v `docs/tourist-flyer-additions.json`.
+- Filtr UNESCO a oficiální nezměněný emblém označují 21 cílů v Historickém centru Prahy a Průhonický park. Jde o dvě části zápisu 616bis, nikoli o 22 samostatných zápisů. Podrobnosti a oficiální zdroj jsou u každého označeného místa.
+- Hotelový bod na mapě zobrazuje místní fotografii budovy z dodané knihy pro hosty; fotografie a emblém mají samostatné záznamy původu v `public/media/`. Všechny zobrazené kódy dopravních linek mají ikonu a název druhu dopravy; letištní 59 je trolejbus.
 - Oficiální PNG logo je z dodaného balíčku. Dagmar je původní generovaná postava. Viz `LICENSES.md`.
 - Vlastní PMTiles mapa Prahy: `public/maps/prague.pmtiles`, OSM/Protomaps, výřez 14.22–14.72 E / 49.92–50.25 N, zoom 0–15. Fonty a mapové knihovny se obsluhují místně.
 
@@ -37,7 +40,7 @@ Přesný vstup do hotelu a fyzické chůze nejsou doložené. **Živá pěší n
 
 `infra/routing.mjs` je pouze omezený vlastní proxy pro Valhalla, naslouchající na loopbacku. Vyžaduje čerstvou přesnou GPS, schválené ID vstupu, same-origin POST a pedestrian costing; má velikostní a rychlostní limity a neukládá polohu. `src/navigation.mjs` poskytuje trasování, manévry, přepočet po třech dobrých měřeních, lokalizovaný hlas a uvolňovaný Screen Wake Lock. Úplné zapojení do provozu čeká na fyzickou akceptaci. Nepoužívá veřejný demo router.
 
-Samostatné Actions `navigation-data.yml` sestavují Valhalla grafy na GitHubu. Produkční stroj nesestavuje mapy. Nasazení routeru vyžaduje skutečně ověřené grafy, přepsání cesty v konfiguraci, samostatné spuštění a přijetí fyzických bran.
+Samostatné Actions `navigation-data.yml` sestavují Valhalla grafy na GitHubu. Sestavení a syntetické pěší trasy vlastního enginu ve třech jazycích prošly; hash a omezení dokládá `docs/navigation-build-evidence.json`. Produkční stroj nesestavuje mapy. Nasazení routeru vyžaduje přepsání cesty v konfiguraci, samostatné spuštění, ověření všech jazyků navigačních pokynů a přijetí fyzických bran.
 
 Rozlišení automatických a reálných testů je v `ACCEPTANCE.md` a `docs/acceptance-evidence.json`. Plné produkční schválení je dosud BLOCKED. Statické vydání smí projít produkční branou pouze s výslovným rozhodnutím uživatele a s navigací vypnutou.
 
@@ -55,4 +58,4 @@ Izolované cesty: `/opt/guest-web/releases/<SHA>/www`, atomický symlink `/opt/g
 
 Upravte příslušné soubory `src/content/`, fotografie a jejich evidenci, ověřte web a commitněte na `main`. Překlady EN/DE jsou redakčně upravené; další jazyky mají lokálně vytvořený úplný strojový překlad, ručně upravené důležité ovládání a zdravotní věty. Zbývá rodilá jazyková korektura delších textů, zejména BN/HI/KO. Skript `scripts/translate-content.py` je pouze offline redakční pomůcka, není produkční závislost.
 
-Podrobnosti povinneho obsahu z letaku a aktualnich zdroju jsou v `docs/content-additions.md`. Hotelova sekce obsahuje vlastni mistne generovany QR kod. Nez je schvalen a pripraven produkcni profil, `GUEST_WEB_DEPLOY_ENABLED` neni zapnute; testy se spousteji automaticky a produkcni job se preskoci. Po schvaleni a priprave povereni je kazdy main commit automaticky nasazen az po uspesnych kontrolach.
+Podrobnosti povinného obsahu z letáků a aktuálních zdrojů jsou v `docs/content-additions.md`. Hotelová sekce obsahuje vlastní místně generovaný QR kód. Než je schválen a připraven produkční profil, `GUEST_WEB_DEPLOY_ENABLED` není zapnuté; testy se spouštějí automaticky a produkční job se přeskočí. Po schválení a přípravě pověření bude každý main commit automaticky nasazen až po úspěšných kontrolách.

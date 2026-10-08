@@ -14,4 +14,12 @@ Směr Mekky je matematicky vypočtená počáteční ortodromická orientace z h
 
 Zdravotní zdroj `health.cs.json` uživatel potvrdil. Zachováno všech 15 symptomů a FTN, přidány nepersistované údaje pro lékaře. Nouzová čísla 155, 112, 158, 150, 156 jsou ověřená u [HZS ČR](https://hzscr.gov.cz/tisnova-komunikace-v-ceske-republice-2).
 
-Přidané rozhraní má explicitní překlad ve všech 12 jazycích. Delší původní turistické překlady v dalších devíti jazycích stále potřebují rodilou redakční korekturu. Toto omezení není zaměňováno za chybějící jazyk v aplikaci.
+Oba turistické letáky přidaly sedm dosud chybějících míst v Historickém centru: Staroměstské náměstí, Prašnou bránu, Lennonovu zeď, Václavské náměstí, kostel sv. Mikuláše na Malé Straně, Strahovský klášter a Národní divadlo. Původních 29 ID zůstalo zachovaných; nyní je 36 míst s 116 samostatně licenčně doloženými fotografiemi. Souřadnice doplnění jsou orientační polohy objektů, nikoli schválené pěší vstupy.
+
+Podle [UNESCO](https://whc.unesco.org/en/list/616/) a [NPÚ](https://www.npu.cz/cs/pamatkova-pece/pamatkovy-fond/pamatky-s-mezinarodnim-statusem/praha) je označeno 21 katalogových cílů v Historickém centru Prahy a Průhonický park. Karty mají na výslovný pokyn uživatele nezměněný oficiální emblém; detail vysvětluje územní souvislost a odkazuje na skutečný zápis 616bis. Zoo, Žižkovská věž, botanická zahrada, Národní technické muzeum ani Letenské sady nejsou označeny. Seznam a zdroje jsou v `src/content/heritage.json`, filtr funguje samostatně pro Prahu i okolí hotelu.
+
+Každý kód linky v dopravních postupech má vedle čísla/písmene ikonu a lokalizovaný druh dopravy. Linka 59 je správně trolejbus. U vybraných památek je doplněn postup z hotelu podle turistických letáků včetně autobusů, metra a tramvají a odkazu na aktuální PID spojení.
+
+Mapový bod hotelu používá skutečný snímek budovy z dodané knihy pro hosty. Bod otevře fotografický popup a hotelové informace; poloha bodu nadále neprohlašuje fyzicky ověřený pěší vstup. Původní hotelová kniha se nezveřejňuje.
+
+Přidané rozhraní má explicitní překlad ve všech 12 jazycích. Delší turistické překlady v dalších devíti jazycích stále potřebují rodilou redakční korekturu. Toto omezení není zaměňováno za chybějící jazyk v aplikaci.

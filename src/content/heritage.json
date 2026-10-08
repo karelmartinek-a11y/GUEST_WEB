@@ -1,0 +1,12 @@
+{
+  "property": "Historic Centre of Prague",
+  "propertyId": "616bis",
+  "inscribed": 1992,
+  "verifiedOn": "2026-10-09",
+  "source": "https://whc.unesco.org/en/list/616/",
+  "boundarySource": "https://whc.unesco.org/en/documents/119673",
+  "nationalSource": "https://www.npu.cz/cs/pamatkova-pece/pamatkovy-fond/pamatky-s-mezinarodnim-statusem/praha",
+  "historicCentre": ["prazsky-hrad","karluv-most","staromestska-radnice","staromestska-mostecka-vez","klementinum","josefov","petrinska-rozhledna","vysehrad","narodni-muzeum","obecni-dum","valdstejnska-zahrada","zahrady-prazskeho-hradu","zahrady-pod-hradem","tancici-dum","staromestske-namesti","prasna-brana","lennonova-zed","vaclavske-namesti","sv-mikulas-mala-strana","strahovsky-klaster","narodni-divadlo"],
+  "pruhonicePark": ["pruhonicky-park"],
+  "classification": "The Prague cards identify locations within the inscribed Historic Centre, not separate individually inscribed properties. Průhonice Park is the other component of the same serial World Heritage property. Buffer-zone attractions are not labelled as inscribed."
+}

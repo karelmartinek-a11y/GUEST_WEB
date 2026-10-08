@@ -36,6 +36,16 @@
       "sourcePath": "/Users/karelmartinek/Downloads/Obsahove_zadani_informacniho_letaku_Hotel_Chodov_ASC.md",
       "sha256": "c07bcc3e8f91b3813cedda5d338bc5ffc727c66fde4af7e6a5c1c5effe20ab8f",
       "usage": "Mandatory user-provided editorial facts; illustrations are not republished without a separate license audit."
+    },
+    {
+      "file": "Hotel_Chodov_ASC_Praha_15_zazitku_CZ_brand_polished.pdf",
+      "sha256": "416b650f227bf2ae5b1ddf0f2ea88164267553d22964e88419f08b19e01e18f1",
+      "usage": "Mandatory user-provided tourist attractions; UNESCO membership verified against official UNESCO and NPÚ sources. Source illustrations are not republished."
+    },
+    {
+      "file": "Doporucene_TOP_turisticke_cile_Hotel_Chodov_ASC_master.pdf",
+      "sha256": "91f3de526b45a8f400219fbc1d65330cb5166228cb51c56e62e37e687f209e1b",
+      "usage": "Mandatory user-provided tourist attractions; UNESCO membership verified against official UNESCO and NPÚ sources. Source illustrations are not republished."
     }
   ]
 }

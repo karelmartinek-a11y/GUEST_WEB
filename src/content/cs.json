@@ -265,6 +265,69 @@
       "hours": "Galerie denně 9–20.",
       "admission": "Exteriér zdarma; galerie základní 230 Kč, snížené 185 Kč, rodinné 600 Kč.",
       "coordinateNote": "GPS stavby; vchod do galerie ověřit."
+    },
+    "staromestske-namesti": {
+      "name": "Staroměstské náměstí",
+      "short": "Srdce Starého Města s Týnským chrámem a pražským poledníkem.",
+      "description": "Historické tržiště obklopují Staroměstská radnice, Týnský chrám, palác Kinských a Dům U Kamenného zvonu. V dlažbě najdete pražský poledník a připomínku popravy 27 českých pánů. Náměstí leží v zapsaném Historickém centru Prahy.",
+      "tip": "Spojte náměstí s orlojem, Josefovem a procházkou ke Karlovu mostu.",
+      "hours": "Veřejné prostranství; při akcích mohou platit dočasná omezení.",
+      "admission": "Procházka náměstím zdarma; vstupy do okolních památek zvlášť.",
+      "coordinateNote": "Orientační střed náměstí; nejde o ověřený pěší vstup."
+    },
+    "prasna-brana": {
+      "name": "Prašná brána",
+      "short": "Gotický začátek Královské cesty s výhledem na střechy Prahy.",
+      "description": "Pozdně gotická městská brána stojí vedle Obecního domu. Z ochozu lze obdivovat střechy Starého Města. Patří k památkám uvnitř zapsaného Historického centra Prahy.",
+      "tip": "Výstup vede po úzkém schodišti. Spojte návštěvu s Obecním domem a Celetnou ulicí.",
+      "hours": "Otevírací doba se mění podle sezóny; ověřte aktuální termín na oficiálním webu.",
+      "admission": "Exteriér zdarma; vyhlídkový ochoz placený podle aktuálního ceníku.",
+      "coordinateNote": "Orientační poloha věže; vstup a schodiště vyžadují ověření."
+    },
+    "lennonova-zed": {
+      "name": "Lennonova zeď",
+      "short": "Barevná připomínka svobody a míru na Malé Straně.",
+      "description": "Malovaná zeď na Velkopřevorském náměstí je spojená s památkou Johna Lennona a občanskými vzkazy. Najdete ji na Malé Straně uvnitř zapsaného Historického centra Prahy.",
+      "tip": "Respektujte místo a jeho pravidla. Pokračujte na Kampu nebo ke Karlovu mostu.",
+      "hours": "Veřejný venkovní prostor; respektujte místní omezení.",
+      "admission": "Prohlídka z veřejného prostranství zdarma.",
+      "coordinateNote": "Orientační poloha zdi; přístupovou cestu ověřit."
+    },
+    "vaclavske-namesti": {
+      "name": "Václavské náměstí",
+      "short": "Městský bulvár s pomníkem sv. Václava a Národním muzeem.",
+      "description": "Dlouhé náměstí na Novém Městě bylo dějištěm zásadních událostí českých dějin. Nabízí historické domy, pasáže a výhled k Národnímu muzeu. Je součástí zapsaného Historického centra Prahy.",
+      "tip": "Projděte celý bulvár od Muzea k Můstku; pozor na aktuální stavební a dopravní omezení.",
+      "hours": "Veřejný prostor; průchod může ovlivnit stavba nebo akce.",
+      "admission": "Procházka zdarma; muzeum a další provozy mají vlastní vstupné.",
+      "coordinateNote": "Orientační bod uprostřed náměstí, nikoli ověřený vstup."
+    },
+    "sv-mikulas-mala-strana": {
+      "name": "Kostel sv. Mikuláše na Malé Straně",
+      "short": "Barokní kupole a bohatě zdobený interiér Malostranského náměstí.",
+      "description": "Kostel je jednou z dominant Malé Strany. Při návštěvě můžete obdivovat barokní architekturu a výzdobu. Nachází se uvnitř zapsaného Historického centra Prahy.",
+      "tip": "Nezaměňte jej s kostelem sv. Mikuláše na Staroměstském náměstí. Prohlídka, koncert a bohoslužba mají rozdílné podmínky.",
+      "hours": "Prohlídky a koncerty podle aktuálního programu oficiálního webu.",
+      "admission": "Turistická prohlídka a koncerty podle aktuálního ceníku.",
+      "coordinateNote": "Poloha kostela; konkrétní návštěvnický vstup není ověřen."
+    },
+    "strahovsky-klaster": {
+      "name": "Strahovský klášter a knihovna",
+      "short": "Klášterní areál s proslulými knihovními sály nad Malou Stranou.",
+      "description": "Historický klášter na Strahově nabízí návštěvu knihovny a dalších kulturních prostor podle aktuální nabídky. Areál leží v Hradčanech uvnitř zapsaného Historického centra Prahy.",
+      "tip": "Předem ověřte podmínky knihovny; běžná vstupenka nemusí dovolovat vstup do všech sálů.",
+      "hours": "Jednotlivé prostory mají samostatnou otevírací dobu; zkontrolujte oficiální web.",
+      "admission": "Knihovna a další prohlídky podle aktuálního ceníku provozovatele.",
+      "coordinateNote": "Orientační bod areálu; vstupy do knihovny a dalších částí ověřit."
+    },
+    "narodni-divadlo": {
+      "name": "Národní divadlo",
+      "short": "Historická divadelní budova se zlatou střechou u Vltavy.",
+      "description": "Historickou budovu Národního divadla můžete obdivovat z nábřeží nebo navštívit představení či objednanou prohlídku. Stojí na Novém Městě uvnitř zapsaného Historického centra Prahy.",
+      "tip": "Pro prohlídku nebo představení si rezervujte vstupenky předem. Vyberte správnou budovu Národního divadla.",
+      "hours": "Podle termínu představení nebo rezervované prohlídky.",
+      "admission": "Exteriér zdarma; představení a prohlídky podle aktuální nabídky.",
+      "coordinateNote": "Poloha historické budovy, nikoli ověřený konkrétní vstup."
     }
   },
   "routes": {

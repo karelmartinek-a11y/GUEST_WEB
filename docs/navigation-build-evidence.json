@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-10-09",
+  "workflowUrl": "https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37857716009",
+  "commit": "a986fa01025e8e5c4d2c7eb6411e24029eb827d6",
+  "conclusion": "success",
+  "artifact": "prague-valhalla-data-a986fa01025e8e5c4d2c7eb6411e24029eb827d6",
+  "artifactArchiveSha256": "49c3bbd56132969a72a48b90a0904d962fa761feef169d3e2a133f37a4d7b527",
+  "tilesTarSha256": "a1127fb2ca89de0fe5f6db46087ff6b2525b08425eb5501fcd44855a7515c5a0",
+  "tilesTarBytes": 66693120,
+  "source": {
+    "source": "https://download.bbbike.org/osm/bbbike/Prag/Prag.osm.pbf",
+    "license": "ODbL 1.0",
+    "attribution": "OpenStreetMap contributors",
+    "builtAt": "2026-10-08T23:08:59.552671+00:00",
+    "sourceSha256": "b16a50f655d54ddee3496fb0fc15ff5912b44a614570518b9b53808b9062e25e",
+    "engine": "Valhalla 3.6.3",
+    "physicalAcceptance": false
+  },
+  "engineVerification": {
+    "syntheticOnly": true,
+    "physicalAcceptance": false,
+    "engine": "Valhalla 3.6.3",
+    "results": [
+      {
+        "language": "cs-CZ",
+        "pass": true,
+        "maneuvers": 25,
+        "lengthKm": 2.112
+      },
+      {
+        "language": "en-US",
+        "pass": true,
+        "maneuvers": 25,
+        "lengthKm": 2.112
+      },
+      {
+        "language": "de-DE",
+        "pass": true,
+        "maneuvers": 25,
+        "lengthKm": 2.112
+      }
+    ]
+  },
+  "productionInstalled": false,
+  "navigationActivated": false,
+  "physicalAcceptance": false,
+  "limitations": [
+    "Synthetic engine routes were tested for cs-CZ, en-US, de-DE only.",
+    "Hotel and target pedestrian entrances are unverified.",
+    "No actual iPhone Safari or Android Chrome walks are evidenced.",
+    "All requested narration languages require validation before navigation activation."
+  ]
+}

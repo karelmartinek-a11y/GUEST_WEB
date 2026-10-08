@@ -3,7 +3,7 @@ import flyer from '../docs/restaurant-flyer-checklist.json' with {type:'json'};
 const langs=['cs','en','de','it','pl','nl','fr','ko','bn','hi','es','uk'];
 for(const lang of langs)test(`complete localized catalog and health in ${lang}`,async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto(`/${lang}/prague/`);await expect(page.locator('.place-card')).toHaveCount(19);
+ await page.goto(`/${lang}/prague/`);await expect(page.locator('.place-card')).toHaveCount(26);
  await expect(page.locator('html')).toHaveAttribute('lang',lang);
  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+1);expect(overflow).toBe(false);
  await page.locator('.place-card').first().click();await expect(page.locator('dialog[open] .detail-content')).toBeVisible();
@@ -53,11 +53,29 @@ test('five itineraries use real catalog stops and official transit links',async(
  await expect(page.locator('.local-card')).toHaveCount(4);await expect(page.locator('.transit-steps')).toHaveCount(3);
  await expect(page.locator('.taxi-choices a[target="_blank"]')).toHaveCount(3);
  await expect(page.locator('a[href="tel:+420222333222"]')).toBeVisible();
+ for(const line of await page.locator('.transit-line').all())await expect(line.locator('.transport-icon')).toBeVisible();
+ await expect(page.locator('.transit-line[data-mode="trolleybus"]')).toContainText('59');
 });
 test('map loads own PMTiles without external tile or tracking traffic',async({page})=>{
  const remote:string[]=[];page.on('request',r=>{if(!r.url().startsWith('http://127.0.0.1:4173')&&!r.url().startsWith('blob:')&&!r.url().startsWith('data:'))remote.push(r.url());});
- await page.goto('/en/map/');await expect(page.locator('.map-marker')).toHaveCount(30,{timeout:20000});
+ await page.goto('/en/map/');await expect(page.locator('.map-marker')).toHaveCount(37,{timeout:20000});
  await expect(page.locator('.map-canvas canvas')).toBeVisible();expect(remote).toEqual([]);
+ await expect(page.locator('.hotel-marker img')).toHaveAttribute('src','/media/hotel-chodov-asc.jpg');
+ expect(await page.locator('.hotel-marker img').evaluate((el:HTMLImageElement)=>el.complete&&el.naturalWidth>0)).toBe(true);
+ await page.locator('.hotel-marker').click();await expect(page.locator('.hotel-popup-photo')).toBeVisible();
+ await page.locator('.map-popup button').click();await expect(page).toHaveURL(/\/en\/hotel\//);
+});
+test('UNESCO filter, official emblem and transport-mode icons use the actual inscription scope',async({page})=>{
+ await page.goto('/cs/prague/');await page.locator('.filter-chips button').filter({hasText:'UNESCO'}).click();
+ await expect(page.locator('.place-card')).toHaveCount(21);await expect(page.locator('.place-card .heritage-stamp img')).toHaveCount(21);
+ await page.goto('/cs/prague/?place=prasna-brana');await expect(page.locator('dialog[open] .heritage-details')).toContainText('Historického centra Prahy');
+ await expect(page.locator('dialog[open] .heritage-details a')).toHaveAttribute('href','https://whc.unesco.org/en/list/616/');
+ await expect(page.locator('dialog[open] .tourist-arrival .transit-line[data-mode="bus"]')).toContainText('126');
+ await expect(page.locator('dialog[open] .tourist-arrival .transit-line[data-mode="metro"]')).toHaveCount(2);
+ await page.goto('/cs/prague/?place=prazsky-hrad');await expect(page.locator('dialog[open] .tourist-arrival .transit-line[data-mode="tram"]')).toContainText('22');
+ await page.goto('/cs/prague/?place=zoo-praha');await expect(page.locator('dialog[open] .heritage-stamp')).toHaveCount(0);
+ await page.goto('/cs/nearby/');await page.locator('.filter-chips button').filter({hasText:'UNESCO'}).click();await expect(page.locator('.place-card')).toHaveCount(1);
+ await page.locator('.place-card').click();await expect(page.locator('dialog[open] .heritage-details')).toContainText('Průhonický park');
 });
 test('home presentation has licensed images and honours reduced motion',async({page})=>{
  await page.goto('/cs/');await expect(page.locator('.hero-copy h1')).toBeVisible();await expect(page.locator('.choices .choice')).toHaveCount(9);

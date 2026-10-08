@@ -266,6 +266,69 @@
       "hours": "Galerie dagelijks van 9:00 tot 20:00 uur.",
       "admission": "Buitenlandse gratis; galerij CZK 230; gereduceerd CZK 185; familie CZK 600.",
       "coordinateNote": "Bouw coördinaten; bevestigt de ingang van de galerij."
+    },
+    "staromestske-namesti": {
+      "name": "Oude stadsplaats",
+      "short": "Het hart van de oude stad, met de Týn kerk en de Praagse meridian.",
+      "description": "De historische markt is omringd door de Old Town Hall, Týn Church, Kinský Palace en het Huis aan de Stone Bell. De pavement markeert de Praagse meridian en herinnert 27 uitgevoerd Tsjechische nobels.",
+      "tip": "Combineer het plein met de Astronomische klok, Josefov en een wandeling naar de Charles Bridge.",
+      "hours": "openbare ruimte; tijdelijke beperkingen kunnen worden toegepast tijdens evenementen.",
+      "admission": "Wandelen rond het plein is gratis; nabijgelegen monumenten hebben afzonderlijke toelating.",
+      "coordinateNote": "Het nabijgelegen centrum van de plein, niet een gecontroleerde voetganger ingang."
+    },
+    "prasna-brana": {
+      "name": "Poedertoren",
+      "short": "De Gothic gateway naar de Royal Route, met uitzicht op de daken van Praag.",
+      "description": "De late Gothic City Gate staat naast het gemeentehuis. zijn galerij biedt uitzicht over de daken van de oude stad. het is binnen het ingeschreven Historische Centrum van Praag.",
+      "tip": "De klim maakt gebruik van een smalle trap. Combineer uw bezoek met het gemeentehuis en Celetná straat.",
+      "hours": "Openingstijden variëren per seizoen; check the official website for your date.",
+      "admission": "De buiten is gratis; de observatiegalerie vereist een ticket tegen de huidige prijzen.",
+      "coordinateNote": "De dichtstbijzijnde locatie van de toren; de ingang en trappen vereisen verificatie."
+    },
+    "lennonova-zed": {
+      "name": "De Lennon Wall",
+      "short": "Een kleurrijke herinnering aan vrijheid en vrede in de kleinere stad.",
+      "description": "De gematigde muur op de Velkopřevorské Square is geassocieerd met John Lennon en boodschappen van burgerlijke vrijheid.",
+      "tip": "Respecteer de site en de regels ervan. Ga verder naar Kampa of Charles Bridge.",
+      "hours": "openbare ruimte; eerbied voor lokale beperkingen.",
+      "admission": "Uitzicht vanuit de openbare ruimte is gratis.",
+      "coordinateNote": "De nabijgelegen muur locatie; de toegangspoort moet worden gecontroleerd."
+    },
+    "vaclavske-namesti": {
+      "name": "Wenceslas plein",
+      "short": "Een stadboulevard met het monument van St. Wenceslas en het Nationaal Museum.",
+      "description": "De lange straat in de Nieuwe Stad was getuige van belangrijke gebeurtenissen in de Tsjechische geschiedenis. Ontdek historische gebouwen, arcades en het uitzicht naar het Nationaal Museum. Het ligt binnen het geregistreerde Historische Centrum van Praag.",
+      "tip": "Wandelen van het museum naar Můstek; bekijk de huidige bouw en verkeersbeperkingen.",
+      "hours": "openbare ruimte; bouw of evenementen kunnen de toegang beïnvloeden.",
+      "admission": "De wandeling is gratis; het museum en andere plaatsen worden afzonderlijk belast.",
+      "coordinateNote": "Bijna een punt in het midden van de vierkant, niet een gecontroleerde ingang."
+    },
+    "sv-mikulas-mala-strana": {
+      "name": "De kerk van St. Nicholas in de Lesser Town",
+      "short": "Een barokkam en rijk ingericht interieur op Lesser Town Square.",
+      "description": "De kerk is een landschap van de Lesser Town. bewonder zijn barokke architectuur en decoratie tijdens uw bezoek. het is binnen het ingeschreven Historische Centrum van Praag.",
+      "tip": "Verwarm het niet met de kerk van St. Nicholas op Old Town Square. bezienswaardigheden, concerten en aanbidding hebben verschillende arrangementen.",
+      "hours": "Bezienswaardigheden en concerten volgen het huidige programma op de officiële website.",
+      "admission": "Tocht- en concerttickets volgen de huidige prijzen.",
+      "coordinateNote": "Locatie van de kerk; zijn specifieke bezoekersingang is niet gecontroleerd."
+    },
+    "strahovsky-klaster": {
+      "name": "Strahov klooster en bibliotheek",
+      "short": "Een klooster met beroemde bibliotheekhalen boven de Lesser Town.",
+      "description": "Het historische klooster in Strahov biedt bezoeken naar zijn bibliotheek en andere culturele ruimtes volgens het huidige programma.",
+      "tip": "Controleer de bezoekersregels van de bibliotheek van tevoren; een standaard ticket kan niet toestaan om toegang te krijgen tot elke hal.",
+      "hours": "Verschillende delen hebben afzonderlijke openingstijden; bekijk de officiële website.",
+      "admission": "Bibliotheek en andere tours volgen de huidige prijzen van de exploitant.",
+      "coordinateNote": "Bijna een punt in het complex; bibliotheek en andere ingang vereist verificatie."
+    },
+    "narodni-divadlo": {
+      "name": "Nationaal theater",
+      "short": "Het historische theatergebouw met een gouden dak naast de Vltava.",
+      "description": "Bewonder het historische National Theatre gebouw van de bank of deelnemen aan een voorstelling of een geboekte tour. Het staat in de Nieuwe Stad, binnen het ingeschreven Historische Centrum van Praag.",
+      "tip": "Boek voorstelling of tour tickets in vooruit.Kies het juiste National Theatre gebouw.",
+      "hours": "Afhankelijk van de prestatie of gebundeld gids-tour tijd.",
+      "admission": "De buiten is gratis; prestaties en tours volgen het huidige aanbod.",
+      "coordinateNote": "Historische locatie van het gebouw, geen gecontroleerde specifieke ingang."
     }
   },
   "routes": {

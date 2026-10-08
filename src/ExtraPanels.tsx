@@ -7,6 +7,7 @@ import practical from './content/practical.json';
 import faithData from './content/faith.json';
 import { hotel } from './data';
 import { bearing, kaaba } from './qibla.mjs';
+import {TransitLine} from './TransitLine';
 
 function Link({href,children,primary=false}:{href:string;children:ReactNode;primary?:boolean}) {
  return <a href={href} target="_blank" rel="noopener noreferrer" className={`button ${primary?'':'secondary'}`}>{children}<ExternalLink size={16}/></a>;
@@ -34,11 +35,12 @@ export function Restaurants({language}:{language:Language}) {
 }
 export function Transport({language}:{language:Language}) {
  const towards=(station:string)=>`${te(language,'toward')} ${station}`;
- const first=<li><span className="transit-line bus">126</span> Brodského → Chodov <small>{towards('Chodov')}</small></li>;
+ const line=(mode:'bus'|'metro'|'tram'|'trolleybus',number:string)=><TransitLine mode={mode} line={number} language={language}/>;
+ const first=<li>{line('bus','126')} Brodského → Chodov <small>{towards('Chodov')}</small></li>;
  const journeys=[
-  {key:'centre' as const,steps:<>{first}<li><span className="transit-line c">C</span> Chodov → Muzeum <small>{towards('Letňany')}</small></li><li><span className="transit-line a">A</span> Muzeum → Staroměstská <small>{towards('Nemocnice Motol')}</small></li></>},
-  {key:'station' as const,steps:<>{first}<li><span className="transit-line c">C</span> Chodov → Hlavní nádraží <small>{towards('Letňany')}</small></li></>},
-  {key:'airport' as const,steps:<>{first}<li><span className="transit-line c">C</span> Chodov → Muzeum <small>{towards('Letňany')}</small></li><li><span className="transit-line a">A</span> Muzeum → Nádraží Veleslavín <small>{towards('Nemocnice Motol')}</small></li><li><span className="transit-line bus">59</span> Nádraží Veleslavín → Terminál 1 / Terminál 2 <small>{towards('Letiště')}</small></li></>}
+  {key:'centre' as const,steps:<>{first}<li>{line('metro','C')} Chodov → Muzeum <small>{towards('Letňany')}</small></li><li>{line('metro','A')} Muzeum → Staroměstská <small>{towards('Nemocnice Motol')}</small></li></>},
+  {key:'station' as const,steps:<>{first}<li>{line('metro','C')} Chodov → Hlavní nádraží <small>{towards('Letňany')}</small></li></>},
+  {key:'airport' as const,steps:<>{first}<li>{line('metro','C')} Chodov → Muzeum <small>{towards('Letňany')}</small></li><li>{line('metro','A')} Muzeum → Nádraží Veleslavín <small>{towards('Nemocnice Motol')}</small></li><li>{line('trolleybus','59')} Nádraží Veleslavín → Terminál 1 / Terminál 2 <small>{towards('Letiště')}</small></li></>}
  ];
  return <><LocalServices language={language}/><div className="transport-itineraries">{journeys.map(j=><article className="service-card" key={j.key}><span className="service-icon"><TrainFront size={30}/></span><h2>{te(language,j.key)}</h2><ol className="transit-steps">{j.steps}</ol><Link href={practical.transit.planner} primary>{t(language,'connections')}</Link>{j.key==='airport'&&<Link href={practical.transit.airport}>{t(language,'official')}</Link>}</article>)}</div><p className="notice">{te(language,'transportNotice')}</p><div className="service-grid"><section className="service-card"><h2>{te(language,'ticketPlaces')}</h2><p>{te(language,'ticketHelp')}</p><div className="button-row"><Link href={practical.transit.tickets} primary>{t(language,'tickets')}</Link><Link href={practical.transit.ticketPlaces}>{te(language,'ticketPlaces')}</Link><Link href={practical.transit.ticketInstructions}>{t(language,'official')}</Link></div></section><section className="service-card"><h2>{te(language,'taxis')}</h2><div className="taxi-choices">{practical.transit.taxi.map(taxi=><div key={taxi.name}><Link href={taxi.url} primary>{taxi.name}</Link>{'phone'in taxi&&<a className="text-button" href={`tel:${taxi.phone}`}><Phone size={17}/>{taxi.phone}</a>}</div>)}</div><p>{hotel.address}</p></section><section className="service-card"><h2>{t(language,'tariff')}</h2><p>{t(language,'zones')}</p><Link href="https://pid.cz/jizdne-a-tarif/">{t(language,'tariff')}</Link></section></div></>;
 }

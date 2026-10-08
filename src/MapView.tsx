@@ -38,11 +38,13 @@ export default function MapView({language,target,onPlace}:{language:Language;tar
   const m=map.current;if(!m||!loaded)return;
   markers.current.forEach(marker=>marker.remove());markers.current=[];
   const add=(id:string,lon:number,lat:number,name:string,hotelMarker=false)=>{
-   const element=document.createElement('button');element.className=`map-marker ${hotelMarker?'hotel-marker':''}`;element.textContent=hotelMarker?'H':'◆';element.setAttribute('aria-label',name);
+   const element=document.createElement('button');element.className=`map-marker ${hotelMarker?'hotel-marker':''}`;element.setAttribute('aria-label',name);
+   if(hotelMarker){const image=document.createElement('img');image.src='/media/hotel-chodov-asc.jpg';image.alt='Hotel CHODOV ASC';image.width=96;image.height=64;const label=document.createElement('span');label.textContent='HOTEL CHODOV ASC';element.append(image,label);}else element.textContent='◆';
    const content=document.createElement('div');content.className='map-popup';const title=document.createElement('h3');title.textContent=name;content.append(title);
-   const button=document.createElement('button');button.textContent=t(language,hotelMarker?'hotel':'viewDetails');button.onclick=()=>{if(!hotelMarker)onPlace(id);};if(!hotelMarker)content.append(button);
+   if(hotelMarker){const image=document.createElement('img');image.src='/media/hotel-chodov-asc.jpg';image.alt='Hotel CHODOV ASC';image.className='hotel-popup-photo';content.prepend(image);}
+   const button=document.createElement('button');button.textContent=t(language,hotelMarker?'hotel':'viewDetails');button.onclick=()=>onPlace(id);content.append(button);
    const popup=new maplibregl.Popup({offset:24,focusAfterOpen:true}).setDOMContent(content);
-   const marker=new maplibregl.Marker({element}).setLngLat([lon,lat]).setPopup(popup).addTo(m);markers.current.push(marker);
+   const marker=new maplibregl.Marker({element,anchor:hotelMarker?'bottom':'center',offset:hotelMarker?[0,-7]:[0,0]}).setLngLat([lon,lat]).setPopup(popup).addTo(m);markers.current.push(marker);
   };
   add('hotel',hotel.lon,hotel.lat,t(language,'hotelPin'),true);
   places.filter(p=>filter==='all'||p.category===filter).forEach(p=>add(p.id,p.lon,p.lat,placeText(language,p.id).name));
