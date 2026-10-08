@@ -1,0 +1,17 @@
+name: guest-web-routing
+services:
+  valhalla:
+    image: ghcr.io/valhalla/valhalla:3.6.3@sha256:2b19ea46551a9687b245022551183829d817fdee9b58c5e7b2adb6e422749c43
+    entrypoint: ["valhalla_service"]
+    command: ["/data/valhalla.json", "1"]
+    user: "65534:65534"
+    ports: ["127.0.0.1:18781:8002"]
+    volumes: ["/var/lib/guest-web/valhalla:/data:ro"]
+    read_only: true
+    tmpfs: ["/tmp:size=32m,mode=1777"]
+    cap_drop: ["ALL"]
+    security_opt: ["no-new-privileges:true"]
+    cpus: 0.50
+    mem_limit: 512m
+    pids_limit: 64
+    restart: unless-stopped

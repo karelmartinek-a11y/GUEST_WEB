@@ -1,0 +1,2338 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "pages": [
+      {
+        "pageid": 1585868,
+        "ns": 6,
+        "title": "File:Praha Chodovská tvrz vstup.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 716946,
+            "width": 1958,
+            "height": 1461,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Praha_Chodovsk%C3%A1_tvrz_vstup.jpg/1280px-Praha_Chodovsk%C3%A1_tvrz_vstup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 895,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/80/Praha_Chodovsk%C3%A1_tvrz_vstup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Praha_Chodovsk%C3%A1_tvrz_vstup.jpg/1280px-Praha_Chodovsk%C3%A1_tvrz_vstup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 895,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/80/Praha_Chodovsk%C3%A1_tvrz_vstup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Praha_Chodovsk%C3%A1_tvrz_vstup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Praha_Chodovsk%C3%A1_tvrz_vstup.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1585868",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-02-10 13:20:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Praha Chodovská tvrz vstup",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Chodovská tvrz|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.034778",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.498889",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Chodov Fort entry, Prague.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-01-14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Czech Wikipedia user <a href=\"//commons.wikimedia.org/wiki/User:Packa\" title=\"User:Packa\">Packa</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "(viz níže)",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 6837310,
+        "ns": 6,
+        "title": "File:Hostivařská přehrada.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 693387,
+            "width": 2048,
+            "height": 1536,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada.jpg/1280px-Hostiva%C5%99sk%C3%A1_p%C5%99ehrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada.jpg/1280px-Hostiva%C5%99sk%C3%A1_p%C5%99ehrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hostiva%C5%99sk%C3%A1_p%C5%99ehrada.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6837310",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2009-05-22 00:33:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hostivařská přehrada",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Nikon Coolpix 3200|CC-BY-SA-2.5,2.0,1.0|Hostivař Reservoir|Greenway Botič|License migration redundant|Hostivař Dam|Self-published work|Files with coordinates missing SDC location of creation|IS 20 Návěst pro cyklisty (Czech road sign)|Cycling route signs in Prague",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.043278",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.530500",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Hostiva%C5%99\" class=\"extiw\" title=\"en:Hostivař\">Hostivař</a>, <a href=\"https://en.wikipedia.org/wiki/Prague\" class=\"extiw\" title=\"en:Prague\">Prague</a>, the Czech Republic.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-04-01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://cs.wikipedia.org/wiki/User:%C5%A0J%C5%AF\" class=\"extiw\" title=\"cs:User:ŠJů\">cs:ŠJů</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "You may select the license of your choice.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 12121351,
+        "ns": 6,
+        "title": "File:Chodovská tvrz, přístupový most, v pozadí Sborový dům Milíče z Kroměříže.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2577173,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Chodovsk%C3%A1_tvrz%2C_p%C5%99%C3%ADstupov%C3%BD_most%2C_v_pozad%C3%AD_Sborov%C3%BD_d%C5%AFm_Mil%C3%AD%C4%8De_z_Krom%C4%9B%C5%99%C3%AD%C5%BEe.jpg/1280px-Chodovsk%C3%A1_tvrz%2C_p%C5%99%C3%ADstupov%C3%BD_most%2C_v_pozad%C3%AD_Sborov%C3%BD_d%C5%AFm_Mil%C3%AD%C4%8De_z_Krom%C4%9B%C5%99%C3%AD%C5%BEe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chodovsk%C3%A1_tvrz%2C_p%C5%99%C3%ADstupov%C3%BD_most%2C_v_pozad%C3%AD_Sborov%C3%BD_d%C5%AFm_Mil%C3%AD%C4%8De_z_Krom%C4%9B%C5%99%C3%AD%C5%BEe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Chodovsk%C3%A1_tvrz%2C_p%C5%99%C3%ADstupov%C3%BD_most%2C_v_pozad%C3%AD_Sborov%C3%BD_d%C5%AFm_Mil%C3%AD%C4%8De_z_Krom%C4%9B%C5%99%C3%AD%C5%BEe.jpg/1280px-Chodovsk%C3%A1_tvrz%2C_p%C5%99%C3%ADstupov%C3%BD_most%2C_v_pozad%C3%AD_Sborov%C3%BD_d%C5%AFm_Mil%C3%AD%C4%8De_z_Krom%C4%9B%C5%99%C3%AD%C5%BEe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chodovsk%C3%A1_tvrz%2C_p%C5%99%C3%ADstupov%C3%BD_most%2C_v_pozad%C3%AD_Sborov%C3%BD_d%C5%AFm_Mil%C3%AD%C4%8De_z_Krom%C4%9B%C5%99%C3%AD%C5%BEe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chodovsk%C3%A1_tvrz%2C_p%C5%99%C3%ADstupov%C3%BD_most%2C_v_pozad%C3%AD_Sborov%C3%BD_d%C5%AFm_Mil%C3%AD%C4%8De_z_Krom%C4%9B%C5%99%C3%AD%C5%BEe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chodovsk%C3%A1_tvrz,_p%C5%99%C3%ADstupov%C3%BD_most,_v_pozad%C3%AD_Sborov%C3%BD_d%C5%AFm_Mil%C3%AD%C4%8De_z_Krom%C4%9B%C5%99%C3%AD%C5%BEe.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12121351",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-11-22 17:37:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Chodovská tvrz, přístupový most, v pozadí Sborový dům Milíče z Kroměříže",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Kodak EasyShare Z8612 IS|Lávka do chodovské tvrze|Chodovská tvrz|Sborový dům Milíče z Kroměříže|Self-published work|Wooden railings|Files with coordinates missing SDC location of creation|Footbridge railings|Park u Chodovské tvrze",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.034444",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.498750",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Prague\" class=\"extiw\" title=\"en:Prague\">Prague</a>-<a href=\"https://en.wikipedia.org/wiki/Chodov_(Prague)\" class=\"extiw\" title=\"en:Chodov (Prague)\">Chodov</a>, the <a href=\"https://en.wikipedia.org/wiki/Czech_Republic\" class=\"extiw\" title=\"en:Czech Republic\">Czech Republic</a>. Chodov water castle, an acces bridge.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-11-19",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%C5%A0J%C5%AF\" title=\"User:ŠJů\">ŠJů</a> (<a href=\"https://cs.wikipedia.org/wiki/User:%C5%A0J%C5%AF\" class=\"extiw\" title=\"cs:User:ŠJů\">cs:ŠJů</a>)",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 14698184,
+        "ns": 6,
+        "title": "File:Chodovská tvrz z nadhledu 1.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3353146,
+            "width": 3570,
+            "height": 2630,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Chodovsk%C3%A1_tvrz_z_nadhledu_1.jpg/1280px-Chodovsk%C3%A1_tvrz_z_nadhledu_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 884,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/16/Chodovsk%C3%A1_tvrz_z_nadhledu_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Chodovsk%C3%A1_tvrz_z_nadhledu_1.jpg/1280px-Chodovsk%C3%A1_tvrz_z_nadhledu_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 884,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/16/Chodovsk%C3%A1_tvrz_z_nadhledu_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Chodovsk%C3%A1_tvrz_z_nadhledu_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chodovsk%C3%A1_tvrz_z_nadhledu_1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=14698184",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-03-25 18:51:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Chodovská tvrz z nadhledu 1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Olympus E-510|CC-BY-SA-3.0,2.5,2.0,1.0|Chodovská tvrz|License migration redundant|Self-published work|Files by User:Gumruch from cs.wikipedia/Czechia|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.034722",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.500139",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Elevated view of Chodov Fort in <a href=\"https://en.wikipedia.org/wiki/Prague\" class=\"extiw\" title=\"w:Prague\">Prague</a>-<a href=\"https://en.wikipedia.org/wiki/Chodov_(Prague)\" class=\"extiw\" title=\"w:Chodov (Prague)\">Chodov</a> (capital of the <a href=\"https://en.wikipedia.org/wiki/Czech_Republic\" class=\"extiw\" title=\"w:Czech Republic\">Czech Republic</a>)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-03-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://cs.wikipedia.org/wiki/Wikipedista:Gumruch\" class=\"extiw\" title=\"cs:Wikipedista:Gumruch\">Luděk Kovář</a> – <a rel=\"nofollow\" class=\"external text\" href=\"mailto:ludek@kovar.biz\">ludek@kovar.biz</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table cellspacing=\"8\" cellpadding=\"0\" style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:#f9f9f9; border:2px solid #e0e0e0;\" class=\"layouttemplate\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Crystal_Clear_app_email.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Crystal_Clear_app_email.svg/60px-Crystal_Clear_app_email.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Crystal_Clear_app_email.svg/120px-Crystal_Clear_app_email.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span></td>\n<td><b>Česky:</b> Pokud <a href=\"//commons.wikimedia.org/wiki/Commons:Pou%C5%BE%C3%ADv%C3%A1n%C3%AD_obsahu_mimo_projekty_Wikimedia#CC-BY-SA\" class=\"mw-redirect\" title=\"Commons:Používání obsahu mimo projekty Wikimedia\">použijete tento obrázek</a> mimo projekty nadace <a href=\"https://cs.wikipedia.org/wiki/Wikimedia_Foundation\" class=\"extiw\" title=\"cs:Wikimedia Foundation\">WMF</a>, uveďte jako autora „Luděk Kovář, Wikimedia Commons, licence CC-BY-SA“; budu vděčný za zprávu <a rel=\"nofollow\" class=\"external text\" href=\"mailto:ludek@kovar.biz\">e-mailem</a>.<br><b>English:</b> If you use this picture outside <a href=\"https://en.wikipedia.org/wiki/Wikimedia_Foundation\" class=\"extiw\" title=\"en:Wikimedia Foundation\">WMF</a> projects please <a href=\"//commons.wikimedia.org/wiki/Reusing_content_outside_Wikimedia#CC-BY-SA\" class=\"mw-redirect\" title=\"Reusing content outside Wikimedia\">credit me</a> as “Luděk Kovář, Wikimedia Commons, license CC-BY-SA” and inform me by <a rel=\"nofollow\" class=\"external text\" href=\"mailto:ludek@kovar.biz\">e-mail</a>.\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Luděk Kovář, Wikimedia Commons",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 34214842,
+        "ns": 6,
+        "title": "File:Průhonice, Dendrologická zahrada, od Újezda.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3299547,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Pr%C5%AFhonice%2C_Dendrologick%C3%A1_zahrada%2C_od_%C3%9Ajezda.jpg/1280px-Pr%C5%AFhonice%2C_Dendrologick%C3%A1_zahrada%2C_od_%C3%9Ajezda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Pr%C5%AFhonice%2C_Dendrologick%C3%A1_zahrada%2C_od_%C3%9Ajezda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Pr%C5%AFhonice%2C_Dendrologick%C3%A1_zahrada%2C_od_%C3%9Ajezda.jpg/1280px-Pr%C5%AFhonice%2C_Dendrologick%C3%A1_zahrada%2C_od_%C3%9Ajezda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Pr%C5%AFhonice%2C_Dendrologick%C3%A1_zahrada%2C_od_%C3%9Ajezda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Pr%C5%AFhonice%2C_Dendrologick%C3%A1_zahrada%2C_od_%C3%9Ajezda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pr%C5%AFhonice,_Dendrologick%C3%A1_zahrada,_od_%C3%9Ajezda.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34214842",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-07-26 17:32:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Průhonice, Dendrologická zahrada, od Újezda",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Czech Republic photographs taken on 2014-05-03|Taken with Kodak EasyShare Z8612 IS|Černý potok (Botič tributary)|Dendrological Garden in Průhonice|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.012139",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.554306",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Pr%C5%AFhonice\" class=\"extiw\" title=\"en:Průhonice\">Průhonice</a>, <a href=\"https://en.wikipedia.org/wiki/Prague-West_District\" class=\"extiw\" title=\"en:Prague-West District\">Prague-West District</a>, <a href=\"https://en.wikipedia.org/wiki/Central_Bohemian_Region\" class=\"extiw\" title=\"en:Central Bohemian Region\">Central Bohemian Region</a>, <a href=\"https://en.wikipedia.org/wiki/Czech_Republic\" class=\"extiw\" title=\"en:Czech Republic\">Czech Republic</a>. Průhonice Dendrological Garden, seen from Ke mlýnu street in Újezd.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 3 May 2014",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%C5%A0J%C5%AF\" title=\"User:ŠJů\">ŠJů</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "ŠJů, Wikimedia Commons",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 36591482,
+        "ns": 6,
+        "title": "File:Kunratický les, Kunratický potok.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3255143,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok.jpg/1280px-Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok.jpg/1280px-Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kunratick%C3%BD_les,_Kunratick%C3%BD_potok.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36591482",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-11-03 20:40:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kunratický les, Kunratický potok",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Czech Republic photographs taken on 2014-11-02|Taken with Kodak EasyShare Z8612 IS|Kunratický potok|Self-published work|Files with coordinates missing SDC location of creation|Bodies of water in Kunraticko-Michelský Les, Prague",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.025778",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.462972",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Prague\" class=\"extiw\" title=\"en:Prague\">Prague</a>-<a href=\"https://en.wikipedia.org/wiki/Kunratice\" class=\"extiw\" title=\"en:Kunratice\">Kunratice</a>, <a href=\"https://en.wikipedia.org/wiki/Czech_Republic\" class=\"extiw\" title=\"en:Czech Republic\">Czech Republic</a>. Kunratice Forest, Kunratický potok.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 2 November 2014",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%C5%A0J%C5%AF\" title=\"User:ŠJů\">ŠJů</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "ŠJů, Wikimedia Commons",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 36592050,
+        "ns": 6,
+        "title": "File:Kunratický les, Kunratický potok, mezi Hrádkem a restaurací U krále Václava IV.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3584508,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok%2C_mezi_Hr%C3%A1dkem_a_restaurac%C3%AD_U_kr%C3%A1le_V%C3%A1clava_IV.jpg/1280px-Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok%2C_mezi_Hr%C3%A1dkem_a_restaurac%C3%AD_U_kr%C3%A1le_V%C3%A1clava_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok%2C_mezi_Hr%C3%A1dkem_a_restaurac%C3%AD_U_kr%C3%A1le_V%C3%A1clava_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok%2C_mezi_Hr%C3%A1dkem_a_restaurac%C3%AD_U_kr%C3%A1le_V%C3%A1clava_IV.jpg/1280px-Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok%2C_mezi_Hr%C3%A1dkem_a_restaurac%C3%AD_U_kr%C3%A1le_V%C3%A1clava_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok%2C_mezi_Hr%C3%A1dkem_a_restaurac%C3%AD_U_kr%C3%A1le_V%C3%A1clava_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kunratick%C3%BD_les%2C_Kunratick%C3%BD_potok%2C_mezi_Hr%C3%A1dkem_a_restaurac%C3%AD_U_kr%C3%A1le_V%C3%A1clava_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kunratick%C3%BD_les,_Kunratick%C3%BD_potok,_mezi_Hr%C3%A1dkem_a_restaurac%C3%AD_U_kr%C3%A1le_V%C3%A1clava_IV.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36592050",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-11-03 21:15:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kunratický les, Kunratický potok, mezi Hrádkem a restaurací U krále Václava IV",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Czech Republic photographs taken on 2014-11-02|Taken with Kodak EasyShare Z8612 IS|Kunratický potok|Self-published work|Files with coordinates missing SDC location of creation|Bodies of water in Kunraticko-Michelský Les, Prague",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.020611",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.470444",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Prague\" class=\"extiw\" title=\"en:Prague\">Prague</a>-<a href=\"https://en.wikipedia.org/wiki/Kunratice\" class=\"extiw\" title=\"en:Kunratice\">Kunratice</a>, <a href=\"https://en.wikipedia.org/wiki/Czech_Republic\" class=\"extiw\" title=\"en:Czech Republic\">Czech Republic</a>. Kunratice Forest, Kunratice Creek.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 2 November 2014",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%C5%A0J%C5%AF\" title=\"User:ŠJů\">ŠJů</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "ŠJů, Wikimedia Commons",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 40335242,
+        "ns": 6,
+        "title": "File:Průhonický park - Podzámecký rybník 03.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3715822,
+            "width": 5472,
+            "height": 3648,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg/1280px-Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg/3840px-Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg/1280px-Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg/3840px-Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pr%C5%AFhonick%C3%BD_park_-_Podz%C3%A1meck%C3%BD_rybn%C3%ADk_03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40335242",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-05-20 15:20:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Průhonický park - Podzámecký rybník 03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Podzámecký rybník (Průhonice)|Mediagrant|Self-published work|Mediagrant:Chráněná území|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "49.996932",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.559638",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Průhonický park - Podzámecký rybník\n<style data-mw-deduplicate=\"TemplateStyles:r919301499\">.mw-parser-output .fmbox{clear:both;margin:0.2em 0;width:100%;border:1px solid #a2a9b1;background-color:var(--background-color-interactive-subtle,#f8f9fa);box-sizing:border-box;color:var(--color-base,#202122)}.mw-parser-output .fmbox-warning{border:1px solid #bb7070;background-color:#ffdbdb}.mw-parser-output .fmbox-editnotice{background-color:transparent}.mw-parser-output .fmbox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .fmbox .mbox-image{border:none;padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .fmbox .mbox-imageright{border:none;padding:2px 0.9em 2px 0;text-align:center}.mw-parser-output .fmbox .mbox-invalid-type{text-align:center}@media screen{html.skin-theme-clientpref-night .mw-parser-output .fmbox-warning{background-color:#300}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .fmbox-warning{background-color:#300}}</style><table class=\"plainlinks fmbox fmbox-system\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png/120px-WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"75\" height=\"75\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png/250px-WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1425\" data-file-height=\"1433\"></a></span></td><td class=\"mbox-text\">This file was created as a part of the <a href=\"https://cs.wikipedia.org/wiki/Wikipedie:Fot%C3%ADme_%C4%8Cesko\" class=\"extiw\" title=\"cs:Wikipedie:Fotíme Česko\">photographic program</a> of <a rel=\"nofollow\" class=\"external text\" href=\"https://www.wikimedia.cz\">Wikimedia Czech Republic</a>. <br> Project: <b><a href=\"https://cs.wikipedia.org/wiki/Wikipedie:WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD\" class=\"extiw\" title=\"cs:Wikipedie:WikiProjekt Chráněná území\">Chráněná území</a></b>  <br> The program supports Wikimedia Commons photographers in the Czech Republic.</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-05-07 09:30:15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Petr1888&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Petr1888 (page does not exist)\">Petr1888</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 40359994,
+        "ns": 6,
+        "title": "File:Průhonický park - Gloriet 01.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3427959,
+            "width": 3648,
+            "height": 5472,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg/960px-Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 800,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg/1920px-Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg/960px-Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 1200,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg/1920px-Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40359994",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-05-21 15:00:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Průhonický park - Gloriet 01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Mediagrant|Průhonický park - Gloriet|Self-published work|Mediagrant:Chráněná území|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "49.995218",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.557258",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Průhonický park - Gloriet\n<style data-mw-deduplicate=\"TemplateStyles:r919301499\">.mw-parser-output .fmbox{clear:both;margin:0.2em 0;width:100%;border:1px solid #a2a9b1;background-color:var(--background-color-interactive-subtle,#f8f9fa);box-sizing:border-box;color:var(--color-base,#202122)}.mw-parser-output .fmbox-warning{border:1px solid #bb7070;background-color:#ffdbdb}.mw-parser-output .fmbox-editnotice{background-color:transparent}.mw-parser-output .fmbox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .fmbox .mbox-image{border:none;padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .fmbox .mbox-imageright{border:none;padding:2px 0.9em 2px 0;text-align:center}.mw-parser-output .fmbox .mbox-invalid-type{text-align:center}@media screen{html.skin-theme-clientpref-night .mw-parser-output .fmbox-warning{background-color:#300}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .fmbox-warning{background-color:#300}}</style><table class=\"plainlinks fmbox fmbox-system\" role=\"presentation\"><tbody><tr><td class=\"mbox-image\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png/120px-WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"75\" height=\"75\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png/250px-WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD_-_logo.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1425\" data-file-height=\"1433\"></a></span></td><td class=\"mbox-text\">This file was created as a part of the <a href=\"https://cs.wikipedia.org/wiki/Wikipedie:Fot%C3%ADme_%C4%8Cesko\" class=\"extiw\" title=\"cs:Wikipedie:Fotíme Česko\">photographic program</a> of <a rel=\"nofollow\" class=\"external text\" href=\"https://www.wikimedia.cz\">Wikimedia Czech Republic</a>. <br> Project: <b><a href=\"https://cs.wikipedia.org/wiki/Wikipedie:WikiProjekt_Chr%C3%A1n%C4%9Bn%C3%A1_%C3%BAzem%C3%AD\" class=\"extiw\" title=\"cs:Wikipedie:WikiProjekt Chráněná území\">Chráněná území</a></b>  <br> The program supports Wikimedia Commons photographers in the Czech Republic.</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-05-07 14:42:43",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Petr1888&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Petr1888 (page does not exist)\">Petr1888</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 76646497,
+        "ns": 6,
+        "title": "File:Hotel Aquapalace Prague.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1686507,
+            "width": 4032,
+            "height": 3024,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Hotel_Aquapalace_Prague.jpg/1280px-Hotel_Aquapalace_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Hotel_Aquapalace_Prague.jpg/3840px-Hotel_Aquapalace_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Hotel_Aquapalace_Prague.jpg/1280px-Hotel_Aquapalace_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Hotel_Aquapalace_Prague.jpg/3840px-Hotel_Aquapalace_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Hotel_Aquapalace_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hotel_Aquapalace_Prague.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=76646497",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-02-17 18:30:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hotel Aquapalace Prague",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Aquapalace Praha|Self-published work|Files with coordinates missing SDC location of creation|Hotels in Prague-East District",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.006528",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.570517",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hotel Aquapalace Prague from south in 2019",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-02-17 14:32:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Martin2035\" title=\"User:Martin2035\">Martin2035</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 77713765,
+        "ns": 6,
+        "title": "File:Dendrologická zahrada Průhonice Černý rybník 2.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2526749,
+            "width": 2651,
+            "height": 1988,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_%C4%8Cern%C3%BD_rybn%C3%ADk_2.jpg/1280px-Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_%C4%8Cern%C3%BD_rybn%C3%ADk_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_%C4%8Cern%C3%BD_rybn%C3%ADk_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_%C4%8Cern%C3%BD_rybn%C3%ADk_2.jpg/1280px-Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_%C4%8Cern%C3%BD_rybn%C3%ADk_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_%C4%8Cern%C3%BD_rybn%C3%ADk_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_%C4%8Cern%C3%BD_rybn%C3%ADk_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_%C4%8Cern%C3%BD_rybn%C3%ADk_2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77713765",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-04-01 14:52:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dendrologická zahrada Průhonice Černý rybník 2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Černý rybník (Průhonice)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Černý rybník v průhonické Dendrologické zahradě, pohled z východní strany",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Xyzabec&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Xyzabec (page does not exist)\">Xyzabec</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 77713766,
+        "ns": 6,
+        "title": "File:Dendrologická zahrada Průhonice kameny.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2680865,
+            "width": 2608,
+            "height": 1956,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_kameny.jpg/1280px-Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_kameny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_kameny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_kameny.jpg/1280px-Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_kameny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_kameny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_kameny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_kameny.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77713766",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-04-01 14:52:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dendrologická zahrada Průhonice kameny",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Sculptures in Dendrological Garden Průhonice",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Skupina vztyčených kamenů v průhonické Dendrologické zahradě",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Xyzabec&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Xyzabec (page does not exist)\">Xyzabec</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 77713772,
+        "ns": 6,
+        "title": "File:Dendrologická zahrada Průhonice vřes 4.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7853555,
+            "width": 3967,
+            "height": 2976,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg/1280px-Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg/3840px-Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg/1280px-Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg/3840px-Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dendrologick%C3%A1_zahrada_Pr%C5%AFhonice_v%C5%99es_4.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77713772",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-04-01 14:53:04",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dendrologická zahrada Průhonice vřes 4",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Dendrological Garden in Průhonice|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vřesy \"Na Valech\" v průhonické Dendrologické zahradě",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-03-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Xyzabec&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Xyzabec (page does not exist)\">Xyzabec</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 90397735,
+        "ns": 6,
+        "title": "File:Praha, Kunratice, les.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2535275,
+            "width": 4722,
+            "height": 3142,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Praha%2C_Kunratice%2C_les.jpg/1280px-Praha%2C_Kunratice%2C_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 798,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Praha%2C_Kunratice%2C_les.jpg/3840px-Praha%2C_Kunratice%2C_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Praha%2C_Kunratice%2C_les.jpg/1280px-Praha%2C_Kunratice%2C_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 798,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Praha%2C_Kunratice%2C_les.jpg/3840px-Praha%2C_Kunratice%2C_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Praha%2C_Kunratice%2C_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Praha,_Kunratice,_les.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90397735",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-05-17 21:46:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Praha, Kunratice, les",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Kunratický les|Uploaded with pattypan|Mediagrant:Fotíme Česko|Media by User:Aktron (converted from RAW)|Mediagrant 2020",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Prague, Kunratice Forest in May 2020",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-05-16 16:01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "I would appreciate <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Aktron\" title=\"Special:EmailUser/Aktron\">being notified</a> if you use my work outside Wikimedia.\nMore of my work can be found in my <a href=\"//commons.wikimedia.org/wiki/Category:Geocoded_images_of_User:Aktron\" title=\"Category:Geocoded images of User:Aktron\">personal gallery</a>.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 92761145,
+        "ns": 6,
+        "title": "File:Westfield Chodov.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2937008,
+            "width": 3024,
+            "height": 4032,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Westfield_Chodov.jpg/960px-Westfield_Chodov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 900,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Westfield_Chodov.jpg/1920px-Westfield_Chodov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Westfield_Chodov.jpg/960px-Westfield_Chodov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 900,
+              "height": 1200,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Westfield_Chodov.jpg/1920px-Westfield_Chodov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Westfield_Chodov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Westfield_Chodov.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92761145",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-31 08:49:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Westfield Chodov",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Westfield Chodov|Self-published work|Files with coordinates missing SDC location of creation|Pedestrian crossings in Chodov (Prague)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.030108",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.491686",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Westfield Chodov",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-10-29",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TobiasSkopek&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TobiasSkopek (page does not exist)\">TobiasSkopek</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 101521275,
+        "ns": 6,
+        "title": "File:Studánka U Klenotů, Kunratický les.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 8305122,
+            "width": 4128,
+            "height": 3096,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Stud%C3%A1nka_U_Klenot%C5%AF%2C_Kunratick%C3%BD_les.jpg/1280px-Stud%C3%A1nka_U_Klenot%C5%AF%2C_Kunratick%C3%BD_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Stud%C3%A1nka_U_Klenot%C5%AF%2C_Kunratick%C3%BD_les.jpg/3840px-Stud%C3%A1nka_U_Klenot%C5%AF%2C_Kunratick%C3%BD_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Stud%C3%A1nka_U_Klenot%C5%AF%2C_Kunratick%C3%BD_les.jpg/1280px-Stud%C3%A1nka_U_Klenot%C5%AF%2C_Kunratick%C3%BD_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Stud%C3%A1nka_U_Klenot%C5%AF%2C_Kunratick%C3%BD_les.jpg/3840px-Stud%C3%A1nka_U_Klenot%C5%AF%2C_Kunratick%C3%BD_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Stud%C3%A1nka_U_Klenot%C5%AF%2C_Kunratick%C3%BD_les.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Stud%C3%A1nka_U_Klenot%C5%AF,_Kunratick%C3%BD_les.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=101521275",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-03-14 18:40:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Studánka U Klenotů, Kunratický les",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Springs in Kunratice (Prague)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Původní malá studánka v cca roce 1949 zabetonována do skruží, voda proudí z kovové trubky. Studna pojmenována podle dávné firmy Klenoty, která měla objekt poblíž.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-03-13 14:37:28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hedvika_%C5%A0imkov%C3%A1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hedvika Šimková (page does not exist)\">Hedvika Šimková</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 107379897,
+        "ns": 6,
+        "title": "File:Westfield Chodov - stropní průhled.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3110966,
+            "width": 4128,
+            "height": 2322,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg/1280px-Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 675,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg/3840px-Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg/1280px-Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 675,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg/3840px-Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Westfield_Chodov_-_stropn%C3%AD_pr%C5%AFhled.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107379897",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-07-09 20:22:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Westfield Chodov - stropní průhled",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Westfield Chodov - stropní průhled",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-06-24 09:58:19",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Venturosa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Venturosa (page does not exist)\">Venturosa</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 107379898,
+        "ns": 6,
+        "title": "File:Westfield Chodov - interiér.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 883078,
+            "width": 3407,
+            "height": 1725,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Westfield_Chodov_-_interi%C3%A9r.jpg/1280px-Westfield_Chodov_-_interi%C3%A9r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 608,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Westfield_Chodov_-_interi%C3%A9r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Westfield_Chodov_-_interi%C3%A9r.jpg/1280px-Westfield_Chodov_-_interi%C3%A9r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 608,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Westfield_Chodov_-_interi%C3%A9r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Westfield_Chodov_-_interi%C3%A9r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Westfield_Chodov_-_interi%C3%A9r.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107379898",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-07-09 20:22:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Westfield Chodov - interiér",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Interior of Centrum Chodov|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Westfield Chodov - interiér",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-06-24 09:54:15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Venturosa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Venturosa (page does not exist)\">Venturosa</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 127736881,
+        "ns": 6,
+        "title": "File:Hostivařská přehrada 2022.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2882574,
+            "width": 3648,
+            "height": 2736,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada_2022.jpg/1280px-Hostiva%C5%99sk%C3%A1_p%C5%99ehrada_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada_2022.jpg/1280px-Hostiva%C5%99sk%C3%A1_p%C5%99ehrada_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Hostiva%C5%99sk%C3%A1_p%C5%99ehrada_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hostiva%C5%99sk%C3%A1_p%C5%99ehrada_2022.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127736881",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-01-13 12:34:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hostivařská přehrada 2022",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Hostivař Reservoir|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hostivařská přehrada Hostivařská přehrada 2022",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-01-01 00:00:03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Praguegirl15\" title=\"User:Praguegirl15\">Praguegirl15</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 139136974,
+        "ns": 6,
+        "title": "File:Průhonický park a zámek.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3577442,
+            "width": 6000,
+            "height": 4000,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg/1280px-Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg/3840px-Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg/1280px-Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg/3840px-Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pr%C5%AFhonick%C3%BD_park_a_z%C3%A1mek.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139136974",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-18 17:06:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Průhonický park a zámek",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Podzámecký rybník (Průhonice)|Průhonice Castle|Czech Wiki Photo 2023|Self-published work|Files with coordinates missing SDC location of creation|Czech Wiki Photo 2023:Vytvořeno člověkem|Uploaded via Campaign:wmcz-cwp2023",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.000020",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.557670",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of castle with blue sky and clear lake",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-07-14 14:29:30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rostislav_Sou%C4%8Dek&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rostislav Souček (page does not exist)\">Rostislav Souček</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "retrievedAt": "2026-10-08T20:59:15.114790+00:00",
+  "response": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 1849889,
+          "ns": 6,
+          "title": "File:Zizkov Television Tower Prague.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3145699,
+              "width": 1200,
+              "height": 1800,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Zizkov_Television_Tower_Prague.jpg/500px-Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 600,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Zizkov_Television_Tower_Prague.jpg/960px-Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Zizkov_Television_Tower_Prague.jpg/500px-Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 600,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Zizkov_Television_Tower_Prague.jpg/960px-Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zizkov_Television_Tower_Prague.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1849889"
+            }
+          ]
+        },
+        {
+          "pageid": 28723238,
+          "ns": 6,
+          "title": "File:Czech-2013-Prague-Vyšehrad-Saints Peter and Paul (portal).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 20556054,
+              "width": 4000,
+              "height": 6064,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_%28portal%29.jpg/500px-Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_%28portal%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 606,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_%28portal%29.jpg/960px-Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_%28portal%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_%28portal%29.jpg/500px-Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_%28portal%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 606,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_%28portal%29.jpg/960px-Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_%28portal%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_%28portal%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Czech-2013-Prague-Vy%C5%A1ehrad-Saints_Peter_and_Paul_(portal).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28723238"
+            }
+          ]
+        },
+        {
+          "pageid": 35789296,
+          "ns": 6,
+          "title": "File:Petřínská rozhledna na jaře.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 4026418,
+              "width": 1600,
+              "height": 2400,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG/500px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 600,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG/500px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 600,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35789296"
+            }
+          ]
+        },
+        {
+          "pageid": 40359994,
+          "ns": 6,
+          "title": "File:Průhonický park - Gloriet 01.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3427959,
+              "width": 3648,
+              "height": 5472,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg/500px-Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 600,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg/960px-Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg/500px-Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 600,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg/960px-Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pr%C5%AFhonick%C3%BD_park_-_Gloriet_01.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40359994"
+            }
+          ]
+        },
+        {
+          "pageid": 52312415,
+          "ns": 6,
+          "title": "File:Charles Bridge Prague September 2016-1.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 20898298,
+              "width": 4303,
+              "height": 7262,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge_Prague_September_2016-1.jpg/500px-Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 675,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge_Prague_September_2016-1.jpg/960px-Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge_Prague_September_2016-1.jpg/500px-Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 675,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge_Prague_September_2016-1.jpg/960px-Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charles_Bridge_Prague_September_2016-1.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52312415"
+            }
+          ]
+        },
+        {
+          "pageid": 58952328,
+          "ns": 6,
+          "title": "File:Praha Spanish Synagogue Interior 01.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 8178298,
+              "width": 2585,
+              "height": 4012,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Praha_Spanish_Synagogue_Interior_01.jpg/500px-Praha_Spanish_Synagogue_Interior_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 621,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Praha_Spanish_Synagogue_Interior_01.jpg/960px-Praha_Spanish_Synagogue_Interior_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Praha_Spanish_Synagogue_Interior_01.jpg/500px-Praha_Spanish_Synagogue_Interior_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 621,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Praha_Spanish_Synagogue_Interior_01.jpg/960px-Praha_Spanish_Synagogue_Interior_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Praha_Spanish_Synagogue_Interior_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Praha_Spanish_Synagogue_Interior_01.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=58952328"
+            }
+          ]
+        },
+        {
+          "pageid": 69199672,
+          "ns": 6,
+          "title": "File:Royal Garden (Prague Castle) 03(js).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 8559542,
+              "width": 3648,
+              "height": 5472,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Royal_Garden_%28Prague_Castle%29_03%28js%29.jpg/500px-Royal_Garden_%28Prague_Castle%29_03%28js%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 600,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Royal_Garden_%28Prague_Castle%29_03%28js%29.jpg/960px-Royal_Garden_%28Prague_Castle%29_03%28js%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Royal_Garden_%28Prague_Castle%29_03%28js%29.jpg/500px-Royal_Garden_%28Prague_Castle%29_03%28js%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 600,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Royal_Garden_%28Prague_Castle%29_03%28js%29.jpg/960px-Royal_Garden_%28Prague_Castle%29_03%28js%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Royal_Garden_%28Prague_Castle%29_03%28js%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Royal_Garden_(Prague_Castle)_03(js).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69199672"
+            }
+          ]
+        },
+        {
+          "pageid": 78841422,
+          "ns": 6,
+          "title": "File:Petřínská rozhledna – tower.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 422101,
+              "width": 1365,
+              "height": 2048,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg/500px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 600,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg/500px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 600,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=78841422"
+            }
+          ]
+        },
+        {
+          "pageid": 79965931,
+          "ns": 6,
+          "title": "File:Prag, Karlsbrücke, Altstädter Brückenturm -- 2019 -- 6568.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 13170190,
+              "width": 4259,
+              "height": 6388,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Prag%2C_Karlsbr%C3%BCcke%2C_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg/500px-Prag%2C_Karlsbr%C3%BCcke%2C_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 600,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Prag%2C_Karlsbr%C3%BCcke%2C_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg/960px-Prag%2C_Karlsbr%C3%BCcke%2C_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Prag%2C_Karlsbr%C3%BCcke%2C_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg/500px-Prag%2C_Karlsbr%C3%BCcke%2C_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 600,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Prag%2C_Karlsbr%C3%BCcke%2C_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg/960px-Prag%2C_Karlsbr%C3%BCcke%2C_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Prag%2C_Karlsbr%C3%BCcke%2C_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Prag,_Karlsbr%C3%BCcke,_Altst%C3%A4dter_Br%C3%BCckenturm_--_2019_--_6568.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79965931"
+            }
+          ]
+        },
+        {
+          "pageid": 154931419,
+          "ns": 6,
+          "title": "File:Žižkov Television Tower, a distinctive landmark in Prague, Czech Republic.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3456204,
+              "width": 1856,
+              "height": 4096,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg/500px-%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 883,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg/960px-%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg/500px-%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 883,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg/960px-%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:%C5%BDi%C5%BEkov_Television_Tower,_a_distinctive_landmark_in_Prague,_Czech_Republic.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=154931419"
+            }
+          ]
+        },
+        {
+          "pageid": 155261795,
+          "ns": 6,
+          "title": "File:Karlův most věž.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2251851,
+              "width": 1290,
+              "height": 2000,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg/500px-Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 400,
+              "thumbheight": 620,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg/960px-Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg/500px-Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 400,
+                "height": 620,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg/960px-Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Karl%C5%AFv_most_v%C4%9B%C5%BE.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155261795"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

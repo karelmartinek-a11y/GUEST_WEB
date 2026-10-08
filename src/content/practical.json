@@ -1,0 +1,19 @@
+{
+ "services": [
+  {"id":"pharmacy","name":"EUC Lékárna Praha – Majerského","address":"Majerského 2038/21, Praha 11","walkingMeters":210,"walkingMinutes":3,"streets":["Mírového hnutí","Majerského"],"openingHours":[[1,5,"08:00–16:00"],[6,7,null]],"phone":"+420267910121","officialUrl":"https://euc.cz/nase-zarizeni/lekarny/euc-lekarna-praha-majerskeho/","verifiedOn":"2026-10-09","hoursSource":"official","walkingSource":"chodov_guest_walk_map_COMPACT_LOGOFULL_V2.png"},
+  {"id":"supermarket","name":"Albert – Leopoldova","address":"Leopoldova 1683/23, Praha 11","walkingMeters":420,"walkingMinutes":5,"streets":["Mírového hnutí","Majerského","Leopoldova"],"openingHours":[[1,7,"07:00–21:00"]],"phone":null,"officialUrl":"https://www.albert.cz/nase-prodejny","verifiedOn":"2026-08-12","hoursSource":"hotel flyer","walkingSource":"chodov_guest_walk_map_COMPACT_LOGOFULL_V2.png"},
+  {"id":"petrol","name":"OMV – K Horkám","address":"K Horkám 924/2, Praha 11","walkingMeters":520,"walkingMinutes":6,"streets":["Mírového hnutí","K Horkám"],"openingHours":[[1,7,"00:00–24:00"]],"phone":null,"officialUrl":"https://www.omv.cz/cs-cz/cerpaci-stanice","verifiedOn":"2026-08-12","hoursSource":"hotel flyer","walkingSource":"chodov_guest_walk_map_COMPACT_LOGOFULL_V2.png"},
+  {"id":"busStop","name":"Brodského","address":"Mírového hnutí, Praha 11","walkingMeters":300,"walkingMinutes":4,"streets":["Mírového hnutí"],"openingHours":[],"phone":null,"officialUrl":"https://pid.cz/jizdni-rady-podle-linek/","verifiedOn":"2026-07-28","hoursSource":"live PID planner","walkingSource":"Hotel_Chodov_ASC_Kniha_pro_hosty_STRANA_10_MAPA_V6_2026.docx"}
+ ],
+ "transit": {
+  "planner":"https://pid.idos.cz/pid/spojeni/conn.aspx",
+  "tickets":"https://app.pidlitacka.cz/",
+  "ticketPlaces":"https://pid.cz/kontakty/prodejni-mista/",
+  "ticketInstructions":"https://pid.cz/jizdne-a-tarif/jak-poridit-jizdenku/",
+  "airport":"https://www.prg.aero/mhd-autobusem-na-letiste",
+  "verifiedOn":"2026-10-09",
+  "taxi":[{"name":"Bolt","url":"https://bolt.eu/cs-cz/cities/prague/"},{"name":"Uber","url":"https://www.uber.com/cz/cs/ride/"},{"name":"AAA Taxi","url":"https://www.aaataxi.cz/taxiaplikace/","phone":"+420222333222"}]
+ },
+ "emergencySource":"https://hzscr.gov.cz/tisnova-komunikace-v-ceske-republice-2",
+ "emergencyVerifiedOn":"2026-10-09"
+}

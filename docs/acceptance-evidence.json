@@ -1,0 +1,10 @@
+{
+  "site": "https://guest.hcasc.cz",
+  "fullProductionAccepted": false,
+  "staticReleaseAuthorized": false,
+  "staticReleaseAuthorization": null,
+  "deviceWalks": [],
+  "hotelEntrance": null,
+  "testEntrances": [],
+  "unresolved": ["Physical hotel entrance", "Five accepted pedestrian targets", "Five walks on iPhone Safari", "Five walks on Android Chrome", "Native language review of additional translations"]
+}

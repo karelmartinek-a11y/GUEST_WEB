@@ -1,0 +1,1652 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "pages": [
+      {
+        "pageid": 1849889,
+        "ns": 6,
+        "title": "File:Zizkov Television Tower Prague.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3145699,
+            "width": 1200,
+            "height": 1800,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Zizkov_Television_Tower_Prague.jpg/960px-Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 800,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Zizkov_Television_Tower_Prague.jpg/960px-Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 1200,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Zizkov_Television_Tower_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zizkov_Television_Tower_Prague.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1849889",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-03-27 15:11:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Zizkov Television Tower Prague",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Canon EOS 350D|CC-BY-SA-2.5,2.0,1.0|Žižkov Television Tower|License migration redundant|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Žižkov Television Tower, Prague, Czech Republic",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-03-01 16:43",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cybjorg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cybjorg (page does not exist)\">David Bjorgen</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Copyleft. Multi-license with GFDL and Creative Commons CC-BY-SA 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 4221884,
+        "ns": 6,
+        "title": "File:Praha, Troja, Botanická zahrada, Japonská zahrada.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1555471,
+            "width": 2848,
+            "height": 2136,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Japonsk%C3%A1_zahrada.jpg/1280px-Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Japonsk%C3%A1_zahrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Japonsk%C3%A1_zahrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Japonsk%C3%A1_zahrada.jpg/1280px-Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Japonsk%C3%A1_zahrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Japonsk%C3%A1_zahrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Japonsk%C3%A1_zahrada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Praha,_Troja,_Botanick%C3%A1_zahrada,_Japonsk%C3%A1_zahrada.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4221884",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-06-15 14:07:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Praha, Troja, Botanická zahrada, Japonská zahrada",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Fujifilm FinePix S6500fd|CC-BY-SA-2.5,2.0,1.0|License migration redundant|Self-published work|Geocoded images of User:Aktron|Files with coordinates missing SDC location of creation|Japanese Garden in the Prague Botanic Garden",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.118912",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.415460",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Botanical garden in Prague-Troja",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-06-14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "I would appreciate <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Aktron\" title=\"Special:EmailUser/Aktron\">being notified</a> if you use my work outside Wikimedia.\nMore of my work can be found in my <a href=\"//commons.wikimedia.org/wiki/Category:Geocoded_images_of_User:Aktron\" title=\"Category:Geocoded images of User:Aktron\">personal gallery</a>.",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Own work, copyleft: Multi-license with GFDL and Creative Commons CC-BY-SA-2.5 and older versions (2.0 and 1.0)",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 4221896,
+        "ns": 6,
+        "title": "File:Praha, Trója, Botanická zahrada, oblast Mediterán.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1547441,
+            "width": 2848,
+            "height": 2136,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Praha%2C_Tr%C3%B3ja%2C_Botanick%C3%A1_zahrada%2C_oblast_Mediter%C3%A1n.jpg/1280px-Praha%2C_Tr%C3%B3ja%2C_Botanick%C3%A1_zahrada%2C_oblast_Mediter%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Praha%2C_Tr%C3%B3ja%2C_Botanick%C3%A1_zahrada%2C_oblast_Mediter%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Praha%2C_Tr%C3%B3ja%2C_Botanick%C3%A1_zahrada%2C_oblast_Mediter%C3%A1n.jpg/1280px-Praha%2C_Tr%C3%B3ja%2C_Botanick%C3%A1_zahrada%2C_oblast_Mediter%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Praha%2C_Tr%C3%B3ja%2C_Botanick%C3%A1_zahrada%2C_oblast_Mediter%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Praha%2C_Tr%C3%B3ja%2C_Botanick%C3%A1_zahrada%2C_oblast_Mediter%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Praha,_Tr%C3%B3ja,_Botanick%C3%A1_zahrada,_oblast_Mediter%C3%A1n.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4221896",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-06-15 14:08:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Praha, Trója, Botanická zahrada, oblast Mediterán",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Fujifilm FinePix S6500fd|CC-BY-SA-2.5,2.0,1.0|Prague Botanic Garden|License migration redundant|Self-published work|Geocoded images of User:Aktron|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.118349",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.416273",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Botanical garden in Prague-Troja, Medirerrean plants and flowers area",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-06-14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "I would appreciate <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Aktron\" title=\"Special:EmailUser/Aktron\">being notified</a> if you use my work outside Wikimedia.\nMore of my work can be found in my <a href=\"//commons.wikimedia.org/wiki/Category:Geocoded_images_of_User:Aktron\" title=\"Category:Geocoded images of User:Aktron\">personal gallery</a>.",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Own work, copyleft: Multi-license with GFDL and Creative Commons CC-BY-SA-2.5 and older versions (2.0 and 1.0)",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 10043921,
+        "ns": 6,
+        "title": "File:Praha, Troja, Botanická zahrada, Vinice svaté Kláry, pohled na Prahu.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1557663,
+            "width": 2848,
+            "height": 2136,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Vinice_svat%C3%A9_Kl%C3%A1ry%2C_pohled_na_Prahu.JPG/1280px-Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Vinice_svat%C3%A9_Kl%C3%A1ry%2C_pohled_na_Prahu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Vinice_svat%C3%A9_Kl%C3%A1ry%2C_pohled_na_Prahu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Vinice_svat%C3%A9_Kl%C3%A1ry%2C_pohled_na_Prahu.JPG/1280px-Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Vinice_svat%C3%A9_Kl%C3%A1ry%2C_pohled_na_Prahu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Vinice_svat%C3%A9_Kl%C3%A1ry%2C_pohled_na_Prahu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Praha%2C_Troja%2C_Botanick%C3%A1_zahrada%2C_Vinice_svat%C3%A9_Kl%C3%A1ry%2C_pohled_na_Prahu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Praha,_Troja,_Botanick%C3%A1_zahrada,_Vinice_svat%C3%A9_Kl%C3%A1ry,_pohled_na_Prahu.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10043921",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-04-17 20:14:19",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Praha, Troja, Botanická zahrada, Vinice svaté Kláry, pohled na Prahu",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Fujifilm FinePix S6500fd|Vinice svaté Kláry (Praha, Troja)|Geocoded images of User:Aktron|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.117703",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.414363",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "St. Claire vineyard in Prague botanic garden, CZ",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-04-17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "I would appreciate <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Aktron\" title=\"Special:EmailUser/Aktron\">being notified</a> if you use my work outside Wikimedia.\nMore of my work can be found in my <a href=\"//commons.wikimedia.org/wiki/Category:Geocoded_images_of_User:Aktron\" title=\"Category:Geocoded images of User:Aktron\">personal gallery</a>.",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 22436929,
+        "ns": 6,
+        "title": "File:Žižkov TV Tower.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3359940,
+            "width": 4608,
+            "height": 3072,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/%C5%BDi%C5%BEkov_TV_Tower.JPG/1280px-%C5%BDi%C5%BEkov_TV_Tower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/%C5%BDi%C5%BEkov_TV_Tower.JPG/3840px-%C5%BDi%C5%BEkov_TV_Tower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/%C5%BDi%C5%BEkov_TV_Tower.JPG/1280px-%C5%BDi%C5%BEkov_TV_Tower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/%C5%BDi%C5%BEkov_TV_Tower.JPG/3840px-%C5%BDi%C5%BEkov_TV_Tower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/%C5%BDi%C5%BEkov_TV_Tower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%C5%BDi%C5%BEkov_TV_Tower.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22436929",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-10-28 17:49:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Žižkov TV Tower",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3100|Views of Žižkov|Self-published work|Images with extracted images|Files by User:David Sedlecký|Remote views of Žižkov Television Tower",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Prague Skyline with Žižkov TV Tower",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-10-28 15:58:11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Sedleck%C3%BD\" title=\"User:David Sedlecký\">David Sedlecký</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 35789296,
+        "ns": 6,
+        "title": "File:Petřínská rozhledna na jaře.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4026418,
+            "width": 1600,
+            "height": 2400,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 800,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 1200,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_na_ja%C5%99e.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35789296",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-09-30 09:47:45",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Petřínská rozhledna na jaře",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Wiki Loves Monuments 2014 in the Czech Republic|Czech Republic photographs taken on 2012-04-27|Taken with Sony DSLR-A380|Petřínská rozhledna|Self-published work|Images from Wiki Loves Monuments 2014|Cultural monuments in the Czech Republic with known IDs|Uploaded via Campaign:wlm-cz",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a photo of a <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Cultural_monument_(Czech_Republic)\" class=\"extiw\" title=\"en:Cultural monument (Czech Republic)\"><span lang=\"en\" dir=\"ltr\">cultural monument of the Czech Republic</span></a></span>,<br>number:",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-04-27 15:09:10",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Alena_Tu%C4%8D%C3%ADmov%C3%A1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Alena Tučímová (page does not exist)\">Alena Tučímová</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 39762512,
+        "ns": 6,
+        "title": "File:Vyšehrad.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 381984,
+            "width": 1180,
+            "height": 800,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vy%C5%A1ehrad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1200,
+            "thumbheight": 814,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vy%C5%A1ehrad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 814
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vy%C5%A1ehrad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vy%C5%A1ehrad.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=39762512",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-04-24 20:07:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vyšehrad",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Czech Republic photographs taken on 2014-08-17|Church of Saints Peter and Paul (Vyšehrad)|Views of Vyšehrad|Rašínovo nábřeží (Vyšehrad)|Self-published work|August 2014 in Prague",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vyšehrad - Praha",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-08-17 19:17:58",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Holan.michal&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Holan.michal (page does not exist)\">Michal Holan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 51902742,
+        "ns": 6,
+        "title": "File:Zoo Praha, lanovka.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2942872,
+            "width": 3968,
+            "height": 2976,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Zoo_Praha%2C_lanovka.jpg/1280px-Zoo_Praha%2C_lanovka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Zoo_Praha%2C_lanovka.jpg/3840px-Zoo_Praha%2C_lanovka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Zoo_Praha%2C_lanovka.jpg/1280px-Zoo_Praha%2C_lanovka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Zoo_Praha%2C_lanovka.jpg/3840px-Zoo_Praha%2C_lanovka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Zoo_Praha%2C_lanovka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zoo_Praha,_lanovka.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51902742",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-09-29 21:21:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Zoo Praha, lanovka",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Chairlift in Prague Zoo|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Zoo Praha, lanovka.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-07 10:43:11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Palickap&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Palickap (page does not exist)\">Palickap</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 51903003,
+        "ns": 6,
+        "title": "File:Zoo Praha, kůň Převalského.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2882764,
+            "width": 3968,
+            "height": 2976,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zoo_Praha%2C_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg/1280px-Zoo_Praha%2C_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zoo_Praha%2C_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg/3840px-Zoo_Praha%2C_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zoo_Praha%2C_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg/1280px-Zoo_Praha%2C_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zoo_Praha%2C_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg/3840px-Zoo_Praha%2C_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Zoo_Praha%2C_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zoo_Praha,_k%C5%AF%C5%88_P%C5%99evalsk%C3%A9ho.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51903003",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-09-29 21:27:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Zoo Praha, kůň Převalského",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Equus przewalskii in Prague Zoo",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Zoo Praha, kůň Převalského.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-07 10:48:25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Palickap&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Palickap (page does not exist)\">Palickap</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 51961339,
+        "ns": 6,
+        "title": "File:Zoo Praha, papoušek nádherný.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2567665,
+            "width": 3968,
+            "height": 2976,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Zoo_Praha%2C_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg/1280px-Zoo_Praha%2C_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Zoo_Praha%2C_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg/3840px-Zoo_Praha%2C_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Zoo_Praha%2C_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg/1280px-Zoo_Praha%2C_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Zoo_Praha%2C_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg/3840px-Zoo_Praha%2C_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Zoo_Praha%2C_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zoo_Praha,_papou%C5%A1ek_n%C3%A1dhern%C3%BD.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51961339",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-09-30 21:12:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Zoo Praha, papoušek nádherný",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Polytelis swainsonii|Self-published work|Psittaciformes in Prague Zoo",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Zoo Prague, superb parrot .",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-07 13:21:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Palickap&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Palickap (page does not exist)\">Palickap</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 51983400,
+        "ns": 6,
+        "title": "File:Zoo Praha, pavilon indonéské džungle (1).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2713532,
+            "width": 3968,
+            "height": 2976,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Zoo_Praha%2C_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_%281%29.jpg/1280px-Zoo_Praha%2C_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Zoo_Praha%2C_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_%281%29.jpg/3840px-Zoo_Praha%2C_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Zoo_Praha%2C_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_%281%29.jpg/1280px-Zoo_Praha%2C_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Zoo_Praha%2C_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_%281%29.jpg/3840px-Zoo_Praha%2C_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Zoo_Praha%2C_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zoo_Praha,_pavilon_indon%C3%A9sk%C3%A9_d%C5%BEungle_(1).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51983400",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-10-01 16:25:04",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Zoo Praha, pavilon indonéské džungle (1)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Pavilion of indonesian jungle in Prague Zoo|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Zoo Praha, pavilon indonéské džungle.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-07 13:48:57",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Palickap&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Palickap (page does not exist)\">Palickap</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 78841422,
+        "ns": 6,
+        "title": "File:Petřínská rozhledna – tower.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 422101,
+            "width": 1365,
+            "height": 2048,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 800,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 1200,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pet%C5%99%C3%ADnsk%C3%A1_rozhledna_%E2%80%93_tower.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=78841422",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-05-10 10:08:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Petřínská rozhledna – tower",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Petřínská rozhledna",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This image has been originally created as the illustration for <a rel=\"nofollow\" class=\"external text\" href=\"https://wikicrosswords.org/da/krydsord-definition/tarn-i-bibelen/\">tårn i Bibelen</a> entry in crosswords dictionary wikicrosswords.org. It has been released under CC-BY-3.0 license.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-04-30 14:37:38",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://wikicrosswords.org/da/krydsord-definition/tarn-i-bibelen/\">https://wikicrosswords.org/da/krydsord-definition/tarn-i-bibelen/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Przemek Pietrak",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 86542178,
+        "ns": 6,
+        "title": "File:Zizkov TV Tower, Prague (3553952882).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1976902,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Zizkov_TV_Tower%2C_Prague_%283553952882%29.jpg/1280px-Zizkov_TV_Tower%2C_Prague_%283553952882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Zizkov_TV_Tower%2C_Prague_%283553952882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Zizkov_TV_Tower%2C_Prague_%283553952882%29.jpg/1280px-Zizkov_TV_Tower%2C_Prague_%283553952882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Zizkov_TV_Tower%2C_Prague_%283553952882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Zizkov_TV_Tower%2C_Prague_%283553952882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zizkov_TV_Tower,_Prague_(3553952882).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=86542178",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-02-02 23:53:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Zizkov TV Tower, Prague (3553952882)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Žižkov Television Tower|Flickr images reviewed by FlickreviewR 2",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Žižkov Television Tower in Prague",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2009-05-17 10:24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/mrvjtod/3553952882/\">Zizkov TV Tower, Prague</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/11693777@N00\">Chris Young</a> from Brick, NJ, US",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 125127122,
+        "ns": 6,
+        "title": "File:Národní muzeum -.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1282156,
+            "width": 3354,
+            "height": 2379,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/N%C3%A1rodn%C3%AD_muzeum_-.jpg/1280px-N%C3%A1rodn%C3%AD_muzeum_-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 851,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/83/N%C3%A1rodn%C3%AD_muzeum_-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/N%C3%A1rodn%C3%AD_muzeum_-.jpg/1280px-N%C3%A1rodn%C3%AD_muzeum_-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 851,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/83/N%C3%A1rodn%C3%AD_muzeum_-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/N%C3%A1rodn%C3%AD_muzeum_-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_muzeum_-.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=125127122",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-11-07 17:48:02",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Národní muzeum -",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Miroslav Žbirka|Self-published work|Photographs of the national flag of Ukraine in the Czech Republic|Photos by Elekes Andor|National Museum in Prague at night",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "National Museum (Prague).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-11-05 21:14:56",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Elekes_Andor\" title=\"User:Elekes Andor\">Elekes Andor</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 154931419,
+        "ns": 6,
+        "title": "File:Žižkov Television Tower, a distinctive landmark in Prague, Czech Republic.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3456204,
+            "width": 1856,
+            "height": 4096,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg/960px-%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 543,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg/1280px-%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg/960px-%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 543,
+              "height": 1200,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg/1280px-%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/%C5%BDi%C5%BEkov_Television_Tower%2C_a_distinctive_landmark_in_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%C5%BDi%C5%BEkov_Television_Tower,_a_distinctive_landmark_in_Prague,_Czech_Republic.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=154931419",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-06 15:17:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Žižkov Television Tower, a distinctive landmark in Prague, Czech Republic",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Žižkov Television Tower|Self-published work|Taken with Huawei Mate 50",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This image shows the Žižkov Television Tower, a distinctive landmark in Prague, Czech Republic. The tower is known for its unusual architecture, featuring three massive concrete pillars supporting various pod-like structures and observation decks. Designed by architects Václav Aulický and Jiří Kozák, it stands at a height of 216 meters, making it one of the tallest structures in the city.\nCompleted in 1992, the tower serves as a telecommunications and observation facility, offering panoramic views of Prague. The structure is famous not only for its design but also for the unique sculptures of crawling babies by artist David Černý, which were added in 2000. The tower has been a subject of both admiration and controversy due to its unconventional appearance, but it has become a popular tourist attraction and a symbol of modern architecture in Prague.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-11-06 20:43:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SamadAnser&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SamadAnser (page does not exist)\">SamadAnser</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      }
+    ]
+  }
+}

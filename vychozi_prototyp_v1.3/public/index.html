@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d2b3c" />
+  <meta name="description" content="Pěší průvodce Prahou pro hosty Hotel CHODOV ASC." />
+  <title>Hotel CHODOV ASC — Průvodce Prahou</title>
+  <link href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" rel="stylesheet" />
+  <link href="/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Hotel CHODOV ASC"><img class="hotel-logo" src="/assets/logo-hotel-chodov-asc.png" alt="Hotel CHODOV ASC" width="124" height="85" /><span><strong>CHODOV ASC</strong><small>PRŮVODCE PRAHOU</small></span></a>
+    <select id="language" aria-label="Jazyk"><option value="cs">Čeština</option><option value="en">English</option><option value="de">Deutsch</option></select>
+  </header>
+  <main>
+    <section class="hero" id="intro">
+      <div class="eyebrow" data-t="eyebrow">VÍTEJTE V PRAZE</div>
+      <h1 data-t="headline">Praha na dosah.</h1>
+      <p data-t="lead">Objevujte město pěšky. Vyberte si místo a my vám ukážeme cestu.</p>
+    </section>
+    <section class="explore" aria-label="Výběr cíle">
+      <div class="section-bar"><h2 data-t="destinations">Kam se vydáme?</h2><span class="micro" data-t="selectionHint">Vyberte cíl</span></div>
+      <div class="search-row"><label class="visually-hidden" for="searchPlace">Hledat cíl</label><input id="searchPlace" type="search" placeholder="Hledat památku nebo místo…" /><label class="visually-hidden" for="categoryFilter">Kategorie</label><select id="categoryFilter" aria-label="Oblast"><option value="all">Všechna místa</option><option value="okoli">Kolem hotelu</option><option value="praha">Praha</option></select></div>
+      <div class="places" id="places"></div>
+    </section>
+    <section class="service-panel" aria-labelledby="transport-title"><h2 id="transport-title">MHD a jízdenky PID</h2><p>Vyhledejte aktuální metro, tramvaj, autobus nebo vlak. Spoje počítá oficiální vyhledávač PID/IDOS, nikoli hotelový web.</p><div class="service-buttons"><a class="service-link" href="https://pid.idos.cz/pid/spojeni/conn.aspx" target="_blank" rel="noopener noreferrer">Najít spojení PID ↗</a><a class="service-link secondary-link" href="https://app.pidlitacka.cz/" target="_blank" rel="noopener noreferrer">Koupit jízdenku – PID Lítačka ↗</a></div><p class="smallnote">Krátkodobé mobilní jízdenky se kupují v oficiální aplikaci PID Lítačka, nikoli v našem webu. Do Čestlic nebo Průhonic může být nutná jízdenka i pro vnější pásmo.</p></section>
+    <section class="service-panel emergency-panel" aria-labelledby="health-title"><h2 id="health-title">Zdraví a nouzová pomoc</h2><p>Nehoda, náhlé zdravotní potíže nebo bolest? Otevřete kartu s čísly 155 / 112, nemocnicí, českými větami a obrázkovým přehledem obtíží.</p><a class="service-link emergency-link" href="/zdravi.html">Otevřít zdravotní kartu →</a></section>
+    <section class="map-section">
+      <div id="map" role="application" aria-label="Interaktivní mapa Prahy"><div class="map-loading">Načítám mapu…</div></div>
+      <div class="map-actions">
+        <button id="locate" type="button" class="map-action" data-t="locate">◎ Moje poloha</button>
+        <button id="hotel" type="button" class="map-action" data-t="backHotel">⌂ Zpět do hotelu</button>
+      </div>
+      <div class="map-credit">© <a target="_blank" rel="noopener" href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> · <a target="_blank" rel="noopener" href="https://openfreemap.org/">OpenFreeMap</a></div>
+    </section>
+    <section class="sheet" aria-live="polite">
+      <div id="destinationName" class="chosen">Hotel CHODOV ASC</div>
+      <div id="placeDetail" class="place-detail"></div>
+      <div id="routeSummary" class="route-summary">Vyberte cíl a zobrazte pěší trasu.</div>
+      <div class="primary-actions"><button id="plan" type="button" class="btn primary" data-t="plan">Ukázat trasu</button><button id="start" type="button" class="btn secondary" data-t="start" disabled>▶ Spustit navigaci</button></div>
+      <div id="navDetails" class="nav-details" hidden>
+        <p class="label" data-t="next">DALŠÍ POKYN</p>
+        <p id="nextInstruction" class="instruction">—</p>
+        <p id="nextDistance" class="distance"></p>
+        <div class="nav-controls"><button id="toggleVoice" type="button" class="btn tertiary" data-t="voiceOn">🔊 Hlas zapnutý</button><button id="stop" type="button" class="btn tertiary danger" data-t="stop">Ukončit</button></div>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite">&nbsp;</p>
+      <p id="wakeStatus" class="wake-status" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer><p data-t="privacy">Poloha se používá jen se souhlasem a neukládá se jako historie pohybu.</p><p data-t="background">Hlasové navádění vyžaduje otevřený web. Při zamčení telefonu se může zastavit.</p></footer>
+  <script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js" defer></script>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

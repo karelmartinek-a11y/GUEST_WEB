@@ -1,0 +1,51 @@
+main:focus{outline:none}
+.dialog-language{justify-content:flex-end;margin-bottom:18px;border-left:0;font-size:.9rem}
+.section-intro{font-size:1.1rem;color:var(--muted);max-width:650px}
+.home-sos{display:flex;align-items:center;gap:12px;padding:14px 18px;margin:0 0 22px;border:1px solid #eacfc2;border-radius:14px;background:#fff7f2;flex-wrap:wrap}
+.home-sos>span{margin-right:auto;color:#8a4639;font-size:.875rem}
+.home-sos a,.home-sos button{display:flex;align-items:center;gap:8px;min-height:44px;text-decoration:none;font-weight:600;color:#8a4639}
+.local-services{margin:12px 0 45px}.local-services .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.local-card h3{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.8rem;margin-bottom:12px}
+.local-card .service-icon{margin-bottom:14px}.local-card .eyebrow{margin-bottom:12px}
+.walk-badge{display:inline-flex;gap:8px;align-items:center;font-size:.9rem;padding:8px 12px;background:#eef3e9;border-radius:5px;color:var(--green);font-weight:600}
+.opening-hours{list-style:none;padding:0;margin:14px 0 18px;max-width:330px}
+.opening-hours li{display:flex;justify-content:space-between;gap:15px;padding:7px 0;border-bottom:1px solid var(--line);font-size:.9rem}
+.street-route{font-size:.9rem;overflow-wrap:anywhere;margin:18px 0}
+.restaurant-list{display:grid;gap:16px}.restaurant-card{border:1px solid var(--line);border-radius:18px;background:white;overflow:hidden;box-shadow:var(--shadow)}
+.restaurant-summary{width:100%;display:grid;grid-template-columns:45px minmax(0,1fr) 85px;gap:22px;padding:28px;text-align:left;align-items:center}
+.restaurant-summary:hover{background:#f0f4eb}.restaurant-summary h2{font-size:2rem;margin:8px 0;overflow-wrap:anywhere}
+.restaurant-summary small{color:var(--muted);display:block}.restaurant-number{font:1.8rem 'Cormorant Garamond',Georgia,serif;color:var(--gold)}
+.restaurant-address{font-size:.875rem;color:var(--muted);line-height:1.5;display:block}
+.restaurant-distance{display:flex;align-items:center;flex-direction:column;gap:5px;text-align:center;font-weight:600}.restaurant-distance small{font-size:.75rem;font-weight:400}.restaurant-distance>span{font-size:24px;font-weight:400}
+.restaurant-detail{display:grid;grid-template-columns:1fr 1fr;gap:15px 30px;padding:12px 30px 30px;border-top:1px solid var(--line)}
+.restaurant-detail>div{min-width:0}.restaurant-detail h3{margin:16px 0 10px}.restaurant-detail>.button-row{grid-column:1/-1;flex-wrap:wrap}.restaurant-detail small{color:var(--muted);line-height:1.5}
+.transport-itineraries{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:25px 0}
+.transport-itineraries h2{font-size:2rem}.transport-itineraries .button{margin:5px 5px 0 0}.transit-steps{list-style:none;margin:20px 0 25px;padding:0}
+.transit-steps li{line-height:1.6;padding:12px 0;font-size:.9rem;border-bottom:1px solid var(--line)}.transit-steps small{display:block;color:var(--muted);margin-left:38px}
+.transit-line{display:inline-flex;min-width:28px;min-height:28px;align-items:center;justify-content:center;border-radius:5px;font-weight:700;color:white;margin-right:7px;font-size:.8rem}.transit-line.c{background:#aa3540}.transit-line.a{background:#257144}.transit-line.bus{background:#715647;min-width:35px}
+.taxi-choices{display:flex;gap:14px;flex-wrap:wrap;margin:20px 0}.taxi-choices>div{display:flex;flex-direction:column;align-items:flex-start;gap:5px}
+.qibla-card{background:#e9efdf;border:1px solid #cfdcbe;border-radius:22px;padding:35px;display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:30px;align-items:center;margin-bottom:30px}
+.qibla-card h2{margin:14px 0 8px}.qibla-bearing{font:3.5rem 'Cormorant Garamond',Georgia,serif;color:var(--green);margin:0 0 12px}.qibla-card p:not(.qibla-bearing){font-size:.9rem;max-width:520px}
+.compass-range{display:block;font-size:.875rem;color:var(--muted);max-width:300px}.compass-range input{width:100%;min-height:44px;display:block;accent-color:var(--green)}
+.qibla-diagram{width:280px;height:280px;position:relative;display:grid;place-items:center;background:#f8faf3;border-radius:50%;border:1px solid #c2cfae;box-shadow:0 10px 40px #203a2311}
+.compass-disc{position:absolute;inset:14px;border:1px solid #ccd4bd;border-radius:50%;transition:transform .1s}.compass-disc:before,.compass-disc:after{content:'';position:absolute;top:50%;left:0;width:100%;border-top:1px solid #dfe5d4}.compass-disc:after{transform:rotate(90deg)}
+.compass-north,.compass-east,.compass-south,.compass-west{position:absolute;z-index:2;color:var(--muted);font-size:.8rem;text-align:center;background:#f8faf3;padding:2px}
+.compass-north{top:6px;left:50%;transform:translateX(-50%);font-weight:700;color:var(--green);min-width:110px}.compass-north small{display:block;font-size:.75rem;max-width:130px;font-weight:400;line-height:1.3}
+.compass-east{right:9px;top:calc(50% - 9px)}.compass-west{left:9px;top:calc(50% - 9px)}.compass-south{bottom:8px;left:calc(50% - 7px)}
+.qibla-arrow{width:4px;height:88px;background:#a77733;position:absolute;left:calc(50% - 2px);bottom:50%;transform-origin:50% 100%;border-radius:3px;z-index:3}.qibla-arrow:before{content:'';position:absolute;left:-7px;top:-4px;border-left:9px solid transparent;border-right:9px solid transparent;border-bottom:17px solid #a77733}
+.compass-centre{position:absolute;top:calc(50% - 7px);left:calc(50% - 7px);width:14px;height:14px;border-radius:50%;background:var(--green);border:3px solid #f8faf3;z-index:4}.compass-symbol{position:absolute;left:calc(50% - 10px);bottom:58px;color:#a77733}
+.faith-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:25px 0}.faith-card h2{font-size:2rem;margin:15px 0}.faith-card>p{font-size:.9rem}.faith-card>p svg{display:inline;vertical-align:middle}
+.worship-hours{list-style:none;padding:0;margin:20px 0}.worship-hours li{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.9rem}.worship-hours li span{font-variant-numeric:tabular-nums}
+.faith-card .button-row{margin-bottom:15px}.other-faith{background:#eaf0e8;border-radius:18px;padding:25px;display:flex;align-items:center;justify-content:space-between;gap:20px}.other-faith p{margin:0}
+.other-emergency{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0 28px}.other-emergency a{display:flex;gap:12px;align-items:center;flex-wrap:wrap;border:1px solid #ddcfc4;background:#fff9f5;border-radius:14px;padding:20px;text-decoration:none}.other-emergency strong{font-size:1.65rem;color:#8d4637}.other-emergency span{flex-basis:100%;font-size:.9rem}
+.medical-notes{border:1px solid var(--line);padding:20px;margin:25px 0;border-radius:12px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.medical-notes legend{padding:0 8px;font-weight:600}.medical-notes label{display:flex;flex-direction:column;gap:6px;font-size:.9rem;line-height:1.4}.medical-notes label small{color:var(--muted)}.medical-notes input{width:100%;min-height:48px;border:1px solid #bfccbf;background:#fff;border-radius:5px;padding:10px;font:inherit}.printed-notes dd{margin:4px 0 10px;overflow-wrap:anywhere}.voice-status{font-size:.875rem;line-height:1.4;flex-basis:100%;color:#8d4637}
+.choices .choice:last-child{grid-column:auto;min-height:116px}.film-dots button{width:44px}.film-dots button:after{left:19px}.cinema>.photo-credit{font-size:.75rem}.bottom-nav button span{font-size:.75rem}.icon-button.menu-button{width:44px;height:44px}
+.maplibregl-ctrl-group button{width:44px;height:44px}.maplibregl-ctrl button .maplibregl-ctrl-icon{background-size:29px}.maplibregl-popup-close-button{width:44px;height:44px;font-size:22px}
+@media(max-width:840px){.transport-itineraries{grid-template-columns:1fr}.qibla-card{grid-template-columns:1fr}.qibla-diagram{margin:auto}.medical-notes{grid-template-columns:1fr}.faith-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.local-services .service-grid{grid-template-columns:1fr}.restaurant-summary{grid-template-columns:24px minmax(0,1fr) 57px;padding:21px 16px;gap:11px}.restaurant-summary h2{font-size:1.65rem}.restaurant-address{font-size:.8rem}.restaurant-number{font-size:1.5rem}.restaurant-detail{grid-template-columns:1fr;padding:15px 20px 24px;gap:8px}.restaurant-detail>.button-row{grid-column:auto}.restaurant-detail .button-row{align-items:stretch;flex-direction:column}.qibla-card{padding:22px 18px}.qibla-diagram{width:250px;height:250px}.other-faith{flex-direction:column;align-items:flex-start}.other-emergency{gap:8px}.other-emergency a{padding:13px 10px;gap:5px}.other-emergency span{font-size:.8rem;overflow-wrap:anywhere}.other-emergency strong{font-size:1.5rem}.other-emergency svg{width:20px}.cinema-controls{left:18px;gap:4px}.film-dots{margin:0}.cinema>.photo-credit{max-width:calc(100% - 32px);right:16px;bottom:4px;font-size:.75rem}.home-sos{padding:12px 14px}.home-sos>span{flex-basis:100%}.choices .choice:last-child{min-height:110px}.choice-text small{font-size:.8rem}.header-actions{gap:4px}.language-select{padding:0 4px}.language-select select{max-width:105px}.site-header{gap:10px}.brand{gap:8px}.brand strong{font-size:.7rem}.brand small{font-size:.75rem}.brand img{width:45px}.speech-bubble .concierge-label>span{font-size:.75rem}}
+@media print{.other-emergency,.home-sos,.medical-notes,.voice-status{display:none!important}.printed-notes{border-top:1px solid #aaa;padding-top:8px;font-size:10px}.printed-notes div{break-inside:avoid}.printed-notes dt{font-weight:700}.printed-notes dd{line-height:1.3;white-space:pre-wrap}.print-card li{padding:8px 0}.print-card ul{margin:8px 0}}
+
+@media print{.page-content{opacity:1!important;transform:none!important;clip-path:none!important}}
+@media print{html,.app,main,.page-content,.health-page{background:#fff!important}.print-card{font-size:13px}.print-card li strong{font-size:13px}.print-card li span{font-size:12px}.print-card p{font-size:12px}}
+
+.hotel-qr{margin:25px auto 0;max-width:170px}.hotel-identity .hotel-qr img{width:170px;height:170px;max-width:100%;margin:0 auto}.hotel-qr figcaption{font-size:.8rem;margin-top:8px;color:var(--muted)}

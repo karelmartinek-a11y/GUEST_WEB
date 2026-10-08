@@ -1,0 +1,7 @@
+{
+  "navigationEnabled": false,
+  "reason": "ENTRANCE_AND_DEVICE_ACCEPTANCE_PENDING",
+  "map": "self-hosted-pmtiles",
+  "routing": "self-hosted-valhalla",
+  "approvedEntrances": []
+}

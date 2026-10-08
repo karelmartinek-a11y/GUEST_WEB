@@ -1,0 +1,203 @@
+{
+  "places": [
+    {
+      "id": "catholic",
+      "name": "Kostel sv. Františka z Assisi",
+      "address": "Na Sádce, Praha 11 – Chodov",
+      "phone": "+420272934261",
+      "schedule": [
+        {
+          "days": [
+            7
+          ],
+          "time": "08:00 · 20:00"
+        },
+        {
+          "days": [
+            2,
+            5
+          ],
+          "time": "18:00"
+        },
+        {
+          "days": [
+            6
+          ],
+          "time": "08:00"
+        }
+      ],
+      "programme": "https://www.kcmt.cz/bohosluzby/bohosluzby-behem-roku-mimo-velke-svatky-a-prazdniny/",
+      "verifiedOn": "2026-10-09"
+    },
+    {
+      "id": "greek",
+      "name": "Katedrála sv. Klimenta",
+      "address": "Karlova 1, Praha 1 – Klementinum",
+      "phone": "+420222220364",
+      "schedule": [
+        {
+          "days": [
+            7
+          ],
+          "time": "08:30 · 10:15 · 12:00 · 17:00"
+        },
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "time": "17:00"
+        },
+        {
+          "days": [
+            6
+          ],
+          "time": "10:15 · 17:00"
+        }
+      ],
+      "programme": "https://www.exarchat.cz/prazsky-dekanat/",
+      "verifiedOn": "2026-10-09"
+    },
+    {
+      "id": "orthodox",
+      "name": "Katedrála sv. Cyrila a Metoděje",
+      "address": "Resslova 9a, Praha 2",
+      "phone": "+420603597983",
+      "schedule": [
+        {
+          "days": [
+            7
+          ],
+          "time": "09:30"
+        }
+      ],
+      "programme": "https://prague.eu/cs/objevujte/katedralni-chram-sv-cyrila-a-metodeje/",
+      "scheduleSource": "https://prague.eu/cs/objevujte/katedralni-chram-sv-cyrila-a-metodeje/",
+      "verifiedOn": "2026-10-09"
+    },
+    {
+      "id": "protestant",
+      "name": "Kostel Milíče z Kroměříže – ČCE",
+      "address": "Donovalská 2331/53, Praha 11",
+      "phone": "+420272659259",
+      "schedule": [
+        {
+          "days": [
+            7
+          ],
+          "time": "09:30"
+        }
+      ],
+      "programme": "https://jizni-mesto.evangnet.cz/",
+      "verifiedOn": "2026-10-09"
+    },
+    {
+      "id": "adventist",
+      "name": "CASD Praha – Chodov, Kostel Milíče z Kroměříže",
+      "address": "Donovalská 2331/53, Praha 11",
+      "phone": null,
+      "schedule": [
+        {
+          "days": [
+            6
+          ],
+          "time": "09:30"
+        }
+      ],
+      "programme": "https://zbory.casd.sk/",
+      "verifiedOn": "2026-10-09"
+    },
+    {
+      "id": "jewish",
+      "name": "Staronová synagoga",
+      "address": "Červená, Praha 1 – Josefov",
+      "phone": "+420224800849",
+      "schedule": [],
+      "calendar": "https://www.kehilaprag.cz/cs/stranka/bohosluzby/staronova-synagoga_311",
+      "programme": "https://www.kehilaprag.cz/cs/stranka/bohosluzby/staronova-synagoga_311",
+      "datedSchedule": [
+        {
+          "date": "2026-10-10",
+          "time": "09:00"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "09:00"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "09:00"
+        },
+        {
+          "date": "2026-10-31",
+          "time": "09:00"
+        }
+      ],
+      "datedScheduleSource": "https://www.kehilaprag.cz/docs/2773-cz_10_2026.pdf",
+      "validThrough": "2026-10-31",
+      "verifiedOn": "2026-10-09"
+    },
+    {
+      "id": "islam",
+      "name": "Süleymaniye – Praha",
+      "address": "Průběžná 633/89, Praha 10 – Strašnice",
+      "phone": "+420608628786",
+      "schedule": [
+        {
+          "days": [
+            5
+          ],
+          "time": "13:30 · Jumua"
+        }
+      ],
+      "arrangeVisit": true,
+      "programme": "https://www.suleymaniye.cz/",
+      "verifiedOn": "2026-10-09"
+    },
+    {
+      "id": "buddhist",
+      "name": "Buddha Mangala – Centrum Lotus",
+      "address": "Dlouhá 2, Praha 1, 4. patro",
+      "phone": "+420737851629",
+      "schedule": [
+        {
+          "days": [
+            1
+          ],
+          "time": "18:00"
+        }
+      ],
+      "programme": "https://www.buddha.cz/nase-setkani/",
+      "verifiedOn": "2026-10-09"
+    },
+    {
+      "id": "hindu",
+      "name": "Šrí Šrí Nitái Navadvípačandra mandir",
+      "address": "Lužce 48, 267 18 Lužce",
+      "phone": "+420311516558",
+      "schedule": [
+        {
+          "days": [
+            7
+          ],
+          "time": "14:00"
+        }
+      ],
+      "arrangeVisit": true,
+      "programme": "https://nitainavadvipacandra.cz/",
+      "verifiedOn": "2026-10-09"
+    }
+  ],
+  "scope": "Nine traditions with verified community programmes where published. Other communities through reception. Unconfirmed flyer times are explicitly marked; dated Jewish times expire after their calendar month.",
+  "qibla": {
+    "origin": "hotel building coordinates",
+    "destination": {
+      "lat": 21.422487,
+      "lon": 39.826206
+    },
+    "reference": "clockwise from true north; great-circle initial bearing; manual alignment, no device compass"
+  }
+}

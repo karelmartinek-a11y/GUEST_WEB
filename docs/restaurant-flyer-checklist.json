@@ -1,0 +1,17 @@
+{
+  "source": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+  "sha256": "bf520022d32c5e5db527ef2100a77fe7cd3f8d42543148afbdb1acbb4aa2f6c0",
+  "flyerDate": "2026-07-28",
+  "checkedOn": "2026-10-09",
+  "method": "Visual comparison of the complete supplied flyer with all eight website cards. Walking estimates and prices are historical flyer facts; current opening hours have separate primary sources.",
+  "restaurants": [
+    {"id":"jankovna","nameFragment":"Jankovna u bazénu","phone":"+420228229031","walkingMeters":60,"walkingMinutes":1,"historicalPrices":"149–329 Kč"},
+    {"id":"columna","nameFragment":"Restaurace Columna","phone":"+420272192458","walkingMeters":550,"walkingMinutes":7,"historicalPrices":"205–225 Kč"},
+    {"id":"cafepark","nameFragment":"Bistro Café Park 11","phone":"+420725736342","walkingMeters":850,"walkingMinutes":11,"historicalPrices":"60–130 Kč"},
+    {"id":"tvrz-rest","nameFragment":"Chodovská tvrz","phone":"+420606756556","walkingMeters":1050,"walkingMinutes":14,"historicalPrices":"199–329 Kč"},
+    {"id":"xl","nameFragment":"XL Restaurant Grill & Bar","phone":"+420228226810","walkingMeters":950,"walkingMinutes":13,"historicalPrices":"195–689 Kč"},
+    {"id":"freesolo","nameFragment":"Free Solo","phone":"+420722646634","walkingMeters":420,"walkingMinutes":6,"historicalPrices":"159 Kč"},
+    {"id":"rizkovna","nameFragment":"Řízkovna & Pizzeria","phone":"+420604556688","walkingMeters":1450,"walkingMinutes":19,"historicalPrices":"169–329 Kč"},
+    {"id":"tranviet","nameFragment":"Tran Viet Food","phone":"+420776506789","walkingMeters":1800,"walkingMinutes":23,"historicalPrices":"100–220 Kč"}
+  ]
+}

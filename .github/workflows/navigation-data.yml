@@ -1,0 +1,38 @@
+name: Build isolated Prague navigation data
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Build graphs outside production
+        run: |
+          mkdir -p artifacts/valhalla
+          curl --fail --location --retry 3 https://download.bbbike.org/osm/bbbike/Prag/Prag.osm.pbf -o artifacts/valhalla/prague.osm.pbf
+          docker run --rm --cpus 2 --memory 4g --entrypoint bash -v "$PWD/artifacts/valhalla:/work" ghcr.io/valhalla/valhalla:3.6.3@sha256:2b19ea46551a9687b245022551183829d817fdee9b58c5e7b2adb6e422749c43 -c '
+            set -e
+            valhalla_build_config --mjolnir-tile-dir /work/tiles --mjolnir-tile-extract /work/tiles.tar --mjolnir-concurrency 2 > /work/valhalla.json
+            valhalla_build_tiles -c /work/valhalla.json /work/prague.osm.pbf
+            valhalla_build_extract -c /work/valhalla.json
+          '
+          python3 scripts/prepare-valhalla.py artifacts/valhalla
+          sha256sum artifacts/valhalla/tiles.tar > artifacts/valhalla/SHA256SUMS.txt
+      - name: Verify the own engine and graph on the CI machine
+        run: |
+          docker run -d --name guest-web-engine-test --cpus .5 --memory 512m --read-only --tmpfs /tmp:size=32m --cap-drop ALL --security-opt no-new-privileges:true --user 65534:65534 -p 127.0.0.1:18781:8002 -v "$PWD/artifacts/valhalla:/data:ro" --entrypoint valhalla_service ghcr.io/valhalla/valhalla:3.6.3@sha256:2b19ea46551a9687b245022551183829d817fdee9b58c5e7b2adb6e422749c43 /data/valhalla.json 1
+          python3 scripts/verify-valhalla.py
+          docker rm -f guest-web-engine-test
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: prague-valhalla-data-${{ github.sha }}
+          path: |
+            artifacts/valhalla/tiles.tar
+            artifacts/valhalla/valhalla.json
+            artifacts/valhalla/SHA256SUMS.txt
+            artifacts/valhalla/provenance.json
+            artifacts/valhalla/engine-smoke.json
+          retention-days: 90

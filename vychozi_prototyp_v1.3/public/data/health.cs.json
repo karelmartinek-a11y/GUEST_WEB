@@ -1,0 +1,139 @@
+{
+  "verifiedOn": "2026-10-08",
+  "hospital": {
+    "name": "Fakultní Thomayerova nemocnice",
+    "address": "Vídeňská 800, 140 59 Praha 4 – Krč",
+    "switchboard": "+420 261 081 111",
+    "emergencyPavilion": "B1 vpravo od hlavní brány",
+    "adult": {
+      "phone": "261 082 520",
+      "alt": "603 566 584",
+      "hours": "po–pá 19:00–06:30, víkendy a svátky nonstop"
+    },
+    "child": {
+      "phone": "261 083 783",
+      "alt": "603 566 587",
+      "hours": "po–pá 19:00–06:30, víkendy a svátky nonstop"
+    },
+    "dental": {
+      "phone": "261 083 546",
+      "alt": "730 578 741",
+      "hours": "po–pá 17:30–22:30, víkendy a svátky 07:30–22:30, pauza 14:00–15:00"
+    },
+    "source": "https://www.ftn.cz/lekarska-pohotovostni-sluzba-199/"
+  },
+  "emergencyPhones": {
+    "medical": "155",
+    "eu": "112",
+    "police": "158",
+    "fire": "150"
+  },
+  "symbols": [
+    {
+      "id": "head",
+      "icon": "🤕",
+      "cs": "Bolí mě hlava.",
+      "en": "I have a headache.",
+      "de": "Ich habe Kopfschmerzen."
+    },
+    {
+      "id": "stomach",
+      "icon": "🫃",
+      "cs": "Bolí mě břicho.",
+      "en": "My stomach hurts.",
+      "de": "Ich habe Bauchschmerzen."
+    },
+    {
+      "id": "chest",
+      "icon": "🫀",
+      "cs": "Bolí mě na hrudi.",
+      "en": "I have chest pain.",
+      "de": "Ich habe Brustschmerzen."
+    },
+    {
+      "id": "tooth",
+      "icon": "🦷",
+      "cs": "Bolí mě zub.",
+      "en": "I have a toothache.",
+      "de": "Ich habe Zahnschmerzen."
+    },
+    {
+      "id": "breath",
+      "icon": "🫁",
+      "cs": "Špatně se mi dýchá.",
+      "en": "I have difficulty breathing.",
+      "de": "Ich habe Atemnot."
+    },
+    {
+      "id": "fever",
+      "icon": "🌡️",
+      "cs": "Mám horečku.",
+      "en": "I have a fever.",
+      "de": "Ich habe Fieber."
+    },
+    {
+      "id": "vomit",
+      "icon": "🤢",
+      "cs": "Zvracím.",
+      "en": "I am vomiting.",
+      "de": "Ich muss mich übergeben."
+    },
+    {
+      "id": "diarrhea",
+      "icon": "🚽",
+      "cs": "Mám průjem.",
+      "en": "I have diarrhea.",
+      "de": "Ich habe Durchfall."
+    },
+    {
+      "id": "bleed",
+      "icon": "🩸",
+      "cs": "Krvácím.",
+      "en": "I am bleeding.",
+      "de": "Ich blute."
+    },
+    {
+      "id": "fall",
+      "icon": "🩹",
+      "cs": "Upadl/a jsem a zranil/a jsem se.",
+      "en": "I fell and injured myself.",
+      "de": "Ich bin gestürzt und habe mich verletzt."
+    },
+    {
+      "id": "allergy",
+      "icon": "⚠️",
+      "cs": "Mám alergickou reakci.",
+      "en": "I am having an allergic reaction.",
+      "de": "Ich habe eine allergische Reaktion."
+    },
+    {
+      "id": "medicine",
+      "icon": "💊",
+      "cs": "Užívám léky.",
+      "en": "I take medication.",
+      "de": "Ich nehme Medikamente."
+    },
+    {
+      "id": "doctor",
+      "icon": "🩺",
+      "cs": "Potřebuji lékaře.",
+      "en": "I need a doctor.",
+      "de": "Ich brauche einen Arzt."
+    },
+    {
+      "id": "dizzy",
+      "icon": "💫",
+      "cs": "Točí se mi hlava.",
+      "en": "I feel dizzy.",
+      "de": "Mir ist schwindelig."
+    },
+    {
+      "id": "back",
+      "icon": "🦴",
+      "cs": "Bolí mě záda.",
+      "en": "My back hurts.",
+      "de": "Ich habe Rückenschmerzen."
+    }
+  ],
+  "sourceHistory": "Leták zdravotní pomoci – uložený koncept hotelu z dřívější konverzace; 2026-10-08 aktualizace provozních informací."
+}

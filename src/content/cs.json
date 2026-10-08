@@ -1,0 +1,297 @@
+{
+  "language": "cs",
+  "translation": {
+    "method": "supplied authoritative Czech catalog",
+    "review": "source"
+  },
+  "places": {
+    "chodovska-tvrz": {
+      "name": "Chodovská tvrz",
+      "short": "Středověká tvrz uprostřed moderního Jižního Města.",
+      "description": "Nejvýraznější historická památka Chodova má kořeny ve středověké vodní tvrzi a dnes slouží jako kulturní centrum s výstavami a koncerty. Pozoruhodný je kruhový půdorys a vnitřní nádvoří.",
+      "tip": "Prohlédněte si areál zvenčí a pro výstavu si ověřte konkrétní program. Cena se mění podle akce.",
+      "hours": "Galerie a pokladna út–ne 13:00–19:00; pondělí zavřeno.",
+      "admission": "Podle konkrétní výstavy/akce; jednotné vstupné neověřeno.",
+      "coordinateNote": "Souřadnice památky; pěší bránu ověřit."
+    },
+    "kunraticky-les": {
+      "name": "Kunratický les",
+      "short": "Přírodní procházky a odpočinek v lese nedaleko Chodova.",
+      "description": "Rozsáhlé lesní území o rozloze přibližně 284 hektarů nabízí přírodní cesty, údolí Kunratického potoka a pozůstatky Nového hradu spojeného s Václavem IV. Hodí se na nenáročné procházky i delší okruh.",
+      "tip": "Vstup do přírody na vlastní odpovědnost; některé úseky jsou nezpevněné. Naučná zastavení nejsou propojena souvislým značeným okruhem.",
+      "hours": "Volně přístupný přírodní areál, bez pokladny.",
+      "admission": "Vstup zdarma.",
+      "coordinateNote": "Střed rozsáhlého lesa, nikoli konkrétní vstup."
+    },
+    "westfield-chodov": {
+      "name": "Westfield Chodov",
+      "short": "Velké nákupní centrum s obchody, restauracemi a kinem.",
+      "description": "Praktická volba, když host hledá nákupy, občerstvení, kino nebo program při špatném počasí. Různé provozovny uvnitř mohou mít vlastní otevírací dobu.",
+      "tip": "Kromě obchodní pasáže lze využít restaurace či kino; otevírací dobu konkrétního podniku vždy ověřit zvlášť.",
+      "hours": "Obchodní centrum denně 9:00–21:00.",
+      "admission": "Vstup do centra zdarma; kino a jednotlivé služby placené podle provozovatele.",
+      "coordinateNote": "Střed obchodního centra; vhodný vchod ověřit."
+    },
+    "jedenactka-vs": {
+      "name": "Jedenáctka VS",
+      "short": "Plavecký a sportovní komplex na Jižním Městě.",
+      "description": "Krytý bazénový areál s vodním a sportovním vyžitím vhodný pro jednotlivce i rodiny. V komplexu jsou oddělené bazénové, sportovní a dětské plavecké prostory.",
+      "tip": "Před odchodem ověřte případná omezení veřejného plavání a aktuální cenu podle délky vstupu.",
+      "hours": "Bazén po–pá 6:30–21:00, so–ne/svátky 8:00–21:00.",
+      "admission": "Orientační vstupné od 160 Kč základní / 120 Kč snížené / 340 Kč rodinné dle přehledu PCT; přesný typ vstupenky ověřit.",
+      "coordinateNote": "Souřadnice objektu; umístění pěšího vstupu ověřit."
+    },
+    "toulcuv-dvur": {
+      "name": "Toulcův dvůr",
+      "short": "Statek a přírodní areál zaměřený na ekologii a rodiny.",
+      "description": "Historický dvůr v Hostivaři nabízí setkání se zvířaty a přírodou i vzdělávací programy. Je vhodný především pro rodiny s dětmi, které chtějí klidnější program mimo centrum.",
+      "tip": "Placena je farma a přírodní areál; skupiny nad 10 osob mají zvláštní pravidla návštěv a rezervací.",
+      "hours": "Leden, únor, listopad, prosinec 10–16; březen–červen a září–říjen 10–18; červenec–srpen 9–18.",
+      "admission": "Farma/přírodní areál: dospělí 60 Kč, dítě od 3 let/senior/ZTP 30 Kč, rodina 130 Kč.",
+      "coordinateNote": "Areál statku; pěší bránu ověřit."
+    },
+    "hostivarska-prehrada": {
+      "name": "Hostivařská přehrada",
+      "short": "Vodní nádrž a zelené okolí pro pěší výlet.",
+      "description": "V blízkosti Hostivařského lesoparku lze vyrazit na procházku kolem vody. V létě je zvláštní placenou službou provozovaná pláž; břehy mimo pláž je nutné rozlišovat.",
+      "tip": "Pláž je sezónní. Koupání závisí na provozu a kvalitě vody. Nezaměňovat veřejný lesopark za placenou pláž.",
+      "hours": "Cesty v okolí bez stanovené návštěvní doby; provoz pláže sezónní – ověřit na oficiálním webu.",
+      "admission": "Procházka po veřejných cestách zdarma; při otevřené pláži dospělí celodenní 170 Kč, senioři/ZTP/děti do 140 cm 110 Kč, do 100 cm zdarma. K 8. 10. 2026 oficiální web uvádí pláže jako uzavřené.",
+      "coordinateNote": "GPS areálu hlavní pláže, nikoli celé přehrady."
+    },
+    "pruhonicky-park": {
+      "name": "Průhonický park",
+      "short": "Rozsáhlý zámecký park zapsaný v UNESCO.",
+      "description": "Krajinářský park kolem zámku s romantickými cestami, rybníky a botanickými scenériemi. Výborný výlet na půlden, zejména v době květu rododendronů či na podzim.",
+      "tip": "Z hotelu nejde o krátkou městskou procházku; doporučit MHD/taxi k parku a až poté pěší prohlídku. Vstupenky se kontrolují i v areálu.",
+      "hours": "Denně: leden–únor a listopad–prosinec 8–17; březen 7–18; duben a říjen 7–19; květen–září 7–20.",
+      "admission": "Dospělí 160 Kč, snížené 110 Kč, rodinné 430 Kč, pes 50 Kč.",
+      "coordinateNote": "Průhonický zámek blízko hlavního vstupu parku; turniket ověřit."
+    },
+    "dendrologicka-zahrada": {
+      "name": "Dendrologická zahrada Průhonice",
+      "short": "Velká sbírková zahrada se sezonními květy a barevnými kompozicemi.",
+      "description": "Dendrologická zahrada se zaměřuje na kolekce stromů, keřů, trvalek a sadovnické kompozice. Příjemná varianta pro milovníky rostlin a rodiny; nejlepší doba závisí na sezoně.",
+      "tip": "Pro rok 2026 je konec sezóny stanoven na 8. listopadu. Poslední vstup hodinu před zavřením.",
+      "hours": "Sezónně přibližně březen–8. listopad; duben a říjen út–ne 9–18, květen–srpen út–ne 9–19, září út–ne 9–18; 1.–8. 11. 9–17.",
+      "admission": "Dospělí 150 Kč, snížené 100 Kč, rodinné 350 Kč.",
+      "coordinateNote": "Oficiální GPS parkoviště a hlavního vstupu."
+    },
+    "aquapalace-praha": {
+      "name": "Aquapalace Praha",
+      "short": "Vodní atrakce, tobogány a relaxace v Čestlicích.",
+      "description": "Vodní svět nabízí tobogány, bazény, divokou řeku a rodinné atrakce. Je dobrý pro celodenní program při horším počasí; sauna a wellness mohou být cenově oddělené.",
+      "tip": "Nezaměňovat cenu pouze Vodního světa s kombinovanou vstupenkou Sauna + Vodní svět; nabídka se liší podle dne a nákupu online.",
+      "hours": "Vodní svět po–st 10–20, čt–pá 10–22, so 9–22, ne 9–20 (běžný rozpis, mimo výjimky).",
+      "admission": "Pouze Vodní svět podle zveřejněného ceníku: dospělí po–čt 3 h 1 049 Kč / den 1 149 Kč; pá–ne a svátky 3 h 1 299 Kč / den 1 399 Kč.",
+      "coordinateNote": "Oficiální GPS areálu; pěší dveře ověřit."
+    },
+    "hamersky-rybnik": {
+      "name": "Hamerský rybník a HAMR Záběhlice",
+      "short": "Rybník s výhledy a nedalekým sportovním areálem.",
+      "description": "Záběhlická lokalita kombinuje procházku u vody s možností tenisu, squashe nebo posezení v restauraci. Jde o klidnější městský výlet s aktivním doplňkovým programem.",
+      "tip": "Procházka u rybníka je jiná služba než placené sportoviště. Sport vyžaduje rezervaci podle pravidel provozovatele.",
+      "hours": "Veřejné okolí rybníka volně přístupné; sportovní areál HAMR denně 7:00–23:00.",
+      "admission": "Procházka zdarma; sporty a gastronomické služby podle aktuálního ceníku.",
+      "coordinateNote": "Střed rybníka, rozhodně není pěší vstup; vybrat přístupovou stezku."
+    },
+    "prazsky-hrad": {
+      "name": "Pražský hrad",
+      "short": "Královská a prezidentská historie nad Vltavou.",
+      "description": "Rozsáhlý historický areál s katedrálou sv. Víta, Starým královským palácem, bazilikou sv. Jiří a Zlatou uličkou. Návštěvníci si mohou projít nádvoří nebo koupit vstupenku do objektů.",
+      "tip": "Průchod areálem a vstupné do budov jsou dvě odlišné věci; možné kontroly a mimořádné uzavírky.",
+      "hours": "Areál denně 6–22; návštěvnické objekty duben–říjen 9–17, listopad–březen 9–16.",
+      "admission": "Základní prohlídkový okruh 450 Kč, snížené 300 Kč, rodinné 950 Kč; veřejný průchod areálem bez této vstupenky.",
+      "coordinateNote": "Střed rozsáhlého hradního areálu; několik vstupů."
+    },
+    "karluv-most": {
+      "name": "Karlův most",
+      "short": "Historický kamenný most s výhledem na Hradčany.",
+      "description": "Gotický most přes Vltavu se sochami spojuje Staré Město a Malou Stranu. Nejhezčí atmosféra bývá ráno nebo večer a při pozorné procházce objevíte výhledy na věže a nábřeží.",
+      "tip": "Samotný most je volně přístupný; vstup na přilehlé mostecké věže je samostatně placený.",
+      "hours": "Most je veřejná pěší komunikace, bez stanovené návštěvní doby.",
+      "admission": "Přechod mostu zdarma.",
+      "coordinateNote": "Souřadnice přibližně uprostřed mostu."
+    },
+    "staromestska-radnice": {
+      "name": "Staroměstská radnice s orlojem",
+      "short": "Orloj, historické interiéry a věž nad Staroměstským náměstím.",
+      "description": "Radnice vznikla ve 14. století a její orloj představuje jeden z nejslavnějších pražských symbolů. Na věži je panoramatická vyhlídka, návštěvnický okruh zahrnuje historické prostory.",
+      "tip": "Pozorovat venkovní orloj lze zdarma; vstup na věž a do objektu je placený.",
+      "hours": "Leden–březen denně 10–19; duben–prosinec denně 9–20.",
+      "admission": "Vnitřní okruh 350 Kč, snížené 230 Kč, rodinné 750 Kč; příplatek za výtah a komentovanou prohlídku.",
+      "coordinateNote": "Souřadnice radniční věže; vstup zvlášť ověřit."
+    },
+    "staromestska-mostecka-vez": {
+      "name": "Staroměstská mostecká věž",
+      "short": "Gotická věž s výhledem na Karlův most.",
+      "description": "Reprezentativní vstupní brána Karlova mostu je gotickou památkou spojenou s Karlem IV. Na vyhlídku vede přibližně 138 schodů.",
+      "tip": "Vstupní část mostu je zdarma; vyhlídková galerie je placená, bezbariérový přístup omezený.",
+      "hours": "Říjen–listopad denně 10–18; prosinec 10–19:30; duben–květen 10–19; červen–září 9–20:30.",
+      "admission": "Základní 250 Kč, snížené 170 Kč, rodinné 500 Kč.",
+      "coordinateNote": "Souřadnice věže."
+    },
+    "klementinum": {
+      "name": "Klementinum – astronomická věž a barokní knihovna",
+      "short": "Barokní areál s věží a slavnou historickou knihovnou.",
+      "description": "V rámci organizované prohlídky lze poznat monumentální knihovní sál a vystoupat na astronomickou věž s výhledem na historické centrum. Prohlídky mají omezenou kapacitu.",
+      "tip": "Barokní knihovna se prohlíží podle pravidel prohlídky; není to volně přístupná studovna. Doporučen nákup e-vstupenky.",
+      "hours": "Běžně denně 9–20 v rámci vypsaných prohlídek.",
+      "admission": "Základní 380 Kč, snížené 230 Kč, rodinné 810 Kč.",
+      "coordinateNote": "Střed rozsáhlého objektu; vstup na prohlídky ověřit."
+    },
+    "josefov": {
+      "name": "Josefov – Židovské muzeum a synagogy",
+      "short": "Unikátní soubor synagog a Starého židovského hřbitova.",
+      "description": "Židovské muzeum tvoří více navštěvovaných objektů v někdejším pražském ghettu. Kombinovaná vstupenka zahrnuje historické synagogy a hřbitov; prohlídka je kulturně i historicky mimořádně významná.",
+      "tip": "V sobotu a o židovských svátcích zavřeno; Staronová synagoga může mít jiné časy, zejména v pátek.",
+      "hours": "1. 9.–17. 10. 2026 9–18; 18. 10.–31. 12. 2026 9–16:30; soboty a vybrané svátky zavřeno.",
+      "admission": "Okruh Pražské Židovské Město: dospělí 600 Kč, studenti do 26 let 400 Kč, děti 6–15 let 200 Kč.",
+      "coordinateNote": "Židovské muzeum – referenční bod; muzeum sestává z více míst."
+    },
+    "petrinska-rozhledna": {
+      "name": "Petřínská rozhledna",
+      "short": "Vyhlídka z kopce Petřín na panorama celé Prahy.",
+      "description": "Ocelová rozhledna stojí v petřínských sadech a nabízí působivé pohledy na město. Návštěvu lze spojit s procházkou zelení a okolními zahradami.",
+      "tip": "Výstup může znamenat schody; výtah je za zvláštní poplatek, ověřit aktuální dostupnost.",
+      "hours": "Říjen denně přibližně 9–18; leden–březen a listopad–prosinec 10–18; ostatní období podle oficiální stránky.",
+      "admission": "Základní 250 Kč, snížené 170 Kč, rodinné 500 Kč; výtah za příplatek.",
+      "coordinateNote": "Souřadnice věže; přístup pěšky ověřit."
+    },
+    "vysehrad": {
+      "name": "Vyšehrad",
+      "short": "Hradby, legendy a vyhlídky nad řekou.",
+      "description": "Historické hradiště nabízí parky, románskou rotundu sv. Martina, baziliku sv. Petra a Pavla a hřbitov Slavín. Doporučujeme klidnější vycházku s krásnými výhledy.",
+      "tip": "Parkový areál volně přístupný; kasematy, expozice a prohlídky se platí zvlášť.",
+      "hours": "Volný parkový areál celoročně; infocentrum zpravidla 10–12 a 13–18.",
+      "admission": "Veřejné cesty zdarma; vstupné do vybraných objektů dle programu.",
+      "coordinateNote": "Táborská brána – vstup do Vyšehradu, nikoliv střed hradiště."
+    },
+    "narodni-muzeum": {
+      "name": "Národní muzeum",
+      "short": "Rozsáhlé historické a přírodovědné expozice na Václavském náměstí.",
+      "description": "Historická a Nová budova Národního muzea tvoří jeden návštěvnický komplex. Expozice pokrývají dějiny i přírodní vědy a jsou vhodné také do deštivého počasí.",
+      "tip": "Vstupenka do Muzejního komplexu nezahrnuje některé samostatné výstavy a Dětské muzeum.",
+      "hours": "Denně 10–18.",
+      "admission": "Muzejní komplex dospělí 360 Kč, snížené 260 Kč, děti do 15 let v doprovodu zdarma.",
+      "coordinateNote": "Historická budova muzea; vstup ověřit."
+    },
+    "narodni-technicke-muzeum": {
+      "name": "Národní technické muzeum",
+      "short": "Dopravní hala, technické sbírky a dějiny vynálezů.",
+      "description": "Muzeum na Letné se zaměřuje na dopravu, průmysl a technický vývoj. Rozsáhlé expozice ocení rodiny i návštěvníci zajímající se o techniku a design.",
+      "tip": "Rudný a uhelný důl má zvláštní příplatkový režim.",
+      "hours": "Pondělí zavřeno, běžný provoz ostatní dny 9–18 (ověřit případné výjimky).",
+      "admission": "Hlavní budova: základní 330 Kč, snížené 200 Kč, děti 6–15 let 80 Kč, rodinné 680 Kč.",
+      "coordinateNote": "Oficiální souřadnice budovy muzea."
+    },
+    "zoo-praha": {
+      "name": "Zoo Praha",
+      "short": "Rozsáhlá zoologická zahrada v Troji pro celodenní výlet.",
+      "description": "Zoo v Troji nabízí velké množství expozic a přírodní venkovní areál. Doporučujeme vyhradit si několik hodin a počítat s kopcovitým terénem.",
+      "tip": "U vybraných pavilonů a vstupů je kratší provozní doba; říjnové zavírání se mění s koncem letního času.",
+      "hours": "Říjen 9–17, od přechodu na zimní čas do 16; listopad–únor 9–16; další měsíce sezónně.",
+      "admission": "Na místě dospělí 330 Kč, děti 3–15 let 250 Kč, rodina (2 + až 4 děti) 1 000 Kč; online levněji.",
+      "coordinateNote": "Oficiální GPS jižní/vstupní části, další vstupy jsou jinde."
+    },
+    "botanicka-troja": {
+      "name": "Botanická zahrada Praha – Troja",
+      "short": "Zahradní expozice, tropický skleník Fata Morgana a vinice.",
+      "description": "Rozmanitý botanický areál umožňuje procházku venkovními zahradami i návštěvu tropického skleníku. Nejzajímavější partie se mění podle roční doby a výstav.",
+      "tip": "Skleník Fata Morgana je v pondělí uzavřený, ačkoli venkovní areál je otevřen.",
+      "hours": "Venkovní expozice březen–říjen denně 9–19, listopad–únor 9–16; Fata Morgana út–ne.",
+      "admission": "Na místě dospělí 180 Kč, děti 3–15 let 120 Kč, rodinné 540 Kč; online 150 / 100 / 450 Kč.",
+      "coordinateNote": "Oficiální GPS orientačního bodu; zahrada má tři vstupy."
+    },
+    "obecni-dum": {
+      "name": "Obecní dům",
+      "short": "Secesní skvost se Smetanovou síní u Prašné brány.",
+      "description": "Obecní dům je významnou pražskou secesní stavbou s bohatě zdobenými interiéry. Hosté mohou navštívit kavárnu nebo absolvovat komentovanou prohlídku reprezentačních prostor.",
+      "tip": "Prohlídky a koncerty mají vlastní termíny; pokladna není otevírací dobou všech prostor.",
+      "hours": "Pokladna denně 10–19; prohlídky podle rozpisu.",
+      "admission": "Komentovaná prohlídka základní 320 Kč, snížené 270 Kč, rodinné 660 Kč.",
+      "coordinateNote": "Souřadnice budovy."
+    },
+    "valdstejnska-zahrada": {
+      "name": "Valdštejnská zahrada",
+      "short": "Barokní geometrická zahrada s pávy a salou terrenou.",
+      "description": "Jedna z nejkrásnějších historických zahrad na Malé Straně. Působivé průhledy, umělá krápníková stěna a pávi vybízejí ke krátké návštěvě.",
+      "tip": "V zimě je zahrada mimo hlavní návštěvní sezonu. Pozor na konkrétní vstupní bránu.",
+      "hours": "Duben–říjen po–pá 7–19, so–ne 9–19.",
+      "admission": "Vstup zdarma.",
+      "coordinateNote": "Střed zahrady, brány sezonně otevírané."
+    },
+    "zahrady-prazskeho-hradu": {
+      "name": "Zahrady Pražského hradu",
+      "short": "Zahradní terasy, fontány a výhledy na centrum.",
+      "description": "Královská zahrada a přístupné jižní zahrady propojují renesanční, barokní i novější úpravy. Jsou vhodnou zastávkou při návštěvě Pražského hradu.",
+      "tip": "Hartigovská zahrada je nepřístupná, ostatní zahrady jsou sezónní a mohou podléhat mimořádným uzavírkám.",
+      "hours": "Říjen denně 10–17, březen 10–17, duben–červen a září 10–19, červenec–srpen 10–20.",
+      "admission": "Vstup do přístupných zahrad zdarma.",
+      "coordinateNote": "Pouze orientační bod celé zahradní skupiny; NENÍ cílový vstup."
+    },
+    "zizkovska-vez": {
+      "name": "Žižkovská televizní věž",
+      "short": "Moderní vyhlídka vysoko nad Prahou.",
+      "description": "Dominanta Žižkova dosahuje výšky 216 metrů; vyhlídkové prostory se nacházejí výše než běžné pražské střechy. Na konstrukci jsou známé plastiky miminek od Davida Černého.",
+      "tip": "Vyhlídkový prostor a restaurace jsou různé provozy, otevření akcí se může lišit.",
+      "hours": "Denně 9–24 podle přehledu Prague City Tourism.",
+      "admission": "Vyhlídka základní 350 Kč, snížené 250 Kč, rodinné 750 Kč.",
+      "coordinateNote": "Souřadnice vysílače; vstup ověřit."
+    },
+    "zahrady-pod-hradem": {
+      "name": "Zahrady pod Pražským hradem",
+      "short": "Historické terasy a romantická zákoutí na jižním svahu.",
+      "description": "Soubor několika propojených palácových zahrad poskytuje architekturu, schodiště, vyhlídky a klidný program stranou hlavních davů.",
+      "tip": "Vstup z Valdštejnské ulice; průchod přímo na Pražský hrad může být uzavřen. Při nepříznivém počasí zavřeno.",
+      "hours": "Duben a říjen denně 10–18, květen–září denně 10–19; sezónní.",
+      "admission": "Základní 180 Kč, snížené 140 Kč.",
+      "coordinateNote": "Areál zahrad; vstup se nachází ve Valdštejnské 14."
+    },
+    "letenske-sady": {
+      "name": "Letenské sady",
+      "short": "Park s panoramatem pražských mostů.",
+      "description": "Oblíbený park na Letné nabízí dlouhé pěší cesty, místa pro odpočinek a výhledy na Vltavu a historické centrum. Výlet lze propojit s Národním technickým muzeem.",
+      "tip": "Veřejný park; restaurace, atrakce a historický kolotoč mají samostatné provozní podmínky.",
+      "hours": "Volně přístupný veřejný park.",
+      "admission": "Vstup do parku zdarma.",
+      "coordinateNote": "Střed parku; doporučenou vyhlídku / pěší vstup upřesnit."
+    },
+    "tancici-dum": {
+      "name": "Tančící dům a galerie",
+      "short": "Výrazná moderní budova u Vltavy.",
+      "description": "Ikonická budova od architektů Vlada Miluniće a Franka Gehryho patří k nejznámějším novodobým stavbám Prahy. Zvenčí lze obdivovat nezvyklé tvary, uvnitř se konají výstavy.",
+      "tip": "Budovu můžete fotografovat z nábřeží bez vstupenky. Galerie a případný přístup na vyhlídku mají samostatná pravidla.",
+      "hours": "Galerie denně 9–20.",
+      "admission": "Exteriér zdarma; galerie základní 230 Kč, snížené 185 Kč, rodinné 600 Kč.",
+      "coordinateNote": "GPS stavby; vchod do galerie ověřit."
+    }
+  },
+  "routes": {
+    "chodov-klid": {
+      "name": "Klidná procházka v okolí hotelu",
+      "start": "hotel nebo ručně zvolený bod",
+      "notes": "Lokální orientační okruh; skutečnou návaznost pěších cest a vzdálenost ověřit routerem a pěším průchodem."
+    },
+    "kunratice-priroda": {
+      "name": "Kunratický les a příroda",
+      "start": "schválený pěší vstup do lesa",
+      "notes": "Samostatná lesní procházka bez vymyšleného kruhového vedení; trasa se musí zkontrolovat na schůdných cestách."
+    },
+    "stare-mesto": {
+      "name": "Historické centrum za odpoledne",
+      "start": "Obecní dům, Praha 1",
+      "notes": "Dojíždí se MHD/taxi do centra; průvodce vede pouze pěší úsek. Prohlídky interiérů jsou volitelné."
+    },
+    "mala-strana-hrad": {
+      "name": "Hradčany a Malá Strana",
+      "start": "Pražský hrad, schválená vstupní brána",
+      "notes": "Propojení zahrad je sezónní a některé přímé průchody jsou uzavřené; editor trasy je musí v repo aktualizovat."
+    },
+    "letna-technika": {
+      "name": "Letná a technika",
+      "start": "Národní technické muzeum",
+      "notes": "Vhodné i za horšího počasí s pobytem v muzeu; venkovní část dle počasí."
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "restaurants": [
+    {
+      "id": "jankovna",
+      "name": "Jankovna u bazénu",
+      "address": "Mírového hnutí 2137/7, Praha 11 – Chodov",
+      "phone": "+420228229031",
+      "officialUrl": "https://www.jankovnaubazenu.cz/kontakt/",
+      "walkingMeters": 60,
+      "walkingMinutes": 1,
+      "streets": [
+        "Mírového hnutí 2137/7"
+      ],
+      "openingHours": [
+        [
+          1,
+          6,
+          "11:00–23:00"
+        ],
+        [
+          7,
+          7,
+          "11:00–22:00"
+        ]
+      ],
+      "historicalPrices": "149–329 Kč",
+      "cuisine": "czech",
+      "note": "inside",
+      "verifiedOn": "2026-10-08",
+      "sourceFlyer": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "walkingEstimateDate": "2026-07-28",
+      "hoursSource": "https://www.jankovnaubazenu.cz/kontakt/"
+    },
+    {
+      "id": "columna",
+      "name": "Restaurace Columna",
+      "address": "Pyšelská 2361/4, Praha 11 – Chodov",
+      "phone": "+420272192458",
+      "officialUrl": "https://www.restauracecolumna.cz/restaurace",
+      "walkingMeters": 550,
+      "walkingMinutes": 7,
+      "streets": [
+        "Mírového hnutí",
+        "Pyšelská"
+      ],
+      "openingHours": [
+        [
+          1,
+          5,
+          "10:00–22:00"
+        ],
+        [
+          6,
+          7,
+          null
+        ]
+      ],
+      "historicalPrices": "205–225 Kč",
+      "cuisine": "italian",
+      "note": null,
+      "verifiedOn": "2026-10-08",
+      "sourceFlyer": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "walkingEstimateDate": "2026-07-28",
+      "hoursSource": "https://www.restauracecolumna.cz/restaurace"
+    },
+    {
+      "id": "cafepark",
+      "name": "Bistro Café Park 11",
+      "address": "Mírového hnutí 2353/2, Praha 11 – Chodov",
+      "phone": "+420725736342",
+      "officialUrl": "https://www.cafepark11.cz/",
+      "walkingMeters": 850,
+      "walkingMinutes": 11,
+      "streets": [
+        "Mírového hnutí",
+        "Lešanská",
+        "Donovalská"
+      ],
+      "openingHours": [
+        [
+          1,
+          1,
+          null
+        ],
+        [
+          2,
+          4,
+          "12:00–20:00"
+        ],
+        [
+          5,
+          6,
+          "12:00–21:00"
+        ],
+        [
+          7,
+          7,
+          "12:00–20:00"
+        ]
+      ],
+      "historicalPrices": "60–130 Kč",
+      "cuisine": "cafe",
+      "note": null,
+      "verifiedOn": "2026-10-08",
+      "sourceFlyer": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "walkingEstimateDate": "2026-07-28",
+      "hoursSource": "https://www.cafepark11.cz/"
+    },
+    {
+      "id": "tvrz-rest",
+      "name": "Restaurace Chodovská tvrz",
+      "address": "Ledvinova 9/86, Praha 11 – Chodov",
+      "phone": "+420606756556",
+      "officialUrl": "https://www.restauracetvrz.cz/",
+      "walkingMeters": 1050,
+      "walkingMinutes": 14,
+      "streets": [
+        "Mírového hnutí",
+        "Pyšelská",
+        "Ledvinova"
+      ],
+      "openingHours": [
+        [
+          1,
+          7,
+          "11:30–22:30"
+        ]
+      ],
+      "historicalPrices": "199–329 Kč",
+      "cuisine": "czech-history",
+      "note": null,
+      "verifiedOn": "2026-10-08",
+      "sourceFlyer": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "walkingEstimateDate": "2026-07-28",
+      "hoursSource": "https://www.restauracetvrz.cz/"
+    },
+    {
+      "id": "xl",
+      "name": "XL Restaurant Grill & Bar",
+      "address": "Klecandova 2380/1, Praha 11 – Chodov",
+      "phone": "+420228226810",
+      "officialUrl": "https://xlrestaurant.cz/booking",
+      "walkingMeters": 950,
+      "walkingMinutes": 13,
+      "streets": [
+        "Mírového hnutí",
+        "Pyšelská",
+        "Ledvinova",
+        "Klecandova"
+      ],
+      "openingHours": [
+        [
+          1,
+          4,
+          "11:00–23:00"
+        ],
+        [
+          5,
+          6,
+          "11:00–24:00"
+        ],
+        [
+          7,
+          7,
+          "11:00–23:00"
+        ]
+      ],
+      "historicalPrices": "195–689 Kč",
+      "cuisine": "grill",
+      "note": null,
+      "verifiedOn": "2026-10-08",
+      "sourceFlyer": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "walkingEstimateDate": "2026-07-28",
+      "hoursSource": "https://xlrestaurant.cz/booking"
+    },
+    {
+      "id": "freesolo",
+      "name": "Free Solo – restaurace",
+      "address": "Donovalská 1662/38, Praha 11 – Chodov",
+      "phone": "+420722646634",
+      "officialUrl": "https://www.freesolo.cz/",
+      "walkingMeters": 420,
+      "walkingMinutes": 6,
+      "streets": [
+        "Mírového hnutí",
+        "Lešanská",
+        "Donovalská"
+      ],
+      "openingHours": [
+        [
+          1,
+          4,
+          "11:00–22:00"
+        ],
+        [
+          5,
+          6,
+          "11:00–23:00"
+        ],
+        [
+          7,
+          7,
+          "11:00–22:00"
+        ]
+      ],
+      "historicalPrices": "159 Kč",
+      "cuisine": "international",
+      "note": null,
+      "verifiedOn": "2026-10-08",
+      "sourceFlyer": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "walkingEstimateDate": "2026-07-28",
+      "hoursSource": "https://prague.eu/cs/objevujte/free-solo/"
+    },
+    {
+      "id": "rizkovna",
+      "name": "Řízkovna & Pizzeria Jižní město",
+      "address": "Brandlova 2381/1b, Praha 11 – Chodov",
+      "phone": "+420604556688",
+      "officialUrl": "https://rizkovna-pizzeria.cz/kontakt/",
+      "walkingMeters": 1450,
+      "walkingMinutes": 19,
+      "streets": [
+        "Mírového hnutí",
+        "Křejpského",
+        "Hvězdoslavova",
+        "Brandlova"
+      ],
+      "openingHours": [
+        [
+          1,
+          4,
+          "10:30–23:00"
+        ],
+        [
+          5,
+          6,
+          "11:00–24:00"
+        ],
+        [
+          7,
+          7,
+          "10:30–23:00"
+        ]
+      ],
+      "historicalPrices": "169–329 Kč",
+      "cuisine": "pizza",
+      "note": null,
+      "verifiedOn": "2026-10-08",
+      "sourceFlyer": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "walkingEstimateDate": "2026-07-28",
+      "hoursSource": "https://rizkovna-pizzeria.cz/kontakt/"
+    },
+    {
+      "id": "tranviet",
+      "name": "Tran Viet Food",
+      "address": "Brandlova 1599/8, OC Signál, Praha 11 – Chodov",
+      "phone": "+420776506789",
+      "officialUrl": "https://www.tranvietfood.cz/kontakty/",
+      "walkingMeters": 1800,
+      "walkingMinutes": 23,
+      "streets": [
+        "Mírového hnutí",
+        "Křejpského",
+        "Hvězdoslavova",
+        "Brandlova"
+      ],
+      "openingHours": [
+        [
+          1,
+          5,
+          "10:00–21:00"
+        ],
+        [
+          6,
+          7,
+          "11:00–21:00"
+        ]
+      ],
+      "historicalPrices": "100–220 Kč",
+      "cuisine": "asian",
+      "note": "side-entrance",
+      "verifiedOn": "2026-10-08",
+      "sourceFlyer": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "walkingEstimateDate": "2026-07-28",
+      "hoursSource": "https://www.tranvietfood.cz/kontakty/"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "hotel-chodov-asc",
+  "name": "Hotel CHODOV ASC",
+  "address": "Mírového hnutí 2137/7, 149 00 Praha 11",
+  "lat": 50.03996,
+  "lon": 14.50541,
+  "coordinateType": "objekt",
+  "coordinateSource": "https://www.penziony.cz/praha/hotel-chodov/",
+  "coordinateNote": "GPS hotelové budovy z katalogu; pěší vchod musí schválit recepce.",
+  "verifiedOn": "2026-10-08",
+  "phone": "+420 608 877 424",
+  "url": "https://hotelchodovasc.cz/"
+}

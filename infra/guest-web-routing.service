@@ -1,0 +1,24 @@
+[Unit]
+Description=GUEST_WEB isolated pedestrian routing proxy
+After=network.target
+
+[Service]
+User=guest-web
+Group=guest-web
+WorkingDirectory=/opt/guest-web/current/infra
+EnvironmentFile=/etc/guest-web/routing.env
+ExecStart=/usr/bin/node /opt/guest-web/current/infra/routing.mjs
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+RestrictAddressFamilies=AF_INET AF_INET6
+MemoryMax=128M
+CPUQuota=25%
+TasksMax=32
+LimitNOFILE=256
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,41 @@
+{
+  "userInstruction": "Use existing flyers as mandatory expandable content; health.cs.json confirmed as the medical source by user on 2026-10-08.",
+  "sources": [
+    {
+      "file": "Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "sourcePath": "/Users/karelmartinek/Downloads/Restaurace_v_pesim_dosahu_Hotel_Chodov_ASC_CZ_finalni_polish.docx",
+      "sha256": "bf520022d32c5e5db527ef2100a77fe7cd3f8d42543148afbdb1acbb4aa2f6c0",
+      "usage": "Mandatory user-provided editorial facts; illustrations are not republished without a separate license audit."
+    },
+    {
+      "file": "Restaurace_okoli_Hotel_Chodov_ASC_FINAL.docx",
+      "sourcePath": "/Users/karelmartinek/Downloads/Restaurace_okoli_Hotel_Chodov_ASC_FINAL.docx",
+      "sha256": "2243aba934fbb507d4adea3ed54c7cf0b47d70b8979266325ec476a26012a647",
+      "usage": "Mandatory user-provided editorial facts; illustrations are not republished without a separate license audit."
+    },
+    {
+      "file": "chodov_guest_walk_map_COMPACT_LOGOFULL_V2.png",
+      "sourcePath": "/Users/karelmartinek/Downloads/chodov_guest_walk_map_COMPACT_LOGOFULL_V2.png",
+      "sha256": "7bcb2ee34dac1355508743dbc56914904a130fcb2e4e37cfaffad0801b8b6bea",
+      "usage": "Mandatory user-provided editorial facts; illustrations are not republished without a separate license audit."
+    },
+    {
+      "file": "Hotel_Chodov_ASC_Kniha_pro_hosty_STRANA_10_MAPA_V6_2026.docx",
+      "sourcePath": "/Users/karelmartinek/Downloads/Hotel_Chodov_ASC_Kniha_pro_hosty_STRANA_10_MAPA_V6_2026.docx",
+      "sha256": "77d06c08a04e285abd487c361a7afbd1603982b524cb3cd239baae44631c9031",
+      "usage": "Mandatory user-provided editorial facts; illustrations are not republished without a separate license audit."
+    },
+    {
+      "file": "Hotel_Chodov_ASC_info_CZ.docx",
+      "sourcePath": "/Users/karelmartinek/Downloads/Hotel_Chodov_ASC_info_CZ.docx",
+      "sha256": "91bb0b37450af7d3f5d62ea3b496d0d8d8eb11ab57d11ea52e364ebc6c1c29c9",
+      "usage": "Mandatory user-provided editorial facts; illustrations are not republished without a separate license audit."
+    },
+    {
+      "file": "Obsahove_zadani_informacniho_letaku_Hotel_Chodov_ASC.md",
+      "sourcePath": "/Users/karelmartinek/Downloads/Obsahove_zadani_informacniho_letaku_Hotel_Chodov_ASC.md",
+      "sha256": "c07bcc3e8f91b3813cedda5d338bc5ffc727c66fde4af7e6a5c1c5effe20ab8f",
+      "usage": "Mandatory user-provided editorial facts; illustrations are not republished without a separate license audit."
+    }
+  ]
+}

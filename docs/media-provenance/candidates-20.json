@@ -1,0 +1,2223 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "pages": [
+      {
+        "pageid": 6556866,
+        "ns": 6,
+        "title": "File:Charles Bridge.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 429214,
+            "width": 2048,
+            "height": 1361,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge.jpg/1280px-Charles_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 797,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/04/Charles_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge.jpg/1280px-Charles_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 797,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/04/Charles_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Charles_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charles_Bridge.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6556866",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2009-04-17 15:29:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charles Bridge",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Water reflections of bridges in the Czech Republic|GFDL|License migration redundant|Self-published work|Views of Charles Bridge from Malá Strana",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Charles Bridge in Prague",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hareco&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hareco (page does not exist)\">Hareco</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 15550766,
+        "ns": 6,
+        "title": "File:Pražský hrad.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6093173,
+            "width": 4416,
+            "height": 3312,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Pra%C5%BEsk%C3%BD_hrad.jpg/1280px-Pra%C5%BEsk%C3%BD_hrad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Pra%C5%BEsk%C3%BD_hrad.jpg/3840px-Pra%C5%BEsk%C3%BD_hrad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Pra%C5%BEsk%C3%BD_hrad.jpg/1280px-Pra%C5%BEsk%C3%BD_hrad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Pra%C5%BEsk%C3%BD_hrad.jpg/3840px-Pra%C5%BEsk%C3%BD_hrad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Pra%C5%BEsk%C3%BD_hrad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pra%C5%BEsk%C3%BD_hrad.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15550766",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-06-18 23:01:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Pražský hrad",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon PowerShot G10|New Royal Palace (Prague Castle)|Self-published work|Files by User:Dezidor|Prague Castle at night",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Pražský hrad",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://cs.wikipedia.org/wiki/User:Dezidor\" class=\"extiw\" title=\"cs:User:Dezidor\">Dezidor</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Dezidor",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 17308061,
+        "ns": 6,
+        "title": "File:Prague Castle.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4554997,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Prague_Castle.jpg/1280px-Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Prague_Castle.jpg/1280px-Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Prague_Castle.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17308061",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-11-11 18:03:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Prague Castle",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views of Prague Castle|GFDL|Taken with Canon PowerShot A720 IS|License migration redundant|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Prague Castle.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-10-14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Yair-haklai\" title=\"User:Yair-haklai\">Yair Haklai</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 17552197,
+        "ns": 6,
+        "title": "File:Petřínská rozhledna-Prague.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3416750,
+            "width": 2448,
+            "height": 3264,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 900,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg/1920px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg/960px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 900,
+              "height": 1200,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg/1920px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pet%C5%99%C3%ADnsk%C3%A1_rozhledna-Prague.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17552197",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-12-02 16:53:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Petřínská rozhledna-Prague",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Canon PowerShot A720 IS|Petřínská rozhledna|License migration redundant|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Petřínská rozhledna.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Yair-haklai\" title=\"User:Yair-haklai\">Yair Haklai</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 19832050,
+        "ns": 6,
+        "title": "File:Hamerský rybník, od východu.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1348734,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_od_v%C3%BDchodu.jpg/1280px-Hamersk%C3%BD_rybn%C3%ADk%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_od_v%C3%BDchodu.jpg/1280px-Hamersk%C3%BD_rybn%C3%ADk%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hamersk%C3%BD_rybn%C3%ADk,_od_v%C3%BDchodu.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=19832050",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-06-09 14:23:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hamerský rybník, od východu",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Czech Republic photographs taken on 2012-05-17|Taken with Kodak EasyShare Z8612 IS|Hamerský rybník (Záběhlice)|Self-published work|Files with coordinates missing SDC location of creation|Island of Hamerský rybník",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.051833",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.488556",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Prague\" class=\"extiw\" title=\"en:Prague\">Prague</a>-<a href=\"https://en.wikipedia.org/wiki/Z%C3%A1b%C4%9Bhlice\" class=\"extiw\" title=\"en:Záběhlice\">Záběhlice</a>, the <a href=\"https://en.wikipedia.org/wiki/Czech_Republic\" class=\"extiw\" title=\"en:Czech Republic\">Czech Republic</a>. Hamerský Pond.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 17 May 2012",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%C5%A0J%C5%AF\" title=\"User:ŠJů\">ŠJů</a> (<a href=\"https://cs.wikipedia.org/wiki/User:%C5%A0J%C5%AF\" class=\"extiw\" title=\"cs:User:ŠJů\">cs:ŠJů</a>)",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "ŠJů, Wikimedia Commons",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 19832144,
+        "ns": 6,
+        "title": "File:Hamerský rybník, ostrov, od východu.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1823755,
+            "width": 3264,
+            "height": 2448,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_ostrov%2C_od_v%C3%BDchodu.jpg/1280px-Hamersk%C3%BD_rybn%C3%ADk%2C_ostrov%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_ostrov%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_ostrov%2C_od_v%C3%BDchodu.jpg/1280px-Hamersk%C3%BD_rybn%C3%ADk%2C_ostrov%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_ostrov%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hamersk%C3%BD_rybn%C3%ADk%2C_ostrov%2C_od_v%C3%BDchodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hamersk%C3%BD_rybn%C3%ADk,_ostrov,_od_v%C3%BDchodu.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=19832144",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-06-09 14:24:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hamerský rybník, ostrov, od východu",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Czech Republic photographs taken on 2012-05-17|Taken with Kodak EasyShare Z8612 IS|Hamerský rybník (Záběhlice)|Self-published work|Files with coordinates missing SDC location of creation|Island of Hamerský rybník",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.051833",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.488556",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Prague\" class=\"extiw\" title=\"en:Prague\">Prague</a>-<a href=\"https://en.wikipedia.org/wiki/Z%C3%A1b%C4%9Bhlice\" class=\"extiw\" title=\"en:Záběhlice\">Záběhlice</a>, the <a href=\"https://en.wikipedia.org/wiki/Czech_Republic\" class=\"extiw\" title=\"en:Czech Republic\">Czech Republic</a>. Hamerský Pond.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 17 May 2012",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%C5%A0J%C5%AF\" title=\"User:ŠJů\">ŠJů</a> (<a href=\"https://cs.wikipedia.org/wiki/User:%C5%A0J%C5%AF\" class=\"extiw\" title=\"cs:User:ŠJů\">cs:ŠJů</a>)",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "ŠJů, Wikimedia Commons",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 21628702,
+        "ns": 6,
+        "title": "File:Charles Bridge, Prague 01.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4204138,
+            "width": 3872,
+            "height": 2592,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charles_Bridge%2C_Prague_01.jpg/1280px-Charles_Bridge%2C_Prague_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 803,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charles_Bridge%2C_Prague_01.jpg/3840px-Charles_Bridge%2C_Prague_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charles_Bridge%2C_Prague_01.jpg/1280px-Charles_Bridge%2C_Prague_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 803,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charles_Bridge%2C_Prague_01.jpg/3840px-Charles_Bridge%2C_Prague_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Charles_Bridge%2C_Prague_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charles_Bridge,_Prague_01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21628702",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-09-25 18:36:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charles Bridge, Prague 01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Wiki Loves Monuments 2012 in the Czech Republic|Czech Republic photographs taken on 2011-08-10|Taken with Sony DSLR-A330|Views of Charles Bridge|Self-published work|Images from Wiki Loves Monuments 2012|Cultural monuments in the Czech Republic with known IDs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a photo of a <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Cultural_monument_(Czech_Republic)\" class=\"extiw\" title=\"en:Cultural monument (Czech Republic)\"><span lang=\"en\" dir=\"ltr\">cultural monument of the Czech Republic</span></a></span>,<br>number:",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-08-10 20:16:22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:LibertinaGrim&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:LibertinaGrim (page does not exist)\">LibertinaGrim</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 21631313,
+        "ns": 6,
+        "title": "File:Charles Bridge, Prague.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4429958,
+            "width": 3872,
+            "height": 2176,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Charles_Bridge%2C_Prague.jpg/1280px-Charles_Bridge%2C_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 674,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Charles_Bridge%2C_Prague.jpg/3840px-Charles_Bridge%2C_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Charles_Bridge%2C_Prague.jpg/1280px-Charles_Bridge%2C_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 674,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Charles_Bridge%2C_Prague.jpg/3840px-Charles_Bridge%2C_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Charles_Bridge%2C_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charles_Bridge,_Prague.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21631313",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-09-25 19:45:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charles Bridge, Prague",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Wiki Loves Monuments 2012 in the Czech Republic|Czech Republic photographs taken on 2011-08-11|Taken with Sony DSLR-A330|Self-published work|Images from Wiki Loves Monuments 2012|Cultural monuments in the Czech Republic with known IDs|Views of Charles Bridge from Old Town",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a photo of a <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Cultural_monument_(Czech_Republic)\" class=\"extiw\" title=\"en:Cultural monument (Czech Republic)\"><span lang=\"en\" dir=\"ltr\">cultural monument of the Czech Republic</span></a></span>,<br>number:",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-08-11 12:11:49",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:LibertinaGrim&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:LibertinaGrim (page does not exist)\">LibertinaGrim</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 28217387,
+        "ns": 6,
+        "title": "File:Prague Castle, Prague, Czech Republic.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 8094007,
+            "width": 5184,
+            "height": 3456,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Prague_Castle%2C_Prague%2C_Czech_Republic.jpg/1280px-Prague_Castle%2C_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Prague_Castle%2C_Prague%2C_Czech_Republic.jpg/3840px-Prague_Castle%2C_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Prague_Castle%2C_Prague%2C_Czech_Republic.jpg/1280px-Prague_Castle%2C_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Prague_Castle%2C_Prague%2C_Czech_Republic.jpg/3840px-Prague_Castle%2C_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Prague_Castle%2C_Prague%2C_Czech_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Prague_Castle,_Prague,_Czech_Republic.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28217387",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-09-11 15:11:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Prague Castle, Prague, Czech Republic",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Wiki Loves Monuments 2013 in the Czech Republic|Czech Republic photographs taken on 2013-08-12|Taken with Canon EOS 600D|Self-published work|Prague Castle at night|Images from Wiki Loves Monuments 2013|Uploaded via Campaign:wlm-cz|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A night photograph of the Prague Castle, Czech Republic",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-08-12 01:37:28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Harini.rajagopal&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Harini.rajagopal (page does not exist)\">Harini.rajagopal</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 28250469,
+        "ns": 6,
+        "title": "File:Old town square.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 10564792,
+            "width": 4272,
+            "height": 2848,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Old_town_square.jpg/1280px-Old_town_square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Old_town_square.jpg/3840px-Old_town_square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Old_town_square.jpg/1280px-Old_town_square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Old_town_square.jpg/3840px-Old_town_square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Old_town_square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Old_town_square.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28250469",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-09-13 02:01:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Old town square",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Wiki Loves Monuments 2013 in the Czech Republic|Czech Republic photographs taken on 2013-04-25|Taken with Canon EOS 450D|Kinský Palace (Prague)|Jan Hus Memorial (Old Town Square)|Views of Prague from Old Town Hall Tower|Dlouhá (Prague)|Self-published work|Images from Wiki Loves Monuments 2013|Cultural monuments in the Czech Republic with known IDs|Uploaded via Campaign:wlm-cz",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This is a photo of a <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Cultural_monument_(Czech_Republic)\" class=\"extiw\" title=\"en:Cultural monument (Czech Republic)\"><span lang=\"en\" dir=\"ltr\">cultural monument of the Czech Republic</span></a></span>,<br>number:",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-04-25 10:00:48",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PerSona77&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PerSona77 (page does not exist)\">xavi lópez</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 44061747,
+        "ns": 6,
+        "title": "File:Charles Bridge Prague.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2054699,
+            "width": 3648,
+            "height": 2736,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Charles_Bridge_Prague.jpg/1280px-Charles_Bridge_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/be/Charles_Bridge_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Charles_Bridge_Prague.jpg/1280px-Charles_Bridge_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/be/Charles_Bridge_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Charles_Bridge_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charles_Bridge_Prague.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44061747",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-10-07 13:39:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charles Bridge Prague",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Charles Bridge|Self-published work|Pillars in Prague|9. Bilderwettbewerb der Jungwikipedianer",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Die Karlsbrücke in Prag",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-12-25 13:24:21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:DOWIMA\" title=\"User:DOWIMA\">DOWIMA</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 52312415,
+        "ns": 6,
+        "title": "File:Charles Bridge Prague September 2016-1.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 20898298,
+            "width": 4303,
+            "height": 7262,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge_Prague_September_2016-1.jpg/960px-Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 711,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge_Prague_September_2016-1.jpg/1920px-Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge_Prague_September_2016-1.jpg/960px-Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 711,
+              "height": 1200,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Charles_Bridge_Prague_September_2016-1.jpg/1920px-Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Charles_Bridge_Prague_September_2016-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charles_Bridge_Prague_September_2016-1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52312415",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-10-16 22:27:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Charles Bridge Prague September 2016-1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Photographs by Alvesgaspar|Statues on Old Town Bridge Tower",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "East Tower of Charles Bridge, Prague. Detail of façade",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-09-23 09:37:08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Alvesgaspar\" title=\"User:Alvesgaspar\">Alvesgaspar</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 58361089,
+        "ns": 6,
+        "title": "File:Klementinum.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1398221,
+            "width": 2560,
+            "height": 1920,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Klementinum.jpg/1280px-Klementinum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Klementinum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Klementinum.jpg/1280px-Klementinum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Klementinum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Klementinum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Klementinum.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=58361089",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-04-28 15:55:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Klementinum",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Clementinum Prague|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Klementinum",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-07-22 19:41:49",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:VitVit\" title=\"User:VitVit\">VitVit</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 65815764,
+        "ns": 6,
+        "title": "File:2017-06-03 Prague Astronomical Clock.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 8160460,
+            "width": 3456,
+            "height": 4846,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2017-06-03_Prague_Astronomical_Clock.jpg/960px-2017-06-03_Prague_Astronomical_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 856,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2017-06-03_Prague_Astronomical_Clock.jpg/1920px-2017-06-03_Prague_Astronomical_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2017-06-03_Prague_Astronomical_Clock.jpg/960px-2017-06-03_Prague_Astronomical_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 856,
+              "height": 1200,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2017-06-03_Prague_Astronomical_Clock.jpg/1920px-2017-06-03_Prague_Astronomical_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2017-06-03_Prague_Astronomical_Clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2017-06-03_Prague_Astronomical_Clock.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65815764",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-01-25 05:34:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2017-06-03 Prague Astronomical Clock",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Prague Astronomical Clock|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.086910",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.420780",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Prague Astronomical Clock",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-06-03 05:16:51",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Maxim75\" title=\"User:Maxim75\">Maksym Kozlenko</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 71329758,
+        "ns": 6,
+        "title": "File:Prague - astronomical clock.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 5685376,
+            "width": 4160,
+            "height": 3120,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Prague_-_astronomical_clock.jpg/1280px-Prague_-_astronomical_clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Prague_-_astronomical_clock.jpg/3840px-Prague_-_astronomical_clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Prague_-_astronomical_clock.jpg/1280px-Prague_-_astronomical_clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Prague_-_astronomical_clock.jpg/3840px-Prague_-_astronomical_clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Prague_-_astronomical_clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Prague_-_astronomical_clock.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71329758",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-08-04 08:14:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Prague - astronomical clock",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Prague Astronomical Clock|Self-published work|Scaffolding in Prague",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Praha - orloj",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-07-17 13:01:20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ad%C3%A1moz\" title=\"User:Adámoz\">Adámoz</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 93686021,
+        "ns": 6,
+        "title": "File:Prague Castle, St Vita Cathedral, November 1993.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7131906,
+            "width": 5949,
+            "height": 4107,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Prague_Castle%2C_St_Vita_Cathedral%2C_November_1993.jpg/1280px-Prague_Castle%2C_St_Vita_Cathedral%2C_November_1993.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 828,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Prague_Castle%2C_St_Vita_Cathedral%2C_November_1993.jpg/3840px-Prague_Castle%2C_St_Vita_Cathedral%2C_November_1993.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Prague_Castle%2C_St_Vita_Cathedral%2C_November_1993.jpg/1280px-Prague_Castle%2C_St_Vita_Cathedral%2C_November_1993.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 828,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Prague_Castle%2C_St_Vita_Cathedral%2C_November_1993.jpg/3840px-Prague_Castle%2C_St_Vita_Cathedral%2C_November_1993.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Prague_Castle%2C_St_Vita_Cathedral%2C_November_1993.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Prague_Castle,_St_Vita_Cathedral,_November_1993.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93686021",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-30 18:08:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Prague Castle, St Vita Cathedral, November 1993",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|1993 in Prague|North facade of St. Vitus Cathedral",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Prague Castle, St Vita Cathedral, November 1993",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1993-11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Infrogmation\" title=\"User:Infrogmation\">Infrogmation</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 115416821,
+        "ns": 6,
+        "title": "File:Prague Astronomical Clock Prague Orloj 5.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2144421,
+            "width": 2448,
+            "height": 3264,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Prague_Astronomical_Clock_Prague_Orloj_5.jpg/960px-Prague_Astronomical_Clock_Prague_Orloj_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 900,
+            "thumbheight": 1200,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Prague_Astronomical_Clock_Prague_Orloj_5.jpg/1920px-Prague_Astronomical_Clock_Prague_Orloj_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Prague_Astronomical_Clock_Prague_Orloj_5.jpg/960px-Prague_Astronomical_Clock_Prague_Orloj_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 900,
+              "height": 1200,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Prague_Astronomical_Clock_Prague_Orloj_5.jpg/1920px-Prague_Astronomical_Clock_Prague_Orloj_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Prague_Astronomical_Clock_Prague_Orloj_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Prague_Astronomical_Clock_Prague_Orloj_5.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=115416821",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-02-20 22:28:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Prague Astronomical Clock Prague Orloj 5",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Prague Astronomical Clock|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Prague Astronomical Clock.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-10-14 15:36:38",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EWilson_(Volunteer)\" title=\"User:EWilson (Volunteer)\">EWilson (Volunteer)</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 128370078,
+        "ns": 6,
+        "title": "File:Prague - Prague Castle.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 6278272,
+            "width": 4576,
+            "height": 3432,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Prague_-_Prague_Castle.jpg/1280px-Prague_-_Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Prague_-_Prague_Castle.jpg/3840px-Prague_-_Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Prague_-_Prague_Castle.jpg/1280px-Prague_-_Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Prague_-_Prague_Castle.jpg/3840px-Prague_-_Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Prague_-_Prague_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Prague_-_Prague_Castle.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128370078",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-02-03 12:39:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Prague - Prague Castle",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views of Prague Castle from Vltava bank|Czech Republic photographs taken on 2022-06-21|Self-published work|June 2022 in Prague",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of Castle District from Charles Bridge, Prague, Czech Republic",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-06-21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Indies1\" title=\"User:Indies1\">P. Hughes</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 133098187,
+        "ns": 6,
+        "title": "File:Hamerský rybník, Záběhlice, Praha.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 9994144,
+            "width": 4624,
+            "height": 3472,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Hamersk%C3%BD_rybn%C3%ADk%2C_Z%C3%A1b%C4%9Bhlice%2C_Praha.jpg/1280px-Hamersk%C3%BD_rybn%C3%ADk%2C_Z%C3%A1b%C4%9Bhlice%2C_Praha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 901,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Hamersk%C3%BD_rybn%C3%ADk%2C_Z%C3%A1b%C4%9Bhlice%2C_Praha.jpg/3840px-Hamersk%C3%BD_rybn%C3%ADk%2C_Z%C3%A1b%C4%9Bhlice%2C_Praha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Hamersk%C3%BD_rybn%C3%ADk%2C_Z%C3%A1b%C4%9Bhlice%2C_Praha.jpg/1280px-Hamersk%C3%BD_rybn%C3%ADk%2C_Z%C3%A1b%C4%9Bhlice%2C_Praha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 901,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Hamersk%C3%BD_rybn%C3%ADk%2C_Z%C3%A1b%C4%9Bhlice%2C_Praha.jpg/3840px-Hamersk%C3%BD_rybn%C3%ADk%2C_Z%C3%A1b%C4%9Bhlice%2C_Praha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hamersk%C3%BD_rybn%C3%ADk%2C_Z%C3%A1b%C4%9Bhlice%2C_Praha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hamersk%C3%BD_rybn%C3%ADk,_Z%C3%A1b%C4%9Bhlice,_Praha.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133098187",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-06-14 17:11:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hamerský rybník, Záběhlice, Praha",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Hamerský rybník (Záběhlice)|Self-published work|Files with coordinates missing SDC location of creation|Files by Fry72 from Prague/2023",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.053476",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.484071",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hamerský rybník, Záběhlice, Praha, Česká republika",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-06-14 14:32:42",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Fry72\" title=\"User:Fry72\">Karel Frydrýšek </a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "pageid": 155362255,
+        "ns": 6,
+        "title": "File:Klementinum – průčelí z Mariánského náměstí.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 15495948,
+            "width": 6000,
+            "height": 3999,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg/1280px-Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg/3840px-Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg/1280px-Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg/3840px-Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Klementinum_%E2%80%93_pr%C5%AF%C4%8Del%C3%AD_z_Mari%C3%A1nsk%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155362255",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-19 16:02:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Klementinum – průčelí z Mariánského náměstí",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Clementinum Prague|Self-published work|Files with coordinates missing SDC location of creation|Images by Skot",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "50.087023",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "14.417218",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Průčelí Klementina z Mariánského náměstí",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-08-09 09:14:25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Skot\" title=\"User:Skot\">Skot</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "mime": "image/jpeg"
+          }
+        ]
+      }
+    ]
+  }
+}

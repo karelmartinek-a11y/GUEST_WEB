@@ -1,0 +1,78 @@
+name: Test and deploy GUEST_WEB
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: guest-web-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  test:
+    name: Validate, test, build and verify mobile UI
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm audit --audit-level=high
+      - run: npm run check
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: guest-web-${{ github.sha }}
+          path: dist/
+          retention-days: 14
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: ui-evidence-${{ github.sha }}
+          path: |
+            playwright-report/
+            artifacts/*.png
+          retention-days: 14
+  deploy:
+    name: Deploy tested SHA to guest.hcasc.cz
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && vars.GUEST_WEB_DEPLOY_ENABLED == 'true'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+      - run: node scripts/production-gate.mjs
+      - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: guest-web-${{ github.sha }}
+          path: dist/
+      - name: Install restricted SSH credential without logging it
+        env:
+          DEPLOY_PRIVATE_KEY: ${{ secrets.GUEST_WEB_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.GUEST_WEB_KNOWN_HOSTS }}
+        run: |
+          install -d -m 700 "$HOME/.ssh"
+          printf '%s\n' "$DEPLOY_PRIVATE_KEY" > "$RUNNER_TEMP/guest-web-deploy-key"
+          chmod 600 "$RUNNER_TEMP/guest-web-deploy-key"
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$HOME/.ssh/known_hosts"
+          chmod 600 "$HOME/.ssh/known_hosts"
+      - name: Atomic release and public runtime verification
+        env:
+          DEPLOY_KEY_FILE: ${{ runner.temp }}/guest-web-deploy-key
+        run: bash scripts/deploy.sh
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: production-runtime-${{ github.sha }}
+          path: artifacts/runtime.json
+          retention-days: 30

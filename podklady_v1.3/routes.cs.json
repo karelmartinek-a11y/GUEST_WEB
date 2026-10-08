@@ -1,0 +1,69 @@
+{
+  "version": "1.2",
+  "routes": [
+    {
+      "id": "chodov-klid",
+      "name": "Klidná procházka v okolí hotelu",
+      "mode": "walking",
+      "stopIds": [
+        "chodovska-tvrz",
+        "westfield-chodov"
+      ],
+      "start": "hotel nebo ručně zvolený bod",
+      "notes": "Lokální orientační okruh; skutečnou návaznost pěších cest a vzdálenost ověřit routerem a pěším průchodem.",
+      "estimatedTime": null
+    },
+    {
+      "id": "kunratice-priroda",
+      "name": "Kunratický les a příroda",
+      "mode": "walking",
+      "stopIds": [
+        "kunraticky-les"
+      ],
+      "start": "schválený pěší vstup do lesa",
+      "notes": "Samostatná lesní procházka bez vymyšleného kruhového vedení; trasa se musí zkontrolovat na schůdných cestách.",
+      "estimatedTime": null
+    },
+    {
+      "id": "stare-mesto",
+      "name": "Historické centrum za odpoledne",
+      "mode": "walking",
+      "stopIds": [
+        "obecni-dum",
+        "staromestska-radnice",
+        "klementinum",
+        "staromestska-mostecka-vez",
+        "karluv-most"
+      ],
+      "start": "Obecní dům, Praha 1",
+      "notes": "Dojíždí se MHD/taxi do centra; průvodce vede pouze pěší úsek. Prohlídky interiérů jsou volitelné.",
+      "estimatedTime": null
+    },
+    {
+      "id": "mala-strana-hrad",
+      "name": "Hradčany a Malá Strana",
+      "mode": "walking",
+      "stopIds": [
+        "prazsky-hrad",
+        "zahrady-prazskeho-hradu",
+        "zahrady-pod-hradem",
+        "valdstejnska-zahrada"
+      ],
+      "start": "Pražský hrad, schválená vstupní brána",
+      "notes": "Propojení zahrad je sezónní a některé přímé průchody jsou uzavřené; editor trasy je musí v repo aktualizovat.",
+      "estimatedTime": null
+    },
+    {
+      "id": "letna-technika",
+      "name": "Letná a technika",
+      "mode": "walking",
+      "stopIds": [
+        "narodni-technicke-muzeum",
+        "letenske-sady"
+      ],
+      "start": "Národní technické muzeum",
+      "notes": "Vhodné i za horšího počasí s pobytem v muzeu; venkovní část dle počasí.",
+      "estimatedTime": null
+    }
+  ]
+}
