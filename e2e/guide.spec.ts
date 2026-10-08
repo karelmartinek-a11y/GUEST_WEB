@@ -78,6 +78,9 @@ test('UNESCO filter, official emblem and transport-mode icons use the actual ins
  await page.locator('.place-card').click();await expect(page.locator('dialog[open] .heritage-details')).toContainText('Průhonický park');
 });
 test('home presentation has licensed images and honours reduced motion',async({page})=>{
+ const response=await page.request.get('/release.json');expect(response.ok()).toBe(true);const release=await response.json();
+ expect(release.repository).toBe('karelmartinek-a11y/GUEST_WEB');expect(release.places).toBe(36);expect(release.languages).toBe(12);expect(release.navigationEnabled).toBe(false);
+ if(process.env.GITHUB_SHA)expect(release.sha).toBe(process.env.GITHUB_SHA);
  await page.goto('/cs/');await expect(page.locator('.hero-copy h1')).toBeVisible();await expect(page.locator('.choices .choice')).toHaveCount(9);
  await expect(page.locator('.cinema-image')).toHaveAttribute('src',/\/media\/photos\//);
  const animation=await page.locator('.dagmar-stage img').evaluate(el=>getComputedStyle(el).animationName);expect(animation).toBe('none');

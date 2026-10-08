@@ -20,6 +20,8 @@ Aktuální rozšíření má 36 míst, 116 katalogových fotografií, 22 územn�
 
 Produkční job se dosud přeskočil: `GUEST_WEB_DEPLOY_ENABLED` není zapnuté. SSH deployment secrets nebyly vytvořeny. Úspěch testovacího jobu tedy neznamená produkční nasazení.
 
+Rozšíření s oficiálním emblémem, 36 místy a 116 fotografiemi prošlo [CI 37859514135](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37859514135), commit `a57030a0ff62d85597776fedf2548e1c97e9326f`: audit bez nálezu, 10 unit/HTTP testů, 36 Playwright průchodů a build. Produkční job byl přeskočen. Následná oprava odvozuje počet míst v release manifestu přímo z katalogu; prohlížečový test kontroluje také metadata a v CI jejich shodu s přesným SHA.
+
 ## Vlastní routovací graf mimo produkci
 
 [Build 37857716009](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37857716009), commit `a986fa01025e8e5c4d2c7eb6411e24029eb827d6`, úspěšně sestavil pražský OSM graf s Valhalla 3.6.3. Build má limit dvě CPU / 4 GiB; ověřovací engine půl CPU / 512 MiB, read-only filesystem, loopback port a zákaz nových privilegií. Vlastní engine v CI vrátil syntetickou pěší trasu v CS/EN/DE, se skutečně správným jazykem a 25 manévry.

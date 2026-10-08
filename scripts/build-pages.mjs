@@ -23,7 +23,7 @@ fs.writeFileSync('dist/robots.txt','User-agent: *\nAllow: /\nSitemap: '+origin+'
 fs.writeFileSync('dist/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+languages.flatMap(language=>screens.map(screen=>`<url><loc>${origin}/${language}/${screen?screen+'/':''}</loc></url>`)).join('')+'</urlset>');
 let sha=process.env.GITHUB_SHA||process.env.RELEASE_SHA;
 if(!sha)try{sha=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim();}catch{sha='development';}
-fs.writeFileSync('dist/release.json',JSON.stringify({repository:'karelmartinek-a11y/GUEST_WEB',sha,builtAt:new Date().toISOString(),languages:languages.length,places:29,navigationEnabled:JSON.parse(fs.readFileSync('public/capabilities.json')).navigationEnabled},null,2)+'\n');
+fs.writeFileSync('dist/release.json',JSON.stringify({repository:'karelmartinek-a11y/GUEST_WEB',sha,builtAt:new Date().toISOString(),languages:languages.length,places:JSON.parse(fs.readFileSync('src/content/places.cs.json')).places.length,navigationEnabled:JSON.parse(fs.readFileSync('public/capabilities.json')).navigationEnabled},null,2)+'\n');
 // macOS resource forks are build metadata, never public site assets.
 function removeForks(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=`${dir}/${e.name}`;if(e.name.startsWith('._'))fs.rmSync(p,{recursive:e.isDirectory()});else if(e.isDirectory())removeForks(p);}}
 removeForks('dist');
