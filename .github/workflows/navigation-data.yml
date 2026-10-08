@@ -13,7 +13,7 @@ jobs:
         run: |
           mkdir -p artifacts/valhalla
           curl --fail --location --retry 3 https://download.bbbike.org/osm/bbbike/Prag/Prag.osm.pbf -o artifacts/valhalla/prague.osm.pbf
-          docker run --rm --cpus 2 --memory 4g --entrypoint bash -v "$PWD/artifacts/valhalla:/work" ghcr.io/valhalla/valhalla:3.6.3@sha256:2b19ea46551a9687b245022551183829d817fdee9b58c5e7b2adb6e422749c43 -c '
+          docker run --rm --cpus 2 --memory 4g --user "$(id -u):$(id -g)" --entrypoint bash -v "$PWD/artifacts/valhalla:/work" ghcr.io/valhalla/valhalla:3.6.3@sha256:2b19ea46551a9687b245022551183829d817fdee9b58c5e7b2adb6e422749c43 -c '
             set -e
             valhalla_build_config --mjolnir-tile-dir /work/tiles --mjolnir-tile-extract /work/tiles.tar --mjolnir-concurrency 2 > /work/valhalla.json
             valhalla_build_tiles -c /work/valhalla.json /work/prague.osm.pbf
