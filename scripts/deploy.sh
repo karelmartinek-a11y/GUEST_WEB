@@ -11,7 +11,7 @@ PY
 mkdir -p artifacts/release/www
 cp -R dist/. artifacts/release/www/
 tar -czf artifacts/release.tar.gz -C artifacts/release www
-ssh -o BatchMode=yes -o StrictHostKeyChecking=yes -i "$DEPLOY_KEY_FILE" guest-web@89.221.222.92 "deploy $sha" < artifacts/release.tar.gz
+ssh -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -i "$DEPLOY_KEY_FILE" guest-web@89.221.222.92 "deploy $sha" < artifacts/release.tar.gz
 curl --fail --silent --show-error https://guest.hcasc.cz/release.json > artifacts/runtime.json
 python3 - "$sha" <<'PY'
 import json,sys

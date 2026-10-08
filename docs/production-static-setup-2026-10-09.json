@@ -1,0 +1,106 @@
+{
+  "checkedAt": "2026-10-08T23:49:54.491006+00:00",
+  "phase": "STATIC_INFRASTRUCTURE_READY_FIRST_RELEASE_PENDING",
+  "permissions": {
+    "/opt/guest-web": {
+      "uid": 988,
+      "gid": 983,
+      "mode": "0o755",
+      "read": true,
+      "write": true
+    },
+    "/opt/guest-web/releases": {
+      "uid": 988,
+      "gid": 983,
+      "mode": "0o755",
+      "read": true,
+      "write": true
+    },
+    "/var/lib/guest-web": {
+      "uid": 0,
+      "gid": 0,
+      "mode": "0o755",
+      "read": true,
+      "write": false
+    },
+    "/var/lib/guest-web/deploy": {
+      "uid": 988,
+      "gid": 983,
+      "mode": "0o755",
+      "read": true,
+      "write": true
+    },
+    "/var/lib/guest-web/acme": {
+      "uid": 0,
+      "gid": 0,
+      "mode": "0o755",
+      "read": true,
+      "write": false
+    },
+    "/etc/guest-web": {
+      "uid": 0,
+      "gid": 0,
+      "mode": "0o755",
+      "read": true,
+      "write": false
+    },
+    "/etc/guest-web/ssh-home": {
+      "uid": 0,
+      "gid": 983,
+      "mode": "0o750",
+      "read": true,
+      "write": false
+    },
+    "/etc/guest-web/ssh-home/.ssh": {
+      "uid": 0,
+      "gid": 983,
+      "mode": "0o750",
+      "read": true,
+      "write": false
+    },
+    "/etc/guest-web/ssh-home/.ssh/authorized_keys": {
+      "uid": 0,
+      "gid": 983,
+      "mode": "0o640",
+      "read": true,
+      "write": false
+    },
+    "/etc/guest-web/deploy-receiver.py": {
+      "uid": 0,
+      "gid": 0,
+      "mode": "0o644",
+      "read": true,
+      "write": false
+    },
+    "/etc/guest-web/headers.conf": {
+      "uid": 0,
+      "gid": 0,
+      "mode": "0o644",
+      "read": true,
+      "write": false
+    },
+    "/etc/guest-web/guest-web-renew-certificate.sh": {
+      "uid": 0,
+      "gid": 0,
+      "mode": "0o755",
+      "read": true,
+      "write": false
+    }
+  },
+  "certificate": [
+    "subject=CN = guest.hcasc.cz",
+    "issuer=C = US, O = Let's Encrypt, CN = YE2",
+    "notBefore=Oct  8 22:45:28 2026 GMT",
+    "notAfter=Jan  6 22:45:27 2027 GMT"
+  ],
+  "certificateTimer": "active",
+  "forcedCommandProbeRejected": true,
+  "routingRuntimeActivated": false,
+  "renewal": {
+    "authenticator": "webroot",
+    "webroot_path": "/var/lib/guest-web/acme,",
+    "renew_hook": "/etc/guest-web/guest-web-renew-certificate.sh"
+  },
+  "protectedVhostsUnchanged": true,
+  "protectedCertificatesUnchanged": true
+}

@@ -24,10 +24,11 @@ Datum: 9. 10. 2026. Všechny výsledky se vztahují pouze k výslovně uvedené 
 | Pět chůzí na Android Chrome | BLOCKED | Nelze nahradit simulací; žádný záznam nedoložen |
 | FQDN a DNS | PASS | Uživatel schválil guest.hcasc.cz; A/AAAA odpovídají stroji |
 | Lokální typy, unit/HTTP, e2e, security audit | PASS lokálně | Typy, obsah, 10 unit/HTTP testů, všech 36 e2e desktop/mobil Chromium; audit uzamčených závislostí 0 vulnerabilities |
-| HTTPS a produkční deploy | BLOCKED | V1.4 plná brána není splněná; omezené statické vydání vyžaduje rozhodnutí uživatele |
+| Omezené statické vydání | Schváleno uživatelem | 9. 10. 2026: „potvrzuji“, explicitně pro statický web a automatický deploy main s vypnutou živou navigací |
+| HTTPS a produkční deploy | Probíhá | Samostatný účet, nový vhost a certifikát; skutečné nasazení bude doloženo po CI a veřejném read-backu |
 | Ostatní weby a služby | PASS preflight | Dostupnost a konfigurace zdokumentovány; nic změněno |
 
-**FULL PRODUCTION: BLOCKED.** To neznamená, že se smí bez dalšího zapnout navigace. Statické vydání může být veřejně použitelné při jejím vypnutí, pokud je výslovně schváleno.
+**FULL NAVIGATION ACCEPTANCE: BLOCKED. STATIC RELEASE: AUTHORIZED.** Uživatel výslovně schválil statickou verzi a automatické nasazování dalších commitů na main při vypnuté živé navigaci. Toto rozhodnutí nenahrazuje fyzickou akceptaci navigace.
 
 ## Doplnění fyzické akceptace
 

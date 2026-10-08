@@ -56,8 +56,9 @@ test('five itineraries use real catalog stops and official transit links',async(
  for(const line of await page.locator('.transit-line').all())await expect(line.locator('.transport-icon')).toBeVisible();
  await expect(page.locator('.transit-line[data-mode="trolleybus"]')).toContainText('59');
 });
-test('map loads own PMTiles without external tile or tracking traffic',async({page})=>{
- const remote:string[]=[];page.on('request',r=>{if(!r.url().startsWith('http://127.0.0.1:4173')&&!r.url().startsWith('blob:')&&!r.url().startsWith('data:'))remote.push(r.url());});
+test('map loads own PMTiles without external tile or tracking traffic',async({page,baseURL})=>{
+ const origin=new URL(baseURL!).origin;
+ const remote:string[]=[];page.on('request',r=>{if(!r.url().startsWith('blob:')&&!r.url().startsWith('data:')&&new URL(r.url()).origin!==origin)remote.push(r.url());});
  await page.goto('/en/map/');await expect(page.locator('.map-marker')).toHaveCount(37,{timeout:20000});
  await expect(page.locator('.map-canvas canvas')).toBeVisible();expect(remote).toEqual([]);
  await expect(page.locator('.hotel-marker img')).toHaveAttribute('src','/media/hotel-chodov-asc.jpg');

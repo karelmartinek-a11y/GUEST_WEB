@@ -2,7 +2,7 @@
 """Forced SSH command; deploys only GUEST_WEB static artifacts, never executes uploaded code."""
 import os,sys,re,json,hashlib,tarfile,fcntl,subprocess,shutil,time
 from pathlib import Path
-ROOT=Path('/opt/guest-web');DATA=Path('/var/lib/guest-web')
+ROOT=Path('/opt/guest-web');DATA=Path('/var/lib/guest-web/deploy')
 MAX_PROJECT_BYTES=2*1024**3
 MAX_RELEASES=5
 def project_size():

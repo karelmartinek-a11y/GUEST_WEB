@@ -1,41 +1,33 @@
 # GUEST_WEB — deployment report
 
-Stav k 9. 10. 2026: **FULL PRODUCTION BLOCKED**, veřejné nasazení ještě neprovedeno. Web, veřejný GitHub a automatické testy jsou připravené. Rozhodnutí uživatele o omezeném statickém vydání zatím nebylo doručeno; žádná produkční konfigurace ani pověření GUEST_WEB nebyla vytvořena.
+Stav k 9. 10. 2026: **STATIC RELEASE AUTHORIZED, FIRST CI DEPLOY PENDING**. Uživatel v tomto chatu potvrdil „potvrzuji“ po konkrétní otázce na veřejné statické vydání a automatické nasazování dalších commitů na main s vypnutou živou pěší navigací. Rozhodnutí je zaznamenané v `docs/acceptance-evidence.json`. Fyzická akceptace vlastní navigace zůstává nedoložená.
 
-## Cíl a izolace
+## Doména, HTTPS a izolace
 
-Uživatel sdělil `guest.hcasc.cz` v tomto chatu. DNS A `89.221.222.92`, AAAA `2a02:2b88:2:b5c::1` odpovídají produkčnímu stroji. Preflight nenašel samostatný vhost ani certifikát tohoto jména. Web používá pouze nové vlastní cesty `/opt/guest-web`, `/var/lib/guest-web`, `/etc/guest-web`, vyhrazený účet `guest-web` a samostatný vhost; jiné projekty se nemění.
+Cíl je `https://guest.hcasc.cz`. DNS A `89.221.222.92` a AAAA `2a02:2b88:2:b5c::1` odpovídají produkčnímu stroji. Před přípravou žádný vhost, certifikát, účet ani namespace tohoto webu neexistoval. Vytvořen byl pouze účet `guest-web`, vlastní vhost a cesty `/opt/guest-web`, `/var/lib/guest-web`, `/etc/guest-web`.
 
-## Ověřený serverový preflight
+Nový certifikát Let's Encrypt je ověřený přes HTTPS a platí do 6. 1. 2027. Stávající aktivní `certbot.timer` jej automaticky obnovuje; profil tohoto certifikátu má vlastní rootem spravovaný hook `/etc/guest-web/guest-web-renew-certificate.sh`, který po `nginx -t` reloaduje Nginx. Jiné certifikáty, vhosty a globální konfigurace se nezměnily. Dokud není dokončeno první CI vydání, nový statický root ještě neobsahuje aplikaci.
 
-Aktuální audit `docs/production-preflight-2026-10-09.json`: SSH `produkce`, 8. 10. 2026 22:32 UTC, tedy 9. 10. místně. Čtyři CPU, RAM 15.6 GiB, dostupná 12.4 GiB, root disk 94.8 GiB volno a 56 % obsazenost. Kapacita je vyšší než při starším pozorování; neprováděli jsme změny zdrojů serveru.
+## Ověřená bezpečnost a serverový stav
 
-`nginx -t` PASS, s existujícími warnings listen/protocol options u GPT/HA. Hotel, Dagmar, HA a OAuth metadata GPT vracely HTTP 200. Mail MCP vracel HTTP 401 bez autentizace, což odpovídá ochraně endpointu. Nginx, Docker, Dagmar backend, KajaVoiceHA a samostatný Mail MCP byly aktivní. Dokument obsahuje kontrolní součty šesti stávajících vhostů. Před případnou mutací se tento audit zopakuje; po mutaci se kontrolují stejné služby a hashe.
+Bezprostřední audit `docs/production-preflight-before-deploy-2026-10-09.json`: 9. 10. místně, čtyři CPU, přibližně 15.6 GiB RAM, 94.8 GiB volného místa, 56 % obsazenost. Nginx test prošel; pět sledovaných služeb bylo aktivních. Hotel, Dagmar, HA a GPT OAuth metadata byly dostupné, Mail MCP odpovídal 401 bez autentizace, jak odpovídá ochraně endpointu. Starší audit zůstává v `docs/production-preflight-2026-10-09.json`.
 
-## GitHub a automatické ověření
+`docs/production-static-setup-2026-10-09.json` dokládá skutečné vlastníky a oprávnění. Receiver a SSH home jsou root-owned; účet má pouze čtení přes vlastní primární skupinu, nikdy zápis do SSH konfigurace či receiveru. Jiný SSH příkaz než `deploy <SHA>` byl skutečně odmítnut. Serverový klíč je připnutý podle již ověřeného spojení `ssh produkce`. Soukromý deployment klíč je předaný přes stdin do GitHub Secrets, není v Git ani výstupech.
 
-Veřejný repozitář je [karelmartinek-a11y/GUEST_WEB](https://github.com/karelmartinek-a11y/GUEST_WEB). Push na `main` spouští `.github/workflows/main.yml`: audit závislostí, typy a validaci zdrojového obsahu/médií, 10 jednotkových a HTTP testů, statický build a Playwright desktop/mobil Chromium. Základní verze prošla [CI 37856662127](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37856662127), commit `312938cd2417409cb107224087f62f139e54555d`. Následující commit `a986fa01025e8e5c4d2c7eb6411e24029eb827d6` prošel [CI 37857716513](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37857716513).
+Parent `/var/lib/guest-web` a ACME webroot spravuje root. Deployment účet zapisuje jen do `/var/lib/guest-web/deploy` a vlastního release namespace; nemůže nahradit certifikační webroot. Kontrolní součty všech šesti starších vhostů a všech původních veřejných certifikátů po přípravě zůstaly shodné. Další kontrola proběhne po skutečném nasazení.
 
-Aktuální rozšíření má 36 míst, 116 katalogových fotografií, 22 územně příslušných označení UNESCO, všech osm restaurací a 12 jazyků. Současná sada obsahuje 36 Playwright průchodů včetně oficiálního emblému, filtru, ikon dopravních prostředků a fotografického hotelového bodu. Každý další commit se znovu ověřuje; přesné SHA a výsledky jsou v [Actions](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/workflows/main.yml). Lokální A4 důkazy všech 12 jazyků mají každý jednu stranu; zkontrolováno i vykreslení bengálštiny.
+## GitHub → test → build → deploy
 
-Produkční job se dosud přeskočil: `GUEST_WEB_DEPLOY_ENABLED` není zapnuté. SSH deployment secrets nebyly vytvořeny. Úspěch testovacího jobu tedy neznamená produkční nasazení.
+Veřejný repozitář je [karelmartinek-a11y/GUEST_WEB](https://github.com/karelmartinek-a11y/GUEST_WEB). Každý push na main spouští audit závislostí, typy, validaci obsahu/licencí, 10 unit/HTTP testů, build 120 jazykových stránek a 36 Playwright průchodů desktop/mobil Chromium. Dosavadní aktuální verze prošla [CI 37859827071](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37859827071), commit `31dfbb415254e5fe77a877d73114d8f1fdc8e091`, s nulovým nálezem auditu. Její deploy job byl ještě přeskočen před schválením.
 
-Rozšíření s oficiálním emblémem, 36 místy a 116 fotografiemi prošlo [CI 37859514135](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37859514135), commit `a57030a0ff62d85597776fedf2548e1c97e9326f`: audit bez nálezu, 10 unit/HTTP testů, 36 Playwright průchodů a build. Produkční job byl přeskočen. Následná oprava odvozuje počet míst v release manifestu přímo z katalogu; prohlížečový test kontroluje také metadata a v CI jejich shodu s přesným SHA.
+Nyní jsou uložené `GUEST_WEB_SSH_KEY`, `GUEST_WEB_KNOWN_HOSTS` a `GUEST_WEB_DEPLOY_ENABLED=true`. Nový schvalovací commit vyvolá první skutečný deployment. Job používá přesně tentýž otestovaný artifact a SHA, nikdy druhý build na serveru. Receiver kontroluje tar cesty, velikost, repo, SHA a vypnutou navigaci; nespouští uploadované soubory. Účet nemá sudo ani právo měnit jiné projekty.
 
-## Vlastní routovací graf mimo produkci
+Release je `/opt/guest-web/releases/<SHA>/www`, přepnutí `current` atomické. Veřejný `/release.json` musí odpovídat testovanému SHA. Při chybě se vrací pouze vlastní symlink. Udržuje se nejvýše pět vlastních vydání a 2 GiB projektový rozpočet; jiné disky či projekty se nečistí. Výsledky skutečného deploymentu a veřejných testů budou doplněné po dokončení.
 
-[Build 37857716009](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37857716009), commit `a986fa01025e8e5c4d2c7eb6411e24029eb827d6`, úspěšně sestavil pražský OSM graf s Valhalla 3.6.3. Build má limit dvě CPU / 4 GiB; ověřovací engine půl CPU / 512 MiB, read-only filesystem, loopback port a zákaz nových privilegií. Vlastní engine v CI vrátil syntetickou pěší trasu v CS/EN/DE, se skutečně správným jazykem a 25 manévry.
+## Mapa, navigace a fyzické brány
 
-Stažený `tiles.tar` byl znovu ověřen SHA-256 `a1127fb2ca89de0fe5f6db46087ff6b2525b08425eb5501fcd44855a7515c5a0`; zdroj, artifact digest a dílčí výsledky jsou v `docs/navigation-build-evidence.json`. Graf nebyl instalován na produkci. Ostatní jazyky pokynů a skutečné fyzické trasy tím ověřené nejsou.
+Katalog má 36 míst, 116 katalogových fotografií, všech osm restaurací, 22 územně příslušných označení UNESCO a 12 jazyků. Mapa, galerie, externí pěší odkazy, doprava, zdravotní karta a ostatní obsah jsou součástí statického vydání. Automatické mobilní rozměry ani 12 jednostránkových A4 důkazů nejsou fyzickou chůzí.
 
-## Připravené nasazení po rozhodnutí
+Vlastní pražský graf a Valhalla 3.6.3 prošly [syntetickým CI ověřením](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37857716009) mimo produkci. Zdroj a kontrolní součty jsou v `docs/navigation-build-evidence.json`. Graf a engine nebyly instalovány na produkční server; CS/EN/DE syntetické trasy nenahrazují skutečné chůze a neověřují ostatní jazyky pokynů.
 
-CI nasazuje tentýž otestovaný artifact s přesným SHA, bez druhého buildu na serveru. Omezený SSH receiver kontroluje tar cesty, velikost, manifest, profil a SHA; nespouští uploadované soubory. Receiver a SSH authorized_keys musí být spravované rootem, aby je deployment účet nemohl přepsat. Účet nemá sudo ani přístup do jiných projektů.
-
-Vlastní release je `/opt/guest-web/releases/<SHA>/www`; `current` se přepíná atomicky. Při rozdílu veřejného SHA nebo změně zdraví/konfigurace sledovaných webů se vrací jen vlastní symlink. Samostatný HTTPS certifikát, CSP, self geolocation, lokální mapy/fonty a vypnutý access log jsou připraveny v projektu. Reload Nginx je povolen až po `nginx -t`; stávající certifikáty a vhosty se nemění.
-
-## Otevřené brány
-
-Fyzický hotelový vstup, pět cílových vstupů a deset skutečných chůzí — pět iPhone Safari a pět Android Chrome — nejsou doloženy. `SPECIFIKACE_MASTER_v1.4.md`, §9, výslovně stanoví: „Nezapojovat automatické produkční kroky dřív, než jsou splněny kritické brány.“ Proto je před nasazením statické verze s vypnutou živou navigací potřeba výslovná výjimka uživatele. Otázka s konkrétním lokálním náhledem byla předložena v chatu; odpověď zatím chybí. Evidence zůstává `staticReleaseAuthorized: false`.
-
-Delší texty v dalších devíti jazycích ještě vyžadují rodilou korekturu. Automatické mobilní rozměry a syntetické testy nejsou nahrazením fyzických telefonů. Veřejný runtime SHA, nový certifikát, deployment read-back a rollback lze doložit až po skutečném schváleném nasazení.
+`SPECIFIKACE_MASTER_v1.4.md`, §9, stanoví: „Nezapojovat automatické produkční kroky dřív, než jsou splněny kritické brány a známa doména.“ Přímé rozhodnutí uživatele nyní dovoluje pouze statické vydání s vypnutou živou navigací. Hotelový pěší vstup, pět cílových vstupů a pět chůzí na každé platformě iPhone Safari / Android Chrome zůstávají otevřené. Delší texty v dalších devíti jazycích stále potřebují rodilou korekturu.

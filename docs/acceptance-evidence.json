@@ -1,10 +1,24 @@
 {
   "site": "https://guest.hcasc.cz",
   "fullProductionAccepted": false,
-  "staticReleaseAuthorized": false,
-  "staticReleaseAuthorization": null,
+  "staticReleaseAuthorized": true,
+  "staticReleaseAuthorization": {
+    "confirmedOn": "2026-10-09",
+    "recordedAt": "2026-10-08T23:38:46.461275+00:00",
+    "source": "Direct human confirmation in this chat after the explicit static-release question",
+    "quote": "potvrzuji",
+    "scope": "Publish the static guest guide on guest.hcasc.cz and automatically test/deploy every subsequent commit on main",
+    "navigationEnabled": false,
+    "physicalGateException": "Applies to static releases only; live navigation still requires physical entrances and actual device walks"
+  },
   "deviceWalks": [],
   "hotelEntrance": null,
   "testEntrances": [],
-  "unresolved": ["Physical hotel entrance", "Five accepted pedestrian targets", "Five walks on iPhone Safari", "Five walks on Android Chrome", "Native language review of additional translations"]
+  "unresolved": [
+    "Physical hotel entrance",
+    "Five accepted pedestrian targets",
+    "Five walks on iPhone Safari",
+    "Five walks on Android Chrome",
+    "Native language review of additional translations"
+  ]
 }
