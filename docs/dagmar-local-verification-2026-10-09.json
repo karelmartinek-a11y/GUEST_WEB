@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T09:55:51.910451+00:00",
+  "checkedAt": "2026-10-09T10:09:43.066338+00:00",
   "layer": "Local production build and Chromium desktop/mobile emulation",
   "checks": {
     "typesAndContent": "PASS",
@@ -27,6 +27,12 @@
         "passed": 2,
         "failed": 0,
         "details": "Desktop and mobile passed; the other six animation tests and 36 guide tests remained unchanged."
+      },
+      {
+        "scope": "Final movement checks with one assistant-only screenshot and rendered-frame progression",
+        "passed": 2,
+        "failed": 0,
+        "details": "Desktop 30.2s and mobile 34.6s; both walking directions, pointing, no overflow, reduced motion, privacy and no external requests passed."
       }
     ],
     "dependencyAuditHigh": "PASS",
@@ -73,7 +79,19 @@
     "src/dagmar/asset.json": "423410bbae274ada184fe9672713ea910bc17f3de670c30c9ec1a542dbbb2ef1",
     "public/media/dagmar/rain-f636a4be8ede.glb": "f636a4be8ede025fe7813dced25c18aea719e9fdf31cea9408399741280d89cc",
     "public/media/dagmar/rain-f539a731ea27.webp": "f539a731ea27adb3e08d038af4971107a6d6c1155b1c83cb9b70fbf3299b4ef0",
-    "package-lock.json": "695b4dbbef3801f3f147cf92cc7773bf97c693791c29279fc8417c597d858a4f"
+    "package-lock.json": "695b4dbbef3801f3f147cf92cc7773bf97c693791c29279fc8417c597d858a4f",
+    "e2e/dagmar.spec.ts": "d82754d25ff493324a4d3bfbcd1e7de8c5c7067be51ead4bc597ec5bafbda379"
   },
-  "note": "GitHub Actions reruns all 44 UI tests in one complete suite and binds the tested/deployed artifact to the exact main commit. This file records local evidence only."
+  "note": "GitHub Actions reruns all 44 UI tests in one complete suite and binds the tested/deployed artifact to the exact main commit. This file records local evidence only.",
+  "ciAttempts": [
+    {
+      "runId": 37914893071,
+      "sha": "ee0a1e417ba4f01b45523fc2bfbc7dc966fed1c3",
+      "uiPassed": 43,
+      "uiFailed": 1,
+      "deployment": "SKIPPED",
+      "failure": "Mobile exhausted its 90s total budget during the final full-page screenshot, after all walking and pointing assertions passed. Trace showed repeated WebGL captures taking 12-14s each.",
+      "correction": "Keep one assistant-only visual artifact and replace the repeated-image hash comparison with rendered-frame progression. Assertions for both walking directions, pointing phase, overflow, language, privacy and reduced motion remain. Native bone animation and facial deformations are also checked by the GLB unit test."
+    }
+  ]
 }

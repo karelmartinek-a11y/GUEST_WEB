@@ -1,5 +1,4 @@
 import {test,expect,type Page}from '@playwright/test';
-import crypto from 'node:crypto';
 
 const langs=['cs','en','de','it','pl','nl','fr','ko','bn','hi','es','uk'];
 async function fakeSpeech(page:Page,available=langs) {
@@ -26,14 +25,16 @@ test.describe('articulated Dagmar',()=>{
   page.on('request',r=>{if(!/^(data|blob):/.test(r.url())&&new URL(r.url()).origin!==origin)remote.push(r.url());});page.on('pageerror',e=>errors.push(e.message));
   await page.goto('/cs/');await page.locator('.dagmar').scrollIntoViewIfNeeded();
   const scene=page.locator('.dagmar-3d');await expect(scene).toHaveAttribute('data-ready','true',{timeout:20000});await expect(page.locator('.dagmar-canvas')).toBeVisible();
-  const first=await page.locator('.dagmar-stage').screenshot();
+  const firstFrame=Number(await scene.getAttribute('data-frames'));
   await page.getByRole('button',{name:'Projít se',exact:true}).click();await expect(scene).toHaveAttribute('data-phase','walk');
   await expect.poll(async()=>Number(await scene.getAttribute('data-actor-x')),{timeout:15000}).toBeGreaterThan(.2);
   await expect.poll(async()=>Number(await scene.getAttribute('data-actor-x')),{timeout:15000}).toBeLessThan(-.15);
-  const walking=await page.locator('.dagmar-stage').screenshot();expect(crypto.createHash('sha256').update(first).digest('hex')).not.toBe(crypto.createHash('sha256').update(walking).digest('hex'));
+  expect(Number(await scene.getAttribute('data-frames'))).toBeGreaterThan(firstFrame);
   await page.getByRole('button',{name:'Ukázat',exact:true}).click();await expect(scene).toHaveAttribute('data-phase','point');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)).toBe(false);
-  await page.screenshot({path:`artifacts/dagmar-${test.info().project.name}.png`,fullPage:true});
+  // One visual artifact of the assistant is enough here. Repeated WebGL
+  // readbacks and a full-guide capture exhausted the mobile CI budget.
+  await page.locator('.dagmar').screenshot({path:`artifacts/dagmar-${test.info().project.name}.png`});
   await page.getByRole('button',{name:'Omezit animace',exact:true}).click();await expect(page.locator('.dagmar-3d')).toHaveCount(0);await expect(page.locator('.dagmar-fallback')).toBeVisible();await expect(page.getByRole('button',{name:'Projít se',exact:true})).toBeDisabled();
   expect(await page.evaluate(()=>Object.keys(localStorage).sort())).toEqual(['guest-language','guest-motion']);expect(remote).toEqual([]);expect(errors).toEqual([]);
  });

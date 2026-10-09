@@ -1,9 +1,10 @@
 {
-  "checkedAt": "2026-10-09T09:54:02.616129+00:00",
+  "checkedAt": "2026-10-09T10:08:55.108159+00:00",
   "cpus": 4,
-  "disk": "Filesystem        1B-blocks         Used   Available Use% Mounted on\n/dev/vda1      227702718464 130029469696 97656471552  58% /",
-  "memory": "total        used        free      shared  buff/cache   available\nMem:           15993        8435        1630          47        6313        7557\nSwap:           4095           0        4095",
+  "disk": "Filesystem        1B-blocks         Used   Available Use% Mounted on\n/dev/vda1      227702718464 130730893312 96955047936  58% /",
+  "memory": "total        used        free      shared  buff/cache   available\nMem:           15993        8486         760          67        7151        7506\nSwap:           4095           0        4095",
   "vhosts": {
+    "/etc/nginx/sites-enabled/listecky-mcp.conf": "1bf3fc3736f9e8ced937f761fd1dd5d6efd3d48980de877a26a9b3bcf6305285",
     "/etc/nginx/sites-enabled/mail-mcp-standalone.conf": "66bdb42a71012662ed12ad67c9f3fbfeee6e73aed98857c0de714eac8417dcdc",
     "/etc/nginx/sites-enabled/ha.hcasc.cz.conf": "fb0191ad339e130ef9f7d1311ce8f7f15482bb7754b20238c2eb6abe8b620e02",
     "/etc/nginx/sites-enabled/apimcpkajavoiceha.hcasc.cz.conf": "fe99472a92ff6e9403c18adb1fe37c970c00b2f0abd218c8f9f243378ca5b898",
@@ -36,5 +37,13 @@
       "2a02:2b88:2:b5c::1"
     ],
     "checkedLocallyOn": "2026-10-09"
+  },
+  "earlierAuditComparison": {
+    "checkedAt": "2026-10-09T09:54:02.616129+00:00",
+    "existingVhostsUnchanged": true,
+    "additionalVhostsObservedBeforeThisDeployment": [
+      "/etc/nginx/sites-enabled/listecky-mcp.conf"
+    ],
+    "note": "The first Rain CI attempt skipped deployment. The additional vhost was already present at this fresh read-only audit; this project does not manage it."
   }
 }
