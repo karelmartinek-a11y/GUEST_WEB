@@ -8,10 +8,10 @@ Datum: 9. 10. 2026. Všechny výsledky se vztahují pouze k výslovně uvedené 
 | Pět výletů | Implementováno | Reálná doporučená zastavení; bez smyšlených vzdáleností |
 | Filmové galerie | Implementováno | 116 místních fotografií, 2–5 na místo; manifest, SHA-256 |
 | UNESCO a dopravní ikony | Implementováno | Oficiální nezměněný emblém, filtr 21 cílů Historického centra + Průhonický park; bus/metro/tram/trolejbus |
-| Autentické logo a asistentka | Implementováno | Dodané PNG; na pozdější pokyn uživatele licencovaná postava Rain od Blender Studio, CC BY 4.0 |
-| Kloubová 3D asistentka Rain / Dagmar | PASS lokálně | Rain CC BY 4.0 a Quaternius CC0, oba bez registrace; vřelý úsměv, změkčené obočí, uvolněný postoj a prsty, cop se čtyřmi klouby, obousměrná chůze, otočení, ukazování, gesta při řeči, původní víčka, rty, zuby a jazyk. Pohled zepředu, z profilu a zezadu i mobilní UI vizuálně kontrolované; `docs/dagmar-animation-sources.json` |
+| Autentické logo a asistentka | Implementováno | Dodané PNG; na poslední pokyn uživatele realisticky proporční dospělá žena z MakeHuman, CC0 |
+| Kloubová 3D asistentka Dagmar | PASS lokálně | MakeHuman a nativní obličejové terče Mika Suominen, Quaternius pohyb, vše CC0 bez registrace; světlá pleť, kompletní dlouhé vlasy, jemný úsměv, civilní oblečení, uvolněné ruce, chůze oběma směry, ukazování a gesta při řeči. Nativní víčka, rty, řasy, zuby a jazyk; `docs/dagmar-animation-sources.json` a `docs/dagmar-realistic-verification-2026-10-09.json` |
 | Hlas a mimika Dagmar | PASS automaticky, fyzicky neověřeno | Události TTS a všech 12 jazyků ověřené simulací; rty uvnitř slov mají odhadnuté časování. Skutečné hlasy a zvuk na iPhone/Android dosud nedoložené; žádný náhradní cizí jazyk |
-| Omezení pohybu Dagmar | PASS lokálně | Systémové i ruční omezení používá statický render stejné Rain bez stažení 3D modelu. Mimo obrazovku se renderování pozastavuje |
+| Omezení pohybu Dagmar | PASS lokálně | Systémové i ruční omezení používá statický render stejné Dagmar bez stažení 3D modelu. Mimo obrazovku se renderování pozastavuje |
 | 12 jazyků ovládání a obsahu | Implementováno | Redakční CS/EN/DE, další jazyky offline přeložené; rodilá korektura zbývá |
 | 15 dvojjazyčných symptomů, 155/112, FTN | Implementováno | Aktuální oficiální FTN ověření, ručně vytvořené symptomové překlady |
 | A4 tisk / PDF | Implementováno | 12 PDF důkazů, každý 1 strana A4; vizuální kontrola včetně bengálštiny |

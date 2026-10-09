@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
-import { prepareRain } from './model';
+import { prepareDagmar } from './model';
 import asset from './asset.json';
 import { SpeechTimeline } from './speech.mjs';
 
@@ -47,18 +47,18 @@ export default function Scene({reduced,request,timeline,onReady}:Props) {
   const container=host.current!;let disposed=false,renderer:THREE.WebGLRenderer;
   try {renderer=new THREE.WebGLRenderer({alpha:true,antialias:true,powerPreference:'low-power'});}catch{setFailed(true);return;}
   renderer.setPixelRatio(Math.min(devicePixelRatio,1.6));renderer.outputColorSpace=THREE.SRGBColorSpace;
-  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.1;
+  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1;
   renderer.setClearColor(0,0);renderer.domElement.className='dagmar-canvas';renderer.domElement.setAttribute('aria-hidden','true');container.append(renderer.domElement);
-  const scene=new THREE.Scene();scene.add(new THREE.HemisphereLight('#fff5e8','#5f6c72',1));
+  const scene=new THREE.Scene();scene.add(new THREE.HemisphereLight('#fff5e8','#5f6c72',.8));
   const pmrem=new THREE.PMREMGenerator(renderer),studio=new RoomEnvironment();
-  const environment=pmrem.fromScene(studio,.04);scene.environment=environment.texture;scene.environmentIntensity=.7;
+  const environment=pmrem.fromScene(studio,.04);scene.environment=environment.texture;scene.environmentIntensity=.6;
   studio.dispose();pmrem.dispose();
-  const key=new THREE.DirectionalLight('#fff3df',2.8);key.position.set(-2,3,4);scene.add(key);
-  const rim=new THREE.DirectionalLight('#dfefff',1.7);rim.position.set(2,2,-3);scene.add(rim);
+  const key=new THREE.DirectionalLight('#fff3df',2);key.position.set(-2,3,4);scene.add(key);
+  const rim=new THREE.DirectionalLight('#dfefff',1.2);rim.position.set(2,2,-3);scene.add(rim);
   const camera=new THREE.OrthographicCamera(-1,1,1,-1,.1,20);camera.position.set(0,1.10,5);
   const actor=new THREE.Group();scene.add(actor);
   const ground=new THREE.Mesh(new THREE.CircleGeometry(.6,32),new THREE.MeshBasicMaterial({color:'#26433d',transparent:true,opacity:.10,depthWrite:false}));ground.rotation.x=-Math.PI/2;ground.scale.set(1,.29,1);ground.position.y=-.023;scene.add(ground);
-  let frame=0,mixer:THREE.AnimationMixer|undefined,model:ReturnType<typeof prepareRain>|undefined;
+  let frame=0,mixer:THREE.AnimationMixer|undefined,model:ReturnType<typeof prepareDagmar>|undefined;
   let actions:Record<string,THREE.AnimationAction>={},current='',previous=clock(),visible=true;
   let phaseStart=clock(),phase='idle',requestId=-1,lastReduced=false,time=0,nextBlink=2.4;
   let width=1,height=1,zoomHeight=2.09,lookHeight=.88,lookX=0;
@@ -109,7 +109,7 @@ export default function Scene({reduced,request,timeline,onReady}:Props) {
     let eyelids=0;
     if(!isReduced){if(time>nextBlink+.17)nextBlink=time+2.7+Math.random()*2.4;const blinkPhase=(time-nextBlink)/.17;if(blinkPhase>=0&&blinkPhase<=1)eyelids=Math.sin(blinkPhase*Math.PI);}
     const sampled=options.timeline.sample(now) as {open:number;round:number;wide:number;press:number};
-    model.face(isReduced?{open:0,round:0,wide:0,press:0}:sampled,eyelids,talking?.45:.78);
+    model.face(isReduced?{open:0,round:0,wide:0,press:0}:sampled,eyelids,talking?.55:.95);
     container.dataset.phase=isReduced?'still':phase;container.dataset.speaking=String(talking&&!isReduced);container.dataset.mouthOpen=sampled.open.toFixed(3);container.dataset.actorX=actor.position.x.toFixed(3);
     container.dataset.frames=String((Number(container.dataset.frames)||0)+1);
     // Keep the extended index inside a narrow phone column.
@@ -134,7 +134,7 @@ export default function Scene({reduced,request,timeline,onReady}:Props) {
   new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).load(asset.url,gltf=>{
    if(disposed){disposeObjects(gltf.scene);return;}
    try {
-    actor.add(gltf.scene);model=prepareRain(gltf);mixer=new THREE.AnimationMixer(gltf.scene);
+    actor.add(gltf.scene);model=prepareDagmar(gltf);mixer=new THREE.AnimationMixer(gltf.scene);
     Object.values(model.bones).forEach(b=>b.userData.rest=b.quaternion.clone());
     actions=Object.fromEntries(gltf.animations.map(clip=>[clip.name,mixer!.clipAction(clip)]));
     if(!['idle','walk','talk'].every(name=>actions[name]))throw new Error('Dagmar motion clip missing');

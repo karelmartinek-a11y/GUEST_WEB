@@ -5,17 +5,23 @@ import crypto from 'node:crypto';
 import {MeshoptDecoder} from 'three/addons/libs/meshopt_decoder.module.js';
 import {SpeechTimeline,mouthUnits,languageVoice,REST} from '../src/dagmar/speech.mjs';
 
-test('Dagmar ships the attributed Rain character, distinct native face shapes and licensed motion',async()=>{
+test('Dagmar ships a CC0 human, distinct native face shapes and licensed motion',async()=>{
  const evidence=JSON.parse(fs.readFileSync('docs/dagmar-animation-sources.json'));
  const file=fs.readFileSync(evidence.output.path);
- assert.equal(evidence.license,'CC-BY-4.0');assert.equal(evidence.registrationRequired,false);assert.equal(evidence.paidContentUsed,false);
- assert.equal(evidence.attribution,'Rain Rig (CC) Blender Foundation | studio.blender.org');
+ assert.equal(evidence.license,'CC0-1.0');assert.equal(evidence.registrationRequired,false);assert.equal(evidence.paidContentUsed,false);
+ assert.equal(evidence.attribution,'MakeHuman Community assets and Mika Suominen facial targets');
  assert.equal(crypto.createHash('sha256').update(file).digest('hex'),evidence.output.sha256);
  assert.equal(file.readUInt32LE(0),0x46546c67);assert.equal(file.readUInt32LE(8),file.length);
  const size=file.readUInt32LE(12),model=JSON.parse(file.subarray(20,20+size)),binary=file.subarray(28+size);
  assert.deepEqual(model.animations.map(a=>a.name).sort(),['idle','present','talk','walk']);
  assert(!model.buffers.some(b=>b.uri));assert(!model.images.some(i=>i.uri));
  assert(model.asset.copyright.includes(evidence.attribution));
+ for(const name of ['Dagmar-body.body','Dagmar-body.lips','Dagmar-eyes','Dagmar-body.teeth_base']){
+  const material=model.materials.find(m=>m.name===name);assert(material,name);
+  assert.equal(material.alphaMode||'OPAQUE','OPAQUE',name+' must occlude surfaces behind it');
+ }
+ for(const name of ['Dagmar-body.long01','Dagmar-body.eyebrow001','Dagmar-body.eyelashes01'])
+  assert.equal(model.materials.find(m=>m.name===name)?.alphaMode,'MASK',name+' must retain strand alpha and depth writes');
  await MeshoptDecoder.ready;
  const decoded=new Map();
  const values=id=>{
@@ -39,7 +45,7 @@ test('Dagmar ships the attributed Rain character, distinct native face shapes an
   }
   return result;
  };
- const headNode=model.nodes.find(n=>n.name==='Rain-head');assert(headNode);
+ const headNode=model.nodes.find(n=>n.name==='Dagmar-body');assert(headNode);
  const head=model.meshes[headNode.mesh],names=head.extras.targetNames;
  const poses=['open','round','wide','press','blink','smile','brow'].map(name=>{
   const index=names.indexOf(name);assert(index>=0,name);
@@ -48,7 +54,7 @@ test('Dagmar ships the attributed Rain character, distinct native face shapes an
   return crypto.createHash('sha256').update(JSON.stringify(coordinates)).digest('hex');
  });
  assert.equal(new Set(poses).size,poses.length);
- const lashes=model.meshes[model.nodes.find(n=>n.name==='Rain-eyelashes').mesh];
+ const lashes=model.meshes[model.nodes.find(n=>n.name==='Dagmar-eyelashes01').mesh];
  assert(lashes.extras.targetNames.includes('blink'),'eyelashes follow the authored eyelids');
  for(const name of ['walk','talk']) {
   const clip=model.animations.find(a=>a.name===name);
