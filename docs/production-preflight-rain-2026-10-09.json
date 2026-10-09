@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-09T10:08:55.108159+00:00",
+  "checkedAt": "2026-10-09T10:18:59.860526+00:00",
   "cpus": 4,
-  "disk": "Filesystem        1B-blocks         Used   Available Use% Mounted on\n/dev/vda1      227702718464 130730893312 96955047936  58% /",
-  "memory": "total        used        free      shared  buff/cache   available\nMem:           15993        8486         760          67        7151        7506\nSwap:           4095           0        4095",
+  "disk": "Filesystem        1B-blocks         Used   Available Use% Mounted on\n/dev/vda1      227702718464 130782699520 96903241728  58% /",
+  "memory": "total        used        free      shared  buff/cache   available\nMem:           15993        8587         595          68        7216        7405\nSwap:           4095           0        4095",
   "vhosts": {
-    "/etc/nginx/sites-enabled/listecky-mcp.conf": "1bf3fc3736f9e8ced937f761fd1dd5d6efd3d48980de877a26a9b3bcf6305285",
+    "/etc/nginx/sites-enabled/listecky-mcp.conf": "57f28bf23c56cd5e72d38a66c899296043b2ef52a85e4da8f6b6c5fabb8910a5",
     "/etc/nginx/sites-enabled/mail-mcp-standalone.conf": "66bdb42a71012662ed12ad67c9f3fbfeee6e73aed98857c0de714eac8417dcdc",
     "/etc/nginx/sites-enabled/ha.hcasc.cz.conf": "fb0191ad339e130ef9f7d1311ce8f7f15482bb7754b20238c2eb6abe8b620e02",
     "/etc/nginx/sites-enabled/apimcpkajavoiceha.hcasc.cz.conf": "fe99472a92ff6e9403c18adb1fe37c970c00b2f0abd218c8f9f243378ca5b898",
@@ -13,7 +13,7 @@
     "/etc/nginx/sites-enabled/hotel.hcasc.cz.conf": "8d420daabf20671b2645f107d0269843d40da7a3080965b31f3105ef063fe4d7",
     "/etc/nginx/sites-enabled/guest.hcasc.cz.conf": "6f7a66d0d29d581d6b2490eff8816f0bfb6c7bd962eb5628c080672a069c2c07"
   },
-  "listeners": "State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess\nLISTEN 0      2048       127.0.0.1:18769      0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:18768      0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:18767      0.0.0.0:*          \nLISTEN 0      511          0.0.0.0:80         0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:22         0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:8202       0.0.0.0:*          \nLISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          \nLISTEN 0      511          0.0.0.0:443        0.0.0.0:*          \nLISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          \nLISTEN 0      32     192.168.125.1:53         0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:8101       0.0.0.0:*          \nLISTEN 0      32     192.168.124.1:53         0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:37003      0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:8080       0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:8083       0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:5433       0.0.0.0:*          \nLISTEN 0      511             [::]:80            [::]:*          \nLISTEN 0      4096            [::]:22            [::]:*          \nLISTEN 0      4096            [::]:8202          [::]:*          \nLISTEN 0      511             [::]:443           [::]:*          \nLISTEN 0      4096            [::]:8080          [::]:*          \nLISTEN 0      4096            [::]:8083          [::]:*",
+  "listeners": "State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess\nLISTEN 0      4096       127.0.0.1:18770      0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:18769      0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:18768      0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:18767      0.0.0.0:*          \nLISTEN 0      511          0.0.0.0:80         0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:22         0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:8202       0.0.0.0:*          \nLISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          \nLISTEN 0      511          0.0.0.0:443        0.0.0.0:*          \nLISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          \nLISTEN 0      32     192.168.125.1:53         0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:8101       0.0.0.0:*          \nLISTEN 0      32     192.168.124.1:53         0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:37003      0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:8080       0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:8083       0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:5433       0.0.0.0:*          \nLISTEN 0      511             [::]:80            [::]:*          \nLISTEN 0      4096            [::]:22            [::]:*          \nLISTEN 0      4096            [::]:8202          [::]:*          \nLISTEN 0      511             [::]:443           [::]:*          \nLISTEN 0      4096            [::]:8080          [::]:*          \nLISTEN 0      4096            [::]:8083          [::]:*",
   "services": {
     "nginx": "active",
     "docker": "active",
@@ -39,11 +39,12 @@
     "checkedLocallyOn": "2026-10-09"
   },
   "earlierAuditComparison": {
-    "checkedAt": "2026-10-09T09:54:02.616129+00:00",
-    "existingVhostsUnchanged": true,
-    "additionalVhostsObservedBeforeThisDeployment": [
-      "/etc/nginx/sites-enabled/listecky-mcp.conf"
+    "checkedAt": "2026-10-09T10:08:55.108159+00:00",
+    "originalSevenVhostsUnchanged": true,
+    "otherProjectChangesObservedBeforeThisDeployment": [
+      "/etc/nginx/sites-enabled/listecky-mcp.conf",
+      "listener inventory"
     ],
-    "note": "The first Rain CI attempt skipped deployment. The additional vhost was already present at this fresh read-only audit; this project does not manage it."
+    "note": "Both prior Rain CI attempts skipped deployment. Changes to the additional MCP vhost and listener inventory were present at this fresh read-only audit; this project does not manage them."
   }
 }

@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
- testDir:'./e2e',testIgnore:'**/._*',timeout:45000,fullyParallel:true,workers:2,
+ testDir:'./e2e',testIgnore:'**/._*',timeout:45000,fullyParallel:true,workers:process.env.CI?1:2,
  use:{baseURL:process.env.BASE_URL||'http://127.0.0.1:4173',trace:'retain-on-failure',screenshot:'only-on-failure',reducedMotion:'reduce'},
  reporter:[['list'],['html',{open:'never'}]],
  projects:[{name:'desktop',use:{...devices['Desktop Chrome']}},{name:'mobile',use:{...devices['iPhone 13'],defaultBrowserType:'chromium'}}],

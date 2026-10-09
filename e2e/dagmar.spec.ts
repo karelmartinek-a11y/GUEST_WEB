@@ -19,7 +19,7 @@ async function fakeSpeech(page:Page,available=langs) {
 test.describe('articulated Dagmar',()=>{
  test.use({reducedMotion:'no-preference'});
  test('local rig renders, body walks both directions, pointing changes the pose and motion can stop',async({page,baseURL})=>{
-  // Software WebGL plus two parallel renderers can spend seconds per screenshot.
+  // Software WebGL in CI can take seconds per rendered frame.
   test.setTimeout(90000);
   const remote:string[]=[],errors:string[]=[];const origin=new URL(baseURL!).origin;
   page.on('request',r=>{if(!/^(data|blob):/.test(r.url())&&new URL(r.url()).origin!==origin)remote.push(r.url());});page.on('pageerror',e=>errors.push(e.message));
@@ -27,8 +27,8 @@ test.describe('articulated Dagmar',()=>{
   const scene=page.locator('.dagmar-3d');await expect(scene).toHaveAttribute('data-ready','true',{timeout:20000});await expect(page.locator('.dagmar-canvas')).toBeVisible();
   const firstFrame=Number(await scene.getAttribute('data-frames'));
   await page.getByRole('button',{name:'Projít se',exact:true}).click();await expect(scene).toHaveAttribute('data-phase','walk');
-  await expect.poll(async()=>Number(await scene.getAttribute('data-actor-x')),{timeout:15000}).toBeGreaterThan(.2);
-  await expect.poll(async()=>Number(await scene.getAttribute('data-actor-x')),{timeout:15000}).toBeLessThan(-.15);
+  await expect.poll(async()=>Number(await scene.getAttribute('data-actor-x')),{timeout:30000}).toBeGreaterThan(.2);
+  await expect.poll(async()=>Number(await scene.getAttribute('data-actor-x')),{timeout:30000}).toBeLessThan(-.15);
   expect(Number(await scene.getAttribute('data-frames'))).toBeGreaterThan(firstFrame);
   await page.getByRole('button',{name:'Ukázat',exact:true}).click();await expect(scene).toHaveAttribute('data-phase','point');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)).toBe(false);

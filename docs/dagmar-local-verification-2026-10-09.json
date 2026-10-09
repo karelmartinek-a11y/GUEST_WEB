@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T10:09:43.066338+00:00",
+  "checkedAt": "2026-10-09T10:20:05.934319+00:00",
   "layer": "Local production build and Chromium desktop/mobile emulation",
   "checks": {
     "typesAndContent": "PASS",
@@ -8,7 +8,7 @@
     "build": "PASS",
     "localizedPages": 120,
     "playwrightUniqueTests": 44,
-    "playwrightResult": "PASS across the runs below",
+    "playwrightResult": "PASS 44/44 in one complete CI-mode run",
     "playwrightRuns": [
       {
         "scope": "Full suite before test-clock correction",
@@ -33,11 +33,19 @@
         "passed": 2,
         "failed": 0,
         "details": "Desktop 30.2s and mobile 34.6s; both walking directions, pointing, no overflow, reduced motion, privacy and no external requests passed."
+      },
+      {
+        "scope": "Complete final suite with CI=1 and one worker",
+        "command": "CI=1 BASE_URL=http://127.0.0.1:4183 npx playwright test",
+        "passed": 44,
+        "failed": 0,
+        "details": "All desktop and mobile tests passed in 2.0 minutes. Movement took 21.2s desktop and 23.8s mobile; simulated speech 9.4s desktop and 8.8s mobile."
       }
     ],
     "dependencyAuditHigh": "PASS",
     "auditVulnerabilities": 0,
-    "staticProductionGate": "PASS"
+    "staticProductionGate": "PASS",
+    "ciWorkers": 1
   },
   "content": {
     "places": 36,
@@ -80,7 +88,8 @@
     "public/media/dagmar/rain-f636a4be8ede.glb": "f636a4be8ede025fe7813dced25c18aea719e9fdf31cea9408399741280d89cc",
     "public/media/dagmar/rain-f539a731ea27.webp": "f539a731ea27adb3e08d038af4971107a6d6c1155b1c83cb9b70fbf3299b4ef0",
     "package-lock.json": "695b4dbbef3801f3f147cf92cc7773bf97c693791c29279fc8417c597d858a4f",
-    "e2e/dagmar.spec.ts": "d82754d25ff493324a4d3bfbcd1e7de8c5c7067be51ead4bc597ec5bafbda379"
+    "e2e/dagmar.spec.ts": "1a3eee16a15bf07f90ba6f9170676b2f38566ee69bf64274271828638c115cd1",
+    "playwright.config.ts": "19bb36aef6e9a053d5ecaadb5bac8e64184914e4b12f10047d24e9bbd212dfb9"
   },
   "note": "GitHub Actions reruns all 44 UI tests in one complete suite and binds the tested/deployed artifact to the exact main commit. This file records local evidence only.",
   "ciAttempts": [
@@ -92,6 +101,16 @@
       "deployment": "SKIPPED",
       "failure": "Mobile exhausted its 90s total budget during the final full-page screenshot, after all walking and pointing assertions passed. Trace showed repeated WebGL captures taking 12-14s each.",
       "correction": "Keep one assistant-only visual artifact and replace the repeated-image hash comparison with rendered-frame progression. Assertions for both walking directions, pointing phase, overflow, language, privacy and reduced motion remain. Native bone animation and facial deformations are also checked by the GLB unit test."
+    },
+    {
+      "runId": 37915909465,
+      "sha": "ba448bac80c2e54cb55617989392cc6a2de557a7",
+      "uiPassed": 42,
+      "uiFailed": 2,
+      "deployment": "SKIPPED",
+      "failure": "Both software-WebGL movement cases exhausted the 15s phase polling budget just before reaching the negative-position threshold (last observed x=-0.104, required x<-0.15). Speech and all guide tests passed.",
+      "correction": "Run CI with one worker so software renderers do not compete, and give both directional samples a 30s budget while keeping the 90s overall test budget and the same position thresholds.",
+      "reference": "https://playwright.dev/docs/ci#workers"
     }
   ]
 }
