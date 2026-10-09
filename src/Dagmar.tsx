@@ -5,6 +5,7 @@ import { te } from './extra-i18n';
 import { SpeechTimeline, languageVoice } from './dagmar/speech.mjs';
 import type { Gesture } from './dagmar/Scene';
 import './dagmar/styles.css';
+import asset from './dagmar/asset.json';
 
 const Scene=lazy(()=>import('./dagmar/Scene'));
 type Props={language:Language;message:string;busy?:boolean;small?:boolean;reduced:boolean;voiceEnabled:boolean;onVoiceChange:(enabled:boolean)=>void;onVoiceError:(unavailable:boolean)=>void};
@@ -46,7 +47,7 @@ export function Dagmar({language,message,busy=false,small=false,reduced,voiceEna
  useEffect(()=>{if(busy)gesture('point');},[busy]);
  return <div className={`dagmar articulated ${small?'small':''}`}>
   <div className={`dagmar-stage ${ready&&!reduced?'has-scene':''}`} role="img" aria-label={te(language,'dagmarDescription')}>
-   <img className="dagmar-fallback" src="/media/dagmar.webp" alt="" width="640" height="960"/>
+   <img className="dagmar-fallback" src={asset.poster.url} alt="" width="640" height="960"/>
    {!reduced&&<Suspense fallback={null}><Scene reduced={reduced} request={request} timeline={timeline.current} onReady={setReady}/></Suspense>}
   </div>
   <div className="speech-bubble"><span className="concierge-label">DAGMAR <span>· {t(language,'concierge')}</span></span><p>{message}</p><span className="speech-spark" aria-hidden="true">✦</span>

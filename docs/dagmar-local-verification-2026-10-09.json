@@ -1,14 +1,34 @@
 {
-  "checkedAt": "2026-10-09T00:49:46.001409+00:00",
-  "layer": "local production build and Chromium desktop/mobile emulation",
+  "checkedAt": "2026-10-09T09:55:51.910451+00:00",
+  "layer": "Local production build and Chromium desktop/mobile emulation",
   "checks": {
     "typesAndContent": "PASS",
     "unitHttpTests": 14,
     "unitHttpResult": "PASS",
     "build": "PASS",
     "localizedPages": 120,
-    "playwrightTests": 44,
-    "playwrightResult": "PASS",
+    "playwrightUniqueTests": 44,
+    "playwrightResult": "PASS across the runs below",
+    "playwrightRuns": [
+      {
+        "scope": "Full suite before test-clock correction",
+        "passed": 41,
+        "failed": 3,
+        "details": "Two software-WebGL screenshot tests exceeded 45s; one real-time simulated vowel was missed."
+      },
+      {
+        "scope": "Final animation suite with 90s software-WebGL budget and controlled speech clock",
+        "passed": 6,
+        "failed": 2,
+        "details": "Both movement tests and four language/reduced-motion cases passed. Speech clock was sampling the vowel end at 80ms."
+      },
+      {
+        "scope": "Corrected speech tests at 32ms, with a stronger open-mouth assertion",
+        "passed": 2,
+        "failed": 0,
+        "details": "Desktop and mobile passed; the other six animation tests and 36 guide tests remained unchanged."
+      }
+    ],
     "dependencyAuditHigh": "PASS",
     "auditVulnerabilities": 0,
     "staticProductionGate": "PASS"
@@ -28,25 +48,32 @@
     320
   ],
   "visualReview": [
-    "Body walk and turns",
-    "Extended index and curled other fingers",
-    "Full pointing hand and dog inside narrow scene",
-    "Different open/rounded mouth shapes and talking gestures"
+    "Warm smile and gentler brow arch in the actual browser renderer",
+    "Relaxed standing posture and open fingers",
+    "Front, profile and rear views; continuous hair and clothing",
+    "Drooping four-joint ponytail, gentle secondary motion",
+    "Body walk and turns, bent-elbow pointing with an extended index",
+    "Distinct native open, rounded, wide and pressed lips",
+    "Original eyelids and eyelashes close together",
+    "Same Rain character in the static fallback",
+    "Full character and pointing hand inside the narrow scene"
   ],
-  "speechVerification": "Simulated native browser start, boundary, pause/cancel/end events and language-specific voice availability. No actual acoustic output measured.",
+  "speechVerification": "Simulated native browser start, boundary, pause/cancel/end events, controlled test clock and language-specific voice availability. No actual acoustic output measured.",
   "physicalIphoneSafari": "NOT VERIFIED",
   "physicalAndroidChrome": "NOT VERIFIED",
   "phonemeAccurateLipSync": "NOT PROVIDED",
   "sourceLicenses": "docs/dagmar-animation-sources.json",
-  "productionBefore": "docs/production-preflight-dagmar-2026-10-09.json",
+  "productionBefore": "docs/production-preflight-rain-2026-10-09.json",
   "sha256": {
-    "src/Dagmar.tsx": "4e85fdabe7f49571c47049e6b015284463c8e27f979692204b7594fed0b30062",
-    "src/dagmar/model.ts": "7bcf5dbe65c5f8565714f855660364def28b649333cb8f5d25be7c8b5b1bef73",
-    "src/dagmar/Scene.tsx": "7b21b2349705041c4ca23c9a189c329d452656cb544d8059dcfe82618b846e5e",
+    "src/Dagmar.tsx": "6a98d1db226d5b3538ff7f1737ed2f156df3f4cd51efcd7c6cc51d41a933884c",
+    "src/dagmar/model.ts": "4df1606c3bee166efb7b6ee3e1d2353726c039cef548aa7ccf7fcc45b08e33a1",
+    "src/dagmar/Scene.tsx": "17b857b23739515fb921d32cc4cf86c4295a2e55607dae21aeded9489067cf07",
     "src/dagmar/speech.mjs": "996476f486ae0fd379e1635f2ab9bae422a203e432e413f628d0ccdf5eaf089d",
     "src/dagmar/styles.css": "ef6bb2ca916de519cf8d71661747e3121af16fdd4d2fd01cd77819b8a88d5530",
-    "public/media/dagmar/dagmar-rig.glb": "c2177673440a72794d87dccb759a78f461d35bdea1f27bc70c63df0f34b8fc2c",
+    "src/dagmar/asset.json": "423410bbae274ada184fe9672713ea910bc17f3de670c30c9ec1a542dbbb2ef1",
+    "public/media/dagmar/rain-f636a4be8ede.glb": "f636a4be8ede025fe7813dced25c18aea719e9fdf31cea9408399741280d89cc",
+    "public/media/dagmar/rain-f539a731ea27.webp": "f539a731ea27adb3e08d038af4971107a6d6c1155b1c83cb9b70fbf3299b4ef0",
     "package-lock.json": "695b4dbbef3801f3f147cf92cc7773bf97c693791c29279fc8417c597d858a4f"
   },
-  "note": "Current CI and deployment evidence is tied to the pushed commit by GitHub Actions and the public /release.json; this file records local verification only."
+  "note": "GitHub Actions reruns all 44 UI tests in one complete suite and binds the tested/deployed artifact to the exact main commit. This file records local evidence only."
 }

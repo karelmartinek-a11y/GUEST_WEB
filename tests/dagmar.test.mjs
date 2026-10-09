@@ -2,18 +2,54 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
+import {MeshoptDecoder} from 'three/addons/libs/meshopt_decoder.module.js';
 import {SpeechTimeline,mouthUnits,languageVoice,REST} from '../src/dagmar/speech.mjs';
 
-test('Dagmar ships only audited CC0 source data and working skeletal motion tracks',()=>{
+test('Dagmar ships the attributed Rain character, distinct native face shapes and licensed motion',async()=>{
  const evidence=JSON.parse(fs.readFileSync('docs/dagmar-animation-sources.json'));
  const file=fs.readFileSync(evidence.output.path);
- assert.equal(evidence.license,'CC0-1.0');assert.equal(evidence.registrationRequired,false);assert.equal(evidence.paidContentUsed,false);
+ assert.equal(evidence.license,'CC-BY-4.0');assert.equal(evidence.registrationRequired,false);assert.equal(evidence.paidContentUsed,false);
+ assert.equal(evidence.attribution,'Rain Rig (CC) Blender Foundation | studio.blender.org');
  assert.equal(crypto.createHash('sha256').update(file).digest('hex'),evidence.output.sha256);
  assert.equal(file.readUInt32LE(0),0x46546c67);assert.equal(file.readUInt32LE(8),file.length);
  const size=file.readUInt32LE(12),model=JSON.parse(file.subarray(20,20+size)),binary=file.subarray(28+size);
  assert.deepEqual(model.animations.map(a=>a.name).sort(),['idle','present','talk','walk']);
  assert(!model.buffers.some(b=>b.uri));assert(!model.images.some(i=>i.uri));
- const values=id=>{const a=model.accessors[id],v=model.bufferViews[a.bufferView],width={SCALAR:1,VEC3:3,VEC4:4}[a.type],result=[];assert(width);for(let n=0;n<a.count;n++)for(let k=0;k<width;k++)result.push(binary.readFloatLE((v.byteOffset||0)+(a.byteOffset||0)+n*(v.byteStride||width*4)+k*4));return result;};
+ assert(model.asset.copyright.includes(evidence.attribution));
+ await MeshoptDecoder.ready;
+ const decoded=new Map();
+ const values=id=>{
+  const a=model.accessors[id],v=model.bufferViews[a.bufferView],width={SCALAR:1,VEC3:3,VEC4:4}[a.type],result=[];assert(width);
+  const compression=v.extensions?.EXT_meshopt_compression;
+  let data=binary,offset=v.byteOffset||0;
+  if(compression){
+   if(!decoded.has(a.bufferView)){
+    const dest=new Uint8Array(compression.count*compression.byteStride);
+    MeshoptDecoder.decodeGltfBuffer(dest,compression.count,compression.byteStride,binary.subarray(compression.byteOffset,compression.byteOffset+compression.byteLength),compression.mode,compression.filter);
+    decoded.set(a.bufferView,Buffer.from(dest));
+   }
+   data=decoded.get(a.bufferView);offset=0;
+  }
+  const componentBytes={5120:1,5121:1,5122:2,5123:2,5126:4}[a.componentType];assert(componentBytes);
+  for(let n=0;n<a.count;n++)for(let k=0;k<width;k++){
+   const i=offset+(a.byteOffset||0)+n*(v.byteStride||width*componentBytes)+k*componentBytes;
+   let value=a.componentType===5126?data.readFloatLE(i):a.componentType===5122?data.readInt16LE(i):a.componentType===5123?data.readUInt16LE(i):a.componentType===5120?data.readInt8(i):data.readUInt8(i);
+   if(a.normalized)value/=a.componentType===5122?32767:a.componentType===5123?65535:a.componentType===5120?127:255;
+   result.push(value);
+  }
+  return result;
+ };
+ const headNode=model.nodes.find(n=>n.name==='Rain-head');assert(headNode);
+ const head=model.meshes[headNode.mesh],names=head.extras.targetNames;
+ const poses=['open','round','wide','press','blink','smile','brow'].map(name=>{
+  const index=names.indexOf(name);assert(index>=0,name);
+  const coordinates=values(head.primitives[0].targets[index].POSITION);
+  assert(coordinates.some(v=>Math.abs(v)>.00001),name+' must deform the native face');
+  return crypto.createHash('sha256').update(JSON.stringify(coordinates)).digest('hex');
+ });
+ assert.equal(new Set(poses).size,poses.length);
+ const lashes=model.meshes[model.nodes.find(n=>n.name==='Rain-eyelashes').mesh];
+ assert(lashes.extras.targetNames.includes('blink'),'eyelashes follow the authored eyelids');
  for(const name of ['walk','talk']) {
   const clip=model.animations.find(a=>a.name===name);
   for(const joint of name==='walk'?['thigh_l','calf_l','foot_l']:['upperarm_l','lowerarm_l']) {

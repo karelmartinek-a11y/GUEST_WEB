@@ -1,40 +1,87 @@
 {
   "verifiedOn": "2026-10-09",
-  "license": "CC0-1.0",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "author": "Quaternius",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Rain Rig (CC) Blender Foundation | studio.blender.org",
+  "author": "Blender Foundation / Blender Studio",
   "registrationRequired": false,
   "paidContentUsed": false,
+  "thirdPartyCharacterAuthorized": true,
   "sources": [
+    {
+      "url": "https://studio.blender.org/characters/rain/v3/",
+      "downloadUrl": "https://studio.blender.org/download-source/files/ee/a7/eea73e55dba1cea31c09848df6a794b2-4.zip",
+      "archive": "Rain v3.3.zip",
+      "archiveSha256": "80217f163f6392dc829233d63c2cfb5e1376775bc34101ad14f39631fea70d24",
+      "member": "Rain v3.3/rain_v3.2.blend",
+      "memberSha256": "831ab6d837c679040285862b15dc9ee5180b018442a88aeaf92aaa7509b80258",
+      "license": "CC-BY-4.0",
+      "licenseEvidence": "Author page and archive ReadMe.txt",
+      "textures": "Original textures contained in the same CC BY archive"
+    },
     {
       "url": "https://quaternius.itch.io/universal-animation-library",
       "archiveSha256": "cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724",
       "member": "Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb",
       "memberSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "clips": [
         "Idle_Loop",
         "Walk_Formal_Loop",
         "Idle_Talking_Loop",
         "Interact"
       ]
-    },
-    {
-      "url": "https://quaternius.itch.io/universal-base-characters",
-      "archiveSha256": "fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40",
-      "member": "Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.gltf",
-      "memberSha256": "adedf28000a0716f689b009a70314506fc62f827498f77ba852acb5610f3f3f4"
     }
   ],
   "output": {
-    "path": "public/media/dagmar/dagmar-rig.glb",
-    "sha256": "c2177673440a72794d87dccb759a78f461d35bdea1f27bc70c63df0f34b8fc2c",
-    "bytes": 1498424
+    "path": "public/media/dagmar/rain-f636a4be8ede.glb",
+    "sha256": "f636a4be8ede025fe7813dced25c18aea719e9fdf31cea9408399741280d89cc",
+    "bytes": 5968252
+  },
+  "poster": {
+    "path": "public/media/dagmar/rain-f539a731ea27.webp",
+    "sha256": "f539a731ea27adb3e08d038af4971107a6d6c1155b1c83cb9b70fbf3299b4ef0",
+    "bytes": 31138,
+    "license": "CC-BY-4.0"
   },
   "changes": [
-    "Retargeted four body clips to female base rest pose",
-    "Removed unused texture maps",
-    "Packed the local rig and eye texture into GLB"
+    "Evaluated the native mesh, modifiers and skin without executing embedded Python",
+    "Baked original material colour graphs including vertex paint and UDIM textures",
+    "Converted the native facial rig to seven distinct morphs including jaw, lips, cheeks, eyelids and lashes",
+    "Softened the inner eyebrow arch and used a warm smile",
+    "Fitted the CC0 skeleton and body animation to Rain joints and skin",
+    "Relaxed the idle stance and fingers; authored pointing IK",
+    "Compressed geometry, morphs and animation with meshoptimizer; opaque textures encoded as JPEG",
+    "Posed and skinned the ponytail with four joints for gentle secondary motion"
   ],
-  "originalDesign": "Original grey bob, beige jacket, teal dress, pearls and terrier are authored in src/dagmar/model.ts; original supplied illustration remains a fallback.",
-  "speechTiming": "Browser speech boundary events with estimated viseme timing; no microphone, remote speech service or facial capture."
+  "nativeFacePoses": [
+    "open",
+    "round",
+    "wide",
+    "press",
+    "blink",
+    "smile",
+    "brow"
+  ],
+  "scripts": [
+    "scripts/prepare-rain.py",
+    "scripts/animate-rain.py",
+    "scripts/compress-rain.mjs"
+  ],
+  "tools": {
+    "Blender": "4.5.14 LTS",
+    "BlenderDownload": "https://download.blender.org/release/Blender4.5/blender-4.5.14-macos-arm64.dmg",
+    "BlenderSha256": "65134d9b07b20e2fa8d3c9e44f6f44ffb5c9774dd521b95f50387310241ca170",
+    "gltfTransform": "4.5.1",
+    "meshoptimizerEncoder": "1.1.0",
+    "Three": "0.186.1"
+  },
+  "speechTiming": "Native browser start and word boundary events with estimated visemes within words; no microphone, remote character service or facial capture.",
+  "retainedLegacy": {
+    "path": "public/media/dagmar/dagmar-rig.glb",
+    "license": "CC0-1.0",
+    "author": "Quaternius",
+    "usage": "Retained for already-open clients from release 8570f39; not loaded by the current app. Source and conversion recorded in that Git commit."
+  }
 }

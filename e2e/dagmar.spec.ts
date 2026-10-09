@@ -20,6 +20,8 @@ async function fakeSpeech(page:Page,available=langs) {
 test.describe('articulated Dagmar',()=>{
  test.use({reducedMotion:'no-preference'});
  test('local rig renders, body walks both directions, pointing changes the pose and motion can stop',async({page,baseURL})=>{
+  // Software WebGL plus two parallel renderers can spend seconds per screenshot.
+  test.setTimeout(90000);
   const remote:string[]=[],errors:string[]=[];const origin=new URL(baseURL!).origin;
   page.on('request',r=>{if(!/^(data|blob):/.test(r.url())&&new URL(r.url()).origin!==origin)remote.push(r.url());});page.on('pageerror',e=>errors.push(e.message));
   await page.goto('/cs/');await page.locator('.dagmar').scrollIntoViewIfNeeded();
@@ -36,12 +38,19 @@ test.describe('articulated Dagmar',()=>{
   expect(await page.evaluate(()=>Object.keys(localStorage).sort())).toEqual(['guest-language','guest-motion']);expect(remote).toEqual([]);expect(errors).toEqual([]);
  });
  test('simulated speech events start mouth movement, reanchor a word and close the mouth on cancellation',async({page})=>{
+  test.setTimeout(90000);
+  await page.clock.install({time:new Date('2026-10-09T08:00:00Z')});
   await fakeSpeech(page);await page.goto('/cs/');await page.locator('.dagmar').scrollIntoViewIfNeeded();
   const scene=page.locator('.dagmar-3d');await expect(scene).toHaveAttribute('data-ready','true',{timeout:20000});
   await page.locator('.dagmar-voice').click();await expect.poll(()=>page.evaluate(()=>(window as any).__dagmarSpeech.history.length)).toBe(1);
   await expect(scene).toHaveAttribute('data-speaking','false');
+  // Pause before starting the simulated voice: GPU work must not consume the
+  // short vowel being checked. This does not claim real acoustic synchronization.
+  await page.clock.pauseAt(new Date('2026-10-09T09:00:00Z'));
   await page.evaluate(()=>{const s=(window as any).__dagmarSpeech;s.utterance.onstart?.();s.utterance.onboundary?.({charIndex:1});});
-  await expect(scene).toHaveAttribute('data-speaking','true');await expect.poll(async()=>Number(await scene.getAttribute('data-mouth-open'))).toBeGreaterThan(.05);
+  await page.clock.runFor(32);
+  await expect(scene).toHaveAttribute('data-speaking','true');await expect.poll(async()=>Number(await scene.getAttribute('data-mouth-open'))).toBeGreaterThan(.5);
+  await page.clock.resume();
   await page.locator('.dagmar-voice').click();await expect(scene).toHaveAttribute('data-speaking','false');await expect(scene).toHaveAttribute('data-mouth-open','0.000');
   await page.evaluate(()=>(window as any).__dagmarSpeech.history[0].onstart?.());await expect(scene).toHaveAttribute('data-speaking','false');
   await page.locator('.dagmar-voice').click();await expect.poll(()=>page.evaluate(()=>(window as any).__dagmarSpeech.history.length)).toBe(2);
@@ -51,7 +60,7 @@ test.describe('articulated Dagmar',()=>{
 
 test('reduced motion avoids the 3D download and all twelve languages request their own voice',async({page})=>{
  test.setTimeout(90000);await fakeSpeech(page);
- const rigRequests:string[]=[];page.on('request',r=>{if(r.url().endsWith('dagmar-rig.glb'))rigRequests.push(r.url());});
+ const rigRequests:string[]=[];page.on('request',r=>{if(/\/media\/dagmar\/[^/]+\.glb$/.test(r.url()))rigRequests.push(r.url());});
  for(const language of langs) {
   await page.goto(`/${language}/`);await expect(page.locator('.dagmar-fallback')).toBeVisible();await expect(page.locator('.dagmar-3d')).toHaveCount(0);
   await page.locator('.dagmar-voice').click();await expect.poll(()=>page.evaluate(()=>(window as any).__dagmarSpeech.history.length)).toBe(1);

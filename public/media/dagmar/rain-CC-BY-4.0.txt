@@ -1,0 +1,20 @@
+Rain Rig (CC) Blender Foundation | studio.blender.org
+
+Character: Rain v3.3, downloaded without an account or payment on 9 October 2026.
+Source: https://studio.blender.org/characters/rain/v3/
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License terms: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Adapted for the Hotel CHODOV ASC guest guide: original material colour baked to
+local textures; web skeleton fitted to the mesh; native facial rig evaluated into
+lip, blink, smile and brow shapes; gentler eyebrow arch; relaxed standing pose;
+CC0 Quaternius body motion retargeted; geometry and textures compressed for web.
+The static preview image is a render of the same adapted, attributed character.
+
+CC BY 4.0 permits commercial use, sharing and adaptation with appropriate credit,
+a link to the license and an indication of changes. No endorsement by the author
+is implied. Refer to the linked legal code for the complete license terms.
+
+The author-supplied ReadMe.txt in the downloaded archive states:
+"This character rig is provided under the CC-BY license by the Blender Studio."
