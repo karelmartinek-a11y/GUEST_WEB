@@ -1,0 +1,40 @@
+{
+  "verifiedOn": "2026-10-09",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "author": "Quaternius",
+  "registrationRequired": false,
+  "paidContentUsed": false,
+  "sources": [
+    {
+      "url": "https://quaternius.itch.io/universal-animation-library",
+      "archiveSha256": "cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724",
+      "member": "Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb",
+      "memberSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clips": [
+        "Idle_Loop",
+        "Walk_Formal_Loop",
+        "Idle_Talking_Loop",
+        "Interact"
+      ]
+    },
+    {
+      "url": "https://quaternius.itch.io/universal-base-characters",
+      "archiveSha256": "fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40",
+      "member": "Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.gltf",
+      "memberSha256": "adedf28000a0716f689b009a70314506fc62f827498f77ba852acb5610f3f3f4"
+    }
+  ],
+  "output": {
+    "path": "public/media/dagmar/dagmar-rig.glb",
+    "sha256": "c2177673440a72794d87dccb759a78f461d35bdea1f27bc70c63df0f34b8fc2c",
+    "bytes": 1498424
+  },
+  "changes": [
+    "Retargeted four body clips to female base rest pose",
+    "Removed unused texture maps",
+    "Packed the local rig and eye texture into GLB"
+  ],
+  "originalDesign": "Original grey bob, beige jacket, teal dress, pearls and terrier are authored in src/dagmar/model.ts; original supplied illustration remains a fallback.",
+  "speechTiming": "Browser speech boundary events with estimated viseme timing; no microphone, remote speech service or facial capture."
+}

@@ -18,7 +18,7 @@ Parent `/var/lib/guest-web` a ACME webroot spravuje root. Deployment účet zapi
 
 ## GitHub → test → build → deploy
 
-Veřejný repozitář je [karelmartinek-a11y/GUEST_WEB](https://github.com/karelmartinek-a11y/GUEST_WEB). Každý push na main spouští audit závislostí, typy, validaci obsahu/licencí, 10 unit/HTTP testů, build 120 jazykových stránek a 36 Playwright průchodů desktop/mobil Chromium. Dosavadní aktuální verze prošla [CI 37859827071](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37859827071), commit `31dfbb415254e5fe77a877d73114d8f1fdc8e091`, s nulovým nálezem auditu. Její deploy job byl ještě přeskočen před schválením.
+Veřejný repozitář je [karelmartinek-a11y/GUEST_WEB](https://github.com/karelmartinek-a11y/GUEST_WEB). Každý push na main spouští audit závislostí, typy, validaci obsahu/licencí, 14 unit/HTTP testů, build 120 jazykových stránek a 44 Playwright průchodů desktop/mobil Chromium. Původní statická verze prošla [CI 37859827071](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37859827071), commit `31dfbb415254e5fe77a877d73114d8f1fdc8e091`, s nulovým nálezem auditu. Její deploy job byl ještě přeskočen před schválením.
 
 Nyní jsou uložené `GUEST_WEB_SSH_KEY`, `GUEST_WEB_KNOWN_HOSTS` a `GUEST_WEB_DEPLOY_ENABLED=true`. Schvalovací commit `113b2d87ee4286f7f938f064219e6a844d5fef45` prošel [CI i deployem 37861768418](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37861768418). Veřejný runtime měl stejné SHA. Job používá přesně tentýž otestovaný artifact a SHA, nikdy druhý build na serveru. Receiver kontroluje tar cesty, velikost, repo, SHA a vypnutou navigaci; nespouští uploadované soubory. Účet nemá sudo ani právo měnit jiné projekty.
 
@@ -31,6 +31,10 @@ Přímo proti `https://guest.hcasc.cz` prošlo všech 36 Playwright průchodů d
 `docs/production-public-verification-2026-10-09.json` dokládá 120 existujících jazykových stránek, 116 dostupných JPEG, kontrolní součty hotelové fotografie a nezměněného oficiálního emblému, PMTiles Range 206, správný MIME modulu workeru, CSP/HTTPS hlavičky, HTTP→HTTPS, skutečný 404 a vypnutý routing 503. `docs/production-first-deploy-receipt-2026-10-09.json` pochází přímo z receiveru; obsahuje hash přijatého archivu a kontrolu veřejného SHA. Jde o snímek prvního vydání; aktuální SHA je vždy na [release.json](https://guest.hcasc.cz/release.json) a další main commity jej automaticky mění po testech.
 
 ## Mapa, navigace a fyzické brány
+
+Rozšíření Dagmar z 9. 10. 2026 přidává místní kloubový 3D model s pohyby Quaternius CC0 a vlastním vzhledem, účesem, oblečením, mimikou a psem. Podklady byly získané bez účtu a platby; licence a kontrolní součty jsou v `docs/dagmar-animation-sources.json` a `LICENSES.md`. Model se stahuje jen při povoleném pohybu a renderování se mimo obrazovku zastavuje. Ovládání a hlasy mají všech 12 jazyků, žádná zdravotní volba ani GPS se do řeči nepředává. Web Speech API neposkytuje zvuk ani fonémová časování: ústa reagují na skutečný začátek a slovní události, časování uvnitř slov se odhaduje. Automatická simulace hlasů není dokladem skutečného zvuku či přesné synchronizace na fyzickém telefonu.
+
+Lokální ověření této změny obsahuje `docs/dagmar-local-verification-2026-10-09.json`: typy a obsah, 14 unit/HTTP a 44 Playwright testů, produkční build, audit bez nálezu a vizuální kontrolu póz v šířkách 1280/390/320 px. Bezprostřední read-only serverový audit je v `docs/production-preflight-dagmar-2026-10-09.json`: kapacita vyhovuje, `nginx -t` prošel, sledované služby jsou aktivní. Nasazení používá stávající automatický postup a schválený statický profil.
 
 Katalog má 36 míst, 116 katalogových fotografií, všech osm restaurací, 22 územně příslušných označení UNESCO a 12 jazyků. Mapa, galerie, externí pěší odkazy, doprava, zdravotní karta a ostatní obsah jsou součástí statického vydání. Automatické mobilní rozměry ani 12 jednostránkových A4 důkazů nejsou fyzickou chůzí.
 

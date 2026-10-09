@@ -8,6 +8,12 @@ Originální logo dodal Hotel CHODOV ASC v tomto zadání. Původ a hotelový Dr
 
 `public/media/dagmar.webp` je původní obrázek vygenerovaný vestavěným OpenAI image_gen dne 8. 10. 2026 pro tento web. Nová postava a nový pes mají odlišný design od paní Kadrnoškové a Jonatána. Seriálová reference není zahrnutá mezi publikovanými soubory. Obrázek je zmenšený a převedený do WebP.
 
+Pohyblivá 3D Dagmar používá ženský základ a čtyři pohybové sekvence od [Quaternius](https://quaternius.com/), oba balíky ve verzi Standard pod **CC0 1.0**. Byly staženy 9. 10. 2026 z autorových stránek bez registrace a bez placeného obsahu. Licence dovoluje komerční použití, úpravy a veřejnou distribuci. Originální šedý účes, béžové sako, petrolejové šaty, perly, pes a ovládání obličeje jsou zpracované pro tento projekt. Nejde o převzetí identity filmové či seriálové postavy.
+
+Výsledný místní soubor `public/media/dagmar/dagmar-rig.glb` obsahuje základní kostru, oči a retargetované sekvence `Idle_Loop`, `Walk_Formal_Loop`, `Idle_Talking_Loop` a `Interact`. `scripts/prepare-dagmar-assets.py` reprodukuje převod z původních archivů. Zdrojové adresy, SHA-256 archivů i výsledku a změny jsou v `docs/dagmar-animation-sources.json`; dodané licence jsou v `public/media/dagmar/base-CC0.txt` a `motions-CC0.txt`.
+
+Řeč používá Web Speech API po kliknutí. Časování mimiky se opírá o události začátku/slov a odhad tvarů rtů uvnitř slov. Není to záznam herecké mimiky ani přesná fonémová synchronizace; chybějící hlas vybraného jazyka se nenahrazuje jiným jazykem.
+
 ## Skutečné fotografie
 
 116 místních JPEG pro všech 36 míst, 2–5 na místo. Autoři a komerčně použitelné licence byly ověřeny čerstvým MediaWiki `imageinfo.extmetadata` z Wikimedia Commons. Původní seznam kandidátů sám nebyl považován za schválení. Některé licence z CSV byly zpřesněny podle API. Evidence dalších sedmi cílů je v `docs/media-provenance/unesco-additions/`.
@@ -32,4 +38,4 @@ MapLibre GL JS: BSD-3-Clause, PMTiles: BSD-3-Clause, Valhalla: MIT. Routing OSM 
 
 Cormorant Garamond, DM Sans a Noto Sans: SIL Open Font License 1.1. Fonty se obsluhují místně; plná znění jsou v `public/fonts/` a `public/maps/Noto-Sans-OFL.txt`.
 
-React, Vite, Motion a Lucide: příslušné MIT/ISC licence z uzamčených balíčků. M2M100 418M redakční offline překladový model: MIT; model ani jeho runtime nejsou součástí webového nasazení. Úplná licence je na [modelové stránce Meta](https://huggingface.co/facebook/m2m100_418M).
+React, Vite, Motion a Lucide: příslušné MIT/ISC licence z uzamčených balíčků. Three.js: MIT, plné znění v `public/media/dagmar/three-MIT.txt`. M2M100 418M redakční offline překladový model: MIT; model ani jeho runtime nejsou součástí webového nasazení. Úplná licence je na [modelové stránce Meta](https://huggingface.co/facebook/m2m100_418M).

@@ -864,5 +864,8 @@
     "इस उपकरण पर इस भाषा की आवाज़ उपलब्ध नहीं है।",
     "No hay voz para este idioma en este dispositivo.",
     "На цьому пристрої немає голосу для цієї мови."
-  ]
+  ],
+  "dagmarWalk": ["Projít se", "Take a walk", "Spazieren", "Passeggia", "Przejdź się", "Wandelen", "Marcher", "걷기", "হাঁটুন", "टहलें", "Caminar", "Пройтися"],
+  "dagmarPoint": ["Ukázat", "Point", "Zeigen", "Indica", "Wskaż", "Aanwijzen", "Montrer", "가리키기", "দেখান", "इशारा करें", "Señalar", "Показати"],
+  "dagmarDescription": ["Hotelová průvodkyně Dagmar se svým psem", "Hotel concierge Dagmar with her dog", "Hotelbegleiterin Dagmar mit ihrem Hund", "La guida dell’hotel Dagmar con il suo cane", "Hotelowa przewodniczka Dagmar ze swoim psem", "Hotelgids Dagmar met haar hond", "La guide de l’hôtel Dagmar et son chien", "호텔 안내인 다그마르와 반려견", "হোটেল গাইড দাগমার ও তাঁর কুকুর", "होटल गाइड डागमार और उनका कुत्ता", "La guía del hotel Dagmar con su perro", "Готельна гідеса Дагмар зі своїм собакою"]
 }

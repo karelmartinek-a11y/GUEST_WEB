@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-09T00:49:46.001409+00:00",
+  "layer": "local production build and Chromium desktop/mobile emulation",
+  "checks": {
+    "typesAndContent": "PASS",
+    "unitHttpTests": 14,
+    "unitHttpResult": "PASS",
+    "build": "PASS",
+    "localizedPages": 120,
+    "playwrightTests": 44,
+    "playwrightResult": "PASS",
+    "dependencyAuditHigh": "PASS",
+    "auditVulnerabilities": 0,
+    "staticProductionGate": "PASS"
+  },
+  "content": {
+    "places": 36,
+    "originalPlaceIdsPreserved": 29,
+    "itineraries": 5,
+    "languages": 12,
+    "photos": 116,
+    "restaurants": 8,
+    "navigationEnabled": false
+  },
+  "visualReviewWidths": [
+    1280,
+    390,
+    320
+  ],
+  "visualReview": [
+    "Body walk and turns",
+    "Extended index and curled other fingers",
+    "Full pointing hand and dog inside narrow scene",
+    "Different open/rounded mouth shapes and talking gestures"
+  ],
+  "speechVerification": "Simulated native browser start, boundary, pause/cancel/end events and language-specific voice availability. No actual acoustic output measured.",
+  "physicalIphoneSafari": "NOT VERIFIED",
+  "physicalAndroidChrome": "NOT VERIFIED",
+  "phonemeAccurateLipSync": "NOT PROVIDED",
+  "sourceLicenses": "docs/dagmar-animation-sources.json",
+  "productionBefore": "docs/production-preflight-dagmar-2026-10-09.json",
+  "sha256": {
+    "src/Dagmar.tsx": "4e85fdabe7f49571c47049e6b015284463c8e27f979692204b7594fed0b30062",
+    "src/dagmar/model.ts": "7bcf5dbe65c5f8565714f855660364def28b649333cb8f5d25be7c8b5b1bef73",
+    "src/dagmar/Scene.tsx": "7b21b2349705041c4ca23c9a189c329d452656cb544d8059dcfe82618b846e5e",
+    "src/dagmar/speech.mjs": "996476f486ae0fd379e1635f2ab9bae422a203e432e413f628d0ccdf5eaf089d",
+    "src/dagmar/styles.css": "ef6bb2ca916de519cf8d71661747e3121af16fdd4d2fd01cd77819b8a88d5530",
+    "public/media/dagmar/dagmar-rig.glb": "c2177673440a72794d87dccb759a78f461d35bdea1f27bc70c63df0f34b8fc2c",
+    "package-lock.json": "695b4dbbef3801f3f147cf92cc7773bf97c693791c29279fc8417c597d858a4f"
+  },
+  "note": "Current CI and deployment evidence is tied to the pushed commit by GitHub Actions and the public /release.json; this file records local verification only."
+}

@@ -9,6 +9,9 @@ Datum: 9. 10. 2026. Všechny výsledky se vztahují pouze k výslovně uvedené 
 | Filmové galerie | Implementováno | 116 místních fotografií, 2–5 na místo; manifest, SHA-256 |
 | UNESCO a dopravní ikony | Implementováno | Oficiální nezměněný emblém, filtr 21 cílů Historického centra + Průhonický park; bus/metro/tram/trolejbus |
 | Autentické logo a původní Dagmar | Implementováno | Dodané PNG + nový obrázek; žádná kopie seriálové postavy |
+| Kloubová 3D Dagmar a pes | PASS lokálně | Quaternius CC0, bez registrace; obousměrná chůze, otočení, ukazující prst, gesta při řeči, mrkání a pohyb rtů. Pózy vizuálně kontrolované na 1280/390/320 px; `docs/dagmar-animation-sources.json` |
+| Hlas a mimika Dagmar | PASS automaticky, fyzicky neověřeno | Události TTS a všech 12 jazyků ověřené simulací; rty uvnitř slov mají odhadnuté časování. Skutečné hlasy a zvuk na iPhone/Android dosud nedoložené; žádný náhradní cizí jazyk |
+| Omezení pohybu Dagmar | PASS lokálně | Systémové i ruční omezení používá původní statickou ilustraci bez stažení 3D modelu. Mimo obrazovku se renderování pozastavuje |
 | 12 jazyků ovládání a obsahu | Implementováno | Redakční CS/EN/DE, další jazyky offline přeložené; rodilá korektura zbývá |
 | 15 dvojjazyčných symptomů, 155/112, FTN | Implementováno | Aktuální oficiální FTN ověření, ručně vytvořené symptomové překlady |
 | A4 tisk / PDF | Implementováno | 12 PDF důkazů, každý 1 strana A4; vizuální kontrola včetně bengálštiny |
@@ -23,7 +26,7 @@ Datum: 9. 10. 2026. Všechny výsledky se vztahují pouze k výslovně uvedené 
 | Pět chůzí na iPhone Safari | BLOCKED | Nelze nahradit simulací; žádný záznam nedoložen |
 | Pět chůzí na Android Chrome | BLOCKED | Nelze nahradit simulací; žádný záznam nedoložen |
 | FQDN a DNS | PASS | Uživatel schválil guest.hcasc.cz; A/AAAA odpovídají stroji |
-| Lokální typy, unit/HTTP, e2e, security audit | PASS lokálně | Typy, obsah, 10 unit/HTTP testů, všech 36 e2e desktop/mobil Chromium; audit uzamčených závislostí 0 vulnerabilities |
+| Lokální typy, unit/HTTP, e2e, security audit | PASS lokálně | Typy, obsah, 14 unit/HTTP testů, všech 44 e2e desktop/mobil Chromium; audit uzamčených závislostí 0 vulnerabilities |
 | Omezené statické vydání | Schváleno uživatelem | 9. 10. 2026: „potvrzuji“, explicitně pro statický web a automatický deploy main s vypnutou živou navigací |
 | HTTPS a produkční statický deploy | PASS v produkci | CI/deploy 37861768418, stejné veřejné SHA, vlastní platný certifikát, automatická obnova |
 | Veřejné rozhraní a statické soubory | PASS v produkci | 36 prohlížečových průchodů, 120 jazykových cest, 116 JPEG, PMTiles 206, MIME workeru, 404, CSP a hash hotelu/emblému |
