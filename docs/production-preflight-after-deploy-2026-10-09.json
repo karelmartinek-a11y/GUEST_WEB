@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-09T00:04:08.040991+00:00",
+  "cpus": 4,
+  "disk": "Filesystem        1B-blocks         Used    Available Use% Mounted on\n/dev/vda1      227702718464 126021795840 101664145408  56% /",
+  "memory": "total        used        free      shared  buff/cache   available\nMem:           15993        3245       11131          44        1963       12747\nSwap:           4095           0        4095",
+  "vhosts": {
+    "/etc/nginx/sites-enabled/mail-mcp-standalone.conf": "66bdb42a71012662ed12ad67c9f3fbfeee6e73aed98857c0de714eac8417dcdc",
+    "/etc/nginx/sites-enabled/ha.hcasc.cz.conf": "fb0191ad339e130ef9f7d1311ce8f7f15482bb7754b20238c2eb6abe8b620e02",
+    "/etc/nginx/sites-enabled/apimcpkajavoiceha.hcasc.cz.conf": "fe99472a92ff6e9403c18adb1fe37c970c00b2f0abd218c8f9f243378ca5b898",
+    "/etc/nginx/sites-enabled/gpt.hcasc.cz.conf": "d86bd0ad9d9512e3960ded4e549f9363190d105c7aa44b942fc051bbae294e3d",
+    "/etc/nginx/sites-enabled/dagmar.hcasc.cz.conf": "6f444db453277d2ccc61ccf18b3dda79e4dcac3c78a0639c1a35bc74a39d6ae2",
+    "/etc/nginx/sites-enabled/hotel.hcasc.cz.conf": "8d420daabf20671b2645f107d0269843d40da7a3080965b31f3105ef063fe4d7",
+    "/etc/nginx/sites-enabled/guest.hcasc.cz.conf": "6f7a66d0d29d581d6b2490eff8816f0bfb6c7bd962eb5628c080672a069c2c07"
+  },
+  "listeners": "State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess\nLISTEN 0      2048       127.0.0.1:18769      0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:18768      0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:18767      0.0.0.0:*          \nLISTEN 0      511          0.0.0.0:80         0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:22         0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:8202       0.0.0.0:*          \nLISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          \nLISTEN 0      511          0.0.0.0:443        0.0.0.0:*          \nLISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          \nLISTEN 0      2048       127.0.0.1:8101       0.0.0.0:*          \nLISTEN 0      32     192.168.124.1:53         0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:37003      0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:8080       0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:8083       0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:5433       0.0.0.0:*          \nLISTEN 0      511             [::]:80            [::]:*          \nLISTEN 0      4096            [::]:22            [::]:*          \nLISTEN 0      4096            [::]:8202          [::]:*          \nLISTEN 0      511             [::]:443           [::]:*          \nLISTEN 0      4096            [::]:8080          [::]:*          \nLISTEN 0      4096            [::]:8083          [::]:*",
+  "services": {
+    "nginx": "active",
+    "docker": "active",
+    "dagmar-backend": "active",
+    "kajavoiceha": "active",
+    "mail-mcp-standalone": "active"
+  },
+  "http": {
+    "hotel.hcasc.cz": "200",
+    "dagmar.hcasc.cz": "200",
+    "ha.hcasc.cz": "200",
+    "gpt.hcasc.cz": "200",
+    "mail.hcasc.cz": "404"
+  },
+  "nginxTest": true
+}

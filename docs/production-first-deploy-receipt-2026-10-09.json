@@ -1,0 +1,20 @@
+{
+  "sha": "113b2d87ee4286f7f938f064219e6a844d5fef45",
+  "artifact_sha256": "167ce31388d8182b59cd3191d8b7ac8f2417ee88421afc7d52d1284143e893b4",
+  "deployedAt": "2026-10-08T23:54:11Z",
+  "runtimeShaVerified": true,
+  "protectedVhostsUnchanged": true,
+  "protectedHealth": {
+    "hotel.hcasc.cz/": "200",
+    "dagmar.hcasc.cz/": "200",
+    "ha.hcasc.cz/": "200",
+    "gpt.hcasc.cz/.well-known/oauth-authorization-server": "200",
+    "mail.hcasc.cz/mcp": "401",
+    "service:nginx": "active",
+    "service:docker": "active",
+    "service:dagmar-backend": "active",
+    "service:kajavoiceha": "active",
+    "service:mail-mcp-standalone": "active"
+  },
+  "navigationEnabled": false
+}

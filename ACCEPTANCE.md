@@ -25,10 +25,11 @@ Datum: 9. 10. 2026. Všechny výsledky se vztahují pouze k výslovně uvedené 
 | FQDN a DNS | PASS | Uživatel schválil guest.hcasc.cz; A/AAAA odpovídají stroji |
 | Lokální typy, unit/HTTP, e2e, security audit | PASS lokálně | Typy, obsah, 10 unit/HTTP testů, všech 36 e2e desktop/mobil Chromium; audit uzamčených závislostí 0 vulnerabilities |
 | Omezené statické vydání | Schváleno uživatelem | 9. 10. 2026: „potvrzuji“, explicitně pro statický web a automatický deploy main s vypnutou živou navigací |
-| HTTPS a produkční deploy | Probíhá | Samostatný účet, nový vhost a certifikát; skutečné nasazení bude doloženo po CI a veřejném read-backu |
-| Ostatní weby a služby | PASS preflight | Dostupnost a konfigurace zdokumentovány; nic změněno |
+| HTTPS a produkční statický deploy | PASS v produkci | CI/deploy 37861768418, stejné veřejné SHA, vlastní platný certifikát, automatická obnova |
+| Veřejné rozhraní a statické soubory | PASS v produkci | 36 prohlížečových průchodů, 120 jazykových cest, 116 JPEG, PMTiles 206, MIME workeru, 404, CSP a hash hotelu/emblému |
+| Ostatní weby a služby | PASS před/po | Šest starších vhostů, původní certifikáty, HTTP stavy a pět služeb beze změny; `docs/production-preservation-2026-10-09.json` |
 
-**FULL NAVIGATION ACCEPTANCE: BLOCKED. STATIC RELEASE: AUTHORIZED.** Uživatel výslovně schválil statickou verzi a automatické nasazování dalších commitů na main při vypnuté živé navigaci. Toto rozhodnutí nenahrazuje fyzickou akceptaci navigace.
+**FULL NAVIGATION ACCEPTANCE: BLOCKED. STATIC PRODUCTION: DEPLOYED AND VERIFIED.** Uživatel výslovně schválil statickou verzi a automatické nasazování dalších commitů na main při vypnuté živé navigaci. Toto rozhodnutí nenahrazuje fyzickou akceptaci navigace.
 
 ## Doplnění fyzické akceptace
 

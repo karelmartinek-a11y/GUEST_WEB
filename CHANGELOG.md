@@ -2,6 +2,7 @@
 
 ## 1.0.1 — 9. 10. 2026
 
+- Uživatel schválil statickou produkci s vypnutou vlastní živou navigací; web je na guest.hcasc.cz a main automaticky prochází CI a deployem. Samostatný certifikát a účet, rootem chráněný receiver/SSH home, trvalé hashované assety pěti uchovaných vydání a skutečná veřejná akceptace.
 - Úplnost osmi restaurací chrání kontrolní seznam podle posledního dodaného letáku a test každé restaurace ve všech 12 jazycích.
 - Sedm turistických doplnění z letáků rozšiřuje katalog na 36 míst se 116 skutečnými fotografiemi a individuální licenční evidencí.
 - Oficiální nezměněný emblém UNESCO, vysvětlení územního zápisu 616bis a filtr Historického centra Prahy / Průhonického parku.

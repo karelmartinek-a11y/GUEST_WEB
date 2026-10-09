@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-09T00:05:20.239776+00:00",
+  "clientDate": "2026-10-09",
+  "initialDeploymentSha": "113b2d87ee4286f7f938f064219e6a844d5fef45",
+  "ciRun": "https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37861768418",
+  "protectedVhosts": 6,
+  "protectedVhostsUnchanged": true,
+  "protectedCertificatesUnchanged": true,
+  "protectedServicesUnchanged": true,
+  "protectedHttpUnchanged": true,
+  "nginxTestPassed": true,
+  "publicDesktopAndMobileE2e": {
+    "passed": 36,
+    "physicalDeviceAcceptance": false
+  },
+  "afterAssetCacheRelevantE2ePassed": 4,
+  "navigationEnabled": false,
+  "staticRelease": true
+}

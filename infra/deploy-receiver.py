@@ -5,6 +5,22 @@ from pathlib import Path
 ROOT=Path('/opt/guest-web');DATA=Path('/var/lib/guest-web/deploy')
 MAX_PROJECT_BYTES=2*1024**3
 MAX_RELEASES=5
+ASSETS=ROOT/'assets'
+def publish_assets(www):
+ ASSETS.mkdir(mode=0o755,exist_ok=True)
+ for source in (www/'assets').rglob('*'):
+  if not source.is_file():continue
+  target=ASSETS/source.relative_to(www/'assets');target.parent.mkdir(parents=True,exist_ok=True,mode=0o755)
+  if target.exists():
+   if hashlib.sha256(target.read_bytes()).digest()!=hashlib.sha256(source.read_bytes()).digest():raise RuntimeError('Immutable asset filename collision')
+  else:shutil.copyfile(source,target);target.chmod(0o644)
+def retain_assets():
+ referenced=set()
+ for release in (ROOT/'releases').iterdir():
+  if release.is_dir() and re.fullmatch('[0-9a-f]{40}',release.name):
+   base=release/'www/assets';referenced.update(str(p.relative_to(base)) for p in base.rglob('*') if p.is_file())
+ for p in ASSETS.rglob('*'):
+  if p.is_file() and str(p.relative_to(ASSETS)) not in referenced:p.unlink()
 def project_size():
  return sum(p.stat().st_size for base in [ROOT,DATA] for p in base.rglob('*') if p.is_file() and not p.is_symlink())
 def retain_releases(current,previous):
@@ -67,6 +83,7 @@ try:
  if manifest.get('sha')!=sha or manifest.get('repository')!='karelmartinek-a11y/GUEST_WEB':raise RuntimeError('Artifact SHA mismatch')
  if manifest.get('navigationEnabled') or capability.get('navigationEnabled'):raise RuntimeError('Static release cannot enable unaccepted navigation')
  if protected()!=baseline:raise RuntimeError('Protected vhost configuration changed')
+ publish_assets(staging/'www')
  if release.exists():
   if (release/'www/release.json').read_bytes()!=(staging/'www/release.json').read_bytes():raise RuntimeError('Existing SHA has a different artifact')
   shutil.rmtree(staging)
@@ -76,6 +93,7 @@ try:
  if public.get('sha')!=sha:raise RuntimeError('Public runtime SHA mismatch')
  if protected()!=baseline or health()!=before_health:raise RuntimeError('Protected sites changed health or configuration')
  retain_releases(release,previous)
+ retain_assets()
  receipt={'sha':sha,'artifact_sha256':artifact_sha,'deployedAt':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'runtimeShaVerified':True,'protectedVhostsUnchanged':True,'protectedHealth':before_health,'navigationEnabled':False}
  (DATA/'latest.json').write_text(json.dumps(receipt,indent=2)+'\n');print(json.dumps(receipt))
 except Exception as error:

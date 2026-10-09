@@ -52,7 +52,7 @@ Každý push na `main` spouští validaci obsahu/licencí, typovou kontrolu, aud
 
 Vyhrazený SSH klíč v GitHub Secrets `GUEST_WEB_SSH_KEY` a ověřený serverový klíč `GUEST_WEB_KNOWN_HOSTS`. SSH credential dovoluje pouze `deploy <SHA>`; účet nemá sudo ani oprávnění měnit ostatní projekty. Receiver a SSH konfigurace jsou spravované rootem. Hodnoty klíčů do repozitáře nepatří.
 
-Izolované cesty: `/opt/guest-web/releases/<SHA>/www`, atomický symlink `/opt/guest-web/current`, vlastní vhost `guest.hcasc.cz`, vlastní certifikát. Každé nasazení kontroluje SHA veřejného runtime, hashe ostatních vhostů a jejich dostupnost; při chybě vrací jen vlastní symlink. Access log nového webu je vypnutý. Postup a aktuální důkazy jsou v `DEPLOYMENT_REPORT.md`.
+Izolované cesty: `/opt/guest-web/releases/<SHA>/www`, atomický symlink `/opt/guest-web/current`, vlastní vhost `guest.hcasc.cz`, vlastní certifikát. Hashované assety uchovaných pěti vydání jsou v `/opt/guest-web/assets`, aby již otevřené stránky mohly načíst mapu i po novém vydání. Každé nasazení kontroluje SHA veřejného runtime, hashe ostatních vhostů a jejich dostupnost; při chybě vrací jen vlastní symlink. Access log nového webu je vypnutý. Postup a aktuální důkazy jsou v `DEPLOYMENT_REPORT.md`.
 
 ## Změna obsahu
 

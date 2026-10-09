@@ -1,0 +1,38 @@
+{
+  "verifiedAt": "2026-10-09T00:01:44.874Z",
+  "clientDate": "2026-10-09",
+  "origin": "https://guest.hcasc.cz",
+  "expectedSha": "113b2d87ee4286f7f938f064219e6a844d5fef45",
+  "runtime": {
+    "repository": "karelmartinek-a11y/GUEST_WEB",
+    "sha": "113b2d87ee4286f7f938f064219e6a844d5fef45",
+    "builtAt": "2026-10-08T23:52:23.451Z",
+    "languages": 12,
+    "places": 36,
+    "navigationEnabled": false
+  },
+  "navigationEnabled": false,
+  "localizedPages": 120,
+  "photographs": 116,
+  "referencedAssets": [
+    {
+      "path": "/assets/index-BaSaNgKs.js",
+      "sha256": "fcd88a7a5ec471ad8e41af2e7f93f65c09d4dee5c89291fc6cead92b35932cc8"
+    },
+    {
+      "path": "/assets/MapView-DFaoytxk.js",
+      "sha256": "6a442c9f3a49e6ce0cd26afb5291a40905f0cb3ac501fb1b0066024583406627"
+    },
+    {
+      "path": "/assets/maplibre-gl-worker-VaXr2Fck.mjs",
+      "sha256": "53a2dd60f76c7b9201a3cc007b755d98ce4b52403843fef5c90c41780fe62e91"
+    }
+  ],
+  "hotelAndOfficialEmblemHashesVerified": true,
+  "mapRange206": true,
+  "moduleWorkerMimeVerified": true,
+  "cspAndHttpsHeadersVerified": true,
+  "httpRedirectVerified": true,
+  "unknownPath404": true,
+  "routingDisabled503": true
+}
