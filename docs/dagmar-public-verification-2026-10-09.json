@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-09T10:31:55.317Z",
+  "release": {
+    "repository": "karelmartinek-a11y/GUEST_WEB",
+    "sha": "c9718ca644297698707e90fbd8d12b5c666d5ba2",
+    "builtAt": "2026-10-09T10:20:36.029Z",
+    "languages": 12,
+    "places": 36,
+    "navigationEnabled": false
+  },
+  "assets": [
+    {
+      "url": "/media/dagmar/rain-f636a4be8ede.glb",
+      "bytes": 5968252,
+      "sha256": "f636a4be8ede025fe7813dced25c18aea719e9fdf31cea9408399741280d89cc",
+      "status": 200
+    },
+    {
+      "url": "/media/dagmar/rain-f539a731ea27.webp",
+      "bytes": 31138,
+      "sha256": "f539a731ea27adb3e08d038af4971107a6d6c1155b1c83cb9b70fbf3299b4ef0",
+      "status": 200
+    }
+  ],
+  "screens": [
+    {
+      "label": "desktop",
+      "width": 1280,
+      "ready": true,
+      "pointPhase": "point",
+      "walk": "both directions verified",
+      "reducedMotion": true,
+      "errors": [],
+      "external": []
+    },
+    {
+      "label": "mobile",
+      "width": 320,
+      "ready": true,
+      "pointPhase": "point",
+      "walk": "covered by CI",
+      "reducedMotion": true,
+      "errors": [],
+      "external": []
+    }
+  ],
+  "physicalVoice": "NOT VERIFIED",
+  "completedAt": "2026-10-09T10:34:11.861627+00:00",
+  "ciRun": "https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37916954742",
+  "ciUnitTestsPassed": 14,
+  "ciUiTestsPassed": 44,
+  "headerChange": {
+    "changed": "/etc/guest-web/headers.conf",
+    "beforeSha256": "c16de45eb67d674da0bdeea9cca6855e608b537fdf396ec266cc8a07a94b5478",
+    "afterSha256": "6729fdd2294599c470145260e67caf438c4df3877b79403f4b6db584ab27aff9",
+    "nginxTest": true,
+    "reloaded": true,
+    "backup": "/etc/guest-web/headers.conf.before-rain-20261009"
+  },
+  "serverPreservation": {
+    "vhosts": true,
+    "listeners": true,
+    "services": true,
+    "http": true,
+    "nginxTest": true,
+    "vhostCount": 8,
+    "globalNginxConfigurationSha256Unchanged": "48c6a4ec1e1fd28ccf968490f07e34a1d7f755793b2108a3ed8670b1ee2a0aa2"
+  },
+  "initialPublicFailure": {
+    "webAssemblyBlocked": true,
+    "embeddedBlobTexturesBlocked": true,
+    "previewMissingProductionHeaders": true
+  },
+  "scope": "Snapshot of the verified Rain renderer after the isolated project-header fix. Later main releases are identified by the public release.json and their own CI runtime artifact."
+}

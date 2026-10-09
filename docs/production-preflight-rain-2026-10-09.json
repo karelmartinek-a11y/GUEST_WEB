@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-09T10:18:59.860526+00:00",
+  "checkedAt": "2026-10-09T10:31:34.749001+00:00",
   "cpus": 4,
-  "disk": "Filesystem        1B-blocks         Used   Available Use% Mounted on\n/dev/vda1      227702718464 130782699520 96903241728  58% /",
-  "memory": "total        used        free      shared  buff/cache   available\nMem:           15993        8587         595          68        7216        7405\nSwap:           4095           0        4095",
+  "disk": "Filesystem        1B-blocks         Used   Available Use% Mounted on\n/dev/vda1      227702718464 133900931072 93785010176  59% /",
+  "memory": "total        used        free      shared  buff/cache   available\nMem:           15993        8932         348          68        7118        7060\nSwap:           4095           0        4095",
   "vhosts": {
     "/etc/nginx/sites-enabled/listecky-mcp.conf": "57f28bf23c56cd5e72d38a66c899296043b2ef52a85e4da8f6b6c5fabb8910a5",
     "/etc/nginx/sites-enabled/mail-mcp-standalone.conf": "66bdb42a71012662ed12ad67c9f3fbfeee6e73aed98857c0de714eac8417dcdc",
@@ -38,13 +38,6 @@
     ],
     "checkedLocallyOn": "2026-10-09"
   },
-  "earlierAuditComparison": {
-    "checkedAt": "2026-10-09T10:08:55.108159+00:00",
-    "originalSevenVhostsUnchanged": true,
-    "otherProjectChangesObservedBeforeThisDeployment": [
-      "/etc/nginx/sites-enabled/listecky-mcp.conf",
-      "listener inventory"
-    ],
-    "note": "Both prior Rain CI attempts skipped deployment. Changes to the additional MCP vhost and listener inventory were present at this fresh read-only audit; this project does not manage them."
-  }
+  "globalNginxConfigurationSha256": "48c6a4ec1e1fd28ccf968490f07e34a1d7f755793b2108a3ed8670b1ee2a0aa2",
+  "projectHeadersSha256": "c16de45eb67d674da0bdeea9cca6855e608b537fdf396ec266cc8a07a94b5478"
 }

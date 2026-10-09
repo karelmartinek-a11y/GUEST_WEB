@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T10:20:05.934319+00:00",
+  "checkedAt": "2026-10-09T10:34:11.861627+00:00",
   "layer": "Local production build and Chromium desktop/mobile emulation",
   "checks": {
     "typesAndContent": "PASS",
@@ -40,12 +40,20 @@
         "passed": 44,
         "failed": 0,
         "details": "All desktop and mobile tests passed in 2.0 minutes. Movement took 21.2s desktop and 23.8s mobile; simulated speech 9.4s desktop and 8.8s mobile."
+      },
+      {
+        "scope": "Complete final suite with actual production headers in the preview",
+        "command": "CI=1 BASE_URL=http://127.0.0.1:4183 npx playwright test",
+        "passed": 44,
+        "failed": 0,
+        "details": "All 44 tests passed in 1.7 minutes. Both movement tests additionally require the actual CSP response header. The renderer loaded native textures, Meshopt geometry, face morphs and body motion under that policy."
       }
     ],
     "dependencyAuditHigh": "PASS",
     "auditVulnerabilities": 0,
     "staticProductionGate": "PASS",
-    "ciWorkers": 1
+    "ciWorkers": 1,
+    "productionCspExercised": true
   },
   "content": {
     "places": 36,
@@ -88,10 +96,12 @@
     "public/media/dagmar/rain-f636a4be8ede.glb": "f636a4be8ede025fe7813dced25c18aea719e9fdf31cea9408399741280d89cc",
     "public/media/dagmar/rain-f539a731ea27.webp": "f539a731ea27adb3e08d038af4971107a6d6c1155b1c83cb9b70fbf3299b4ef0",
     "package-lock.json": "695b4dbbef3801f3f147cf92cc7773bf97c693791c29279fc8417c597d858a4f",
-    "e2e/dagmar.spec.ts": "1a3eee16a15bf07f90ba6f9170676b2f38566ee69bf64274271828638c115cd1",
-    "playwright.config.ts": "19bb36aef6e9a053d5ecaadb5bac8e64184914e4b12f10047d24e9bbd212dfb9"
+    "e2e/dagmar.spec.ts": "898b173dfe614a3483c1310469f5490d0cfe618f64778b502c5be68b2d8ac688",
+    "playwright.config.ts": "19bb36aef6e9a053d5ecaadb5bac8e64184914e4b12f10047d24e9bbd212dfb9",
+    "vite.config.ts": "7134a59f15a4eac82939b0d8db437566af1e019e4f8c02a38410f3784813ffdd",
+    "infra/guest-web.headers.conf": "6729fdd2294599c470145260e67caf438c4df3877b79403f4b6db584ab27aff9"
   },
-  "note": "GitHub Actions reruns all 44 UI tests in one complete suite and binds the tested/deployed artifact to the exact main commit. This file records local evidence only.",
+  "note": "Local checks and historical CI attempts are recorded separately. Public browser and server preservation evidence is in docs/dagmar-public-verification-2026-10-09.json. GitHub Actions reruns all 44 UI tests with production headers and binds the tested artifact to the exact main commit.",
   "ciAttempts": [
     {
       "runId": 37914893071,
@@ -111,6 +121,16 @@
       "failure": "Both software-WebGL movement cases exhausted the 15s phase polling budget just before reaching the negative-position threshold (last observed x=-0.104, required x<-0.15). Speech and all guide tests passed.",
       "correction": "Run CI with one worker so software renderers do not compete, and give both directional samples a 30s budget while keeping the 90s overall test budget and the same position thresholds.",
       "reference": "https://playwright.dev/docs/ci#workers"
+    },
+    {
+      "runId": 37916954742,
+      "sha": "c9718ca644297698707e90fbd8d12b5c666d5ba2",
+      "uiPassed": 44,
+      "uiFailed": 0,
+      "deployment": "SUCCESS",
+      "publicModelCheckBeforeHeaderFix": "FAIL: the production-only CSP blocked WebAssembly and blob texture fetches, which the earlier preview did not exercise.",
+      "correction": "Project headers allow the local WebAssembly decoder and blob texture fetches. Vite preview now reads the same header source and the existing real-renderer tests require its presence.",
+      "publicModelCheckAfterHeaderFix": "PASS: docs/dagmar-public-verification-2026-10-09.json"
     }
   ]
 }

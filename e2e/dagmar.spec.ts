@@ -23,7 +23,9 @@ test.describe('articulated Dagmar',()=>{
   test.setTimeout(90000);
   const remote:string[]=[],errors:string[]=[];const origin=new URL(baseURL!).origin;
   page.on('request',r=>{if(!/^(data|blob):/.test(r.url())&&new URL(r.url()).origin!==origin)remote.push(r.url());});page.on('pageerror',e=>errors.push(e.message));
-  await page.goto('/cs/');await page.locator('.dagmar').scrollIntoViewIfNeeded();
+  const response=await page.goto('/cs/');
+  expect(response?.headers()['content-security-policy']).toContain("default-src 'self'");
+  await page.locator('.dagmar').scrollIntoViewIfNeeded();
   const scene=page.locator('.dagmar-3d');await expect(scene).toHaveAttribute('data-ready','true',{timeout:20000});await expect(page.locator('.dagmar-canvas')).toBeVisible();
   const firstFrame=Number(await scene.getAttribute('data-frames'));
   await page.getByRole('button',{name:'Projít se',exact:true}).click();await expect(scene).toHaveAttribute('data-phase','walk');
