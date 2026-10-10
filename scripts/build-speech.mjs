@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {build} from 'esbuild';
 import ts from 'typescript';
+import {speechChunks} from './speech-chunks.mjs';
 
 const bundled=await build({stdin:{contents:"export {uiDictionaries,languages} from './src/i18n.ts'; export {symptomTranslations} from './src/content/symptoms.ts';",resolveDir:process.cwd()},bundle:true,platform:'node',format:'esm',write:false});
 const {uiDictionaries,languages,symptomTranslations}=await import('data:text/javascript;base64,'+Buffer.from(bundled.outputFiles[0].text).toString('base64'));
@@ -25,7 +26,7 @@ for(const [i,{code}]of languages.entries()){
  for(const station of ['Chodov','Letňany','Nemocnice Motol','Letiště'])values.add(extra.toward[i]+' '+station);
  for(const place of JSON.parse(fs.readFileSync('src/content/faith.json')).places)for(const schedule of place.datedSchedule||[])values.add(new Intl.DateTimeFormat(code,{day:'numeric',month:'short',year:'numeric'}).format(new Date(`${schedule.date}T12:00:00Z`)));
  const chunks={},entries=[];
- for(const text of values){const chars=Array.from(text),ids=[];for(let j=0;j<chars.length;j+=600){const part=chars.slice(j,j+600).join('');const id=createHash('sha256').update(code+'\0'+part).digest('hex');chunks[id]=part;ids.push(id);}entries.push({text,ids});}
+ for(const text of values){const ids=[];for(const part of speechChunks(text)){const id=createHash('sha256').update(code+'\0'+part).digest('hex');chunks[id]=part;ids.push(id);}entries.push({text,ids});}
  fs.writeFileSync(`dist/speech/${code}.json`,JSON.stringify({language:code,entries,chunks}));
 }
 console.log('Built approved speech catalogs for all 12 languages.');

@@ -4,6 +4,12 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {createSpeechServer,approvedText} from '../infra/speech.mjs';
+import {speechChunks} from '../scripts/speech-chunks.mjs';
+test('audio chunks preserve text and end on sentence or word boundaries',()=>{
+ for(const text of ['Příjemná procházka Prahou. '.repeat(80),'안녕하세요. 편안한 여행을 즐기세요. '.repeat(80),'你好。歡迎來到布拉格。'.repeat(100),'😀 Příjemný pobyt! '.repeat(100)]){
+  const parts=speechChunks(text);assert.equal(parts.join(''),text);assert(parts.every(p=>Array.from(p).length<=600));assert(parts.slice(0,-1).every(p=>/[\s.!?。！？।]$/u.test(p)));
+ }
+});
 const id='a'.repeat(64),other='b'.repeat(64),catalog={language:'cs',chunks:{[id]:'Vítejte v Praze.',[other]:'Ráda vám pomohu.'}};
 test('speech accepts only catalog IDs in the requested language, never supplied text or private data',()=>{
  assert.equal(approvedText({language:'cs',ids:[id]},catalog),'Vítejte v Praze.');
