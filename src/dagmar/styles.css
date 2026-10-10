@@ -56,3 +56,7 @@
  .home-content{padding-top:26px}
 }
 @media print{.dagmar.articulated.dagmar-floating{display:none!important}}
+.reader-controls {display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;border-top:1px solid #e9e4df;padding-top:12px;}
+.reader-controls button {min-height:44px;display:flex;align-items:center;gap:7px;}
+.reader-controls p {width:100%;font-size:11px;line-height:1.5;margin:0;color:#655e59;}
+main > .reader-controls {max-width:1200px;margin:0 auto;padding:12px 20px;border-top:0;}

@@ -1,16 +1,18 @@
 import { lazy, Suspense, useEffect, useRef, useState, type PointerEvent, type KeyboardEvent } from 'react';
-import { Footprints, Hand, Volume2, VolumeX, MessageCircle, X, Move, Accessibility } from 'lucide-react';
+import { Footprints, Hand, Volume2, VolumeX, MessageCircle, X, Move, Accessibility, Play, Pause } from 'lucide-react';
 import { languages, t, type Language } from './i18n';
 import { te } from './extra-i18n';
 import { SpeechTimeline, languageVoice } from './dagmar/speech.mjs';
 import type { Gesture } from './dagmar/Scene';
 import './dagmar/styles.css';
 import asset from './dagmar/asset.json';
+import {useCloudReader} from './dagmar/reader';
+import {readerText} from './dagmar/reader-ui';
 
 const Scene=lazy(()=>import('./dagmar/Scene'));
-type Props={language:Language;message:string;reduced:boolean;voiceEnabled:boolean;onVoiceChange:(enabled:boolean)=>void;onVoiceError:(unavailable:boolean)=>void;onMotionChange:()=>void};
+type Props={language:Language;message:string;context?:string;reduced:boolean;voiceEnabled:boolean;onVoiceChange:(enabled:boolean)=>void;onVoiceError:(unavailable:boolean)=>void;onMotionChange:()=>void};
 
-export function Dagmar({language,message,reduced,voiceEnabled,onVoiceChange,onVoiceError,onMotionChange}:Props) {
+export function Dagmar({language,message,context='',reduced,voiceEnabled,onVoiceChange,onVoiceError,onMotionChange}:Props) {
  const [ready,setReady]=useState(false),[request,setRequest]=useState<Gesture>({kind:'point',id:0});
  const panelRef=useRef<HTMLDivElement>(null),[panelSize,setPanelSize]=useState(0);
  const floating=useRef<HTMLDivElement>(null),drag=useRef<{id:number;x:number;y:number;left:number;top:number;moved:boolean}|null>(null),suppressClick=useRef(false);
@@ -49,8 +51,11 @@ export function Dagmar({language,message,reduced,voiceEnabled,onVoiceChange,onVo
  const panelWidth=Math.min(350,Math.max(0,viewport.w-24)),panelHeight=Math.min(380,Math.max(160,viewport.h-180));
  const panelStyle={left:Math.max(12,Math.min((position?.x||0)-panelWidth-12,viewport.w-panelWidth-12)),top:Math.max(76,Math.min(viewport.w<600?(position?.y||76)-(panelSize||panelHeight)-12:position?.y||76,viewport.h-(panelSize||panelHeight)-88)),width:panelWidth,maxHeight:panelHeight};
  const timeline=useRef(new SpeechTimeline()),utterance=useRef<SpeechSynthesisUtterance|null>(null);
+ const reader=useCloudReader(language,message,voiceEnabled,context,timeline.current,onVoiceError);
+ useEffect(()=>{const command=(event:Event)=>{const value=(event as CustomEvent<string>).detail;if(value==='start'){reader.restart();onVoiceChange(true);}else if(value==='stop')onVoiceChange(false);else if(value==='toggle')reader.toggle();};window.addEventListener('guest-reader-command',command);return()=>window.removeEventListener('guest-reader-command',command);},[reader.restart,reader.toggle,onVoiceChange]);
  useEffect(()=>{if(reduced)setReady(false);},[reduced]);
  useEffect(()=>{
+  if(reader.available!==false)return;
   const motion=timeline.current;let disposed=false,waiting:ReturnType<typeof setTimeout>|undefined;
   motion.prepare(message,language);
   const synth='speechSynthesis'in window?window.speechSynthesis:null;
@@ -78,7 +83,7 @@ export function Dagmar({language,message,reduced,voiceEnabled,onVoiceChange,onVo
   }
   document.addEventListener('visibilitychange',hide);
   return()=>{disposed=true;if(waiting)clearTimeout(waiting);synth?.removeEventListener('voiceschanged',voicesChanged);document.removeEventListener('visibilitychange',hide);stop();};
- },[language,message,voiceEnabled,onVoiceError]);
+ },[language,message,voiceEnabled,onVoiceError,reader.available]);
  const gesture=(kind:Gesture['kind'])=>setRequest(r=>({kind,id:r.id+1}));
  return <div ref={floating} className="dagmar articulated dagmar-floating" style={position?{left:position.x,top:position.y}:undefined}>
   <button type="button" className={`dagmar-stage ${ready&&!reduced?'has-scene':''}`} aria-label={te(language,'dagmarMove')} aria-description={te(language,'dagmarDescription')} aria-expanded={panel} aria-controls="dagmar-panel" onPointerDown={startDrag} onPointerMove={moveDrag} onPointerUp={endDrag} onPointerCancel={endDrag} onKeyDown={keyboardMove} onClick={()=>{if(suppressClick.current){suppressClick.current=false;return;}setPanel(open=>!open);}}>
@@ -93,6 +98,7 @@ export function Dagmar({language,message,reduced,voiceEnabled,onVoiceChange,onVo
     <button type="button" onClick={()=>{onVoiceChange(false);gesture('point');}} disabled={reduced||!ready}><Hand size={17}/><span>{te(language,'dagmarPoint')}</span></button>
     <button type="button" onClick={onMotionChange} aria-pressed={reduced}><Accessibility size={17}/><span>{t(language,reduced?'motion':'reduced')}</span></button>
    </div>
+   {reader.available&&<div className="reader-controls"><button type="button" className="dagmar-voice" onClick={()=>{reader.restart();onVoiceChange(true);}}><Volume2 size={17}/>{readerText(language,0)}</button>{voiceEnabled&&['playing','paused'].includes(reader.status)&&<button type="button" className="dagmar-voice" onClick={reader.toggle}>{reader.status==='playing'?<Pause size={17}/>:<Play size={17}/>}<span>{readerText(language,reader.status==='playing'?1:2)}</span></button>}<p role="status">{reader.status==='loading'?readerText(language,3):reader.status==='error'?readerText(language,5):readerText(language,4)}</p></div>}
   </div>
  </div>;
 }

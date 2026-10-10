@@ -38,3 +38,6 @@ Datum: 9. 10. 2026. Všechny výsledky se vztahují pouze k výslovně uvedené 
 ## Doplnění fyzické akceptace
 
 Pro každou platformu doložit pět konkrétních tras, datum, zařízení/prohlížeč, skutečný vstup a výsledky: přesná/nepřesná GPS, odmítnutí polohy, odbočky, manévry, odklon a přepočet, návrat po uspání, hlas ve zvoleném jazyce, Wake Lock a ukončení. Záznamy uložit do samostatných artefaktů bez osobních poloh hostů a odkázat z `docs/acceptance-evidence.json`.
+# Hlas OpenAI — 10. 10. 2026
+
+Nová výslovně požadovaná hlasová služba je oddělená od pěší navigace. Čtení celé aktuální stránky / otevřeného detailu, pauza, pokračování, zastavení, přepnutí jazyka a odmítnutí libovolného textu jsou pokryté automatizovanými testy. Skutečné OpenAI generování MP3 uspělo pro CS/EN/DE/IT/PL/NL/FR/KO/BN/HI/ES/UK; česká ukázka byla předložena uživateli. Úspěšný API výstup sám nedokládá přirozenost ani správnost každého jazyka. Rodilý poslech, reálné iPhone/Android přehrávání a fonémově přesný pohyb úst zůstávají NEOVĚŘENO. Veškeré fyzické brány navigace zůstávají BLOCKED.

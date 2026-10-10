@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import {execFileSync}from 'node:child_process';
+await import('./build-speech.mjs');
 const languages=['cs','en','de','it','pl','nl','fr','ko','bn','hi','es','uk'];
 const screens=['','nearby','prague','trips','map','transport','health','hotel','restaurants','faith'];
 const original=fs.readFileSync('dist/index.html','utf8');

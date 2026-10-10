@@ -2,6 +2,8 @@ import {test,expect,type Page}from '@playwright/test';
 
 const langs=['cs','en','de','it','pl','nl','fr','ko','bn','hi','es','uk'];
 async function fakeSpeech(page:Page,available=langs) {
+ // Explicitly exercise the browser-only fallback when cloud catalog is unavailable.
+ await page.route('**/speech/*.json',r=>r.fulfill({status:404,body:''}));
  await page.addInitScript(codes=>{
   const state={utterance:null as any,history:[] as any[],cancelled:0};
   (window as any).__dagmarSpeech=state;

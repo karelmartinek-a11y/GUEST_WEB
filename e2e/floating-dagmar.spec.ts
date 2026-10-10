@@ -20,7 +20,7 @@ test('floating Dagmar stays in the viewport, drags with mouse/touch, survives na
  await expect(figure).toHaveCount(1);await expect.poll(async()=>Math.round((await figure.boundingBox())!.x)).toBe(Math.round(moved.x));
  await page.locator('.language-select select').first().selectOption('en');await expect.poll(async()=>Math.round((await figure.boundingBox())!.y)).toBe(Math.round(moved.y));
  await stage.focus();await stage.press('ArrowLeft');await expect.poll(async()=>(await figure.boundingBox())!.x).toBeLessThan(moved.x-5);
- await toggle.click();await expect(page.locator('.speech-bubble')).toBeVisible();await page.locator('.dagmar-voice').focus();await page.keyboard.press('Escape');await expect(toggle).toBeFocused();await expect(page.locator('.speech-bubble')).toBeHidden();
+ await toggle.click();await expect(page.locator('.speech-bubble')).toBeVisible();await page.locator('.dagmar-voice[aria-pressed]').focus();await page.keyboard.press('Escape');await expect(toggle).toBeFocused();await expect(page.locator('.speech-bubble')).toBeHidden();
  await page.setViewportSize({width:320,height:568});const clamped=(await figure.boundingBox())!;expect(clamped.x).toBeGreaterThanOrEqual(8);expect(clamped.x+clamped.width).toBeLessThanOrEqual(312);expect(clamped.y+clamped.height).toBeLessThanOrEqual(480);
  await toggle.click();const panel=(await page.locator('.speech-bubble').boundingBox())!;expect(panel.x).toBeGreaterThanOrEqual(0);expect(panel.x+panel.width).toBeLessThanOrEqual(320);
  const stored=await page.evaluate(()=>Object.keys(localStorage));expect(stored.every(k=>['guest-language','guest-motion','guest-voice'].includes(k))).toBe(true);

@@ -1,0 +1,25 @@
+[Unit]
+Description=GUEST_WEB approved-content OpenAI speech
+After=network-online.target
+
+[Service]
+User=guest-web
+Group=guest-web
+EnvironmentFile=/etc/guest-web/speech.env
+ExecStart=/usr/bin/node /etc/guest-web/speech.mjs
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+ReadWritePaths=/var/lib/guest-web/speech
+RestrictAddressFamilies=AF_INET AF_INET6
+MemoryMax=192M
+CPUQuota=25%
+TasksMax=32
+LimitNOFILE=256
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target
