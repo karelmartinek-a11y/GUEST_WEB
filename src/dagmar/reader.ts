@@ -5,13 +5,14 @@ import {SpeechTimeline} from './speech.mjs';
 type Catalog={language:string;entries:{text:string;ids:string[]}[];chunks:Record<string,string>};
 export const normalize=(text:string)=>text.replace(/\s+/gu,' ').trim();
 export function pageParts(catalog:Catalog,message:string){
+ const entries=new Map(catalog.entries.map(entry=>[entry.text,entry]));
  const dialog=document.querySelector<HTMLDialogElement>('dialog[open]');
  const root=dialog||document.querySelector('main');const texts=dialog?[]:[message];
  if(root){const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node;
-  while((node=walker.nextNode())){const el=node.parentElement;if(!el||el.closest('script,style,select,input,textarea,[hidden],[aria-hidden="true"],.sr-only,.print-card,.medical-notes,.selection-bar,.maplibregl-control-container,.maplibregl-canvas-container,.photo-credit,.credits-details,.reader-controls')||!el.getClientRects().length||getComputedStyle(el).visibility==='hidden')continue;const text=normalize(node.textContent||'');if(text)texts.push(text);}
+  while((node=walker.nextNode())){const el=node.parentElement;if(!el||el.closest('script,style,select,input,textarea,[hidden],[aria-hidden="true"],.sr-only,.print-card,.medical-notes,.selection-bar,.maplibregl-control-container,.maplibregl-canvas-container,.photo-credit,.credits-details,.reader-controls')||!el.getClientRects().length||getComputedStyle(el).visibility==='hidden')continue;const parent=normalize(el.textContent||''),text=entries.has(parent)?parent:normalize(node.textContent||'');if(text)texts.push(text);}
  }
  const ids:string[]=[];const seen=new Set<string>();
- for(const value of texts){const text=normalize(value);const entry=catalog.entries.find(e=>e.text===text);if(entry)for(const id of entry.ids)if(!seen.has(id)){ids.push(id);seen.add(id);}}
+ for(const value of texts){const text=normalize(value);const entry=entries.get(text);if(entry)for(const id of entry.ids)if(!seen.has(id)){ids.push(id);seen.add(id);}}
  const groups:{ids:string[];text:string}[]=[];for(const id of ids){const text=catalog.chunks[id],last=groups.at(-1);if(last&&Array.from(last.text+'\n'+text).length<=1000&&last.ids.length<40){last.ids.push(id);last.text+='\n'+text;}else groups.push({ids:[id],text});}return groups;
 }
 

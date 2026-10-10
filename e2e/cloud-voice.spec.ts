@@ -35,3 +35,11 @@ test('health notes and selections are never included in speech requests',async({
  await expect.poll(()=>requests.length).toBeGreaterThan(0);expect(JSON.stringify(requests)).not.toContain('PRIVATE');expect(requests.every(r=>Object.keys(r).sort().join(',')==='ids,language')).toBe(true);
  await expect(page.locator('main>.reader-controls')).toContainText('Hlas se nepodařilo načíst');
 });
+test('opening-hour day ranges are read together even when React splits text nodes',async({page})=>{
+ const ids:string[]=[];await page.addInitScript(()=>{class AudioMock{src='';preload='';paused=true;duration=45;currentTime=0;onplay:any;onpause:any;onended:any;ontimeupdate:any;onerror:any;async play(){this.paused=false;this.onplay?.();}pause(){this.paused=true;this.onpause?.();}load(){}removeAttribute(){}}Object.defineProperty(window,'Audio',{value:AudioMock});});
+ await page.route('**/api/speech',async r=>{ids.push(...r.request().postDataJSON().ids);await r.fulfill({status:200,contentType:'audio/mpeg',body:Buffer.alloc(200)});});
+ await page.goto('/pl/restaurants/');await page.locator('.restaurant-summary').first().click();const range=await page.locator('.opening-hours span').first().textContent();
+ await page.locator('main>.reader-controls button').first().click();
+ const catalog=await page.evaluate(()=>fetch('/speech/pl.json').then(r=>r.json()));
+ await expect.poll(()=>ids.map(id=>catalog.chunks[id]).join(' ')).toContain(range!.trim());
+});
