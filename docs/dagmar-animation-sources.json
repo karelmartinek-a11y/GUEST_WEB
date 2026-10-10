@@ -1,153 +1,178 @@
 {
-  "verifiedOn": "2026-10-09",
-  "license": "CC0-1.0",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "attribution": "MakeHuman Community assets and Mika Suominen facial targets",
-  "author": "MakeHuman Community; Data Collection AB, Joel Palmius, Jonas Hauquier; Mika Suominen (face units and visemes)",
+  "verifiedOn": "2026-10-10",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/microsoft/Microsoft-Rocketbox/blob/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+  "attribution": "Copyright (c) 2020 Microsoft",
   "registrationRequired": false,
   "paidContentUsed": false,
   "thirdPartyCharacterAuthorized": true,
+  "userApprovedCharacter": "Female_Adult_01; pink shirt, jeans, blonde ponytail; user: tadle je dobrá, berem",
+  "upstreamCommit": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
   "sources": [
     {
-      "url": "https://github.com/makehumancommunity/mpfb2/tree/v2.0.17",
-      "downloadUrl": "https://codeload.github.com/makehumancommunity/mpfb2/zip/refs/tags/v2.0.17",
-      "archive": "mpfb-v2.0.17.zip",
-      "archiveSha256": "d08e726c798fdc4eefb02b06b6c4efe37d40b5439777e53cf96dce0e5073297d",
-      "bytes": 44643182,
-      "license": "CC0-1.0 (assets)",
-      "licenseEvidence": "LICENSE.md sections C/D and LICENSE.ASSETS.md in the pinned official archive",
-      "softwareLicense": "GPL-3.0; the addon code is a build tool and is not shipped to the web",
-      "members": [
-        "src/mpfb/data/3dobjs/base.obj",
-        "src/mpfb/data/targets",
-        "src/mpfb/data/rigs"
-      ]
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Export/Female_Adult_01_facial.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Export/Female_Adult_01_facial.fbx",
+      "sha256": "2e6ba71fb83a6899e3d4dd35da07fb5b078eef0c4d593f73d70cfc05dc4644cb",
+      "bytes": 2226864
     },
     {
-      "downloadUrl": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
-      "archiveSha256": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107",
-      "bytes": 280737770,
-      "license": "CC0-1.0",
-      "licenseEvidence": "Official CC0 pack metadata, per-asset author/license headers and MakeHuman licensing page",
-      "members": [
-        "skins/young_caucasian_female",
-        "eyes/high-poly",
-        "eyes/materials/brownlight.mhmat",
-        "eyebrows/eyebrow001",
-        "eyelashes/eyelashes01",
-        "teeth/teeth_base",
-        "tongue/tongue01",
-        "hair/long01",
-        "clothes/female_casualsuit01",
-        "clothes/shoes03"
-      ]
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/WrinklesNormal.shader",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/WrinklesNormal.shader",
+      "sha256": "4c99b700ab4823e51c595129f72e6b0dace8638a1a891f882a49075f4e9df3bb",
+      "bytes": 699
     },
     {
-      "downloadUrl": "https://files2.makehumancommunity.org/functional/faceunits01.zip",
-      "archiveSha256": "d113107bd7eb59f3af4df6fc0ec29bfcc593f496d0b336aec14f086a80ce7146",
-      "bytes": 257821,
-      "license": "CC0-1.0",
-      "licenseEvidence": "Official CC0 pack metadata, per-asset author/license headers and MakeHuman licensing page",
-      "members": [
-        "targets/faceunits/*.target"
-      ]
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/f001_body_color.tga",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/f001_body_color.tga",
+      "sha256": "c038b01c5d05831c3f4e8c6daa18394e8a4851372acd3fcbdf30e7ee53c56cae",
+      "bytes": 12582956
     },
     {
-      "downloadUrl": "https://files2.makehumancommunity.org/functional/visemes02.zip",
-      "archiveSha256": "a69ab6fb95ddd5f56f70acc7e859f5f9c6ae613c527d577ea1571eff2183d29e",
-      "bytes": 130733,
-      "license": "CC0-1.0",
-      "licenseEvidence": "Official CC0 pack metadata, per-asset author/license headers and MakeHuman licensing page",
-      "members": [
-        "targets/visemes/viseme_*.target"
-      ]
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/f001_body_normal.tga",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/f001_body_normal.tga",
+      "sha256": "86b9b5a5aa73bd97244b35f97f3799c31b3db70426d7d607cbdc2dd271ace346",
+      "bytes": 12582956
     },
     {
-      "url": "https://quaternius.itch.io/universal-animation-library",
-      "archiveSha256": "cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724",
-      "member": "Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb",
-      "memberSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
-      "license": "CC0-1.0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "clips": [
-        "Idle_Loop",
-        "Walk_Formal_Loop",
-        "Idle_Talking_Loop",
-        "Interact"
-      ]
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/f001_body_specular.tga",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/f001_body_specular.tga",
+      "sha256": "9b813e68b243074f74c4bbfb26d41cce2a70361efa09fcabe1962b4267bedb90",
+      "bytes": 12582956
+    },
+    {
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/f001_head_color.tga",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/f001_head_color.tga",
+      "sha256": "0d3153c59c54908d5f5194ffe3a7d882351f0dd74f9ef44ab3a2f164a3bf9d8e",
+      "bytes": 12582956
+    },
+    {
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/f001_head_normal.tga",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/f001_head_normal.tga",
+      "sha256": "522f3372283ea4161ed56d85471be15e02628df73a966447e4456bc169d310b2",
+      "bytes": 12582956
+    },
+    {
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/f001_head_normal_wrinkle.tga",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/f001_head_normal_wrinkle.tga",
+      "sha256": "a61ff1f6e6b9b4723561152ebfa8509a8153138ee86f79643efc1feaf2bf0235",
+      "bytes": 12582956
+    },
+    {
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/f001_head_specular.tga",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/f001_head_specular.tga",
+      "sha256": "302c56927d1d032084fb4faca784591dd8ab42e8bafb1029db157f73608eb251",
+      "bytes": 12582956
+    },
+    {
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/f001_opacity_color.tga",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/f001_opacity_color.tga",
+      "sha256": "12c9c366814e665687fe64056421213686b50a972a5ad47295f247d6a8ff7369",
+      "bytes": 16777260
+    },
+    {
+      "path": "Assets/Avatars/Adults/Female_Adult_01/Textures/head.mat",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Adults/Female_Adult_01/Textures/head.mat",
+      "sha256": "8d9a392fb390c7d83c26a45c6d87b1882f8bcadb65e08787afd948eb70763915",
+      "bytes": 2824
+    },
+    {
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352",
+      "bytes": 1066
+    },
+    {
+      "path": "Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_relaxed_01.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Animations/all_animations_max_motextr_static/f_gestic_listen_relaxed_01.max.fbx",
+      "sha256": "df0a16f6db2f0ba3fdae9742923c870efd257d324016b8fa7ce4ad34f2cf36b8",
+      "bytes": 4985952
+    },
+    {
+      "path": "Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_relaxed_01.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_relaxed_01.max.fbx",
+      "sha256": "a22d59d1d0cc34a16df70a994ef829d3206034f6416bc9bd3de387fb3f204c61",
+      "bytes": 4802192
+    },
+    {
+      "path": "Assets/Animations/all_animations_max_motextr_static/f_idle_breathe_01.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Animations/all_animations_max_motextr_static/f_idle_breathe_01.max.fbx",
+      "sha256": "e470ba984484149c8269772b7640b754bd996ba83b23ae75535128412997aa45",
+      "bytes": 1379504
+    },
+    {
+      "path": "Assets/Animations/all_animations_max_motextr_static/f_invite_sit.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Animations/all_animations_max_motextr_static/f_invite_sit.max.fbx",
+      "sha256": "c0f1db483d07818f99ecf1f9a5847034403012edf95e91acc93ba2cc5b7d225a",
+      "bytes": 1779808
+    },
+    {
+      "path": "Assets/Animations/all_animations_max_motextr_xy/f_walk_slow_01.max.fbx",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Animations/all_animations_max_motextr_xy/f_walk_slow_01.max.fbx",
+      "sha256": "75a8083f0a1c324cef42aae08e3de6c46503ae2f6916956e571a2bb79ef350be",
+      "bytes": 1075504
     }
   ],
+  "clips": [
+    {
+      "name": "idle",
+      "duration": 2.6666666666666665,
+      "source": "f_idle_breathe_01.max.fbx",
+      "frames": 81,
+      "bodyBones": 52,
+      "sourceSpeedMetresPerSecond": null
+    },
+    {
+      "name": "listen",
+      "duration": 12.966666666666667,
+      "source": "f_gestic_listen_relaxed_01.max.fbx",
+      "frames": 390,
+      "bodyBones": 52,
+      "sourceSpeedMetresPerSecond": null
+    },
+    {
+      "name": "talk",
+      "duration": 8.966666666666667,
+      "source": "f_gestic_talk_relaxed_01.max.fbx",
+      "frames": 270,
+      "bodyBones": 52,
+      "sourceSpeedMetresPerSecond": null
+    },
+    {
+      "name": "present",
+      "duration": 4.166666666666667,
+      "source": "f_invite_sit.max.fbx",
+      "frames": 126,
+      "bodyBones": 52,
+      "sourceSpeedMetresPerSecond": null
+    },
+    {
+      "name": "walk",
+      "duration": 1.5,
+      "source": "f_walk_slow_01.max.fbx",
+      "frames": 46,
+      "bodyBones": 52,
+      "sourceSpeedMetresPerSecond": 0.8872590885718585
+    }
+  ],
+  "modifications": [
+    "Native mesh, skin weights and skeleton retained; body poses transferred in world space with native facial bones preserved",
+    "Selected calm segments; no procedural arm IK, automatic wandering or post-speech pointing",
+    "Walk horizontal travel removed from pelvis; runtime playback speed matched to movement",
+    "Native visemes, bilateral smile, cheek lift and blink; Web Speech timing remains estimated",
+    "Textures resized to 1024, JPEG/PNG compressed, opaque skin and masked hair, meshopt compression"
+  ],
+  "retainedLegacy": {
+    "makehumanEvidence": "docs/dagmar-makehuman-sources-2026-10-09.json"
+  },
   "output": {
-    "path": "public/media/dagmar/realistic-1aefc1bbe5a3.glb",
-    "sha256": "1aefc1bbe5a37c99d9629964b5039d312f2d034e2b4fe41391ee9cc28430c14d",
-    "bytes": 7938244
+    "path": "public/media/dagmar/rocketbox-c92b6b120864.glb",
+    "sha256": "c92b6b12086443703ab130ca6e881de6564f419edfbf5205aa78db74520d1944",
+    "bytes": 3094044
   },
   "poster": {
-    "path": "public/media/dagmar/realistic-cc4af51b164b.webp",
-    "sha256": "cc4af51b164b897800357bf9c439ba26515a22b69dac758d3427fbd872c1d4f3",
-    "bytes": 26882,
-    "license": "CC0-1.0"
-  },
-  "changes": [
-    "Created an adult female with normal human proportions and a light Caucasian skin texture using native MakeHuman macro targets",
-    "Used complete native long hair, brown eyes, eyelashes, eyebrows, teeth and tongue",
-    "Fitted a plain teal shirt, navy trousers and shoes; masked covered body surfaces and trimmed intersecting sock cuffs",
-    "Combined native Meta visemes and ARKit facial targets into seven distinct web morphs on face, eyelids, lashes, teeth and tongue",
-    "Baked the fitted human into the motion rig neutral pose, retained skin weights and adapted CC0 body clips",
-    "Relaxed the idle stance and fingers; authored pointing IK",
-    "Compressed geometry, morphs and animation with meshoptimizer and local embedded colour maps",
-    "Set opaque skin, eyes and teeth plus depth-tested hair/lash cutouts to avoid transparent-surface sorting artifacts in the browser"
-  ],
-  "nativeFacePoses": [
-    "open",
-    "round",
-    "wide",
-    "press",
-    "blink",
-    "smile",
-    "brow"
-  ],
-  "scripts": [
-    "scripts/prepare-makehuman.py",
-    "scripts/animate-makehuman.py",
-    "scripts/compress-makehuman.mjs"
-  ],
-  "tools": {
-    "Blender": "4.5.14 LTS",
-    "BlenderDownload": "https://download.blender.org/release/Blender4.5/blender-4.5.14-macos-arm64.dmg",
-    "BlenderSha256": "65134d9b07b20e2fa8d3c9e44f6f44ffb5c9774dd521b95f50387310241ca170",
-    "gltfTransform": "4.5.1",
-    "meshoptimizerEncoder": "1.1.0",
-    "Three": "0.186.1",
-    "MPFB": "2.0.17"
-  },
-  "speechTiming": "Native browser start and word boundary events with estimated visemes within words; no microphone, remote character service or facial capture.",
-  "retainedLegacy": [
-    {
-      "path": "public/media/dagmar/rain-f636a4be8ede.glb",
-      "sha256": "f636a4be8ede025fe7813dced25c18aea719e9fdf31cea9408399741280d89cc",
-      "bytes": 5968252,
-      "license": "CC-BY-4.0",
-      "author": "Blender Foundation / Blender Studio",
-      "attribution": "Rain Rig (CC) Blender Foundation | studio.blender.org",
-      "source": {
-        "url": "https://studio.blender.org/characters/rain/v3/",
-        "downloadUrl": "https://studio.blender.org/download-source/files/ee/a7/eea73e55dba1cea31c09848df6a794b2-4.zip",
-        "archive": "Rain v3.3.zip",
-        "archiveSha256": "80217f163f6392dc829233d63c2cfb5e1376775bc34101ad14f39631fea70d24",
-        "member": "Rain v3.3/rain_v3.2.blend",
-        "memberSha256": "831ab6d837c679040285862b15dc9ee5180b018442a88aeaf92aaa7509b80258",
-        "license": "CC-BY-4.0",
-        "licenseEvidence": "Author page and archive ReadMe.txt",
-        "textures": "Original textures contained in the same CC BY archive"
-      },
-      "usage": "Retained for already-open clients; not loaded by the current app."
-    },
-    {
-      "path": "public/media/dagmar/dagmar-rig.glb",
-      "license": "CC0-1.0",
-      "author": "Quaternius",
-      "usage": "Retained for already-open clients from release 8570f39; not loaded by the current app. Source and conversion recorded in that Git commit."
-    }
-  ]
+    "path": "public/media/dagmar/rocketbox-6b3a93a33e28.webp",
+    "sha256": "6b3a93a33e288e7a190e4b52b429b844df8eac5f45cdfcd52758d324701d0e85",
+    "bytes": 26470,
+    "license": "MIT"
+  }
 }

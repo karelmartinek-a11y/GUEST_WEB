@@ -5,23 +5,22 @@ import crypto from 'node:crypto';
 import {MeshoptDecoder} from 'three/addons/libs/meshopt_decoder.module.js';
 import {SpeechTimeline,mouthUnits,languageVoice,REST} from '../src/dagmar/speech.mjs';
 
-test('Dagmar ships a CC0 human, distinct native face shapes and licensed motion',async()=>{
+test('Dagmar ships the approved MIT human, distinct native face shapes and licensed motion',async()=>{
  const evidence=JSON.parse(fs.readFileSync('docs/dagmar-animation-sources.json'));
  const file=fs.readFileSync(evidence.output.path);
- assert.equal(evidence.license,'CC0-1.0');assert.equal(evidence.registrationRequired,false);assert.equal(evidence.paidContentUsed,false);
- assert.equal(evidence.attribution,'MakeHuman Community assets and Mika Suominen facial targets');
+ assert.equal(evidence.license,'MIT');assert.equal(evidence.registrationRequired,false);assert.equal(evidence.paidContentUsed,false);
+ assert.equal(evidence.attribution,'Copyright (c) 2020 Microsoft');
  assert.equal(crypto.createHash('sha256').update(file).digest('hex'),evidence.output.sha256);
  assert.equal(file.readUInt32LE(0),0x46546c67);assert.equal(file.readUInt32LE(8),file.length);
  const size=file.readUInt32LE(12),model=JSON.parse(file.subarray(20,20+size)),binary=file.subarray(28+size);
- assert.deepEqual(model.animations.map(a=>a.name).sort(),['idle','present','talk','walk']);
+ assert.deepEqual(model.animations.map(a=>a.name).sort(),['idle','listen','present','talk','walk']);
  assert(!model.buffers.some(b=>b.uri));assert(!model.images.some(i=>i.uri));
  assert(model.asset.copyright.includes(evidence.attribution));
- for(const name of ['Dagmar-body.body','Dagmar-body.lips','Dagmar-eyes','Dagmar-body.teeth_base']){
+ for(const name of ['f001_body','f001_head']){
   const material=model.materials.find(m=>m.name===name);assert(material,name);
   assert.equal(material.alphaMode||'OPAQUE','OPAQUE',name+' must occlude surfaces behind it');
  }
- for(const name of ['Dagmar-body.long01','Dagmar-body.eyebrow001','Dagmar-body.eyelashes01'])
-  assert.equal(model.materials.find(m=>m.name===name)?.alphaMode,'MASK',name+' must retain strand alpha and depth writes');
+ assert.equal(model.materials.find(m=>m.name==='f001_opacity')?.alphaMode,'MASK');
  await MeshoptDecoder.ready;
  const decoded=new Map();
  const values=id=>{
@@ -45,20 +44,18 @@ test('Dagmar ships a CC0 human, distinct native face shapes and licensed motion'
   }
   return result;
  };
- const headNode=model.nodes.find(n=>n.name==='Dagmar-body');assert(headNode);
- const head=model.meshes[headNode.mesh],names=head.extras.targetNames;
- const poses=['open','round','wide','press','blink','smile','brow'].map(name=>{
+ const head=model.meshes.find(m=>m.extras?.targetNames?.includes('AA_VI_10_aa'));assert(head);
+ const names=head.extras.targetNames;
+ const poses=['AA_VI_10_aa','AA_VI_13_O','AA_VI_11_E','AA_VI_01_PP','AK_09_EyeBlinkLeft','AK_44_MouthSmileLeft','AK_04_BrowOuterUpLeft'].map(name=>{
   const index=names.indexOf(name);assert(index>=0,name);
-  const coordinates=values(head.primitives[0].targets[index].POSITION);
+  const coordinates=head.primitives.flatMap(p=>values(p.targets[index].POSITION));
   assert(coordinates.some(v=>Math.abs(v)>.00001),name+' must deform the native face');
   return crypto.createHash('sha256').update(JSON.stringify(coordinates)).digest('hex');
  });
  assert.equal(new Set(poses).size,poses.length);
- const lashes=model.meshes[model.nodes.find(n=>n.name==='Dagmar-eyelashes01').mesh];
- assert(lashes.extras.targetNames.includes('blink'),'eyelashes follow the authored eyelids');
  for(const name of ['walk','talk']) {
   const clip=model.animations.find(a=>a.name===name);
-  for(const joint of name==='walk'?['thigh_l','calf_l','foot_l']:['upperarm_l','lowerarm_l']) {
+  for(const joint of name==='walk'?['Bip01 L Thigh','Bip01 L Calf','Bip01 L Foot']:['Bip01 L UpperArm','Bip01 L Forearm']) {
    const channel=clip.channels.find(c=>c.target.path==='rotation'&&model.nodes[c.target.node].name===joint);assert(channel,`${name}/${joint}`);
    const sampler=clip.samplers[channel.sampler],times=values(sampler.input),quaternions=values(sampler.output);
    assert(times.length>20);assert(times.at(-1)>1);assert(times.every((t,i)=>Number.isFinite(t)&&(i===0||t>times[i-1])));

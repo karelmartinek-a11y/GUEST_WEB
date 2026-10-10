@@ -11,35 +11,6 @@ export type Gesture = {kind:'walk'|'point';id:number};
 type Props={reduced:boolean;request:Gesture;timeline:SpeechTimeline;onReady:(ready:boolean)=>void};
 const clock=()=>performance.now()/1000;
 
-function rotateTowards(bone:THREE.Bone,child:THREE.Bone,target:THREE.Vector3,weight:number) {
- const origin=bone.getWorldPosition(new THREE.Vector3());
- const from=child.getWorldPosition(new THREE.Vector3()).sub(origin).normalize();
- const to=target.clone().sub(origin).normalize();
- const delta=new THREE.Quaternion().setFromUnitVectors(from,to);
- const world=bone.getWorldQuaternion(new THREE.Quaternion()).premultiply(delta);
- const parent=bone.parent!.getWorldQuaternion(new THREE.Quaternion()).invert();
- bone.quaternion.slerp(parent.multiply(world),weight);bone.updateWorldMatrix(false,true);
-}
-function pointHand(bones:Record<string,THREE.Bone>,root:THREE.Object3D,weight:number) {
- const upper=bones.upperarm_l,lower=bones.lowerarm_l,hand=bones.hand_l;
- const shoulder=upper.getWorldPosition(new THREE.Vector3());
- const elbow=lower.getWorldPosition(new THREE.Vector3()),wrist=hand.getWorldPosition(new THREE.Vector3());
- const target=root.localToWorld(new THREE.Vector3(.43,1.35,.17));
- const a=shoulder.distanceTo(elbow),b=elbow.distanceTo(wrist),direction=target.clone().sub(shoulder);
- const d=Math.min(direction.length(),a+b-.006);direction.normalize();
- const cos=THREE.MathUtils.clamp((a*a+d*d-b*b)/(2*a*d),-1,1);
- const pole=new THREE.Vector3(0,-1,.65);pole.addScaledVector(direction,-pole.dot(direction)).normalize();
- const desiredElbow=shoulder.clone().addScaledVector(direction,a*cos).addScaledVector(pole,a*Math.sqrt(1-cos*cos));
- rotateTowards(upper,lower,desiredElbow,weight);rotateTowards(lower,hand,target,weight);
- // The index is extended while the remaining fingers curl independently.
- for(const name of ['middle','ring','pinky'])for(let i=1;i<=3;i++) {
-  const finger=bones[`${name}_0${i}_l`];
-  const rest=finger.userData.rest as THREE.Quaternion;
-  finger.quaternion.slerp(rest.clone().multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1,0,0),1.05)),weight);
- }
- for(let i=1;i<=3;i++){const finger=bones[`index_0${i}_l`];finger.quaternion.slerp(finger.userData.rest,weight);}
-}
-
 export default function Scene({reduced,request,timeline,onReady}:Props) {
  const host=useRef<HTMLDivElement>(null),settings=useRef({reduced,request,timeline});
  const [failed,setFailed]=useState(false);settings.current={reduced,request,timeline};
@@ -62,7 +33,7 @@ export default function Scene({reduced,request,timeline,onReady}:Props) {
   let actions:Record<string,THREE.AnimationAction>={},current='',previous=clock(),visible=true;
   let phaseStart=clock(),phase='idle',requestId=-1,lastReduced=false,time=0,nextBlink=2.4;
   let width=1,height=1,zoomHeight=2.09,lookHeight=.88,lookX=0;
-  const setAction=(name:string)=>{if(current===name||!actions[name])return;const next=actions[name];next.reset().setEffectiveTimeScale(1).setEffectiveWeight(1).fadeIn(.30).play();if(actions[current])actions[current].fadeOut(.30);current=name;container.dataset.clip=name;};
+  const setAction=(name:string)=>{if(current===name||!actions[name])return;const next=actions[name];next.reset().setEffectiveTimeScale(name==='walk'?.52/asset.walkSpeed:1).setEffectiveWeight(1).fadeIn(.30).play();if(actions[current])actions[current].fadeOut(.30);current=name;container.dataset.clip=name;};
   const resize=()=>{width=Math.max(1,container.clientWidth);height=Math.max(1,container.clientHeight);renderer.setSize(width,height,false);};
   const sizing=new ResizeObserver(resize);sizing.observe(container);resize();
   const draw=(timestamp:number)=>{
@@ -73,15 +44,14 @@ export default function Scene({reduced,request,timeline,onReady}:Props) {
     if(!isReduced)time+=delta;
     if(options.request.id!==requestId){requestId=options.request.id;phase=isReduced||requestId===0?'idle':options.request.kind;phaseStart=time;}
     if(isReduced!==lastReduced){lastReduced=isReduced;phase='idle';phaseStart=time;actor.position.x=0;actor.rotation.y=0;setAction('idle');mixer.update(.31);}
-    let duration=time-phaseStart,walking=false,pointing=0,targetYaw=0;
+    let duration=time-phaseStart,walking=false,targetYaw=0;
     const talking=options.timeline.active&&!options.timeline.paused;
     if(!isReduced) {
      if(talking){phase='talk';phaseStart=time;setAction('talk');}
-     else if(phase==='talk'){phase='point';phaseStart=time;duration=0;}
-     if(phase==='idle'&&duration>18){phase='walk';phaseStart=time;duration=0;}
+     else if(phase==='talk'){phase='idle';phaseStart=time;duration=0;}
      if(phase==='walk') {
       walking=true;
-      // Fixed travel speed is matched to the formal walk clip. Turning and
+      // Fixed travel speed is matched to the native slow walk clip. Turning and
       // brief rests are separate phases, not a sliding whole-image transform.
       const leg=duration;
       if(leg<.75){actor.position.x=leg*.52;targetYaw=Math.PI/2;}
@@ -92,27 +62,19 @@ export default function Scene({reduced,request,timeline,onReady}:Props) {
       setAction(walking?'walk':'idle');
       if(duration>=4.3){phase='idle';phaseStart=time;duration=0;walking=false;targetYaw=0;actor.position.x=0;}
      }
-     if(phase==='point'){setAction('idle');pointing=Math.min(1,duration/.55)*Math.min(1,Math.max(0,(3.7-duration)/.6));if(duration>3.7){phase='idle';phaseStart=time;}}
+     if(phase==='point'){setAction('present');if(duration>4.5){phase='idle';phaseStart=time;}}
      if(phase==='idle')setAction('idle');
     } else setAction('idle');
     mixer.update(isReduced?0:delta);
-    for(let i=2;i<=4;i++){
-     const hair=model.bones[`hair_0${i}`];
-     if(hair)hair.quaternion.copy(hair.userData.rest).multiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(
-      isReduced?0:Math.sin(time*(walking?5.6:1.5)-i*.65)*(walking?.055:.012),0,
-      isReduced?0:Math.sin(time*1.8-i*.5)*.012)));
-    }
     actor.rotation.y=THREE.MathUtils.damp(actor.rotation.y,targetYaw,9,delta);
     actor.updateMatrixWorld(true);
-    if(pointing>0)pointHand(model.bones,actor,pointing);
-    if(!isReduced)model.bones.neck_01.quaternion.multiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(Math.sin(time*1.2)*.016,talking?Math.sin(time*.8)*.05:0,pointing*.04)));
     let eyelids=0;
     if(!isReduced){if(time>nextBlink+.17)nextBlink=time+2.7+Math.random()*2.4;const blinkPhase=(time-nextBlink)/.17;if(blinkPhase>=0&&blinkPhase<=1)eyelids=Math.sin(blinkPhase*Math.PI);}
     const sampled=options.timeline.sample(now) as {open:number;round:number;wide:number;press:number};
     model.face(isReduced?{open:0,round:0,wide:0,press:0}:sampled,eyelids,talking?.55:.95);
     container.dataset.phase=isReduced?'still':phase;container.dataset.speaking=String(talking&&!isReduced);container.dataset.mouthOpen=sampled.open.toFixed(3);container.dataset.actorX=actor.position.x.toFixed(3);
     container.dataset.frames=String((Number(container.dataset.frames)||0)+1);
-    // Keep the extended index inside a narrow phone column.
+    // Keep the open-palm gesture inside a narrow phone column.
     // On wide stages a fixed camera makes the walking travel clearly visible.
     const closeUp=talking&&!isReduced;
     const span=phase==='point'?1.16:1.02;
@@ -137,7 +99,8 @@ export default function Scene({reduced,request,timeline,onReady}:Props) {
     actor.add(gltf.scene);model=prepareDagmar(gltf);mixer=new THREE.AnimationMixer(gltf.scene);
     Object.values(model.bones).forEach(b=>b.userData.rest=b.quaternion.clone());
     actions=Object.fromEntries(gltf.animations.map(clip=>[clip.name,mixer!.clipAction(clip)]));
-    if(!['idle','walk','talk'].every(name=>actions[name]))throw new Error('Dagmar motion clip missing');
+    actions.present?.setLoop(THREE.LoopOnce,1);if(actions.present)actions.present.clampWhenFinished=true;
+    if(!['idle','walk','talk','present'].every(name=>actions[name]))throw new Error('Dagmar motion clip missing');
     setAction('idle');mixer.update(.4);container.dataset.ready='true';onReady(true);resume();
    }catch{setFailed(true);onReady(false);}
   },undefined,()=>{if(!disposed){setFailed(true);onReady(false);}});

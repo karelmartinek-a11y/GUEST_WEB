@@ -32,7 +32,7 @@ Přímo proti `https://guest.hcasc.cz` prošlo všech 36 Playwright průchodů d
 
 ## Mapa, navigace a fyzické brány
 
-Aktuální asistentka z 9. 10. 2026 je na poslední pokyn uživatele dospělá žena s běžnými lidskými proporcemi, světlou pletí a civilním oblečením, vytvořená z MakeHuman / MPFB 2.0.17. Model, původní obličejové terče Mika Suominen a pohyb Quaternius jsou CC0; získané bez účtu a platby. Má kompletní dlouhé vlasy, hnědé oči, nativní rty, víčka, řasy, zuby a jazyk, jemný úsměv, uvolněné ruce a přizpůsobené pohybové sekvence. Licenci a hashe všech zdrojů uvádí `docs/dagmar-animation-sources.json`; reprodukci `docs/makehuman-preparation.md`. Starší Rain zůstává pouze pro otevřené klienty a v historické evidenci.
+Předchozí asistentka z 9. 10. 2026 je na poslední pokyn uživatele dospělá žena s běžnými lidskými proporcemi, světlou pletí a civilním oblečením, vytvořená z MakeHuman / MPFB 2.0.17. Model, původní obličejové terče Mika Suominen a pohyb Quaternius jsou CC0; získané bez účtu a platby. Má kompletní dlouhé vlasy, hnědé oči, nativní rty, víčka, řasy, zuby a jazyk, jemný úsměv, uvolněné ruce a přizpůsobené pohybové sekvence. Její licenci a hashe všech zdrojů uvádí `docs/dagmar-makehuman-sources-2026-10-09.json`; reprodukci `docs/makehuman-preparation.md`. Starší Rain zůstává pouze pro otevřené klienty a v historické evidenci.
 
 Model i statický náhled mají názvy s kontrolním součtem. Model se stahuje jen při povoleném pohybu a renderování se mimo obrazovku zastavuje. Ovládání a hlasy mají všech 12 jazyků; žádná zdravotní volba ani GPS se do řeči nepředává. Web Speech API neposkytuje zvuk ani fonémová časování: ústa reagují na skutečný začátek a slovní události, časování uvnitř slov se odhaduje. Automatická simulace hlasů není dokladem skutečného zvuku či přesné synchronizace na fyzickém telefonu. Profesionální model s webovými sekvencemi není tvrzením o filmovém hereckém výkonu nebo přesném dabingu.
 
@@ -45,3 +45,13 @@ Katalog má 36 míst, 116 katalogových fotografií, všech osm restaurací, 22 
 Vlastní pražský graf a Valhalla 3.6.3 prošly [syntetickým CI ověřením](https://github.com/karelmartinek-a11y/GUEST_WEB/actions/runs/37857716009) mimo produkci. Zdroj a kontrolní součty jsou v `docs/navigation-build-evidence.json`. Graf a engine nebyly instalovány na produkční server; CS/EN/DE syntetické trasy nenahrazují skutečné chůze a neověřují ostatní jazyky pokynů.
 
 `SPECIFIKACE_MASTER_v1.4.md`, §9, stanoví: „Nezapojovat automatické produkční kroky dřív, než jsou splněny kritické brány a známa doména.“ Přímé rozhodnutí uživatele nyní dovoluje pouze statické vydání s vypnutou živou navigací. Hotelový pěší vstup, pět cílových vstupů a pět chůzí na každé platformě iPhone Safari / Android Chrome zůstávají otevřené. Delší texty v dalších devíti jazycích stále potřebují rodilou korekturu.
+
+### Schválená Rocketbox Dagmar — 10. 10. 2026
+
+Uživatel po prohlédnutí tří přehratelných kandidátek výslovně vybral Female_Adult_01: blond žena v růžové košili a džínách. Nová verze používá původní anatomii, váhy a kostru, vybrané klidné úseky kompatibilních animací, otevřenou dlaň a nativní obličejové terče; zdroje MIT bez účtu/platby. Automatické přecházení a ukazování po každé větě byly odstraněny. Chůze a gesto zůstávají na tlačítkách. Obličejové tvary řeči mají stále odhadnuté časování; fyzický hlas a přesná fonémová synchronizace nejsou potvrzené.
+
+Bezprostřední read-only audit je v `docs/production-preflight-rocketbox-2026-10-10.json`; živá navigace zůstává vypnutá a fyzické vstupní/device-walk brány BLOCKED. Tato sekce popisuje obsah připravovaného statického vydání; úspěšné veřejné nasazení vyžaduje vlastní přesné SHA, CI a kontrolu runtime.
+
+Na následný pokyn je Dagmar jedinou trvale připojenou plovoucí postavou nad obsahem. Uživatel ji přesouvá přetažením myší či dotykem nebo šipkami; stránka pod ní posouvá svůj obsah. Pozice se zachová při navigaci i změně jazyka, při změně viewportu se omezí na dostupný prostor, neukládá se do localStorage. Bublina s řečí, chůzí, gestem a omezením animací se otevírá kliknutím, Escape/zavření vrací fokus. Na mobilu bublina směřuje nad postavu; ovládací prvky mají nejméně 44 px. Tisk plovoucí vrstvu skryje.
+
+Lokálně prošly `npm run check`, 14 unit testů, sestavení 120 jazykových stránek a 46 Playwright kontrol na desktopu/mobilu. Skutečná vizuální kontrola nového postoje, chůze, gesta a floating rozložení: `docs/dagmar-rocketbox-verification-2026-10-10.json`. Dotyk je simulace Chromium přes CDP, nikoli doklad fyzického Safari/Android telefonu.

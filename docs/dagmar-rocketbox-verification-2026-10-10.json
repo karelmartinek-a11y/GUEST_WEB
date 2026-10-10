@@ -1,0 +1,93 @@
+{
+  "verifiedOn": "2026-10-10",
+  "character": "Female_Adult_01",
+  "userApprovedPreview": true,
+  "checks": {
+    "content": {
+      "places": 36,
+      "routes": 5,
+      "languages": 12,
+      "photos": 116,
+      "healthCards": 15
+    },
+    "unitTests": {
+      "passed": 14,
+      "failed": 0
+    },
+    "build": {
+      "localizedPages": 120
+    },
+    "playwright": {
+      "passed": 46,
+      "failed": 0,
+      "durationSeconds": 49.9,
+      "projects": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    "visualReview": [
+      "Rest: arms relaxed beside torso, narrow natural stance",
+      "Presentation: native open palm, no procedural boxing pose",
+      "Walk: native skin/legs move, pace matched to root displacement",
+      "Close face and rear hair reviewed in approved preview",
+      "Reduced-motion uses transparent render of same approved woman"
+    ],
+    "floating": {
+      "fixedOnScroll": true,
+      "persistsAcrossNavigationAndLanguage": true,
+      "mouseDrag": true,
+      "simulatedTouchDrag": true,
+      "keyboardArrowMove": true,
+      "viewportClamp": true,
+      "escapeFocusReturn": true,
+      "positionPersistence": "memory only; no localStorage"
+    }
+  },
+  "assets": {
+    "walkSpeed": 0.8872590885718585,
+    "url": "/media/dagmar/rocketbox-c92b6b120864.glb",
+    "sha256": "c92b6b12086443703ab130ca6e881de6564f419edfbf5205aa78db74520d1944",
+    "bytes": 3094044,
+    "poster": {
+      "url": "/media/dagmar/rocketbox-6b3a93a33e28.webp",
+      "sha256": "6b3a93a33e288e7a190e4b52b429b844df8eac5f45cdfcd52758d324701d0e85",
+      "bytes": 26470
+    }
+  },
+  "screenshots": [
+    {
+      "name": "site-idle.png",
+      "sha256": "1b672b5cf22a337d8c069768e4c5bcab6bd238d990eba96b1f40a2acf0a66e8a",
+      "stored": "local review only; generated screenshots excluded from Git"
+    },
+    {
+      "name": "site-point.png",
+      "sha256": "6753e544635463a9a8e885cfc893b2de3bc37056a13827b4ae835761b96a6d23",
+      "stored": "local review only; generated screenshots excluded from Git"
+    },
+    {
+      "name": "site-walk.png",
+      "sha256": "1eb8d33a3a8b1addf8cd9fbb24e39ca23b6d4e726a8661160e035fe2f7f64c33",
+      "stored": "local review only; generated screenshots excluded from Git"
+    },
+    {
+      "name": "floating-desktop.png",
+      "sha256": "ff029f56e9963eafcf6fcf50e3a62052c332d2aba45cd491144018c09e1cb85c",
+      "stored": "local review only; screenshots excluded from Git"
+    },
+    {
+      "name": "floating-mobile.png",
+      "sha256": "94de817975881e8d61b251bef1f1af8136eb85edc58e832ae7a349ffe0584fa7",
+      "stored": "local review only; screenshots excluded from Git"
+    },
+    {
+      "name": "floating-mobile-panel.png",
+      "sha256": "6f4ba3f76c9dbd4fbf2e46c6d499883495da935a05ca0f285967cec173cc83a1",
+      "stored": "local review only; screenshots excluded from Git"
+    }
+  ],
+  "physicalVoice": "NOT VERIFIED",
+  "phonemeLipSync": "ESTIMATED, NOT VERIFIED",
+  "liveNavigation": false
+}

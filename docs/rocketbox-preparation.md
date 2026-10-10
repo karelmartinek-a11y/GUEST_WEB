@@ -1,0 +1,13 @@
+# Schválená Dagmar — Microsoft Rocketbox
+
+Uživatel vybral 10. 10. 2026 Female_Adult_01 v místním přehrávači: růžová košile, džíny, blond culík. Bez registrace a platby, upstream commit `0943055db6ec570bcef9f2c8b41c9e5467c808f9`, root MIT licence včetně distribuovaných modelů/animací. Plný nezměněný notice: `public/media/dagmar/rocketbox-MIT.txt`. Individuální URL, SHA256 a velikosti: `dagmar-animation-sources.json`.
+
+Stažení vybraných souborů: každou položku `sources` ověřit proti SHA256 a uložit pod `<work>/rocketbox/<path>`. Nestahovat celý vícegigabajtový repozitář. Blender 4.5.14 použít pouze jako build nástroj s `--factory-startup --disable-autoexec --python scripts/prepare-rocketbox.py -- <work>`; předtím vytvořit `<work>/release`. Python skript importuje původní facial FBX, dohledá jeho původní textury, zachová síť, váhy a rest pose. Pro každý snímek převádí absolutní body pose do původní kostry. Obličejové kosti pod hlavou zůstávají nativní; jiná anatomie zdrojové pohybové kostry je nepřepisuje. Není použit vlastní odhadovaný arm IK ani Quaternius retarget.
+
+Klidové dýchání celé, naslouchání source frames 31–420, vysvětlování 31–300, otevřená dlaň celé. Vysoká obouruční gesta vyřazena. Pomalá chůze: horizontální drift pánve odstraněn v souřadnicích světa; rychlost zdroje zaznamenaná v `clips.json`, runtime timeScale přizpůsobí klip skutečné rychlosti 0.52 m/s. Chůze je pouze na přání, nevynucuje neklidné automatické přecházení.
+
+Kompresi provede `node scripts/compress-rocketbox.mjs <work>/release`. Build nástroje v ignorovaném `.cache/dagmar/asset-tools`: glTF Transform 4.5.1, meshoptimizer 1.1.0 a Pillow 11.3.0. Nejsou runtime závislostmi. Zachované nativní visémy a bilaterální úsměv/mrkání; textury 1024 px JPEG/PNG, průhlednost pouze vlasový MASK, pleť OPAQUE, normal strength .35 head/.7 body. Native facial keys mají jména původního autora; runtime je přímo mapuje na odhadované tvary řeči.
+
+`dagmar-realistic-poster.png` v pracovním release adresáři je transparentní snímek canvasu schváleného místního přehrávače (idle frame 30, 608×790), se stejnou postavou, oblečením a výrazem. Nejde o jinou ilustraci. Kompresní skript vytvoří WebP a obě jména obsahu adresuje SHA256. Licence/metadata, `src/dagmar/asset.json` a integrační testy musí odpovídat výsledku. Historické modely/licence zůstávají pro otevřené klienty.
+
+Ověření rozlišuje vzhled, skutečné transformace kostí/morphů, simulované události Web Speech a fyzický zvuk. Browser TTS neposkytuje zvuk/fonémové timestampy; přesná synchronizace rtů ani skutečné hlasy na telefonu nejsou certifikované. Živá navigace zůstává vypnutá.

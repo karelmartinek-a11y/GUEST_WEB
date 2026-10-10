@@ -8,9 +8,10 @@ Datum: 9. 10. 2026. Všechny výsledky se vztahují pouze k výslovně uvedené 
 | Pět výletů | Implementováno | Reálná doporučená zastavení; bez smyšlených vzdáleností |
 | Filmové galerie | Implementováno | 116 místních fotografií, 2–5 na místo; manifest, SHA-256 |
 | UNESCO a dopravní ikony | Implementováno | Oficiální nezměněný emblém, filtr 21 cílů Historického centra + Průhonický park; bus/metro/tram/trolejbus |
-| Autentické logo a asistentka | Implementováno | Dodané PNG; na poslední pokyn uživatele realisticky proporční dospělá žena z MakeHuman, CC0 |
-| Kloubová 3D asistentka Dagmar | PASS lokálně | MakeHuman a nativní obličejové terče Mika Suominen, Quaternius pohyb, vše CC0 bez registrace; světlá pleť, kompletní dlouhé vlasy, jemný úsměv, civilní oblečení, uvolněné ruce, chůze oběma směry, ukazování a gesta při řeči. Nativní víčka, rty, řasy, zuby a jazyk; `docs/dagmar-animation-sources.json` a `docs/dagmar-realistic-verification-2026-10-09.json` |
+| Autentické logo a asistentka | Implementováno | Dodané PNG; uživatelem schválená žena Microsoft Rocketbox Female_Adult_01, MIT |
+| Kloubová 3D asistentka Dagmar | PASS lokálně | Schválená blond žena v růžové košili a džínách, Microsoft Rocketbox MIT bez registrace; nativní váhy, kostra, klidné postoje, otevřená dlaň, chůze na tlačítko. Licence a hashe `docs/dagmar-animation-sources.json`; 14 testů, 46 UI kontrol a skutečná vizuální kontrola v `docs/dagmar-rocketbox-verification-2026-10-10.json`. Předchozí automatické hodnocení MakeHuman nevystihovalo nevhodný postoj a uživatel jej odmítl. |
 | Hlas a mimika Dagmar | PASS automaticky, fyzicky neověřeno | Události TTS a všech 12 jazyků ověřené simulací; rty uvnitř slov mají odhadnuté časování. Skutečné hlasy a zvuk na iPhone/Android dosud nedoložené; žádný náhradní cizí jazyk |
+| Plovoucí a přesouvatelná Dagmar | PASS automaticky a vizuálně | Jediná pevná postava nad stránkou, přetažení myší/prstem, šipky na klávesnici, pozice v paměti během navigace/jazyka, ohraničení viewportem, rozbalovací ovládání a návrat fokusu |
 | Omezení pohybu Dagmar | PASS lokálně | Systémové i ruční omezení používá statický render stejné Dagmar bez stažení 3D modelu. Mimo obrazovku se renderování pozastavuje |
 | 12 jazyků ovládání a obsahu | Implementováno | Redakční CS/EN/DE, další jazyky offline přeložené; rodilá korektura zbývá |
 | 15 dvojjazyčných symptomů, 155/112, FTN | Implementováno | Aktuální oficiální FTN ověření, ručně vytvořené symptomové překlady |

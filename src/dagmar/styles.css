@@ -33,3 +33,26 @@
 }
 @media(max-width:359px){.dagmar.articulated .dagmar-stage{width:112px;min-width:112px;height:250px}.dagmar.articulated.small .dagmar-stage{width:95px;min-width:95px}.dagmar-actions button{font-size:.74rem}.dagmar.articulated .speech-bubble{padding:17px 12px}}
 @media print{.dagmar.articulated{display:none!important}}
+
+/* One persistent viewport companion; only the figure and panel receive input. */
+.dagmar.articulated.dagmar-floating{position:fixed;z-index:34;right:16px;bottom:96px;left:auto;top:auto;display:flex;flex-direction:column;gap:0;width:180px;height:min(306px,calc(100dvh - 172px));min-height:0;max-width:none;margin:0;pointer-events:none}
+.dagmar.articulated.dagmar-floating[style]{right:auto;bottom:auto}
+.dagmar.articulated.dagmar-floating .dagmar-stage{display:block;position:relative;width:180px;min-width:0;height:calc(100% - 44px);flex:none;padding:0;border:0;border-radius:16px;background:transparent;cursor:grab;touch-action:none;user-select:none;pointer-events:auto;overflow:hidden}
+.dagmar.articulated.dagmar-floating .dagmar-stage:active{cursor:grabbing}
+.dagmar.articulated.dagmar-floating .dagmar-fallback{height:252px;max-height:calc(100% - 8px);bottom:4px;pointer-events:none;-webkit-user-drag:none}
+.dagmar-floating .dagmar-toggle{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;min-width:110px;padding:8px 12px;border:1px solid #d5dfd3;border-radius:24px;background:#fffef6ed;color:var(--green);box-shadow:0 4px 20px #102b2514;font-size:.8rem;pointer-events:auto}
+.dagmar.articulated.dagmar-floating .speech-bubble{position:fixed;margin:0;padding:22px;overflow-y:auto;overscroll-behavior:contain;pointer-events:auto;box-shadow:0 12px 40px #102b2533;border-radius:18px;min-width:0}
+.dagmar-floating .speech-bubble[hidden]{display:none}
+.dagmar-floating .speech-bubble:before,.dagmar-floating .speech-spark{display:none}
+.dagmar-floating .speech-bubble p{font-size:1.4rem;line-height:1.3}
+.dagmar-floating .concierge-label{display:block;padding-right:40px}
+.dagmar-panel-close{position:absolute;right:6px;top:6px}
+.home-content{padding-top:34px}
+@media(max-width:600px){
+ .dagmar.articulated.dagmar-floating{width:128px;height:min(260px,calc(100dvh - 172px))}
+ .dagmar.articulated.dagmar-floating .dagmar-stage{width:128px;height:calc(100% - 44px)}
+ .dagmar.articulated.dagmar-floating .dagmar-fallback{height:202px;bottom:4px}
+ .dagmar-floating .speech-bubble p{font-size:1.25rem}
+ .home-content{padding-top:26px}
+}
+@media print{.dagmar.articulated.dagmar-floating{display:none!important}}

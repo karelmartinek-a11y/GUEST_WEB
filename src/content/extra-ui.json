@@ -881,5 +881,7 @@
     "वेब के लिए अनुकूलित",
     "Adaptada para la web",
     "Адаптовано для вебсайту"
-  ]
+  ],
+  "dagmarMove": ["Přesunout Dagmar: přetáhněte nebo použijte šipky", "Move Dagmar: drag or use arrow keys", "Dagmar verschieben: ziehen oder Pfeiltasten verwenden", "Sposta Dagmar: trascina o usa le frecce", "Przesuń Dagmar: przeciągnij lub użyj strzałek", "Dagmar verplaatsen: sleep of gebruik de pijltjestoetsen", "Déplacer Dagmar : faites glisser ou utilisez les flèches", "다그마르 이동: 드래그하거나 방향키를 사용하세요", "ডাগমার সরান: টেনে আনুন বা তীরচিহ্নের কী ব্যবহার করুন", "डागमार को खिसकाएँ: खींचें या तीर कुंजियों का उपयोग करें", "Mover a Dagmar: arrastra o usa las flechas", "Перемістити Дагмар: перетягніть або скористайтеся стрілками"],
+  "dagmarPanel": ["Otevřít nebo zavřít pomoc Dagmar", "Open or close Dagmar’s help", "Dagmars Hilfe öffnen oder schließen", "Apri o chiudi l’aiuto di Dagmar", "Otwórz lub zamknij pomoc Dagmar", "Hulp van Dagmar openen of sluiten", "Ouvrir ou fermer l’aide de Dagmar", "다그마르 도움말 열기 또는 닫기", "ডাগমারের সহায়তা খুলুন বা বন্ধ করুন", "डागमार की सहायता खोलें या बंद करें", "Abrir o cerrar la ayuda de Dagmar", "Відкрити або закрити допомогу Дагмар"]
 }
