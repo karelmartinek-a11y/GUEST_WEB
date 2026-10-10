@@ -65,5 +65,17 @@ export class SpeechTimeline {
 /** @param {SpeechSynthesisVoice[]} voices @param {string} language */
 export function languageVoice(voices,language){
  const matches=voices.filter(v=>v.lang.toLowerCase().split(/[-_]/)[0]===language);
- return matches.find(v=>v.localService&&/female|zuzana|samantha|anna/i.test(v.name))||matches.find(v=>v.localService)||matches[0]||null;
+ // Keep the existing preference for on-device speech. Within that pool,
+ // basic voices often precede their downloaded enhanced variants.
+ const local=matches.filter(v=>v.localService),pool=local.length?local:matches;
+ const female=pool.filter(v=>/female|zuzana|samantha|anna/i.test(v.name));
+ const quality=voice=>{
+  const name=`${voice.name} ${voice.voiceURI||''}`;
+  if(/premium/i.test(name))return 3;
+  if(/enhanced|vylepšen|rozšířen/i.test(name))return 2;
+  if(/neural|natural/i.test(name))return 1;
+  if(/compact/i.test(name))return -1;
+  return 0;
+ };
+ return (female.length?female:pool).reduce((best,voice)=>!best||quality(voice)>quality(best)?voice:best,null);
 }

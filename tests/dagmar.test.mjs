@@ -83,3 +83,14 @@ test('missing language voice fails closed and an available local voice is prefer
  const voices=[{lang:'en-US',name:'English',localService:true},{lang:'cs-CZ',name:'Remote',localService:false},{lang:'cs-CZ',name:'Zuzana',localService:true}];
  assert.equal(languageVoice(voices,'cs').name,'Zuzana');assert.equal(languageVoice(voices,'bn'),null);
 });
+test('downloaded higher-quality female voices beat basic variants regardless of enumeration order',()=>{
+ const basic={lang:'cs-CZ',name:'Zuzana',localService:true};
+ const enhanced={...basic,name:'Zuzana (Enhanced)'};
+ const premium={...basic,name:'Zuzana (Premium)'};
+ const male={...basic,name:'Male Premium'};
+ for(const voices of [[basic,enhanced,male],[male,enhanced,basic]])assert.equal(languageVoice(voices,'cs'),enhanced);
+ assert.equal(languageVoice([basic,enhanced,premium],'cs'),premium);
+ assert.equal(languageVoice([basic,{...enhanced,localService:false}],'cs'),basic);
+ assert.equal(languageVoice([{...premium,lang:'en-US'},basic],'cs'),basic);
+ const original=[basic,enhanced];languageVoice(original,'cs');assert.deepEqual(original,[basic,enhanced]);
+});

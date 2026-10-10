@@ -31,7 +31,8 @@ Statický výstup je `dist/`. Build vytváří CS/EN/DE/IT/PL/NL/FR/KO/BN/HI/ES/
 - Všech 29 původních ID zůstává zachovaných; sedm dalších památek přidávají dodané turistické letáky. Katalog má 10 míst kolem hotelu a 26 míst v Praze. Přesné zdroje jsou v `docs/tourist-flyer-additions.json`.
 - Filtr UNESCO a oficiální nezměněný emblém označují 21 cílů v Historickém centru Prahy a Průhonický park. Jde o dvě části zápisu 616bis, nikoli o 22 samostatných zápisů. Podrobnosti a oficiální zdroj jsou u každého označeného místa.
 - Hotelový bod na mapě zobrazuje místní fotografii budovy z dodané knihy pro hosty; fotografie a emblém mají samostatné záznamy původu v `public/media/`. Všechny zobrazené kódy dopravních linek mají ikonu a název druhu dopravy; letištní 59 je trolejbus.
-- Oficiální PNG logo je z dodaného balíčku. Dagmar je původní generovaná postava. Viz `LICENSES.md`.
+- Oficiální PNG logo je z dodaného balíčku. Dagmar používá uživatelem schválenou postavu Microsoft Rocketbox pod licencí MIT. Viz `LICENSES.md`.
+- Hlas Dagmar používá vestavěné Web Speech API bez našeho placeného poskytovatele a bez registrace. Upřednostňuje dostupný místní hlas a rozpoznané kvalitnější ženské varianty (Premium/Enhanced) před základní verzí. Nový hlas nestahuje; pokud zařízení lepší hlas nenabízí, zvuk se nezmění. Kvalita a dostupnost závisí na zařízení a prohlížeči, skutečný poslech na telefonu zůstává neověřený.
 - Vlastní PMTiles mapa Prahy: `public/maps/prague.pmtiles`, OSM/Protomaps, výřez 14.22–14.72 E / 49.92–50.25 N, zoom 0–15. Fonty a mapové knihovny se obsluhují místně.
 
 ## Navigace a akceptace
